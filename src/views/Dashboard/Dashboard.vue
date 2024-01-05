@@ -2,6 +2,9 @@
   <main>
     <div class="main">
       <Nav />
+    <router-link to="/kyc">
+      <p class="kyc"><i class="bi bi-exclamation-triangle-fill"></i> Please verify your identity by completing the KYC <i class="bi bi-arrow-right"></i></p>
+    </router-link>
       <h1>
         Hello! {{ store.userDetails.username }}
         <i class="bi bi-sun" v-if="checkTime"></i>
@@ -95,6 +98,31 @@ const checkTime = computed(() => {
 main {
   background-color: #eee;
   z-index: 2;
+  p.kyc{
+    padding: 20px;
+    margin: 10px 30px;
+    border: 1px dashed #ff8000;
+    width: fit-content;
+    font-size: 14px;
+    border-radius: 3px;
+    background-color: #ffe5cc;
+    color: #555;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    i{
+      color: #b6722e;
+      font-size: 18px;
+    }
+    @media(max-width: 600px){
+      font-size: 12px;
+      margin: 10px 20px;
+      padding: 10px;
+      i{
+        font-size: 14px;
+      }
+    }
+  }
 
   div.main {
     position: relative;

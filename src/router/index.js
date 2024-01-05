@@ -14,6 +14,7 @@ import Investment from "@/views/Dashboard/Investment.vue";
 import Balance from "@/views/Dashboard/Balance.vue";
 import Transactions from "@/views/Dashboard/Transactions.vue";
 import Profile from "@/views/Dashboard/Profile.vue";
+import Kyc from"@/views/Dashboard/Kyc.vue";
 
 
 import AdminLogin from "@/views/AdminLogin.vue";
@@ -100,6 +101,11 @@ const router = createRouter({
           path: "/profile",
           name: "profile",
           component: Profile,
+        },
+        {
+          path: "/kyc",
+          name: "kyc",
+          component: Kyc,
         },
       ],
     },

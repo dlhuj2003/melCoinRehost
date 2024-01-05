@@ -1,7 +1,7 @@
 <template>
   <main>
     <div class="main trade">
-      <i class="bi bi-x"></i>
+      <i class="bi bi-x" @click="$emit('closemodal')"></i>
       <div class="container">
         <form action="">
           <input
@@ -38,7 +38,6 @@
 <script setup>
 import { ref, computed } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-// import { botAPI } from "../../axios/api";
 import Loader from "@/components/Loader.vue";
 import SuccessModal from "@/components/SuccessModal.vue";
 
@@ -103,13 +102,7 @@ const createTrade = async () => {
 <style scoped lang="scss">
 main {
   z-index: 2;
-    position: absolute;
-    background-color: #0004 !important;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  margin: auto;
 
 
   div.main {

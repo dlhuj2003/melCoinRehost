@@ -7,11 +7,11 @@
           <div class="details">
             <i class="bi bi-person-circle"></i>
             <h3>Personal Info</h3>
-            <p><strong>Name:</strong> John Doe</p>
-            <p><strong>Gender:</strong> Male</p>
-            <p><strong>Email:</strong> username@email.com</p>
-            <p><strong>Phone:</strong> 08123456789</p>
-            <p><strong>Country:</strong> United Kingdom</p>
+            <p><strong>Name:</strong> {{ store.userDetails.name }}</p>
+            <p><strong>Gender:</strong> {{ store.userDetails.gender }}</p>
+            <p><strong>Email:</strong> {{ store.userDetails.email }}</p>
+            <p><strong>Phone:</strong> {{ store.userDetails.tel }}</p>
+            <p><strong>Country:</strong> {{ store.userDetails.country }}</p>
           </div>
           <div class="notification" id="#notification">
             <h3>Notifications</h3>
@@ -36,8 +36,9 @@
 <script setup>
 import { ref } from "vue";
 import Loader from "../../components/Loader.vue";
-import Footer from "@/components/Footer2.vue"
-
+import Footer from "@/components/Footer2.vue";
+import { useMelStore } from "../../stores/counter";
+const store = useMelStore();
 const loading = ref(false);
 const notification = ref(false)
 

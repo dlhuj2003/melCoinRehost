@@ -1,11 +1,7 @@
 <template>
   <main>
-    <div class="main">
-      <h1>Create Trade</h1>
-      <h3>
-        Choose your preferred trading plan - create trade - start trading
-        instantly
-      </h3>
+    <div class="main trade">
+      <i class="bi bi-x" @click="$emit('closemodal')"></i>
       <div class="container">
         <form action="">
           <input
@@ -42,9 +38,8 @@
 <script setup>
 import { ref, computed } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-import { botAPI } from "../../axios/api";
-import Loader from "../../components/Loader.vue";
-import SuccessModal from "../../components/SuccessModal.vue";
+import Loader from "@/components/Loader.vue";
+import SuccessModal from "@/components/SuccessModal.vue";
 
 const plan = ref("");
 const amount = ref("");
@@ -107,14 +102,26 @@ const createTrade = async () => {
 <style scoped lang="scss">
 main {
   z-index: 2;
+  margin: auto;
 
 
   div.main {
-    position: relative;
-    height: 100dvh;
     padding: 30px;
-    overflow-y: scroll;
+    background-color: #000;
+    border-radius: 10px;
     z-index: 3;
+    max-width: 600px;
+    position: relative;
+    i.bi-x{
+      position: absolute;
+      top: -50px;
+      right: 5px;
+      font-size: 28px;
+      background-color: #fff;
+      border-radius: 50%;
+      padding: 1px 5px;
+      cursor: pointer;
+    }
   }
 
   h1 {
