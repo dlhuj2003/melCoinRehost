@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.flex{
+  display: flex;
+}
+.grid{
+  display: grid;
+}
+button{
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  color: unset;
+}
+div.home div#tradingview-chart{
+  height: 500px !important;
+}

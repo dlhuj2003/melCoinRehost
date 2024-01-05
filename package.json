@@ -1,0 +1,24 @@
+{
+  "name": "mellcoin",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@splidejs/vue-splide": "^0.6.12",
+    "axios": "^1.6.3",
+    "pinia": "^2.1.7",
+    "vue": "^3.3.10",
+    "vue-router": "^4.2.5",
+    "vue-tradingview-widgets": "^1.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.1",
+    "sass": "^1.69.5",
+    "vite": "^5.0.5"
+  }
+}
