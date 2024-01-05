@@ -13,8 +13,6 @@ import Why from '@/components/Why2.vue';
             <div class="container">
                 <div class="w50">
                     <h2>How to setup a crypto wallet</h2>
-                    <!-- <h2>The Future of <span>cryptocurrency</span> Trades is Here</h2>
-          <p>Trade spot, gold, futures and stake all in one powerful interface</p> -->
                     <p>A crypto wallet is a place where you can securely keep your crypto. There are
                         many different types of crypto wallets, but the most secured and recommended
                         one is Self-custody wallet</p>
@@ -28,7 +26,6 @@ import Why from '@/components/Why2.vue';
         <section class="one custody">
             <div class="container">
                 <div class="w50 img">
-                    <!-- <img src="@/assets/custody.jpg" alt=""> -->
                 </div>
                 <div class="w50">
                     <h2>Self-custody wallet</h2>
@@ -169,6 +166,7 @@ section.one {
 
         p.small {
             font-size: 16px;
+            line-height: 1.5;
         }
 
         button {

@@ -13,7 +13,7 @@
                     <router-link to="/learn">Learn</router-link>
                 </li>
                 <li>
-                    <router-link to="/">About</router-link>
+                    <router-link to="/about">About</router-link>
                 </li>
                 <li>
                     <router-link to="/">Contact us</router-link>

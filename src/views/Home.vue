@@ -113,6 +113,7 @@ section.one {
       img {
         width: 100%;
         max-width: 600px;
+        margin: auto;
 
         @media(max-width: 600px) {
           min-width: unset !important;

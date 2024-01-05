@@ -5,11 +5,13 @@ import { ref } from 'vue'
 <template>
     <main>
         <div class="container">
-            <div>
+            <div class="foot">
                 <router-link to="/">
                     <img src="@/assets/logo.png" width="150" alt="">
                 </router-link>
                 <p class="tag">...the Future of Cryptocurrency</p>
+                <p>Phone: +012345678</p>
+                <p>Email: melcoin@email.com</p>
             </div>
             <div class="grid">
                 <div>
@@ -50,6 +52,13 @@ main{
     background-color: #000000;
     color: #fff;
     padding: 50px 50px 10px;
+    div.foot{
+        p{
+            line-height: 1.5;
+            font-size: 14px;
+            color: #eee;
+        }
+    }
     div.copy{
         margin: 10px auto 0px;
         p{
