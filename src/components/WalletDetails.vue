@@ -50,18 +50,18 @@ const deposit = async () => {
   const token = localStorage.getItem("token");
   loading.value = true;
   try {
-    const res = await axios.post(
-      `${store.baseURL}/payment`,
-      {
-        amount: amount.value,
-        currency: props.coinDetails.coin,
-      },
-      {
-        headers: {
-          Authorization: `Bearer ${token}`,
-        },
-      }
-    );
+    // const res = await axios.post(
+    //   `${store.baseURL}/payment`,
+    //   {
+    //     amount: amount.value,
+    //     currency: props.coinDetails.coin,
+    //   },
+    //   {
+    //     headers: {
+    //       Authorization: `Bearer ${token}`,
+    //     },
+    //   }
+    // );
     showQR.value = true;
     console.log(res.data);
     loading.value = false;
@@ -90,6 +90,7 @@ div.address {
   top: 0;
   left: 0;
   backdrop-filter: blur(3px);
+  z-index: 99;
 
   i {
     cursor: pointer;

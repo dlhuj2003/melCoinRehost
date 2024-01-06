@@ -13,7 +13,11 @@
           </tr>
         </thead>
         <tbody>
-          <tr v-for="(withdrawal, index) in withdrawals" :key="index">
+          <tr
+            v-for="(withdrawal, index) in withdrawals"
+            :key="index"
+            @click="$router.push(`/withdrawalRequest/${withdrawal._id}`)"
+          >
             <td>{{ index + 1 }}</td>
             <td>{{ withdrawal.owner.username }}</td>
             <td style="text-transform: uppercase">{{ withdrawal.crypto }}</td>
@@ -30,6 +34,7 @@
 <script setup>
 import { ref } from "vue";
 import Loader from "../../components/Loader.vue";
+import { adminAPI, getToken } from "@/axios/api";
 
 const loading = ref(true);
 const withdrawals = ref([]);
@@ -38,7 +43,7 @@ const getWithdrawals = async () => {
   try {
     const { data } = await adminAPI.get("/transactions?type=withdrawal", {
       headers: {
-        Authorization: `Bearer ${localStorage.getItem("admin")}`,
+        Authorization: getToken("admin"),
       },
     });
     // console.log(data);

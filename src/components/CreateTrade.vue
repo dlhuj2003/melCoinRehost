@@ -23,13 +23,19 @@
           <p>Earning Amount: {{ Math.round(earningAmount) || 0 }}</p>
         </form>
         <p class="small">Auto Calculated</p>
+        <Error :err-m-s-g="errMsg" v-if="err" />
         <button @click="createTrade">Create Trade</button>
       </div>
     </div>
     <SuccessModal
       v-if="success"
       desc="Trade has been successfully created"
-      @close="success = false"
+      @close="
+        () => {
+          success = false;
+          $router.push('/investment');
+        }
+      "
     />
     <Loader v-if="loading" />
   </main>
@@ -40,11 +46,15 @@ import { ref, computed } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import Loader from "@/components/Loader.vue";
 import SuccessModal from "@/components/SuccessModal.vue";
+import Error from "./Error.vue";
+import { melAPI, getToken } from "@/axios/api";
 
 const plan = ref("");
+const errMsg = ref("");
 const amount = ref("");
 const days = ref("");
 const loading = ref(false);
+const err = ref(false);
 const success = ref(false);
 const percentage = computed(() => {
   return plan.value == "basic"
@@ -75,7 +85,7 @@ const earningAmount = computed(() => {
 const createTrade = async () => {
   loading.value = true;
   try {
-    const { data } = await botAPI.post(
+    const { data } = await melAPI.post(
       "/create-trade",
       {
         level: plan.value,
@@ -85,7 +95,7 @@ const createTrade = async () => {
       },
       {
         headers: {
-          Authorization: `Bearer ${localStorage.getItem("token")}`,
+          Authorization: getToken("user"),
         },
       }
     );
@@ -93,6 +103,8 @@ const createTrade = async () => {
     success.value = true;
     console.log(data);
   } catch (e) {
+    err.value = true;
+    errMsg.value = e.response.data.msg;
     loading.value = false;
     console.log(e);
   }
@@ -104,7 +116,6 @@ main {
   z-index: 2;
   margin: auto;
 
-
   div.main {
     padding: 30px;
     background-color: #000;
@@ -112,7 +123,7 @@ main {
     z-index: 3;
     max-width: 600px;
     position: relative;
-    i.bi-x{
+    i.bi-x {
       position: absolute;
       top: -50px;
       right: 5px;

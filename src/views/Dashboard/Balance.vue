@@ -38,10 +38,10 @@ import { ref } from "vue";
 import Loader from "../../components/Loader.vue";
 import Footer from "@/components/Footer2.vue";
 import Nav from "@/components/Nav.vue";
-import { melAPI } from "@/axios/api";
+import { melAPI, getToken } from "@/axios/api";
 import { useMelStore } from "@/stores/counter";
 const store = useMelStore();
-const loading = ref(false);
+const loading = ref(true);
 const balances = ref({
   btc: 0,
   earnings: 0,
@@ -56,10 +56,11 @@ const getBalances = async () => {
   try {
     const { data } = await melAPI.get("/trade-balances", {
       headers: {
-        Authorization: `Bearer ${localStorage.getItem("token")}`,
+        Authorization: getToken("user"),
       },
     });
     balances.value = data;
+    loading.value = false;
     // console.log(data);
   } catch (e) {
     console.log(e);

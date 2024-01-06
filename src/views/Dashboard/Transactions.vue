@@ -2,25 +2,27 @@
 import { ref } from "vue";
 import Footer from "@/components/Footer2.vue";
 import Nav from "@/components/Nav.vue";
-import { melAPI } from "@/axios/api";
-const token = localStorage.getItem("token");
+import { melAPI, getToken } from "@/axios/api";
+import Loader from "@/components/Loader.vue";
 
+const transactions = ref([]);
+const loading = ref(true);
 const getTransactions = async () => {
   try {
     const { data } = await melAPI.get("/transactions", {
       headers: {
-        Authorization: `Bearer ${token}`,
+        Authorization: getToken("user"),
       },
     });
     transactions.value = data;
-    console.log(data);
+    loading.value = false;
+    // console.log(data);
   } catch (e) {
     console.log(e);
   }
 };
 
 getTransactions();
-const transactions = ref([]);
 </script>
 
 <template>
@@ -55,6 +57,7 @@ const transactions = ref([]);
           </div>
         </div>
       </div>
+      <Loader v-if="loading" />
       <Footer />
     </div>
   </main>

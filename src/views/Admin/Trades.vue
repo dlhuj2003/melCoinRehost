@@ -42,6 +42,7 @@
 <script setup>
 import { ref } from "vue";
 import Loader from "../../components/Loader.vue";
+import { adminAPI, getToken } from "@/axios/api";
 
 const loading = ref(true);
 const trades = ref([]);
@@ -50,7 +51,7 @@ const getTrades = async () => {
   try {
     const { data } = await adminAPI.get("/trades", {
       headers: {
-        Authorization: `Bearer ${localStorage.getItem("admin")}`,
+        Authorization: getToken("admin"),
       },
     });
     trades.value = data;

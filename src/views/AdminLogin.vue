@@ -36,15 +36,33 @@
 import { ref } from "vue";
 import Loader from "@/components/Loader.vue";
 import Error from "@/components/Error.vue";
-
 import { useRouter, useRoute } from "vue-router";
+import { adminAPI, setToken } from "@/axios/api";
 const router = useRouter();
 const error = ref(false);
 const errMSG = ref("");
+const loading = ref(false);
 const details = ref({
   email: "",
   password: "",
 });
+
+const login = async () => {
+  loading.value = true;
+  try {
+    const { data } = await adminAPI.post("/login", {
+      ...details.value,
+    });
+    loading.value = false;
+    setToken("admin", data.token);
+    router.push("/admin");
+  } catch (e) {
+    error.value = true;
+    loading.value = false;
+    errMSG.value = e.response.data.msg;
+    console.log(e);
+  }
+};
 </script>
 
 <style scoped lang="scss">

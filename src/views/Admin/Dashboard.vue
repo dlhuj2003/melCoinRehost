@@ -21,36 +21,29 @@
 <script setup>
 import { ref } from "vue";
 import Loader from "../../components/Loader.vue";
+import { adminAPI, getToken } from "@/axios/api";
 const balance = 356980;
-const loading = ref(false);
-const users = ref([
-  {
-    username: 'user1',
-    balance: '10000'
-  },
-  {
-    username: 'user1',
-    balance: '10000'
-  },
-]);
+const loading = ref(true);
 
-// const getUsers = async () => {
-//   try {
-//     const { data } = await adminAPI.get("/users", {
-//       headers: {
-//         Authorization: `Bearer ${localStorage.getItem("admin")}`,
-//       },
-//     });
-//     // console.log(data);
-//     users.value = data;
-//     loading.value = false;
-//   } catch (e) {
-//     loading.value = false;
-//     console.log(e);
-//   }
-// };
+const users = ref([]);
 
-// getUsers();
+const getUsers = async () => {
+  try {
+    const { data } = await adminAPI.get("/users", {
+      headers: {
+        Authorization: getToken("admin"),
+      },
+    });
+    // console.log(data);
+    users.value = data;
+    loading.value = false;
+  } catch (e) {
+    loading.value = false;
+    console.log(e);
+  }
+};
+
+getUsers();
 </script>
 
 <style scoped lang="scss">

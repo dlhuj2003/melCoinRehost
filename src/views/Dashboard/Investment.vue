@@ -12,19 +12,19 @@
                 <td>Plan</td>
                 <td>Amount</td>
                 <td>Start date</td>
-                <td>Status</td>
+                <td>duration</td>
                 <td>Stop Date</td>
                 <td>Profit</td>
               </tr>
             </thead>
 
-            <tbody v-for="(investments, index) in Investment" :key="index">
-              <tr :for="index">
-                <td>{{ investments.plan }}</td>
+            <tbody v-for="(investments, index) in investment" :key="index">
+              <tr>
+                <td>{{ investments.level }}</td>
                 <td>${{ investments.amount }}</td>
-                <td>{{ investments.startDate }}</td>
-                <td>{{ investments.status }}</td>
-                <td>{{ investments.stopDate }}</td>
+                <td>{{ $filters.formatDate(investments.createdAt) }}</td>
+                <td>{{ investments.duration }}</td>
+                <td>{{ $filters.formatDate(investments.due_date) }}</td>
                 <td>${{ investments.profit }}</td>
               </tr>
             </tbody>
@@ -46,7 +46,7 @@ import Nav from "@/components/Nav.vue";
 import { melAPI } from "@/axios/api";
 
 const loading = ref(true);
-
+const investment = ref([]);
 const token = localStorage.getItem("token");
 
 const getInvestments = async () => {
@@ -56,6 +56,7 @@ const getInvestments = async () => {
         Authorization: `Bearer ${token}`,
       },
     });
+    investment.value = data;
     console.log(data);
   } catch (e) {
     console.log(e);
@@ -65,8 +66,6 @@ const getInvestments = async () => {
 };
 
 getInvestments();
-
-const investment = ref([]);
 </script>
 
 <style scoped lang="scss">

@@ -19,13 +19,11 @@ const store = useMelStore();
 
 store.getUserDetails();
 
-const checkUser = () => {
-  if (!localStorage.getItem("token")) {
-    router.push("/login");
-  }
-};
-
-checkUser();
+// const checkUser = () => {
+//   if (!localStorage.getItem("token")) {
+//     router.push("/login");
+//   }
+// };
 </script>
 
 <style scoped lang="scss">

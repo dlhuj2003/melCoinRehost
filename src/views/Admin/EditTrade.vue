@@ -36,7 +36,7 @@
         <input type="text" inputmode="numeric" v-model="trade.rate" id="bnb" />
       </div>
       <button>Save changes</button>
-      <!-- <button>Delete account</button> -->
+      <button type="button" @click="delTrade">Delete Trade</button>
       <router-link to="/admintrades">
         <button>Back</button>
       </router-link>
@@ -49,6 +49,7 @@
 import { ref } from "vue";
 import { useRoute, useRouter } from "vue-router";
 import Loader from "../../components/Loader.vue";
+import { adminAPI, getToken } from "@/axios/api";
 const etherum = ref("0");
 const bitcoin = ref("0");
 const usdt = ref("0");
@@ -64,7 +65,7 @@ const getTrade = async () => {
   try {
     const { data } = await adminAPI.get(`/trades/${route.params.id}`, {
       headers: {
-        Authorization: `Bearer ${localStorage.getItem("admin")}`,
+        Authorization: getToken("admin"),
       },
     });
     // console.log(data);
@@ -86,10 +87,27 @@ const updTrade = async () => {
       },
       {
         headers: {
-          Authorization: `Bearer ${localStorage.getItem("admin")}`,
+          Authorization: getToken("admin"),
         },
       }
     );
+    // console.log(data);
+    router.push("/admintrades");
+    loading.value = false;
+  } catch (e) {
+    loading.value = false;
+    console.log(e);
+  }
+};
+
+const delTrade = async () => {
+  loading.value = true;
+  try {
+    const { data } = await adminAPI.delete(`/trades/${route.params.id}`, {
+      headers: {
+        Authorization: getToken("admin"),
+      },
+    });
     // console.log(data);
     router.push("/admintrades");
     loading.value = false;
@@ -124,7 +142,7 @@ main {
   button {
     width: 100%;
     height: 44px;
-    background-color: #FF8000;
+    background-color: #ff8000;
     color: #fff;
     border: none;
     margin: 0px 0px 10px;

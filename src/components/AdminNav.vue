@@ -70,8 +70,8 @@ const links = ref([
     icon: "bi bi-grid-fill",
   },
   {
-    name: "Deposit",
-    to: "/depositRequest",
+    name: "Coins",
+    to: "/coins",
     icon: "bi bi-coin",
   },
   {
@@ -120,7 +120,7 @@ a {
   width: 44px;
   font-size: 20px;
   button {
-    background-color: #FF8000;
+    background-color: #ff8000;
     border: 1px solid #fff !important;
     color: #ffffff;
     padding: 10px 20px;
@@ -154,7 +154,7 @@ a.router-link-exact-active {
 .body-menu {
   width: 180px;
   height: 100vh;
-  background: #FF8000;
+  background: #ff8000;
   padding: 16px 0px;
 
   @media (max-width: 710px) {

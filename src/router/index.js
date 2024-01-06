@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router';
-import Home from '@/views/Home.vue';
-import Learn from '@/views/Learn.vue';
-import Signup from '@/views/Signup.vue';
-import Login from '@/views/Login.vue';
-import Terms from '@/views/Terms.vue';
-import About from '@/views/About.vue';
+import { createRouter, createWebHistory } from "vue-router";
+import Home from "@/views/Home.vue";
+import Learn from "@/views/Learn.vue";
+import Signup from "@/views/Signup.vue";
+import Login from "@/views/Login.vue";
+import Terms from "@/views/Terms.vue";
+import About from "@/views/About.vue";
 import DashboardLayout from "@/views/Dashboard/index.vue";
 import Dashboard from "@/views/Dashboard/Dashboard.vue";
 import Trade from "@/views/Dashboard/Trade.vue";
@@ -14,8 +14,7 @@ import Investment from "@/views/Dashboard/Investment.vue";
 import Balance from "@/views/Dashboard/Balance.vue";
 import Transactions from "@/views/Dashboard/Transactions.vue";
 import Profile from "@/views/Dashboard/Profile.vue";
-import Kyc from"@/views/Dashboard/Kyc.vue";
-
+import Kyc from "@/views/Dashboard/Kyc.vue";
 
 import AdminLogin from "@/views/AdminLogin.vue";
 import AdminLayout from "@/views/Admin/index.vue";
@@ -25,42 +24,48 @@ import DepositRequest from "@/views/Admin/Deposit.vue";
 import WithdrawalRequest from "@/views/Admin/Withdrawal.vue";
 import Trades from "@/views/Admin/Trades.vue";
 import EditTrade from "@/views/Admin/EditTrade.vue";
+import CoinDetails from "@/views/Admin/coinDetails.vue";
+import Addcoin from "@/views/Admin/Addcoin.vue";
+import EditTransaction from "@/views/Admin/EditTransaction.vue";
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
-      path: '/',
-      name: 'home',
-      component: Home
+      path: "/",
+      name: "home",
+      component: Home,
     },
     {
-      path: '/learn',
-      name: 'learn',
-      component: Learn
+      path: "/learn",
+      name: "learn",
+      component: Learn,
     },
     {
-      path: '/signup',
-      name: 'signup',
-      component: Signup
+      path: "/signup",
+      name: "signup",
+      component: Signup,
     },
     {
-      path: '/login',
-      name: 'login',
-      component: Login
+      path: "/login",
+      name: "login",
+      component: Login,
     },
     {
-      path: '/terms',
-      name: 'terms',
-      component: Terms
+      path: "/terms",
+      name: "terms",
+      component: Terms,
     },
     {
-      path: '/about',
-      name: 'about',
-      component: About
+      path: "/about",
+      name: "about",
+      component: About,
     },
     {
       path: "/dashboard",
       component: DashboardLayout,
+      meta: {
+        requiresAuth: true,
+      },
       children: [
         {
           path: "",
@@ -109,7 +114,7 @@ const router = createRouter({
         },
       ],
     },
-    
+
     {
       path: "/adminLogin",
       name: "adminLogin",
@@ -118,6 +123,9 @@ const router = createRouter({
     {
       path: "/admin",
       component: AdminLayout,
+      meta: {
+        admin: true,
+      },
       children: [
         {
           path: "",
@@ -130,14 +138,29 @@ const router = createRouter({
           component: User,
         },
         {
-          path: "/depositRequest",
+          path: "/coins",
           name: "depositrequest",
           component: DepositRequest,
+        },
+        {
+          path: "/coin/:id",
+          name: "Coin detail",
+          component: CoinDetails,
+        },
+        {
+          path: "/addcoin",
+          name: "Add coin",
+          component: Addcoin,
         },
         {
           path: "/withdrawalRequest",
           name: "withdrawalrequest",
           component: WithdrawalRequest,
+        },
+        {
+          path: "/withdrawalRequest/:id",
+          name: "Edit withdrawalrequest",
+          component: EditTransaction,
         },
         {
           path: "/admintrades",
@@ -151,7 +174,22 @@ const router = createRouter({
         },
       ],
     },
-  ]
-})
+  ],
+});
 
-export default router
+router.beforeEach(async (to, from, next) => {
+  if (to.matched.some((record) => record.meta.requiresAuth)) {
+    localStorage.getItem("token") ? next() : next("/login");
+  } else {
+    next();
+  }
+});
+router.beforeEach(async (to, from, next) => {
+  if (to.matched.some((record) => record.meta.admin)) {
+    localStorage.getItem("admin") ? next() : next("/");
+  } else {
+    next();
+  }
+});
+
+export default router;

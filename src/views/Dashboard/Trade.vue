@@ -4,7 +4,9 @@
     <div class="main">
       <div class="top">
         <h1>Trade</h1>
-        <h3>We have an optimal range of trading plans for you to choose from</h3>
+        <h3>
+          We have an optimal range of trading plans for you to choose from
+        </h3>
         <div class="plans">
           <div class="item">
             <h2>Basic plan</h2>
@@ -21,7 +23,6 @@
             <p class="duration">24/7 Customer care</p>
             <p class="duration">4% Referral Bonus</p>
             <button @click="modal = true">Invest</button>
-
           </div>
           <div class="item">
             <h2>Premium plan</h2>
@@ -30,36 +31,34 @@
             <p class="duration">24/7 Customer care</p>
             <p class="duration">4% Referral Bonus</p>
             <button @click="modal = true">Invest</button>
-
           </div>
         </div>
       </div>
       <div class="trademodal" v-if="modal">
-        <CreateTrade @closemodal="()=> modal = false" />
+        <CreateTrade @closemodal="() => (modal = false)" />
       </div>
       <div v-else></div>
       <Footer />
-      <Loader v-if="loading" />
     </div>
   </main>
 </template>
-  
+
 <script setup>
 import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
 import Loader from "../../components/Loader.vue";
-import Footer from "@/components/Footer2.vue"
-import Nav from "@/components/Nav.vue"
-import CreateTrade from "@/components/CreateTrade.vue"
+import Footer from "@/components/Footer2.vue";
+import Nav from "@/components/Nav.vue";
+import CreateTrade from "@/components/CreateTrade.vue";
 
-const modal = ref(false)
+const modal = ref(false);
 </script>
-  
+
 <style scoped lang="scss">
 main {
   // background-color: #eee;
   z-index: 2;
-  div.trademodal{
+  div.trademodal {
     position: fixed;
     width: calc(100% - 180px);
     height: 100vh;
@@ -71,7 +70,7 @@ main {
     background-color: rgba(0, 0, 0, 0.6);
     backdrop-filter: blur(2px);
     z-index: 5;
-    @media(max-width: 710px){
+    @media (max-width: 710px) {
       width: 100%;
     }
   }
@@ -87,7 +86,7 @@ main {
   }
 
   a:hover {
-    color: #FF8000;
+    color: #ff8000;
   }
 
   h1 {
@@ -100,7 +99,7 @@ main {
 
   h3 {
     color: #ffffff;
-    background-color: #FF8000;
+    background-color: #ff8000;
     padding: 20px 30px;
     margin: 0px 0px 30px;
     text-transform: uppercase;
@@ -125,7 +124,7 @@ main {
       border-radius: 10px;
       padding: 0px 0px 20px;
 
-      @media(max-width: 610px) {
+      @media (max-width: 610px) {
         width: 100%;
         max-width: 400px;
       }
@@ -134,7 +133,7 @@ main {
         padding: 20px 10px;
         font-size: 16px;
         background-color: #ff8000;
-        color: #FFF;
+        color: #fff;
         border-radius: 10px 10px 0px 0px;
         margin-bottom: 20px;
       }
@@ -151,10 +150,9 @@ main {
         background-color: #ff8000;
         border: none;
         color: #fff;
-        margin: 10px 0px
+        margin: 10px 0px;
       }
     }
   }
 }
 </style>
-  
