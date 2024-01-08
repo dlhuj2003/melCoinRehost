@@ -7,8 +7,8 @@
     </router-link>
       <h1>
         Hello! {{ store.userDetails.username }}
-        <i class="bi bi-sun" v-if="checkTime"></i>
-        <i class="bi bi-cloud-moon" v-else></i>
+        <i class="bi bi-sun" v-if="checkTime"> Good Day</i>
+        <i class="bi bi-cloud-moon" v-else> Good Evening</i>
       </h1>
       <Marquee />
       <div class="chart">

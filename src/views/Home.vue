@@ -14,15 +14,21 @@ import { Chart } from "vue-tradingview-widgets";
     <section class="one">
       <div class="container">
         <div class="w50">
-          <h2>PROMO!!! <span>$1,500,000</span> for grab, be among the 15
-            new investors that will stand a chance to win <span>$100,000</span>
-            each</h2>
-          <!-- <h2>The Future of <span>cryptocurrency</span> Trades is Here</h2>
-          <p>Trade spot, gold, futures and stake all in one powerful interface</p> -->
-          <router-link to="/signup"><button class="primary">Get Started</button></router-link>
+          <h2>PROMO</h2>
+          <p>$1,500,000 for grab</p>
+          <p>Be among the 15 new investors that will stand a chance to win $100,000 each this festive season with 3 simple steps.</p>
+          <ul>
+            <li>Create an account</li>
+            <li>Make an initial minimum deposit of $500</li>
+            <li>Refer up to 3 new investors with your referral link</li>
+          </ul>
+          <div class="float">
+            <input type="email" name="" id="" placeholder="Email address">
+            <a href="/signup">Get started</a>
+          </div>
         </div>
         <div class="w50">
-          <img src="@/assets/illus1.png" alt="">
+          <img src="@/assets/bitcoin3.png" alt="">
         </div>
       </div>
     </section>
@@ -35,20 +41,77 @@ import { Chart } from "vue-tradingview-widgets";
         autosize: true,
       }" />
     </div>
-
-    <section class="two">
+    <section class="explore">
+      <img src="@/assets/crypto2.jpg" alt="">
+      <div>
+        <h1>Explore our investment plans</h1>
+        <p>With different investment plans, our system is modelled to accomodate everyone no matter how much you have to invest.</p>
+        <a href="/explore">Explore <i class="bi bi-arrow-right"></i></a>
+      </div>
+    </section>
+    <section>
+      <div class="w50">
+        <h1>Retire early with our Mellcoin IRA better plan</h1>
+        <p>Discover how specific IRA better plan works for investors using an employer's retirement plan.</p>
+        <a href="/learn">Learn more</a>
+      </div>
+      <div class="w50">
+        <ul>
+          <li><i class="bi bi-check-circle-fill"></i> Enroll in your IRA retirement plan</li>
+          <li><i class="bi bi-check-circle-fill"></i> Child support & College plan</li>
+          <li><i class="bi bi-check-circle-fill"></i> Non profit organization plan</li>
+          <li><i class="bi bi-check-circle-fill"></i> Professional financial advisors</li>
+        </ul>
+      </div>
+    </section>
+    <section class="portfolio">
+      <h1>Create your retirement portfolio today</h1>
+      <p>Mellcoin has a variety of features that make it the best place for your investment journey</p>
       <div class="container">
-        <h1>We are on a global scale</h1>
-        <p>
-          This company is standard cryptocurrency mining company where investors
-          can earn Bitcoin through the legal and assured means of profiting the
-          Blockchain Technology. Over the years, we have been chosen by many all
-          around the globe and have been recommended by many regulatory bodies
-          for our quality mining pool and we are on the mission to provide the right full
-          and legal means of earning cryptocurrency through mining. Get rewarded, join
-          the mining network,join Mellcoin today!.
-        </p>
-        <router-link to="/signup"><button class="primary">Get Started</button></router-link>
+        <div class="w50">
+          <div class="item">
+            <div class="icon">
+              icon
+            </div>
+            <div class="txt">
+              <h2>Manage your portfolio</h2>
+              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              icon
+            </div>
+            <div class="txt">
+              <h2>Manage your portfolio</h2>
+              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              icon
+            </div>
+            <div class="txt">
+              <h2>Manage your portfolio</h2>
+              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="icon">
+              icon
+            </div>
+            <div class="txt">
+              <h2>Manage your portfolio</h2>
+              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+            </div>
+          </div>
+        </div>
+        <div class="w50 right">
+          <h1>WE ARE ON A GLOBAL SCALE</h1>
+          <p>
+            This company is standard cryptocurrency mining company where investors can earn Bitcoin through the legal and assured means of profiting the Blockchain Technology. Over years, we have been chosen by many all around the globe and have been recommended by many regulatory bodies for our quality mining pool and we are on the mission to provide the right full and legal means of earning cryptocurrency through mining. Get rewarded, join the mining network, join Mellcoin today!
+          </p>
+        </div>
       </div>
     </section>
     <section class="count">
@@ -75,6 +138,9 @@ import { Chart } from "vue-tradingview-widgets";
 </template>
 
 <style scoped lang="scss">
+main{
+  background-color: #eaf6fc;
+}
 section.one {
   height: fit-content;
   padding: 0px 50px;
@@ -105,6 +171,9 @@ section.one {
       display: flex;
       flex-direction: column;
       justify-content: center;
+      h2{
+        background-color: #ff4500;
+      }
 
       @media(max-width: 991px) {
         text-align: center;

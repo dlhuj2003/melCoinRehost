@@ -3,9 +3,13 @@
         <div class="main">
 
             <router-link to="/">
-                <img src="@/assets/logo.png" alt="">
+                <!-- <img src="@/assets/logo.png" alt=""> -->
+                <p class="logo">mell<span>C</span>oin</p>
             </router-link>
             <ul class="desktop">
+                <li>
+                    <router-link to="/">Home</router-link>
+                </li>
                 <li>
                     <router-link to="/">Explore</router-link>
                 </li>
@@ -13,15 +17,21 @@
                     <router-link to="/learn">Learn</router-link>
                 </li>
                 <li>
-                    <router-link to="/about">About</router-link>
+                    <router-link to="/support">Support</router-link>
                 </li>
                 <li>
-                    <router-link to="/">Contact us</router-link>
+                    <router-link to="/ira">IRA</router-link>
+                </li>
+                <li>
+                    <router-link to="/charity">Charity</router-link>
+                </li>
+                <li>
+                    <router-link to="/about">Company</router-link>
                 </li>
             </ul>
             <div class="buttons desktop">
                 <router-link to="/login"><button class="secondary">Sign in</button></router-link>
-                <router-link to="/signup"> <button class="primary">Sign up</button></router-link>
+                <router-link to="/signup"> <button class="primary">Get started</button></router-link>
             </div>
             <div class="mobe">
                 <div class="mobile" v-if="mobileMenu">
@@ -30,21 +40,30 @@
                     </router-link>
                     <ul>
                         <li>
+                            <router-link to="/">Home</router-link>
+                        </li>
+                        <li>
                             <router-link to="/">Explore</router-link>
                         </li>
                         <li>
                             <router-link to="/learn">Learn</router-link>
                         </li>
                         <li>
-                            <router-link to="/about">About</router-link>
+                            <router-link to="/support">Support</router-link>
                         </li>
                         <li>
-                            <router-link to="/contact">Contact us</router-link>
+                            <router-link to="/ira">IRA</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/charity">Charity</router-link>
+                        </li>
+                        <li>
+                            <router-link to="/about">Company</router-link>
                         </li>
                     </ul>
                     <div class="buttons">
                         <router-link to="/login"><button class="secondary">Sign in</button></router-link>
-                        <router-link to="/signup"> <button class="primary">Sign up</button></router-link>
+                        <router-link to="/signup"> <button class="primary">Get started</button></router-link>
                     </div>
                 </div>
                 <div v-else>
@@ -119,12 +138,12 @@ div.mobile {
 }
 
 main {
-    background: #fff;
+    background: #f7f4f4 !important;
     z-index: 999 !important;
     position: sticky;
     top: 0;
     padding: 0px 50px;
-    box-shadow: 0px 5px 10px #3331;
+    // box-shadow: 0px 5px 10px #3331;
 
     @media(max-width: 600px) {
         padding: 0px 20px;
@@ -141,6 +160,15 @@ div.main {
     height: 70px;
     align-items: center;
 
+    p.logo {
+        font-size: 24px;
+        font-weight: 700;
+
+        span {
+            color: #ff4500;
+        }
+    }
+
     img {
         width: 150px;
     }
@@ -151,7 +179,8 @@ div.main {
         gap: 30px;
 
         li {
-            color: #FF8000;
+            color: #000;
+            font-weight: 700;
         }
     }
 
@@ -160,23 +189,24 @@ div.main {
         gap: 10px;
 
         button {
-            height: 44px;
+            height: 40px;
             border-radius: 22px;
             font-size: 13px;
             padding: 0px 20px;
             color: #fff;
+            font-weight: 700;
             cursor: pointer;
         }
 
         button.primary {
-            background: linear-gradient(120deg, #FF8000 0%, #ac5804 100%);
+            background: #ff4500;
             border: none;
         }
 
         button.secondary {
-            border: 2px solid #FF8000;
-            background-color: transparent;
-            color: #FF8000;
+            border: none;
+            background-color: #e0dfdf;
+            color: #000;
         }
     }
 }
