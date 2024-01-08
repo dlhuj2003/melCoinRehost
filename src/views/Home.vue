@@ -629,6 +629,7 @@ div.bgpad{
           p{
             text-align: left;
             font-size: 15px;
+            line-height: 1.3;
           }
           }
         }
@@ -646,6 +647,7 @@ div.bgpad{
       }
       p{
         text-align: left;
+            line-height: 1.5;
       }
     }
   }
