@@ -49,7 +49,7 @@ import { ref } from 'vue'
 <style scoped lang="scss">
 main{
     position: relative;
-    background-color: #000000;
+    background-color: #000000 !important;
     color: #fff;
     padding: 50px 50px 10px;
     div.foot{

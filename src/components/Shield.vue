@@ -33,7 +33,7 @@ import { ref } from 'vue';
 <style scoped lang="scss">
 main{
     position: relative;
-    background-color: #000;
+    background-color: #000 !important;
     height: fit-content;
     div.container{
         max-width: 1366px;

@@ -113,13 +113,16 @@ div.toggle {
 }
 
 i {
-    color: #FF8000;
+    color: #000;
     font-size: 36px;
     position: absolute;
     right: 30px;
     top: 10px;
     z-index: 998;
     cursor: pointer;
+    &:hover{
+        color: #ff4500;
+    }
 }
 
 div.mobile {
