@@ -159,8 +159,8 @@ import { Chart } from "vue-tradingview-widgets";
         </div>
       </div>
     </section>
-    <Why />
-    <Shield />
+    <!-- <Why />
+    <Shield /> -->
     <Faq />
     <Footer />
   </main>
