@@ -34,15 +34,6 @@ import { Chart } from "vue-tradingview-widgets";
         </div>
       </div>
     </section>
-    <!-- <div class="chart home">
-      <h3>Get <span>Up-To-Date</span> market values</h3>
-      <Chart :options="{
-        symbol: 'BINANCE:BTCUSDT',
-        width: '100%',
-        height: '400px',
-        autosize: true,
-      }" />
-    </div> -->
     <div class="pad">
       <section class="explore">
         <img src="@/assets/crypto2.jpg" alt="">
@@ -69,6 +60,15 @@ import { Chart } from "vue-tradingview-widgets";
         </ul>
       </div>
     </section>
+    <div class="chart home">
+      <h3>Get <span>Up-To-Date</span> market values</h3>
+      <Chart :options="{
+        symbol: 'BINANCE:BTCUSDT',
+        width: '100%',
+        height: '400px',
+        autosize: true,
+      }" />
+    </div>
     <div class="bgpad">
       <section class="portfolio">
         <h1>Create your retirement portfolio today</h1>
@@ -195,7 +195,7 @@ import { Chart } from "vue-tradingview-widgets";
     </section>
     <!-- <Why />
     <Shield /> -->
-    <Faq />
+    <!-- <Faq /> -->
     <Footer />
   </main>
 </template>
