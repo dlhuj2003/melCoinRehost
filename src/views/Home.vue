@@ -141,6 +141,24 @@ import { Chart } from "vue-tradingview-widgets";
         </div>
       </div>
     </section>
+    <section class="start">
+      <h1>Get started in a few minutes</h1>
+      <p>Mellcoin supports a variety of the most popular digital curriencies</p>
+      <div class="grid">
+        <div class="item">
+          <i class="bi bi-person-fill"></i>
+          <p>Sign up</p>
+        </div>
+        <div class="item">
+          <i class="bi bi-bank2"></i>
+          <p>Invest</p>
+        </div>
+        <div class="item">
+          <i class="bi bi-cash-coin"></i>
+          <p>Watch your profit grow</p>
+        </div>
+      </div>
+    </section>
     <Why />
     <Shield />
     <Faq />
@@ -652,6 +670,41 @@ div.bgpad{
     }
   }
 }
+}
+
+section.start{
+  max-width: 1366px;
+  margin: auto;
+  padding: 80px 30px;
+  h1{
+    text-align: center;
+  }
+  p{
+    text-align: center;
+    font-size: 18px;
+    margin: 20px 0px 0px;
+  }
+  div.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px 0px 0px;
+    @media(max-width: 600px){
+      grid-template-columns: 1fr;
+    }
+    div.item{
+      text-align: center;
+      padding: 20px;
+      display: grid;
+      gap: 10px;
+      p{
+        text-transform: uppercase;
+      }
+      i{
+        font-size: 36px;
+        color: #ff4500;
+      }
+    }
+  }
 }
 
 </style>
