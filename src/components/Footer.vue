@@ -5,38 +5,73 @@ import { ref } from 'vue'
 <template>
     <main>
         <div class="container">
-            <div class="foot">
-                <router-link to="/">
-                    <img src="@/assets/logo.png" width="150" alt="">
-                </router-link>
-                <p class="tag">...the Future of Cryptocurrency</p>
-                <p>Phone: +012345678</p>
-                <p>Email: melcoin@email.com</p>
-            </div>
             <div class="grid">
                 <div>
-                    <p class="title">Useful links</p>
+                    <p class="title">company</p>
+                    <router-link to="/about">
+                        About us
+                    </router-link>
+                    <router-link to="/">
+                        Careers
+                    </router-link>
+                    <router-link to="/">
+                        Security
+                    </router-link>
+                    <router-link to="/">
+                        Investors
+                    </router-link>
+                </div>
+                <div>
+                    <p class="title">Learn</p>
                     <router-link to="/terms">
-                    Terms and conditions
-                </router-link>
-                <router-link to="/">
-                    Blogs
-                </router-link>
-                <router-link to="/">
-                    About
-                </router-link>
-                <router-link to="/">
-                    Contact us
-                </router-link>
+                        How to set up a crypto wallet
+                    </router-link>
+                    <router-link to="/">
+                        How to send crypto
+                    </router-link>
+                    <router-link to="/">
+                        Taxes
+                    </router-link>
+                    <router-link to="/">
+                        What is Bitcoin
+                    </router-link>
+                    <router-link to="/">
+                        What is Crypto
+                    </router-link>
+                    <router-link to="/">
+                        What is Blockchain
+                    </router-link>
+                    <router-link to="/">
+                        Wallet
+                    </router-link>
+                </div>
+                <div>
+                    <p class="title">Support</p>
+                    <router-link to="/terms">
+                        Help center
+                    </router-link>
+                    <router-link to="/">
+                        Contact us
+                    </router-link>
+                    <router-link to="/">
+                        ID verification
+                    </router-link>
+                    <router-link to="/">
+                        Payment method
+                    </router-link>
+                    <router-link to="/">
+                        Supported countries
+                    </router-link>
                 </div>
                 <div class="soc">
-                    <p class="title">Conect with us</p>
+                    <p class="title">Follow us</p>
                     <div class="social">
                         <i class="bi bi-telegram"></i>
                         <i class="bi bi-whatsapp"></i>
                         <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
                     </div>
+                    <p class="logo">mell<span>C</span>oin</p>
                 </div>
             </div>
         </div>
@@ -47,71 +82,92 @@ import { ref } from 'vue'
 </template>
 
 <style scoped lang="scss">
-main{
+main {
     position: relative;
     background-color: #000000 !important;
     color: #fff;
     padding: 50px 50px 10px;
-    div.foot{
-        p{
+
+    div.foot {
+        p {
             line-height: 1.5;
             font-size: 14px;
             color: #eee;
         }
     }
-    div.copy{
+
+    div.copy {
         margin: 10px auto 0px;
-        p{
+
+        p {
             font-size: 12px;
             color: #999;
             border-top: 1px solid #aaa;
             padding: 10px 0px 0px;
         }
     }
-    @media(max-width: 600px){
+
+    @media(max-width: 600px) {
         padding: 50px 20px 10px;
     }
-    div.container{
+
+    div.container {
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 30px;
         max-width: 1441px;
         margin: auto;
-        @media(max-width: 600px){
+
+        @media(max-width: 600px) {
             grid-template-columns: 1fr;
         }
     }
-    p.tag{
+
+    p.tag {
         font-style: italic;
         font-size: 12px;
         letter-spacing: 1.5px;
     }
-    div.grid{
+
+    div.grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 20px;
-        div{
+
+        div {
             display: grid;
-            p.title{
+
+            p.title {
                 font-size: 20px;
                 font-weight: 600;
             }
-            a{
+
+            a {
                 font-size: 14px;
                 line-height: 2;
                 color: #aaa !important;
             }
-            div.social{
+
+            div.social {
                 display: flex;
+                margin: 10px 0px 0px;
                 gap: 10px;
-                i{
+
+                i {
                     font-size: 20px;
                 }
             }
         }
     }
-    div.soc{
+
+    div.soc {
         height: fit-content;
     }
-}
-</style>
+    p.logo{
+        font-size: 28px;
+        margin-top: 50px;
+        span{
+            color: #ff4500;
+        }
+    }
+}</style>
