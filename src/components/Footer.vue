@@ -113,7 +113,7 @@ main {
 
     div.container {
         display: grid;
-        grid-template-columns: 1fr 2fr;
+        grid-template-columns: 1fr;
         gap: 30px;
         max-width: 1441px;
         margin: auto;
@@ -131,8 +131,14 @@ main {
 
     div.grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 20px;
+        @media(max-width: 991px){
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        @media(max-width: 600px){
+            grid-template-columns: 1fr 1fr;
+        }
 
         div {
             display: grid;

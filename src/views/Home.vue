@@ -71,59 +71,93 @@ import { Chart } from "vue-tradingview-widgets";
     </section>
     <div class="bgpad">
       <section class="portfolio">
-      <h1>Create your retirement portfolio today</h1>
-      <p>Mellcoin has a variety of features that make it the best place for your investment journey</p>
-      <div class="container">
-        <div class="w50">
-          <div class="item">
-            <div class="icon">
-              <i class="bi bi-briefcase-fill"></i>
+        <h1>Create your retirement portfolio today</h1>
+        <p>Mellcoin has a variety of features that make it the best place for your investment journey</p>
+        <div class="container">
+          <div class="w50">
+            <div class="item">
+              <div class="icon">
+                <i class="bi bi-briefcase-fill"></i>
+              </div>
+              <div class="txt">
+                <h2>Manage your portfolio</h2>
+                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+              </div>
             </div>
-            <div class="txt">
-              <h2>Manage your portfolio</h2>
-              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+            <div class="item">
+              <div class="icon">
+                <i class="bi bi-piggy-bank-fill"></i>
+              </div>
+              <div class="txt">
+                <h2>Manage your portfolio</h2>
+                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <i class="bi bi-graph-up-arrow"></i>
+              </div>
+              <div class="txt">
+                <h2>Manage your portfolio</h2>
+                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="icon">
+                <i class="bi bi-phone"></i>
+              </div>
+              <div class="txt">
+                <h2>Manage your portfolio</h2>
+                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+              </div>
             </div>
           </div>
-          <div class="item">
-            <div class="icon">
-              <i class="bi bi-piggy-bank-fill"></i>
-            </div>
-            <div class="txt">
-              <h2>Manage your portfolio</h2>
-              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="icon">
-              <i class="bi bi-graph-up-arrow"></i>
-            </div>
-            <div class="txt">
-              <h2>Manage your portfolio</h2>
-              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
-            </div>
-          </div>
-          <div class="item">
-            <div class="icon">
-              <i class="bi bi-phone"></i>
-            </div>
-            <div class="txt">
-              <h2>Manage your portfolio</h2>
-              <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
-            </div>
+          <div class="w50 right">
+            <h1>WE ARE ON A GLOBAL SCALE</h1>
+            <p>
+              This company is standard cryptocurrency mining company where investors can earn Bitcoin through the legal
+              and
+              assured means of profiting the Blockchain Technology. Over years, we have been chosen by many all around the
+              globe and have been recommended by many regulatory bodies for our quality mining pool and we are on the
+              mission to provide the right full and legal means of earning cryptocurrency through mining. Get rewarded,
+              join
+              the mining network, join Mellcoin today!
+            </p>
           </div>
         </div>
-        <div class="w50 right">
-          <h1>WE ARE ON A GLOBAL SCALE</h1>
-          <p>
-            This company is standard cryptocurrency mining company where investors can earn Bitcoin through the legal and
-            assured means of profiting the Blockchain Technology. Over years, we have been chosen by many all around the
-            globe and have been recommended by many regulatory bodies for our quality mining pool and we are on the
-            mission to provide the right full and legal means of earning cryptocurrency through mining. Get rewarded, join
-            the mining network, join Mellcoin today!
-          </p>
+      </section>
+    </div>
+    <div class="trust">
+
+      <section class="start">
+        <h1>The most trusted cryptocurrency platform</h1>
+        <p>Here are few reasons why you should choose Mellcoin</p>
+        <div class="grid">
+          <div class="item">
+            <i class="bi bi-person-fill"></i>
+            <p class="big">Secure Storage</p>
+            <p>We store vast majority of the digital
+              assets in secure offline storage.</p>
+            <p class="red">Learn how Mellcoin keeps your funds save
+              and secure </p>
+          </div>
+          <div class="item">
+            <i class="bi bi-bank2"></i>
+            <p class="big">Protected assets</p>
+            <p>Our risk management measures are
+              designed to protect your assets</p>
+            <p class="red">Learn about how your assets are protected </p>
+          </div>
+          <div class="item">
+            <i class="bi bi-cash-coin"></i>
+            <p class="big">Indutry best practices</p>
+            <p>Mellcoin supports a variety of the most
+              popular digital currencies.</p>
+            <p class="red">Learn how we implement industry best practices
+              for account security</p>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
     </div>
     <section class="count">
       <div class="contain">
@@ -528,13 +562,15 @@ section.ira {
   gap: 20px;
   max-width: 1300px;
   margin: 20px auto;
-  @media(max-width: 600px){
+
+  @media(max-width: 600px) {
     grid-template-columns: 1fr;
   }
 
   div.w50 {
     padding: 20px;
-    &:first-of-type{
+
+    &:first-of-type {
       max-width: 400px;
     }
 
@@ -543,7 +579,8 @@ section.ira {
       font-weight: 500;
       margin-bottom: 20px;
     }
-    a{
+
+    a {
       padding: 10px 20px;
       background-color: #ff4500;
       border: none;
@@ -564,147 +601,195 @@ section.ira {
         display: flex;
         gap: 20px;
         margin-bottom: 10px;
-          border-radius: 10px;
+        border-radius: 10px;
         padding: 20px;
         transition: 0.3s;
 
         &:hover {
           box-shadow: 2px 2px 2px #676767;
-        background-color: #e0f0fd;
-        transition: 0.3s;
+          background-color: #e0f0fd;
+          transition: 0.3s;
         }
       }
     }
   }
 }
-div.bgpad{
+
+div.bgpad {
   background-image: url(@/assets/backgroundbitcoin.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom;
-  section.portfolio{
+
+  section.portfolio {
     background-color: #e5f2fae6;
-  padding: 50px;
-  @media(max-width: 600px){
-  padding: 50px 30px;
-  }
-  h1{
-    text-align: center;
-    font-size: 38px;
-    font-weight: 500;
-    margin: 0px 0px 10px;
-    letter-spacing: 2px;
-  }
-  p{
-    text-align: center;
-  }
-  div.container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 30px auto 20px;
-    justify-content: space-between;
-    gap: 10px;
-  max-width: 1300px;
-  @media(max-width: 600px){
-    grid-template-columns: 1fr;
-  }
-    div.w50{
-      padding: 5px;
-      &:first-of-type{
-        width: 100%;
-        display: grid;
+    padding: 50px;
+
+    @media(max-width: 600px) {
+      padding: 50px 30px;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 38px;
+      font-weight: 500;
+      margin: 0px 0px 10px;
+      letter-spacing: 2px;
+    }
+
+    p {
+      text-align: center;
+    }
+
+    div.container {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin: 30px auto 20px;
+      justify-content: space-between;
+      gap: 10px;
+      max-width: 1300px;
+
+      @media(max-width: 600px) {
         grid-template-columns: 1fr;
-        gap: 10px;
-        div.item{
-          display: flex;
+      }
+
+      div.w50 {
+        padding: 5px;
+
+        &:first-of-type {
+          width: 100%;
+          display: grid;
+          grid-template-columns: 1fr;
           gap: 10px;
-          margin: 0px 0px 0px;
-          // border: 1px solid #aaa;
-          padding: 10px;
-          border-radius: 10px;
-          @media(max-width: 600px){
-            
-          border: 1px solid #aaa;
-          }
-          div.icon{
+
+          div.item {
             display: flex;
-            height: fit-content;
-            i{
-              background-color: #E0F0FD;
-              padding: 10px;
-              font-size: 22px;
-              border-radius: 50%;
-              color: #ff4500;
+            gap: 10px;
+            margin: 0px 0px 0px;
+            // border: 1px solid #aaa;
+            padding: 10px;
+            border-radius: 10px;
+
+            @media(max-width: 600px) {
+
+              border: 1px solid #aaa;
             }
-          }
-          div.txt{
-            display: grid;
-            h2{
-            text-align: left;
-            margin-bottom: 10px;
-            font-size: 20px;
-          }
-          p{
-            text-align: left;
-            font-size: 15px;
-            line-height: 1.3;
-          }
+
+            div.icon {
+              display: flex;
+              height: fit-content;
+
+              i {
+                background-color: #E0F0FD;
+                padding: 10px;
+                font-size: 22px;
+                border-radius: 50%;
+                color: #ff4500;
+              }
+            }
+
+            div.txt {
+              display: grid;
+
+              h2 {
+                text-align: left;
+                margin-bottom: 10px;
+                font-size: 20px;
+              }
+
+              p {
+                text-align: left;
+                font-size: 15px;
+                line-height: 1.3;
+              }
+            }
           }
         }
       }
-    }
-    div.right{
-      padding: 20px;
-      border: 1px solid #999;
-      border-radius: 20px;
-      max-width: 700px;
-      height: fit-content;
-      h1{
-        text-align: left;
-        font-size: 28px;
-      }
-      p{
-        text-align: left;
-            line-height: 1.5;
+
+      div.right {
+        padding: 20px;
+        border: 1px solid #999;
+        border-radius: 20px;
+        max-width: 700px;
+        height: fit-content;
+
+        h1 {
+          text-align: left;
+          font-size: 28px;
+        }
+
+        p {
+          text-align: left;
+          line-height: 1.5;
+        }
       }
     }
   }
 }
-}
 
-section.start{
+section.start {
   max-width: 1366px;
   margin: auto;
   padding: 80px 30px;
-  h1{
+
+  h1 {
     text-align: center;
   }
-  p{
+
+  p {
     text-align: center;
     font-size: 18px;
     margin: 20px 0px 0px;
   }
-  div.grid{
+
+  div.grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 0px 0px;
-    @media(max-width: 600px){
+
+    @media(max-width: 600px) {
       grid-template-columns: 1fr;
     }
-    div.item{
+
+    div.item {
       text-align: center;
       padding: 20px;
       display: grid;
       gap: 10px;
-      p{
+
+      p {
         text-transform: uppercase;
       }
-      i{
+
+      i {
         font-size: 36px;
         color: #ff4500;
       }
     }
   }
 }
-
+div.trust{
+  section.start{
+    i{
+      background-color: #e0f0fd;
+      width: fit-content;
+      text-align: center;
+      margin: auto;
+      padding: 30px;
+      border-radius: 50%;
+    }
+    p{
+      font-size: 14px;
+      margin: 0px 0px 10px;
+    }
+    p.big{
+      font-size: 16px;
+    }
+    p.red{
+      font-size: 14px;
+      color: #ff4500 !important;
+    }
+  }
+}
 </style>
