@@ -87,6 +87,7 @@ import Why from '@/components/Why2.vue';
                             when you compare Vanguard to competitors.
                         </li>
                     </ul>
+                    <i class="bi bi-chevron-down"></i>
                 </div>
             </div>
         </section>
