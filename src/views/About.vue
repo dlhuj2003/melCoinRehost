@@ -12,31 +12,15 @@ import Why from '@/components/Why2.vue';
         <section class="one">
             <div class="container">
                 <div class="w50">
-                    <h2>About us</h2>
-                    <p>
-                        Mellcoin is a trusted name in
-                        investing. Founded since 1982,
-                        ventured into crypto trading in
-                        2013, and we've put investors first.
-                        We are mission-driven to
+                    <h3>About us</h3>
+                    <h1>
+                        Mellcoin is mission-driven to
                         ensure that every product
                         and service we offer can
                         contribute to our clients'
-                        investment success.</p>
-                    <router-link to="/signup"><button class="primary">Get Started</button></router-link>
-                </div>
-                <div class="w50">
-                    <img src="@/assets/learn.svg" alt="">
-                </div>
-            </div>
-        </section>
-        <section class="one custody">
-            <div class="container">
-                <div class="w50 img">
-                </div>
-                <div class="w50">
-                    <h2>A client-focused approach</h2>
-                    <p class="small">
+                        investment success.
+                    </h1>
+                    <h2>
                         Mellcoin isn't owned by shareholders.
                         It's owned by the people who invest in
                         our funds.Our structure drives us
@@ -44,12 +28,76 @@ import Why from '@/components/Why2.vue';
                         possible advice, investments, and
                         retirement services, as well as insights
                         that clarify investing.
+                    </h2>
+                </div>
+            </div>
+        </section>
+        <section class="one custody">
+            <div class="container">
+                <div class="w50">
+                    <h2>A client-focused approach</h2>
+
+                    <video width="100%" autoplay="true" src="" controls>
+                    </video>
+                    <p class="small">
+                        Molly Concannon, head of product strategy, and Matthew
+                        Brancato, head of Institutional Investor Services, discuss how we
+                        develop our diverse investment lineup.
                     </p>
-                    <router-link to="/signup"><button class="primary">Get Started</button></router-link>
+                </div>
+                <div class="w50">
+                    <p class="title">Video transcript:</p>
+                    <ul>
+                        <li>
+                            Matthew Brancato: An enduring investment idea is one that over the long
+                            term improves the chances that an investor will be able to realize their goals.
+                            It's good to just start and think about what it is that makes a product
+                            enduring in nature and how that separates from the idea of a fad.
+                        </li>
+                        <li>
+                            Molly Concannon: The questions we ask when launching a product are, one is
+                            there an enduring investment merit? We want to launch products that have
+                            proven to have and if there's economic rationale for real returns. Two.
+                            We look at our business strategy. Three, we look at the needs and preferences of
+                            our clients, and four we look at our investment capabilities.
+                        </li>
+                        <li>
+                            Matthew Brancato:
+                            It's one of the areas that we spend a lot of time on is
+                            the existing product lineup. So we're not always looking for the next big thing
+                            that we think is going to generate a lot of profitability for the firm because
+                            that's not how we're organized. That's not who we are.
+                        </li>
+                        <li>
+                            So from a philosophical standpoint, we really try to keep client needs and
+                            preferences at the center of product design, and we carry that all the way
+                            through how we steward assets in the context of the ongoing management
+                            of our product lineup.
+                        </li>
+                        <li>
+                            There are aspects of our product lineup that have not changed and will not
+                            change. Things like diversification, low cost, focus on the long-term areas like
+                            that are really core to who we are and will not change.
+                        </li>
+                        <li>
+                            Molly Concannon:
+                            It's what will make our client successful and given
+                            Mellcoin structure and our alignments with clients. If our clients are
+                            successful, that will make Vanguard successful. That's a real differentiator
+                            when you compare Vanguard to competitors.
+                        </li>
+                    </ul>
                 </div>
             </div>
         </section>
         <section class="bubbles">
+            <h1>Low-cost
+                products
+                and services
+                to meet
+                long-term
+                investment
+                goals</h1>
             <div class="bubbles">
                 <div class="bubble">
                     <h2>Investor-first advisory services</h2>
@@ -100,25 +148,16 @@ import Why from '@/components/Why2.vue';
                 </div>
             </div>
         </section>
-        <Why />
-        <section class="one">
+        <section class="one note">
             <div class="container low">
                 <div class="w50">
-                    <h2>
-                        Low-cost
-                        products
-                        and services
-                        to meet
-                        long-term
-                        investment
-                        goal
-                    </h2>
                     <p>
                         Mellcoin is investor-owned, meaning the fund shareholders own the funds, which in turn own Mellcoin.
                     </p>
                 </div>
                 <div class="w50">
                     <ul>
+                        <li>Notes: </li>
                         <li>
                             Mellcoin's advice services are provided by Mellcoin Advisers, Inc. (“MAI”), a registered
                             investment advisor, or by Mellcoin National Trust Company (“MNTC”), a federally chartered,
@@ -134,7 +173,15 @@ import Why from '@/components/Why2.vue';
                 </div>
             </div>
         </section>
-        <Faq />
+        <section class="found">
+            <p class="logo">mell<span>C</span>oin</p>
+            <p class="txt">
+                Mellcoin is a trusted name in
+                investing. Founded since 1982,
+                ventured into crypto trading in
+                2013, and we've put investors first.
+            </p>
+        </section>
         <Footer />
     </main>
 </template>
@@ -143,6 +190,11 @@ import Why from '@/components/Why2.vue';
 section.bubbles {
     background-color: #ffe6cc;
     padding: 20px 50px;
+
+    h1 {
+        text-align: center;
+        margin: 50px auto 30px;
+    }
 
     @media(max-width: 600px) {
         padding: 20px 20px;
@@ -180,28 +232,35 @@ section.bubbles {
 section.one {
     height: fit-content;
     padding: 0px 50px;
+    background-color: #ff4500;
+    color: #fff;
+
 
     @media(max-width: 991px) {
         padding: 0px 30px;
     }
-    div.container.low{
-        @media(max-width: 991px){
+
+    div.container.low {
+        @media(max-width: 991px) {
             flex-direction: row;
             gap: 10px;
             justify-content: flex-start;
             align-items: flex-start;
-            div.w50{
+
+            div.w50 {
                 text-align: left;
             }
         }
-        @media(max-width: 710px){
+
+        @media(max-width: 710px) {
             flex-direction: column;
         }
     }
+
     div.container {
         position: relative;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 3fr 2fr;
         max-width: 1366px;
         margin: auto;
         align-items: center;
@@ -220,32 +279,26 @@ section.one {
             display: flex;
             flex-direction: column;
             justify-content: center;
-            
-            ul{
-                background-color: #6d360040;
-                padding: 30px;
-                display: flex;
-                flex-direction: column;
-                gap: 15px;
-                border-radius: 10px;
-                li{
-                    line-height: 1.5;
-                }
+            text-align: left !important;
+
+            h1 {
+                font-size: 42px;
+                line-height: 1.5;
             }
+
+            h2 {
+                color: #fff;
+                font-size: 24px;
+                font-weight: 400;
+                line-height: 1.5;
+                margin-top: 20px;
+            }
+
+
             @media(max-width: 991px) {
                 text-align: center;
             }
 
-            img {
-                width: 100%;
-                max-width: 600px;
-                text-align: center;
-                margin: auto;
-
-                @media(max-width: 600px) {
-                    min-width: unset !important;
-                }
-            }
         }
 
         div.w50.img {
@@ -321,6 +374,58 @@ section.one.custody {
         @media(max-width: 991px) {
             flex-direction: column !important;
             gap: 30px;
+
+            p,
+            li,
+            p.title {
+                text-align: left !important;
+            }
+        }
+
+
+        div.w50 {
+
+            video {
+                width: 100%;
+                padding: 20px;
+            }
+
+            p.title {
+                text-align: left !important;
+                color: #fff;
+                margin: 0px 0px 10px;
+            }
+
+            ul {
+                list-style: none;
+                height: 400px;
+                overflow-y: scroll;
+
+                li {
+                    margin: 0px 0px 20px;
+                }
+            }
+
+            ::-webkit-scrollbar {
+                width: 10px;
+            }
+
+            /* Track */
+            ::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px grey;
+                border-radius: 10px;
+            }
+
+            /* Handle */
+            ::-webkit-scrollbar-thumb {
+                background: rgb(151, 151, 151);
+                border-radius: 30px;
+            }
+        }
+
+        p.small {
+            color: #fff;
+            margin: 30px 0px 0px;
         }
     }
 }
@@ -410,5 +515,42 @@ section.count {
             }
         }
 
+    }
+}
+
+section.note {
+    p {
+        color: #fff !important;
+    }
+
+    ul {
+        list-style: none;
+
+        li {
+            margin: 0px 0px 20px;
+        }
+    }
+}
+
+section.found {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+    max-width: 800px;
+    margin: 30px auto;
+    gap: 20px;
+    @media(max-width: 450px){
+    grid-template-columns: 1fr;
+    margin: 10px auto;
+    }
+
+    p.logo {
+        font-size: 32px;
+        font-weight: 600;
+
+        span {
+            font-size: 40px;
+            color: #ff4500;
+        }
     }
 }</style>
