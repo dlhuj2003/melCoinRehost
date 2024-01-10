@@ -381,7 +381,7 @@ section.explore {
 
   img {
     width: 50%;
-    max-width: 400px;
+    max-width: 200px;
     border-radius: 10px;
     height: auto;
 
@@ -394,6 +394,8 @@ section.explore {
     @media(max-width: 600px) {
       width: 100%;
       min-width: none;
+      text-align: center;
+      margin: auto;
     }
   }
 

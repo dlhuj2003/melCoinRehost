@@ -97,7 +97,7 @@ const register = async () => {
               <span>User agreement</span>
             </p>
             <Error :err-m-s-g="errMsg" v-if="error" />
-            <button>Sign up</button>
+            <button>Create account</button>
           </form>
           <p class="small">
             Already have an account?
@@ -154,7 +154,7 @@ main {
       }
 
       p.check {
-        font-size: 14px;
+        font-size: 16px;
         margin: 0px 0px 10px;
 
         span {
@@ -176,17 +176,18 @@ main {
         padding-right: 10px;
 
         label {
-          font-size: 14px;
+          font-size: 16px;
           color: #555;
         }
 
         input {
           height: 44px;
-          border: 1px solid #999;
+          border: 1px solid #aaa;
           border-radius: 5px;
           padding: 0px 20px;
           outline: none;
           width: 100%;
+          background-color: transparent;
         }
       }
 
@@ -202,7 +203,7 @@ main {
 
     p.small {
       text-align: left !important;
-      font-size: 12px !important;
+      font-size: 16px !important;
       font-weight: 400;
       margin-bottom: 15px;
       margin-top: 10px;

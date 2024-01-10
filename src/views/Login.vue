@@ -4,6 +4,7 @@ import { melAPI } from "../axios/api";
 import { useRouter } from "vue-router";
 import Loader from "@/components/Loader.vue";
 import Error from "@/components/Error.vue";
+import Header from "@/components/Header.vue"
 
 const router = useRouter();
 
@@ -37,32 +38,20 @@ const login = async () => {
 <template>
   <main>
     <div class="main">
-      <div class="top">
-        <h1><router-link to="/">Home</router-link>/Login</h1>
-      </div>
+      <Header />
       <div class="form">
-        <img src="@/assets/logo.png" width="200" alt="logo" />
-        <p>Welcome back!</p>
+        <!-- <img src="@/assets/logo.png" width="200" alt="logo" /> -->
+        <p class="logo">mell<span>c</span>oin</p>
+        <p>Sign in to Mellcoin</p>
         <form @submit.prevent="login">
           <div class="full">
-            <label for="email">Email</label>
-            <input
-              type="email"
-              name=""
-              id="email"
-              placeholder="Enter your email"
-              v-model="userDetails.email"
-            />
+            <label for="email">Email or username</label>
+            <input type="email" name="" id="email" placeholder="email or username" v-model="userDetails.email" />
           </div>
           <div class="full">
             <label for="password">Password</label>
-            <input
-              type="password"
-              name=""
-              id="password"
-              placeholder="Enter your password"
-              v-model="userDetails.password"
-            />
+            <input type="password" name="" id="password" placeholder="Enter your password"
+              v-model="userDetails.password" />
           </div>
           <Error :err-m-s-g="errMsg" v-if="error" />
           <p class="small">
@@ -82,23 +71,11 @@ const login = async () => {
 
 <style scoped lang="scss">
 main {
+  background-color: aliceblue;
+
   div.main {
     padding-bottom: 50px;
-    div.top {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 150px;
-      background-color: #000;
-
-      h1 {
-        color: #fff;
-
-        a {
-          color: #ff8000;
-        }
-      }
-    }
+    height: 100vh;
 
     div.form {
       display: grid;
@@ -106,8 +83,6 @@ main {
       width: 100%;
       max-width: 400px;
       margin: 50px auto 0px;
-      // border: 1px solid #000;
-      box-shadow: 0px 0px 20px #5553;
       border-radius: 20px;
       padding: 30px;
 
@@ -117,7 +92,7 @@ main {
 
       p {
         text-align: center;
-        font-size: 20px;
+        font-size: 30px;
         font-weight: 600;
       }
     }
@@ -127,10 +102,10 @@ main {
         display: flex;
         flex-direction: column;
         gap: 10px;
-        margin-bottom: 20px;
+        margin-bottom: 15px;
 
         label {
-          font-size: 14px;
+          font-size: 16px;
           color: #555;
         }
 
@@ -146,7 +121,7 @@ main {
       button {
         height: 44px;
         width: 100%;
-        background: linear-gradient(120deg, #ff8000 0%, #ac5804 100%);
+        background: #ff4500;
         border: none;
         color: #fff;
         border-radius: 5px;
@@ -155,12 +130,13 @@ main {
 
     p.small {
       text-align: left !important;
-      font-size: 12px !important;
+      font-size: 14px !important;
       font-weight: 400;
       margin-bottom: 15px;
-      margin-top: 6px;
+      margin-top: 0px;
+
       a {
-        color: #ff8000;
+        color: #ff4500;
       }
     }
   }
