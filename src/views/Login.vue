@@ -111,10 +111,11 @@ main {
 
         input {
           height: 44px;
-          border: 1px solid #999;
+          border: 1px solid #ccc;
           border-radius: 5px;
           padding: 0px 20px;
           outline: none;
+          background-color: transparent;
         }
       }
 
@@ -131,7 +132,7 @@ main {
     p.small {
       text-align: left !important;
       font-size: 14px !important;
-      font-weight: 400;
+      font-weight: 400 !important;
       margin-bottom: 15px;
       margin-top: 0px;
 
