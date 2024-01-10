@@ -45,62 +45,72 @@ const register = async () => {
       <Header />
       <div class="form">
         <!-- <p class="logo">mell<span>c</span>oin</p> -->
-        <p class="title">Create an account</p>
-        <p class="note">
-          Be sure to enter your legal name as it appears on your
-          government-issued ID.<br><br>
+        <div class="left">
+          <p class="title">Create an account</p>
+          <p class="note">
+            Be sure to enter your legal name as it appears on your
+            government-issued ID.<br><br>
 
-          Required fields have an asterisk*
-        </p>
-        <form @submit.prevent="register">
-          <div class="full">
-            <label for="name">Legal first name*</label>
-            <input type="text" name="" id="name" placeholder="Legal first name" v-model="userDetails.firstName" />
-          </div>
-          <div class="full">
-            <label for="lastname">Legal last name*</label>
-            <input type="text" name="" id="lastname" placeholder="Legal last name" v-model="userDetails.lastName" />
-          </div>
-          <div class="full">
-            <label for="email">Email*</label>
-            <input type="email" name="" id="email" placeholder="Enter your email" v-model="userDetails.email" />
-          </div>
-          <div class="full">
-            <label for="email">Username*</label>
-            <input type="text" name="" id="text" placeholder="Username" v-model="userDetails.username" />
-          </div>
-          <div class="full">
-            <label for="tel">Phone number*</label>
-            <input type="text" name="" id="tel" placeholder="Enter your phone number" v-model="userDetails.tel" />
-          </div>
-          <div class="full">
-            <label for="coin">Your Bitcoin Wallet Address*</label>
-            <input type="text" name="" id="coin" placeholder="Your Bitcoin Wallet Address" v-model="userDetails.coin" />
-          </div>
-          <div class="full">
-            <label for="password">Password*</label>
-            <input type="password" name="" id="password" placeholder="Minimum of 8 characters"
-              v-model="userDetails.password" />
-          </div>
-          <div class="full">
-            <label for="password">Confirm Password*</label>
-            <input type="password" name="" id="password" placeholder="Confirm password" v-model="userDetails.password" />
-          </div>
-          <div class="full">
-            <label for="password">Referal code</label>
-            <input type="text" name="" id="referal" placeholder="Referal code" v-model="userDetails.promoCode" />
-          </div>
-          <p class="check">
-            <input type="checkbox" name="" id=""> I certify that I am 18 years of age or older and I agree to the
-            <span>User agreement</span>
+            Required fields have an asterisk*
           </p>
-          <Error :err-m-s-g="errMsg" v-if="error" />
-          <button>Sign up</button>
-        </form>
-        <p class="small">
-          Already have an account?
-          <router-link to="/login">Login here</router-link>
-        </p>
+          <form @submit.prevent="register">
+            <div class="full">
+              <label for="name">Legal first name*</label>
+              <input type="text" name="" id="name" placeholder="Legal first name" v-model="userDetails.firstName" />
+            </div>
+            <div class="full">
+              <label for="lastname">Legal last name*</label>
+              <input type="text" name="" id="lastname" placeholder="Legal last name" v-model="userDetails.lastName" />
+            </div>
+            <div class="full">
+              <label for="email">Email*</label>
+              <input type="email" name="" id="email" placeholder="Enter your email" v-model="userDetails.email" />
+            </div>
+            <div class="full">
+              <label for="email">Username*</label>
+              <input type="text" name="" id="text" placeholder="Username" v-model="userDetails.username" />
+            </div>
+            <div class="full">
+              <label for="tel">Phone number*</label>
+              <input type="text" name="" id="tel" placeholder="Enter your phone number" v-model="userDetails.tel" />
+            </div>
+            <div class="full">
+              <label for="coin">Your Bitcoin Wallet Address*</label>
+              <input type="text" name="" id="coin" placeholder="Your Bitcoin Wallet Address" v-model="userDetails.coin" />
+            </div>
+            <div class="full">
+              <label for="password">Password*</label>
+              <input type="password" name="" id="password" placeholder="Minimum of 8 characters"
+                v-model="userDetails.password" />
+            </div>
+            <div class="full">
+              <label for="password">Confirm Password*</label>
+              <input type="password" name="" id="password" placeholder="Confirm password"
+                v-model="userDetails.password" />
+            </div>
+            <div class="full">
+              <label for="password">Referal code</label>
+              <input type="text" name="" id="referal" placeholder="Referal code" v-model="userDetails.promoCode" />
+            </div>
+            <p class="check">
+              <input type="checkbox" name="" id=""> I certify that I am 18 years of age or older and I agree to the
+              <span>User agreement</span>
+            </p>
+            <Error :err-m-s-g="errMsg" v-if="error" />
+            <button>Sign up</button>
+          </form>
+          <p class="small">
+            Already have an account?
+            <router-link to="/login">Login here</router-link>
+          </p>
+        </div>
+        <div class="right">
+          <h1>Do more with
+            Mellcoin, invest right
+            and retire early.</h1>
+          <p>Set up your account and verify your photo ID to
+            get started.</p>
+        </div>
       </div>
     </div>
     <Loader v-if="loading" />
@@ -109,7 +119,8 @@ const register = async () => {
 
 <style scoped lang="scss">
 main {
-  background-color: aquamarine;
+  background-color: aliceblue;
+
   div.main {
     padding-bottom: 50px;
 
@@ -121,6 +132,7 @@ main {
       margin: 50px auto 0px;
       border-radius: 20px;
       padding: 30px;
+      grid-template-columns: 1fr 1fr;
 
       img {
         margin: auto;
@@ -138,8 +150,9 @@ main {
 
     form {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-        width: 600px;
+      grid-template-columns: 1fr;
+      min-width: 350px;
+
       div.full {
         display: flex;
         flex-direction: column;
