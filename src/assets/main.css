@@ -12,9 +12,7 @@
 .grid{
   display: grid;
 }
-button{
-  cursor: pointer;
-}
+
 a{
   text-decoration: none;
   color: unset;
@@ -27,6 +25,6 @@ p.logo {
   font-weight: 600;
 }
 p.logo span {
-  font-size: 40px;
+  font-size: 32px;
   color: #ff4500;
 }

@@ -128,12 +128,27 @@ main {
       display: grid;
       gap: 20px;
       width: 100%;
-      max-width: 700px;
+      max-width: 800px;
       margin: 50px auto 0px;
       border-radius: 20px;
       padding: 30px;
       grid-template-columns: 1fr 1fr;
-
+      div.left{
+        p.title{
+          font-size: 32px;
+          font-weight: 600;
+        }
+        p.note{
+          font-size: 18px;
+          margin: 0px 0px 30px;
+        }
+      }
+      @media(max-width: 600px){
+        grid-template-columns: 1fr;
+        div.right{
+          display: none;
+        }
+      }
       img {
         margin: auto;
       }
@@ -190,7 +205,7 @@ main {
       font-size: 12px !important;
       font-weight: 400;
       margin-bottom: 15px;
-      margin-top: -15px;
+      margin-top: 10px;
 
       a {
         color: #ff4500;
