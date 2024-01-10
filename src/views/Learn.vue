@@ -207,6 +207,9 @@ section.one.send {
       font-size: 24px;
       color: #ff4500;
       margin: 0px 0px 10px;
+      @media(max-width: 600px){
+          font-size: 18px;
+        }
     }
   }
 
@@ -219,6 +222,9 @@ section.one.send {
     p {
       max-width: unset;
       text-align: left;
+      @media(max-width: 600px){
+          font-size: 18px;
+        }
     }
 
     @media(max-width: 991px) {
@@ -227,15 +233,19 @@ section.one.send {
       li {
         text-align: left !important;
         margin: 20px 0px;
+        
       }
     }
 
     ol {
-      margin: 20px 0px 0px;
+      margin: 20px 20px 0px;
 
       li {
         margin: 0px 0px 20px;
         font-size: 24px;
+        @media(max-width: 600px){
+          font-size: 18px;
+        }
       }
     }
   }
@@ -244,6 +254,9 @@ section.how{
   padding: 0px 50px;
   max-width: 1461px;
   margin: auto;
+  @media(max-width: 600px){
+          padding: 0px 30px;
+        }
   h1{
     font-size: 28px;
     margin: 0px 0px 10px;
@@ -254,6 +267,9 @@ section.how{
       font-size: 24px;
       line-height: 1.5;
       margin: 0px 0px 10px;
+      @media(max-width: 600px){
+          font-size: 18px;
+        }
     }
   }
 }
