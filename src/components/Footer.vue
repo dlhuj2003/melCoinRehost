@@ -14,7 +14,7 @@ import { ref } from 'vue'
                     <router-link to="/">
                         Careers
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/security">
                         Security
                     </router-link>
                     <router-link to="/">
