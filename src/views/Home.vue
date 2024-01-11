@@ -239,7 +239,7 @@ section.one {
 
       h2 {
         background-color: #ff4500;
-        width: fit-content;
+        width: 100%;
         padding: 15px 100px;
         font-size: 40px;
         color: #f7f4f4;
@@ -452,7 +452,7 @@ div.chart {
     color: #333;
 
     span {
-      color: #FF8000;
+      color: #FF4500;
     }
 
     @media(max-width: 600px) {

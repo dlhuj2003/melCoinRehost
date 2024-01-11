@@ -11,7 +11,7 @@
                     <router-link to="/">Home</router-link>
                 </li>
                 <li>
-                    <router-link to="/">Explore</router-link>
+                    <router-link to="/explore">Explore</router-link>
                 </li>
                 <li>
                     <router-link to="/learn">Learn</router-link>
@@ -36,14 +36,14 @@
             <div class="mobe">
                 <div class="mobile" v-if="mobileMenu">
                     <router-link to="/">
-                        <img src="@/assets/logo.png" alt="">
+                        <p class="logo" style="margin-bottom: 20px;">mell<span>C</span>oin</p>
                     </router-link>
                     <ul>
                         <li>
                             <router-link to="/">Home</router-link>
                         </li>
                         <li>
-                            <router-link to="/">Explore</router-link>
+                            <router-link to="/explore">Explore</router-link>
                         </li>
                         <li>
                             <router-link to="/learn">Learn</router-link>
@@ -194,7 +194,7 @@ div.main {
         button {
             height: 40px;
             border-radius: 22px;
-            font-size: 13px;
+            font-size: 16px;
             padding: 0px 20px;
             color: #fff;
             font-weight: 700;
