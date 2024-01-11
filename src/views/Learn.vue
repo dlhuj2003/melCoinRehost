@@ -147,16 +147,16 @@ import Footer from "@/components/Footer.vue";
           </p>
           <ul>
             <strong>Most common ways to buy BTC</strong>
-            <li>Bitcoin ATM</li>
-            <li>Cash app.</li>
-            <li>Venmo</li>
-            <li>Binance</li>
-            <li>PayPal</li>
-            <li>Gemini.com</li>
-            <li>Cex.io</li>
-            <li>Coinbase</li>
-            <li>Bitcoin.com</li>
-            <li>Kraken</li>
+            <li><a href="https://www.bitcoin.com/">Bitcoin ATM</a></li>
+            <li><a href="https://cash.app/">Cash app</a></li>
+            <li><a href="https://venmo.com/">Venmo</a></li>
+            <li><a href="https://www.binance.com/en/download">Binance</a></li>
+            <li><a href="https://www.paypal.com/">PayPal</a></li>
+            <li><a href="https://www.gemini.com/">Gemini.com</a></li>
+            <li><a href="Cex.io">Cex.io</a></li>
+            <li><a href="https://www.coinbase.com/wallet/downloads">Coinbase</a></li>
+            <li><a hred="https://wallet.bitcoin.com/">Bitcoin.com</a></li>
+            <li><a href="https://www.kraken.com/features/cryptocurrency-apps">Kraken</a></li>
           </ul>
         </div>
         <div class="w50">

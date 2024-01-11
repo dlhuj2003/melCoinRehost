@@ -138,11 +138,15 @@ main {
       border-radius: 20px;
       padding: 50px;
       grid-template-columns: 1fr 1fr;
+      @media(max-width: 600px){
+        margin: 20px auto 0px;
+      }
 
       div.left {
         div.tg{
           display: grid;
           grid-template-columns: 1fr 1fr;
+          gap: 10px;
         }
         p.title {
           font-size: 32px;
@@ -191,13 +195,15 @@ main {
       display: grid;
       grid-template-columns: 1fr;
       min-width: 350px;
+      @media(max-width: 600px){
+        min-width: unset;
+      }
 
       div.full {
         display: flex;
         flex-direction: column;
         gap: 10px;
         margin-bottom: 20px;
-        padding-right: 10px;
 
         label {
           font-size: 16px;

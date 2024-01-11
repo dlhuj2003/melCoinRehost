@@ -41,7 +41,7 @@ import { Chart } from "vue-tradingview-widgets";
           <h1>Explore our investment plans</h1>
           <p>With different investment plans, our system is modelled to accomodate everyone no matter how much you have to
             invest.</p>
-          <a href="/explore">Explore <i class="bi bi-arrow-right"></i></a>
+          <a href="/plans">Explore <i class="bi bi-arrow-right"></i></a>
         </div>
       </section>
     </div>

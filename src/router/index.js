@@ -12,6 +12,7 @@ import Trade from "@/views/Dashboard/Trade.vue";
 import Deposit from "@/views/Dashboard/Deposit.vue";
 import Withdrawal from "@/views/Dashboard/Withdrawal.vue";
 import Investment from "@/views/Dashboard/Investment.vue";
+import Plans from "@/views/Plans.vue";
 import Balance from "@/views/Dashboard/Balance.vue";
 import Transactions from "@/views/Dashboard/Transactions.vue";
 import Profile from "@/views/Dashboard/Profile.vue";
@@ -40,6 +41,11 @@ const router = createRouter({
       path: "/explore",
       name: "explore",
       component: Explore,
+    },
+    {
+      path: "/plans",
+      name: "plans",
+      component: Plans,
     },
     {
       path: "/learn",
