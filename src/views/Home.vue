@@ -277,6 +277,9 @@ section.one {
           padding: 0px 20px;
           width: 80%;
           max-width: 200px;
+          &::placeholder{
+            font-size: 16px;
+          }
         }
 
         a {
@@ -286,7 +289,8 @@ section.one {
           align-items: center;
           background-color: #ff4500;
           color: #fff;
-          font-size: 14px;
+          font-size: 16px;
+          border-radius: 3px;
 
           @media(max-width: 600px) {
             padding: 0px 10px;
@@ -347,7 +351,7 @@ section.one {
     button {
       height: 44px;
       border: none;
-      background: linear-gradient(120deg, #FF8000 0%, #ac5804 100%);
+      background: #ff4500;
       color: #fff;
       padding: 0px 30px;
       border-radius: 22px;

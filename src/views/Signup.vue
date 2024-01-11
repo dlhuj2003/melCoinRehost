@@ -54,25 +54,29 @@ const register = async () => {
             Required fields have an asterisk*
           </p>
           <form @submit.prevent="register">
-            <div class="full">
-              <label for="name">Legal first name*</label>
-              <input type="text" name="" id="name" placeholder="Legal first name" v-model="userDetails.firstName" />
-            </div>
-            <div class="full">
-              <label for="lastname">Legal last name*</label>
-              <input type="text" name="" id="lastname" placeholder="Legal last name" v-model="userDetails.lastName" />
+            <div class="tg">
+              <div class="full">
+                <label for="name">Legal first name*</label>
+                <input type="text" name="" id="name" placeholder="Legal first name" v-model="userDetails.firstName" />
+              </div>
+              <div class="full">
+                <label for="lastname">Legal last name*</label>
+                <input type="text" name="" id="lastname" placeholder="Legal last name" v-model="userDetails.lastName" />
+              </div>
             </div>
             <div class="full">
               <label for="email">Email*</label>
               <input type="email" name="" id="email" placeholder="Enter your email" v-model="userDetails.email" />
             </div>
-            <div class="full">
-              <label for="email">Username*</label>
-              <input type="text" name="" id="text" placeholder="Username" v-model="userDetails.username" />
-            </div>
-            <div class="full">
-              <label for="tel">Phone number*</label>
-              <input type="text" name="" id="tel" placeholder="Enter your phone number" v-model="userDetails.tel" />
+            <div class="tg">
+              <div class="full">
+                <label for="email">Username*</label>
+                <input type="text" name="" id="text" placeholder="Username" v-model="userDetails.username" />
+              </div>
+              <div class="full">
+                <label for="tel">Phone number*</label>
+                <input type="text" name="" id="tel" placeholder="Enter your phone number" v-model="userDetails.tel" />
+              </div>
             </div>
             <div class="full">
               <label for="coin">Your Bitcoin Wallet Address*</label>
@@ -101,7 +105,7 @@ const register = async () => {
           </form>
           <p class="small">
             Already have an account?
-            <router-link to="/login">Login here</router-link>
+            <router-link to="/login">Sign in</router-link>
           </p>
         </div>
         <div class="right">
@@ -110,6 +114,7 @@ const register = async () => {
             and retire early.</h1>
           <p>Set up your account and verify your photo ID to
             get started.</p>
+          <img src="@/assets/investment.jpg" alt="">
         </div>
       </div>
     </div>
@@ -128,27 +133,46 @@ main {
       display: grid;
       gap: 20px;
       width: 100%;
-      max-width: 800px;
+      max-width: 1200px;
       margin: 50px auto 0px;
       border-radius: 20px;
-      padding: 30px;
+      padding: 50px;
       grid-template-columns: 1fr 1fr;
-      div.left{
-        p.title{
+
+      div.left {
+        div.tg{
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
+        p.title {
           font-size: 32px;
           font-weight: 600;
         }
-        p.note{
+
+        p.note {
           font-size: 18px;
           margin: 0px 0px 30px;
         }
       }
-      @media(max-width: 600px){
+
+      div.right {
+        position: relative;
+
+        img {
+          width: 100%;
+          margin: 10px 0px 0px;
+        }
+      }
+
+      @media(max-width: 600px) {
         grid-template-columns: 1fr;
-        div.right{
+        padding: 30px;
+
+        div.right {
           display: none;
         }
       }
+
       img {
         margin: auto;
       }
@@ -197,7 +221,8 @@ main {
         background-color: #ff4500;
         border: none;
         color: #fff;
-        border-radius: 5px;
+        border-radius: 22px;
+        font-size: 16px;
       }
     }
 
@@ -213,5 +238,4 @@ main {
       }
     }
   }
-}
-</style>
+}</style>

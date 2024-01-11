@@ -66,10 +66,11 @@ import { ref } from 'vue'
                 <div class="soc">
                     <p class="title">Follow us</p>
                     <div class="social">
-                        <i class="bi bi-telegram"></i>
-                        <i class="bi bi-whatsapp"></i>
-                        <i class="bi bi-facebook"></i>
                         <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-threads"></i>
+                        <i class="bi bi-linkedin"></i>
                     </div>
                     <p class="logo">mell<span>C</span>oin</p>
                 </div>
@@ -146,6 +147,8 @@ main {
             p.title {
                 font-size: 20px;
                 font-weight: 600;
+                text-decoration: underline;
+                text-decoration-color: #ff4500;
             }
 
             a {
@@ -161,6 +164,7 @@ main {
 
                 i {
                     font-size: 20px;
+                    color: #ff4500;
                 }
             }
         }

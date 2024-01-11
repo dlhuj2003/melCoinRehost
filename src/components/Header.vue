@@ -93,6 +93,11 @@ div.mobe {
     left: 0;
     width: 100%;
 }
+p.logo{
+    @media(max-width: 600px){
+        margin-left: 20px;
+    }
+}
 
 @media(max-width: 991px) {
     .desktop {
@@ -149,7 +154,7 @@ main {
     // box-shadow: 0px 5px 10px #3331;
 
     @media(max-width: 600px) {
-        padding: 0px 20px;
+        padding: 0px 0px;
     }
 }
 
@@ -162,15 +167,6 @@ div.main {
     margin: auto;
     height: 70px;
     align-items: center;
-
-    p.logo {
-        font-size: 24px;
-        font-weight: 700;
-
-        span {
-            color: #ff4500;
-        }
-    }
 
     img {
         width: 150px;

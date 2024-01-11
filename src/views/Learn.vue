@@ -2,8 +2,6 @@
 import { ref } from "vue";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
-import Faq from "@/components/Faq.vue";
-import Why from "@/components/Why2.vue";
 </script>
 
 <template>
@@ -12,7 +10,7 @@ import Why from "@/components/Why2.vue";
     <section class="one">
       <div class="container">
         <div class="w50">
-          <h2>How to setup a crypto wallet</h2>
+          <h2 style="margin-top: 15px;">How to setup a crypto wallet</h2>
           <p>
             A crypto wallet is a place where you can securely keep your crypto.
             There are many different types of crypto wallets, but the most

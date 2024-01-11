@@ -85,6 +85,8 @@ main {
       margin: 50px auto 0px;
       border-radius: 20px;
       padding: 30px;
+      // border: 1px solid #ccc;
+      box-shadow: 0px 0px 40px #0002;
 
       img {
         margin: auto;
