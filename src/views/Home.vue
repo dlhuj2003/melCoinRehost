@@ -89,8 +89,10 @@ import { Chart } from "vue-tradingview-widgets";
                 <i class="bi bi-piggy-bank-fill"></i>
               </div>
               <div class="txt">
-                <h2>Manage your portfolio</h2>
-                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+                <h2>Low costs</h2>
+                <p>Because our investors are our owners, it enables us to
+                  consistently pass along economies of scale and lower the cost
+                  of investing,so you keep more of your returns</p>
               </div>
             </div>
             <div class="item">
@@ -98,8 +100,9 @@ import { Chart } from "vue-tradingview-widgets";
                 <i class="bi bi-graph-up-arrow"></i>
               </div>
               <div class="txt">
-                <h2>Manage your portfolio</h2>
-                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+                <h2>Aligned interests</h2>
+                <p>Because our investors are our owners, our interest are
+                  uniquely aligned, allowing us to focus on you and your goals</p>
               </div>
             </div>
             <div class="item">
@@ -107,8 +110,9 @@ import { Chart } from "vue-tradingview-widgets";
                 <i class="bi bi-phone"></i>
               </div>
               <div class="txt">
-                <h2>Manage your portfolio</h2>
-                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+                <h2>Mobile apps</h2>
+                <p>Stay on top of the markets with the
+                  Mellcoin app for Andriod or IOS</p>
               </div>
             </div>
           </div>
@@ -277,7 +281,8 @@ section.one {
           padding: 0px 20px;
           width: 80%;
           max-width: 200px;
-          &::placeholder{
+
+          &::placeholder {
             font-size: 16px;
           }
         }
@@ -775,9 +780,10 @@ section.start {
     }
   }
 }
-div.trust{
-  section.start{
-    i{
+
+div.trust {
+  section.start {
+    i {
       background-color: #e0f0fd;
       width: fit-content;
       text-align: center;
@@ -785,14 +791,17 @@ div.trust{
       padding: 30px;
       border-radius: 50%;
     }
-    p{
+
+    p {
       font-size: 14px;
       margin: 0px 0px 10px;
     }
-    p.big{
+
+    p.big {
       font-size: 16px;
     }
-    p.red{
+
+    p.red {
       font-size: 14px;
       color: #ff4500 !important;
     }

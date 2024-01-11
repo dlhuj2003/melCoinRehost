@@ -87,6 +87,10 @@ section.sec {
         flex-direction: column;
         justify-content: center;
 
+        @media(max-width: 600px) {
+            padding: 50px 30px;
+        }
+
         p {
             font-size: 18px;
             line-height: 1.5;
@@ -125,8 +129,10 @@ section.protect {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    @media(max-width: 600px){
+
+    @media(max-width: 600px) {
         grid-template-columns: 1fr;
+        padding: 50px 30px;
     }
 
     h1 {

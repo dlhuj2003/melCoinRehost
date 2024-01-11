@@ -11,8 +11,8 @@ import { ref } from 'vue'
                     <router-link to="/about">
                         About us
                     </router-link>
-                    <router-link to="/">
-                        Careers
+                    <router-link to="/terms">
+                        Terms & conditions
                     </router-link>
                     <router-link to="/security">
                         Security
@@ -47,9 +47,6 @@ import { ref } from 'vue'
                 </div>
                 <div>
                     <p class="title">Support</p>
-                    <router-link to="/terms">
-                        Help center
-                    </router-link>
                     <router-link to="/">
                         Contact us
                     </router-link>
@@ -77,7 +74,7 @@ import { ref } from 'vue'
             </div>
         </div>
         <div class="copy">
-            <p>MellCoin &copy; 2023. All rights reserved.</p>
+            <p>MellCoin &copy; 2024. All rights reserved.</p>
         </div>
     </main>
 </template>
