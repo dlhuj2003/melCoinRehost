@@ -18,6 +18,7 @@ import Balance from "@/views/Dashboard/Balance.vue";
 import Transactions from "@/views/Dashboard/Transactions.vue";
 import Profile from "@/views/Dashboard/Profile.vue";
 import Kyc from "@/views/Dashboard/Kyc.vue";
+import Ira from "@/views/Ira.vue";
 
 import AdminLogin from "@/views/AdminLogin.vue";
 import AdminLayout from "@/views/Admin/index.vue";
@@ -57,6 +58,11 @@ const router = createRouter({
       path: "/learn",
       name: "learn",
       component: Learn,
+    },
+    {
+      path: "/ira",
+      name: "ira",
+      component: Ira,
     },
     {
       path: "/signup",
