@@ -9,7 +9,7 @@ import Footer from '@/components/Footer.vue'
     <main>
         <section class="landing">
             <div>
-                <h4>WELCOME TO VANGUARD</h4>
+                <h4>WELCOME TO mellcoin</h4>
                 <h1>Learn about money</h1>
                 <h4>
                     Looking for simple answers to life's complex financial questions? Welcome to our online learning
@@ -35,7 +35,7 @@ import Footer from '@/components/Footer.vue'
                 <div class="right">
                     <p>Not registered for online access? <a href="/signup">Let's go</a></p>
                     <p>Not enrolled in your plan? <a href="/signup">Let's get started</a></p>
-                    <p>Already have online access to a Vanguard account? Use that username and password.</p>
+                    <p>Already have online access to a mellcoin account? Use that username and password.</p>
                 </div>
             </div>
         </div>
@@ -69,7 +69,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>
@@ -105,7 +105,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>
@@ -138,7 +138,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>
@@ -174,7 +174,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>
@@ -207,7 +207,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>
@@ -243,7 +243,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>
@@ -276,7 +276,7 @@ import Footer from '@/components/Footer.vue'
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
-                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, Vanguard research finds.
+                            Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
                     </div>
                 </div>

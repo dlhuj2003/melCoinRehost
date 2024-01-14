@@ -116,7 +116,7 @@ import Footer from "@/components/Footer.vue"
                     use of the Feeds. If you provide this attribution in text, the hyperlink must read either "
                     Mellcoin.com" or
                     "www. Mellcoin.com." If you provide
-                    this attribution with a graphic, you must use the graphic Vanguard has incorporated into the Feeds,
+                    this attribution with a graphic, you must use the graphic mellcoin has incorporated into the Feeds,
                     without
                     alteration. Your right to use the
                     above-referenced Mellcoin graphic is limited to providing attribution to Mellcoin in connection with the
@@ -140,10 +140,10 @@ import Footer from "@/components/Footer.vue"
                     or delivery of the applicable Mellcoin website page; and
                 </li>
                 <li>
-                    You may not incorporate advertising into or targeted towards the content of Vanguard's Feeds or insert
+                    You may not incorporate advertising into or targeted towards the content of mellcoin's Feeds or insert
                     any
                     intermediate page, splash page or
-                    other content or materials between any hyperlink to Vanguard's Feeds and the applicable Vanguard website
+                    other content or materials between any hyperlink to mellcoin's Feeds and the applicable mellcoin website
                     page.
                 </li>
             </ul>
@@ -306,7 +306,7 @@ import Footer from "@/components/Footer.vue"
 
                 Dividend Achievers is a trademark of The NASDAQ OMX Group, Inc. (collectively, with its affiliates, "NASDAQ
                 OMX") and has been licensed for
-                use by The Vanguard Group, Inc. Mellcoin mutual funds are not sponsored, endorsed, sold, or promoted by
+                use by The mellcoin Group, Inc. Mellcoin mutual funds are not sponsored, endorsed, sold, or promoted by
                 NASDAQ
                 OMX,and NASDAQ OMX
                 MAKES NO WARRANTIES AND BEARS NO LIABILITY WITH RESPECT TO THE Mellcoin MUTUAL FUNDS.
@@ -332,7 +332,7 @@ import Footer from "@/components/Footer.vue"
                 All rights in a FTSE index (the "Index") vest in FTSE International Limited ("FTSE"). "FTSE®" is a trademark
                 of
                 London Stock Exchange Group
-                companies and is used by FTSE under license. The Vanguard Fund(s) (the "Product") has been developed solely
+                companies and is used by FTSE under license. The mellcoin Fund(s) (the "Product") has been developed solely
                 by
                 Mellcoin. The Index is
                 calculated by FTSE or its agent. FTSE and its licensors are not connected to and do not sponsor, advise,
@@ -421,7 +421,7 @@ import Footer from "@/components/Footer.vue"
                 considered a solicitation for or offering of any investment product or service to any person in any
                 jurisdiction
                 where such solicitation or offering
-                would be illegal. Persons residing outside the United States are invited to visit Vanguard's website for
+                would be illegal. Persons residing outside the United States are invited to visit mellcoin's website for
                 Non-U.S. Investors for more information
                 about products and services available to them.
             </p>

@@ -45,7 +45,7 @@ import Footer from '@/components/Footer.vue'
                 </p>
             </div>
             <div>
-                <h1>In addition to these safeguards, Vanguard will never:</h1>
+                <h1>In addition to these safeguards, mellcoin will never:</h1>
                 <ul>
                     <li>
                         Send an unsolicited email asking you to respond with your personal account information (e.g.,

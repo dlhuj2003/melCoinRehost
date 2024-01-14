@@ -83,8 +83,8 @@ import Why from '@/components/Why2.vue';
                             Molly Concannon:
                             It's what will make our client successful and given
                             Mellcoin structure and our alignments with clients. If our clients are
-                            successful, that will make Vanguard successful. That's a real differentiator
-                            when you compare Vanguard to competitors.
+                            successful, that will make mellcoin successful. That's a real differentiator
+                            when you compare mellcoin to competitors.
                         </li>
                     </ul>
                     <i class="bi bi-chevron-down"></i>
@@ -136,7 +136,7 @@ import Why from '@/components/Why2.vue';
                 <div class="bubble">
                     <h2>Insights that clarify</h2>
                     <p>
-                        Vanguard shares its perspectives through both long-form
+                        mellcoin shares its perspectives through both long-form
                         research, which is generally intended for investment
                         professionals, and short-form commentaries intended for
                         a wide audience of investors and industry participants.
