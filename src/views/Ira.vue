@@ -291,11 +291,19 @@ section.landing {
     background-color: #c20029;
     color: #FFF;
     padding: 100px 50px;
+    
+    @media(max-width: 991px){
+                padding: 50px 0px;
+            }
 
     div {
         max-width: 1366px;
         margin: auto;
         padding: 0px 50px;
+        
+        @media(max-width: 991px){
+                padding: 30px;
+            }
 
         h4 {
             font-size: 28px;
@@ -314,6 +322,10 @@ nav {
     padding: 10px;
     position: sticky;
     top: 70px;
+    
+    @media(max-width: 991px){
+                display: none;
+            }
 
     div.menu {
         max-width: 1366px;
@@ -338,12 +350,21 @@ div.access {
         margin: auto;
         padding: 30px 80px;
         display: flex;
+        gap: 20px;
+            flex-wrap: wrap;
+            @media(max-width: 991px){
+                padding: 0px;
+            }
 
         div.left {
             width: 100%;
             display: flex;
             align-items: center;
             gap: 30px;
+            flex-wrap: wrap;
+            min-width: 300px;
+            max-width: 600px;
+            margin-bottom: 30px;
 
             p {
                 font-size: 24px;
@@ -352,7 +373,7 @@ div.access {
 
             button {
                 height: 56px;
-                padding: 0px 50px;
+                padding: 0px 30px;
                 width: 50%;
                 border-radius: 28px;
                 font-size: 16px;
@@ -375,6 +396,9 @@ section.three{
     max-width: 1366px;
     margin: -100px auto 0px;
     padding: 120px 80px 0px;
+            @media(max-width: 991px){
+    padding: 150px 30px 0px;
+            }
     h1{
         font-size: 28px;
         margin: 0px 0px 30px;
@@ -384,6 +408,12 @@ section.three{
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
         margin: 10px 0px 30px;
+            @media(max-width: 991px){
+        grid-template-columns: 1fr 1fr;
+            }
+            @media(max-width: 600px){
+        grid-template-columns: 1fr;
+            }
         div.item{
             box-shadow: 0px 0px 10px #0002;
             div.img{
