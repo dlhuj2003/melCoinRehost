@@ -67,7 +67,7 @@ import Footer from '@/components/Footer.vue'
                                                 <div>
                                                     <div class="hidden-xs hidden-sm background-height full-background-image-home mB-section"
                                                         role="presentation"
-                                                        style=" background-image : url('src/assets/charitybanner.jpg') ">
+                                                        style=" background-image : url(src/assets/charitybanner.jpg) ">
                                                         <div class="container-max-width">
                                                             <div class="transparent-background">
                                                                 <div>
@@ -99,7 +99,7 @@ import Footer from '@/components/Footer.vue'
                                                     <div class="full-background-image-home-mobile ">
                                                         <div
                                                             class="field field--name-field-banner-image-mobile field--type-image field--label-hidden field--item">
-                                                            <img src="@/assets/cbannermobile.jpg" width="720" height="448"
+                                                            <img src="../assets/cbannermobile.jpg" width="720" height="448"
                                                                 alt="Amplify your charitable impact"
                                                                 title="Amplify your charitable impact" loading="lazy"
                                                                 typeof="foaf:Image" class="img-responsive">
