@@ -67,7 +67,7 @@ import Footer from '@/components/Footer.vue'
                                                 <div>
                                                     <div class="hidden-xs hidden-sm background-height full-background-image-home mB-section"
                                                         role="presentation"
-                                                        style=" background-image: url(&quot;src/assets/charitybanner.jpg&quot;);">
+                                                        id="cbanner">
                                                         <div class="container-max-width">
                                                             <div class="transparent-background">
                                                                 <div>
@@ -781,6 +781,9 @@ import Footer from '@/components/Footer.vue'
 </template>
 
 <style scoped lang="scss">
+#cbanner{
+    background-image: url(@/assets/charitybanner.jpg);
+}
 
 ul[data-sa-theme="minimal"]>div.ui-autocomplete-field-group,
 ul[data-sa-theme="minimal"] .ui-autocomplete-fields>*,
