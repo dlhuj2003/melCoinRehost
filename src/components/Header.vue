@@ -17,7 +17,7 @@
                     <router-link to="/learn">Learn</router-link>
                 </li>
                 <li>
-                    <router-link to="/support">Support</router-link>
+                    <router-link to="/about">Support</router-link>
                 </li>
                 <li>
                     <router-link to="/ira">IRA</router-link>
@@ -49,7 +49,7 @@
                             <router-link to="/learn">Learn</router-link>
                         </li>
                         <li>
-                            <router-link to="/support">Support</router-link>
+                            <router-link to="/about">Support</router-link>
                         </li>
                         <li>
                             <router-link to="/ira">IRA</router-link>
