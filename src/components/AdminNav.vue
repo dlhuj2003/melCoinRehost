@@ -3,7 +3,8 @@
     <nav class="body-menu">
       <div class="logo">
         <router-link to="/">
-          <img src="@/assets/logo.png" alt="" />
+          <!-- <img src="@/assets/logo.png" alt="" /> -->
+          <p class="logo">mell<span>C</span>oin</p>
         </router-link>
       </div>
       <div class="font-inter routerLinks">
@@ -29,7 +30,8 @@
     <nav class="body-menu" id="mob">
       <div class="logo">
         <router-link to="/">
-          <img src="@/assets/logo.png" alt="" />
+          <!-- <img src="@/assets/logo.png" alt="" /> -->
+          <p class="logo">mell<span>C</span>oin</p>
         </router-link>
       </div>
       <div class="font-inter routerLinks">
@@ -83,6 +85,11 @@ const links = ref([
     name: "Trades",
     to: "/admintrades",
     icon: "bi bi-gear",
+  },
+  {
+    name: "KYC",
+    to: "/adminkyc",
+    icon: "bi bi-check-circle",
   },
 ]);
 </script>
@@ -167,12 +174,8 @@ a.router-link-exact-active {
   padding: 10px;
   text-align: center;
   margin: 0px auto 40px;
-  background-color: #ffffff;
+  background-color: #000;
   border-radius: 10px;
-}
-
-.logo img {
-  width: 80%;
 }
 
 .routerLinks {
@@ -182,5 +185,8 @@ a.router-link-exact-active {
 
 .routerLink i {
   margin-right: 6px;
+}
+p.logo{
+  font-size: 24px;
 }
 </style>

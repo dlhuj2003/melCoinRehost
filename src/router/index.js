@@ -20,6 +20,7 @@ import Profile from "@/views/Dashboard/Profile.vue";
 import Kyc from "@/views/Dashboard/Kyc.vue";
 import Ira from "@/views/Ira.vue";
 import Charity from "@/views/Charity.vue"
+import Investors from "@/views/Investors.vue"
 
 import AdminLogin from "@/views/AdminLogin.vue";
 import AdminLayout from "@/views/Admin/index.vue";
@@ -32,6 +33,7 @@ import EditTrade from "@/views/Admin/EditTrade.vue";
 import CoinDetails from "@/views/Admin/coinDetails.vue";
 import Addcoin from "@/views/Admin/Addcoin.vue";
 import EditTransaction from "@/views/Admin/EditTransaction.vue";
+import AdminKyc from "@/views/Admin/ApproveKyc.vue"
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -64,6 +66,11 @@ const router = createRouter({
       path: "/ira",
       name: "ira",
       component: Ira,
+    },
+    {
+      path: "/investors",
+      name: "investors",
+      component: Investors,
     },
     {
       path: "/charity",
@@ -201,6 +208,11 @@ const router = createRouter({
           path: "/trade/:id",
           name: "Edit trade",
           component: EditTrade,
+        },
+        {
+          path: "/adminkyc",
+          name: "adminkyc",
+          component: AdminKyc,
         },
       ],
     },
