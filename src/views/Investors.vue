@@ -480,6 +480,7 @@ section.six {
                 max-width: 220px;
                 font-size: 24px;
                 cursor: pointer;
+                border-left: 4px solid #ddd;
             }
 
             p {
@@ -503,6 +504,10 @@ section.six {
                     h2 {
                         border-left: none;
                         border-bottom: 3px solid #ff4500;
+                        width: fit-content;
+                    }
+                    h3 {
+                        border-left: none;
                         width: fit-content;
                     }
                 }
@@ -582,6 +587,7 @@ section.seven {
                 max-width: 220px;
                 font-size: 24px;
                 cursor: pointer;
+                border-left: 4px solid #ddd;
             }
 
             p {
@@ -605,6 +611,9 @@ section.seven {
                         border-left: none;
                         border-bottom: 3px solid #ff4500;
                         width: fit-content;
+                    }
+                    h3{
+                        border-left: none;
                     }
                 }
             }
