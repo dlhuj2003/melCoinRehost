@@ -30,6 +30,14 @@
                 </li>
             </ul>
             <div class="buttons desktop">
+                <div class="lan">
+                    <i class="bi bi-globe" @click="globe = !globe"></i>
+                    <ul class="lang" v-if="globe" @click="globe = !globe">
+                        <li>English</li>
+                        <li>Spanish</li>
+                        <li>German</li>
+                    </ul>
+                </div>
                 <router-link to="/login"><button class="secondary">Sign in</button></router-link>
                 <router-link to="/signup"> <button class="primary">Get started</button></router-link>
             </div>
@@ -61,10 +69,20 @@
                             <router-link to="/about">Company</router-link>
                         </li>
                     </ul>
+                    
                     <div class="buttons">
                         <router-link to="/login"><button class="secondary">Sign in</button></router-link>
                         <router-link to="/signup"> <button class="primary">Get started</button></router-link>
+                        <div class="lan">
+                    <i class="bi bi-globe" @click="globe = !globe"></i>
+                    <ul class="lang" v-if="globe" @click="globe = !globe">
+                        <li>English</li>
+                        <li>Spanish</li>
+                        <li>German</li>
+                    </ul>
+                </div>
                     </div>
+                    
                 </div>
                 <div v-else>
                 </div>
@@ -82,6 +100,7 @@
 import { ref } from 'vue';
 import { RouterLink, RouterView } from 'vue-router';
 const mobileMenu = ref(false);
+const globe = ref(false);
 
 </script>
 
@@ -93,9 +112,29 @@ div.mobe {
     left: 0;
     width: 100%;
 }
-p.logo{
-    @media(max-width: 600px){
+
+p.logo {
+    @media(max-width: 600px) {
         margin-left: 20px;
+    }
+}
+div.lan{
+    position: relative;
+    @media(max-width: 600px){
+        display: none;
+    }
+    ul.lang{
+        position: absolute;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        top: 40px;
+        li{
+            padding: 0px 10px;
+            cursor: pointer;
+        }
     }
 }
 
@@ -125,7 +164,8 @@ i {
     top: 10px;
     z-index: 998;
     cursor: pointer;
-    &:hover{
+
+    &:hover {
         color: #ff4500;
     }
 }
@@ -142,6 +182,9 @@ div.mobile {
         display: grid !important;
         gap: 20px !important;
         margin-bottom: 20px;
+    }
+    div.lan{
+        display: block;
     }
 }
 
@@ -186,6 +229,14 @@ div.main {
     div.buttons {
         display: flex;
         gap: 10px;
+        align-items: center;
+
+        i {
+            position: relative;
+            left: 0;
+            top: 0;
+            font-size: 20px;
+        }
 
         button {
             height: 40px;
@@ -208,5 +259,4 @@ div.main {
             color: #000;
         }
     }
-}
-</style>
+}</style>
