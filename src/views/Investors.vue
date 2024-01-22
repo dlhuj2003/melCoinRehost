@@ -94,7 +94,7 @@ const stock = ref(false);
     <section class="five">
         <div class="container">
             <div class="right">
-                <img src="@/assets/flower.gif" alt="">
+                <img src="@/assets/flower.gif"  alt="">
             </div>
             <div class="left">
                 <h2>Know exactly what you're looking for?</h2>
@@ -110,13 +110,21 @@ const stock = ref(false);
                 <p>Mellcoin investors just like you have lots of experience to share</p>
                 <div class="options">
                     <h2 v-if="debt">Manage debt</h2>
-                    <h3 v-else @click="debt=true, save=false, plan=false, retire=false, videoText='I am taking control of my debt, and my life'">Manage debt</h3>
+                    <h3 v-else
+                        @click="debt = true, save = false, plan = false, retire = false, videoText = 'I am taking control of my debt, and my life'">
+                        Manage debt</h3>
                     <h2 v-if="save">Save more</h2>
-                    <h3 v-else @click="debt=false, save=true, plan=false, retire=false, videoText='Planning helps me save—for the big and little things.'">Save more</h3>
+                    <h3 v-else
+                        @click="debt = false, save = true, plan = false, retire = false, videoText = 'Planning helps me save—for the big and little things.'">
+                        Save more</h3>
                     <h2 v-if="plan">Plan your legacy</h2>
-                    <h3 v-else @click="debt=false, save=false, plan=true, retire=false, videoText='We want to give our grandchildren the gift of financial security.'">Plan your legacy</h3>
+                    <h3 v-else
+                        @click="debt = false, save = false, plan = true, retire = false, videoText = 'We want to give our grandchildren the gift of financial security.'">
+                        Plan your legacy</h3>
                     <h2 v-if="retire">Retire</h2>
-                    <h3 v-else @click="debt=false, save=false, plan=false, retire=true, videoText='My future is worth planning for.'">Retire</h3>
+                    <h3 v-else
+                        @click="debt = false, save = false, plan = false, retire = true, videoText = 'My future is worth planning for.'">
+                        Retire</h3>
                 </div>
             </div>
             <div class="right">
@@ -129,22 +137,23 @@ const stock = ref(false);
     <section class="seven">
         <div class="container">
             <div class="right">
-                    <img :src="image" alt="">
+                <img :src="image" alt="">
             </div>
             <div class="left">
                 <h1>A track record of strong fund performance</h1>
                 <div class="options">
                     <h2 v-if="money">Money market</h2>
-                    <h3 v-else @click="money=true, save=bond, balanced=false, stock=false, image=imgmoney">Money market</h3>
+                    <h3 v-else @click="money = true, save = bond, balanced = false, stock = false, image = imgmoney">Money market</h3>
                     <h2 v-if="bond">Bond</h2>
-                    <h3 v-else @click="money=false, bond=true, balanced=false, stock=false, image=imgbond">Bond</h3>
+                    <h3 v-else @click="money = false, bond = true, balanced = false, stock = false, image = imgbond">Bond</h3>
                     <h2 v-if="balanced">Balanced</h2>
-                    <h3 v-else @click="money=false, bond=false, balanced=true, stock=false, image=imgbalanced">Balanced</h3>
+                    <h3 v-else @click="money = false, bond = false, balanced = true, stock = false, image = imgbalanced">Balanced</h3>
                     <h2 v-if="stock">Stock</h2>
-                    <h3 v-else @click="money=false, save=bond, balanced=false, stock=true, image=imgstock">Stock</h3>
+                    <h3 v-else @click="money = false, save = bond, balanced = false, stock = true, image = imgstock">Stock</h3>
                 </div>
                 <p>
-                    Our funds are crafted with you in mind to help you reach your goals of investment success. Over the last 10 years we have had a history of strong performance.
+                    Our funds are crafted with you in mind to help you reach your goals of investment success. Over the last
+                    10 years we have had a history of strong performance.
                 </p>
             </div>
         </div>
@@ -261,10 +270,11 @@ section.two {
         }
     }
 }
-
 section.three {
     padding: 30px;
-
+    @media(max-width: 600px) {
+        padding: 20px;
+    }
     h1 {
         margin: 20px auto;
         max-width: 1200px;
@@ -322,10 +332,11 @@ section.three {
         }
     }
 }
-
 section.four {
     padding: 30px;
-
+    @media(max-width: 600px) {
+        padding: 20px;
+    }
     div.container {
         max-width: 900px;
         margin: auto;
@@ -379,10 +390,11 @@ section.four {
         }
     }
 }
-
 section.five {
     padding: 30px;
-
+    @media(max-width: 600px) {
+        padding: 20px;
+    }
     div.container {
         max-width: 900px;
         margin: auto;
@@ -430,11 +442,12 @@ section.five {
         }
     }
 }
-
 section.six {
     padding: 30px;
     background-color: #def5f0;
-
+    @media(max-width: 600px) {
+        padding: 20px;
+    }
     div.container {
         max-width: 900px;
         margin: auto;
@@ -455,13 +468,14 @@ section.six {
         }
 
         div.left {
-            
+
             h2 {
                 padding: 15px;
                 max-width: 220px;
                 border-left: 4px solid #ff4500;
             }
-            h3{
+
+            h3 {
                 padding: 20px;
                 max-width: 220px;
                 font-size: 24px;
@@ -472,16 +486,20 @@ section.six {
                 margin: 20px 0px 10px;
                 max-width: 220px;
             }
-            @media(max-width: 600px){
-                div.options{
+
+            @media(max-width: 600px) {
+                div.options {
                     display: flex;
                     justify-content: space-between;
                     gap: 10px;
-                    h2,h3{
-                        font-size: 14px;
+
+                    h2,
+                    h3 {
+                        font-size: 13px;
                         padding: 5px;
                     }
-                    h2{
+
+                    h2 {
                         border-left: none;
                         border-bottom: 3px solid #ff4500;
                         width: fit-content;
@@ -504,13 +522,15 @@ section.six {
             height: 250px;
             background-size: cover;
             background-position: center;
-            div.txt{
+
+            div.txt {
                 background-color: #0009;
                 height: 100%;
                 display: flex;
                 align-items: center;
                 padding: 30px;
-                p{
+
+                p {
                     color: #FFF;
                     font-size: 26px;
                 }
@@ -521,6 +541,10 @@ section.six {
 section.seven {
     padding: 30px;
     background-color: #def5f0;
+
+    @media(max-width: 600px) {
+        padding: 20px;
+    }
 
     div.container {
         max-width: 900px;
@@ -542,16 +566,17 @@ section.seven {
         }
 
         div.left {
-            h1{
+            h1 {
                 margin: 0px 0px 20px;
             }
-            
+
             h2 {
                 padding: 15px;
                 max-width: 220px;
                 border-left: 4px solid #ff4500;
             }
-            h3{
+
+            h3 {
                 padding: 20px;
                 max-width: 220px;
                 font-size: 24px;
@@ -562,16 +587,20 @@ section.seven {
                 margin: 20px 0px 10px;
                 max-width: 350px;
             }
-            @media(max-width: 600px){
-                div.options{
+
+            @media(max-width: 600px) {
+                div.options {
                     display: flex;
                     justify-content: space-between;
                     gap: 10px;
-                    h2,h3{
-                        font-size: 14px;
+
+                    h2,
+                    h3 {
+                        font-size: 13px;
                         padding: 5px;
                     }
-                    h2{
+
+                    h2 {
                         border-left: none;
                         border-bottom: 3px solid #ff4500;
                         width: fit-content;
@@ -591,7 +620,8 @@ section.seven {
 
         div.right {
             padding: 30px 50px;
-            img{
+
+            img {
                 width: 100%;
             }
         }
