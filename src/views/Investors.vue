@@ -143,7 +143,7 @@ const stock = ref(false);
                 <h1>A track record of strong fund performance</h1>
                 <div class="options">
                     <h2 v-if="money">Money market</h2>
-                    <h3 v-else @click="money = true, save = bond, balanced = false, stock = false, image = imgmoney">Money market</h3>
+                    <h3 v-else @click="money = true, bond = false, balanced = false, stock = false, image = imgmoney">Money market</h3>
                     <h2 v-if="bond">Bond</h2>
                     <h3 v-else @click="money = false, bond = true, balanced = false, stock = false, image = imgbond">Bond</h3>
                     <h2 v-if="balanced">Balanced</h2>
