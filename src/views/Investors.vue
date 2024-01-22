@@ -4,7 +4,7 @@ import { RouterLink, RouterView } from 'vue-router';
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 
-const videoText = ref('video text');
+const videoText = ref('I am taking control of my debt, and my life');
 const debt = ref(true);
 const save = ref(false);
 const plan = ref(false);
@@ -495,8 +495,9 @@ section.six {
 
                     h2,
                     h3 {
-                        font-size: 13px;
-                        padding: 5px;
+                        font-size: 12px;
+                        padding: 5px 0px;
+                        letter-spacing: 0px;
                     }
 
                     h2 {
