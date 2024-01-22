@@ -1,29 +1,32 @@
 <template>
   <main>
-    <h2>KYC requests</h2>
+    <h2>Deposits</h2>
     <div class="table">
       <table>
         <thead>
           <tr>
             <td>S/N</td>
             <td>User</td>
-            <td>Email</td>
+            <td>Currency</td>
+            <td>Amount</td>
+            <td>Status</td>
           </tr>
         </thead>
         <tbody>
           <tr
             v-for="(withdrawal, index) in withdrawals"
             :key="index"
-            @click="$router.push(`/kycDetail/${withdrawal.kyc_details}`)"
+            @click="$router.push(`/depositDetail/${withdrawal._id}`)"
           >
             <td>{{ index + 1 }}</td>
-            <td>{{ withdrawal.username }}</td>
-            <td>{{ withdrawal.email }}</td>
+            <td>{{ withdrawal.owner.username }}</td>
+            <td style="text-transform: uppercase">{{ withdrawal.crypto }}</td>
+            <td>${{ withdrawal.amount }}</td>
+            <td>{{ withdrawal.status }}</td>
           </tr>
         </tbody>
       </table>
     </div>
-    <!-- <SuccessModal /> -->
     <Loader v-if="loading" />
   </main>
 </template>
@@ -32,19 +35,18 @@
 import { ref } from "vue";
 import Loader from "../../components/Loader.vue";
 import { adminAPI, getToken } from "@/axios/api";
-import SuccessModal from "@/components/SuccessModal.vue";
 
 const loading = ref(true);
 const withdrawals = ref([]);
 
 const getWithdrawals = async () => {
   try {
-    const { data } = await adminAPI.get("/kyc-requests", {
+    const { data } = await adminAPI.get("/transactions?type=deposit", {
       headers: {
         Authorization: getToken("admin"),
       },
     });
-    console.log(data);
+    // console.log(data);
     withdrawals.value = data;
     loading.value = false;
   } catch (e) {

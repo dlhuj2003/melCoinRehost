@@ -8,11 +8,11 @@ export const getToken = (type) =>
     : "";
 export const setToken = (type, token) => localStorage.setItem(type, token);
 export const melAPI = axios.create({
-  // baseURL: "http://localhost:5000/api/users/",
-  baseURL: "https://melb.onrender.com/api/users/",
+  baseURL: "http://localhost:5000/api/users/",
+  // baseURL: "https://melb.onrender.com/api/users/",
 });
 
 export const adminAPI = axios.create({
-  // baseURL: "http://localhost:5000/api/admin/",
-  baseURL: "https://melb.onrender.com/api/admin/",
+  baseURL: "http://localhost:5000/api/admin/",
+  // baseURL: "https://melb.onrender.com/api/admin/",
 });

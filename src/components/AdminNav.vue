@@ -91,6 +91,11 @@ const links = ref([
     to: "/adminkyc",
     icon: "bi bi-check-circle",
   },
+  {
+    name: "Deposits",
+    to: "/adminDeposits",
+    icon: "bi bi-check-circle",
+  },
 ]);
 </script>
 
@@ -186,7 +191,7 @@ a.router-link-exact-active {
 .routerLink i {
   margin-right: 6px;
 }
-p.logo{
+p.logo {
   font-size: 24px;
 }
 </style>
