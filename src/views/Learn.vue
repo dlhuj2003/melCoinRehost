@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import { useRouter } from "vue-router";
 import Header from "@/components/Header.vue";
 import Footer from "@/components/Footer.vue";
 </script>
@@ -7,7 +8,7 @@ import Footer from "@/components/Footer.vue";
 <template>
   <main>
     <Header />
-    <section class="one">
+    <section class="one" id="setupwallet">
       <div class="container">
         <div class="w50">
           <h2 style="margin-top: 15px;">How to setup a crypto wallet</h2>
@@ -24,7 +25,7 @@ import Footer from "@/components/Footer.vue";
         </div>
       </div>
     </section>
-    <section class="one custody">
+    <section class="one custody" id="selfcustody">
       <div class="container">
         <div class="w50 img"></div>
         <div class="w50">
@@ -59,7 +60,7 @@ import Footer from "@/components/Footer.vue";
           wallet.</p>
       </div>
     </section>
-    <section class="one send">
+    <section class="one send" id="sendcrypto">
       <div class="container">
         <div class="w50">
           <h2>How to send crypto</h2>
@@ -102,7 +103,7 @@ import Footer from "@/components/Footer.vue";
         </div>
       </div>
     </section>
-    <section class="one send">
+    <section class="one send" id="buycrypto">
       <div class="container">
         <div class="w50">
           <h2>How to buy crypto</h2>
@@ -134,7 +135,7 @@ import Footer from "@/components/Footer.vue";
         </div>
       </div>
     </section>
-    <section class="one send">
+    <section class="one send" id="buybitcoin">
       <div class="container">
         <div class="w50">
           <h2>How to buy Bitcoin</h2>
@@ -164,7 +165,7 @@ import Footer from "@/components/Footer.vue";
         </div>
       </div>
     </section>
-    <section class="one send">
+    <section class="one send" id="taxes">
       <div class="container">
         <div class="w50">
           <h2>How crypto taxes work</h2>

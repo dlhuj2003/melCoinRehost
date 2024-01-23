@@ -1,10 +1,9 @@
 <script setup>
 import { ref } from 'vue';
+import { useRouter } from "vue-router";
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Shield from '@/components/Shield.vue';
-import Faq from '@/components/Faq.vue';
-import Why from '@/components/Why.vue';
 import { Chart } from "vue-tradingview-widgets";
 </script>
 

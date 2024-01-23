@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from "vue-router";
 </script>
 
 <template>
@@ -15,7 +16,7 @@ import { ref } from 'vue'
                     <p class="percentage">1% Profit</p>
                     <p class="duration">24/7 Customer care</p>
                     <p class="duration">4% Referral Bonus</p>
-                    <button @click="modal = true">Invest</button>
+                    <router-link to="/login"><button>Invest</button></router-link>
                 </div>
                 <div class="item">
                     <h2>Standard plan</h2>
@@ -23,7 +24,7 @@ import { ref } from 'vue'
                     <p class="percentage">1.5% Profit</p>
                     <p class="duration">24/7 Customer care</p>
                     <p class="duration">4% Referral Bonus</p>
-                    <button @click="modal = true">Invest</button>
+                    <router-link to="/login"><button>Invest</button></router-link>
                 </div>
                 <div class="item">
                     <h2>Premium plan</h2>
@@ -31,7 +32,7 @@ import { ref } from 'vue'
                     <p class="percentage">2% Profit</p>
                     <p class="duration">24/7 Customer care</p>
                     <p class="duration">4% Referral Bonus</p>
-                    <button @click="modal = true">Invest</button>
+                    <router-link to="/login"><button>Invest</button></router-link>
                 </div>
             </div>
         </div>

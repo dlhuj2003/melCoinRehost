@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from "vue-router";
 </script>
 
 <template>
@@ -23,27 +24,27 @@ import { ref } from 'vue'
                 </div>
                 <div>
                     <p class="title">Learn</p>
-                    <router-link to="/terms">
+                    <a href="learn#setupwallet">
                         How to set up a crypto wallet
-                    </router-link>
-                    <router-link to="/">
+                    </a>
+                    <a href="learn#sendcrypto">
                         How to send crypto
-                    </router-link>
-                    <router-link to="/">
+                    </a>
+                    <a href="learn#taxes">
                         Taxes
-                    </router-link>
-                    <router-link to="/">
+                    </a>
+                    <a href="learn#buybitcoin">
                         What is Bitcoin
-                    </router-link>
-                    <router-link to="/">
+                    </a>
+                    <a href="learn#buycrypto">
                         What is Crypto
-                    </router-link>
-                    <router-link to="/">
+                    </a>
+                    <a href="learn#setupwallet">
                         What is Blockchain
-                    </router-link>
-                    <router-link to="/">
+                    </a>
+                    <a href="learn#setupwallet">
                         Wallet
-                    </router-link>
+                    </a>
                 </div>
                 <div>
                     <p class="title">Support</p>

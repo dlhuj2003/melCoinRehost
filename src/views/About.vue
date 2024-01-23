@@ -1,9 +1,8 @@
 <script setup>
 import { ref } from 'vue';
+import { useRouter } from "vue-router";
 import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
-import Faq from '@/components/Faq.vue';
-import Why from '@/components/Why2.vue';
 </script>
 
 <template>
