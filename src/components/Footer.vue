@@ -51,7 +51,7 @@ import { useRouter } from "vue-router";
                     <router-link to="/">
                         Contact us
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="login">
                         ID verification
                     </router-link>
                     <router-link to="/">

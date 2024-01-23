@@ -36,7 +36,7 @@ import Footer from '@/components/Footer.vue';
                 <div class="w50">
                     <h2>A client-focused approach</h2>
 
-                    <video width="100%" autoplay="true" src="" controls>
+                    <video width="100%" src="@/assets/video1.mp4" controls>
                     </video>
                     <p class="small">
                         Molly Concannon, head of product strategy, and Matthew
