@@ -19,8 +19,10 @@ import Transactions from "@/views/Dashboard/Transactions.vue";
 import Profile from "@/views/Dashboard/Profile.vue";
 import Kyc from "@/views/Dashboard/Kyc.vue";
 import Ira from "@/views/Ira.vue";
-import Charity from "@/views/Charity.vue"
-import Investors from "@/views/Investors.vue"
+import Charity from "@/views/Charity.vue";
+import Investors from "@/views/Investors.vue";
+
+import DepositVerification from "@/views/Dashboard/DepositVerification.vue";
 
 import AdminLogin from "@/views/AdminLogin.vue";
 import AdminLayout from "@/views/Admin/index.vue";
@@ -33,7 +35,11 @@ import EditTrade from "@/views/Admin/EditTrade.vue";
 import CoinDetails from "@/views/Admin/coinDetails.vue";
 import Addcoin from "@/views/Admin/Addcoin.vue";
 import EditTransaction from "@/views/Admin/EditTransaction.vue";
-import AdminKyc from "@/views/Admin/ApproveKyc.vue"
+import AdminKyc from "@/views/Admin/ApproveKyc.vue";
+import KYCDetail from "@/views/Admin/KYCDetail.vue";
+import Coins from "@/views/Admin/Coins.vue";
+import ApproveDeposit from "@/views/Admin/ApproveDeposit.vue";
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -118,6 +124,11 @@ const router = createRouter({
           path: "/deposit",
           name: "deposit",
           component: Deposit,
+        },
+        {
+          path: "/verify_deposit",
+          name: "Verify deposit",
+          component: DepositVerification,
         },
         {
           path: "/withdrawal",
@@ -213,6 +224,21 @@ const router = createRouter({
           path: "/adminkyc",
           name: "adminkyc",
           component: AdminKyc,
+        },
+        {
+          path: "/kycDetail/:id",
+          name: "kyc Detail",
+          component: KYCDetail,
+        },
+        {
+          path: "/adminDeposits",
+          name: "Admin deposit",
+          component: Coins,
+        },
+        {
+          path: "/depositDetail/:id",
+          name: "Admin Deposit detail",
+          component: ApproveDeposit,
         },
       ],
     },

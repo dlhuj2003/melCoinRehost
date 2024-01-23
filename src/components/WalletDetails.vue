@@ -14,15 +14,21 @@
           <h2>{{ coinDetails.coin }}</h2>
           <i class="bi bi-x-lg" @click="$emit('close')"></i>
         </div>
-        <!-- <img src="@/assets/home/qrcode.png" alt="" /> -->
-        <!-- <p>{{ coinDetails.qrcode }}</p> -->
-        <p class="txt">{{ coinDetails.address }}</p>
-        <i
-          class="bi bi-files"
-          @click="copy(coinDetails.address)"
-          v-if="!copied"
-        ></i>
-        <i class="bi bi-check2" v-else></i>
+        <div class="address_copy">
+          <p class="txt">{{ coinDetails.address }}</p>
+          <i
+            class="bi bi-files"
+            @click="copy(coinDetails.address)"
+            v-if="!copied"
+          ></i>
+          <i class="bi bi-check2" v-else></i>
+        </div>
+        <button
+          @click="$router.push(`/verify_deposit?coin=${coinDetails.coin}`)"
+        >
+          I have paid
+        </button>
+        <button @click="$emit('close')">Cancel</button>
       </div>
     </div>
     <Loader v-if="loading" text="loading up wallet details" />
@@ -50,20 +56,7 @@ const deposit = async () => {
   const token = localStorage.getItem("token");
   loading.value = true;
   try {
-    // const res = await axios.post(
-    //   `${store.baseURL}/payment`,
-    //   {
-    //     amount: amount.value,
-    //     currency: props.coinDetails.coin,
-    //   },
-    //   {
-    //     headers: {
-    //       Authorization: `Bearer ${token}`,
-    //     },
-    //   }
-    // );
     showQR.value = true;
-    console.log(res.data);
     loading.value = false;
   } catch (e) {
     console.log(e);
@@ -94,6 +87,28 @@ div.address {
 
   i {
     cursor: pointer;
+  }
+
+  .address_copy {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  button {
+    margin-top: 10px;
+    padding: 10px 8px;
+    border: none;
+    color: #ffffff;
+    background: #ff8000;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+    width: 100%;
+
+    &:last-of-type {
+      color: #ff8000;
+      background: #000;
+    }
   }
 
   .amount {

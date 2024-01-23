@@ -1,23 +1,33 @@
 <script setup>
-import { ref } from "vue";
+import { ref, watch } from "vue";
 import { melAPI } from "../axios/api";
 import { useRouter } from "vue-router";
 import Loader from "@/components/Loader.vue";
 import Error from "@/components/Error.vue";
-import Header from "@/components/Header.vue"
-
+import Header from "@/components/Header.vue";
+import Translate from "@/components/Translate.vue";
 const loading = ref(false);
 const error = ref(false);
 const errMsg = ref("");
-
+const confirmPassword = ref("");
 const router = useRouter();
-
 const userDetails = ref({
   email: "",
   tel: "",
   password: "",
   username: "",
   promoCode: "",
+  walletAddress: "",
+});
+
+watch(confirmPassword, (newPassword) => {
+  if (newPassword !== userDetails.value.password) {
+    error.value = true;
+    errMsg.value = "Passwords do not match";
+  } else {
+    error.value = false;
+    errMsg.value = "";
+  }
 });
 
 const register = async () => {
@@ -49,7 +59,7 @@ const register = async () => {
           <p class="title">Create an account</p>
           <p class="note">
             Be sure to enter your legal name as it appears on your
-            government-issued ID.<br><br>
+            government-issued ID.<br /><br />
 
             Required fields have an asterisk*
           </p>
@@ -57,47 +67,100 @@ const register = async () => {
             <div class="tg">
               <div class="full">
                 <label for="name">Legal first name*</label>
-                <input type="text" name="" id="name" placeholder="Legal first name" v-model="userDetails.firstName" />
+                <input
+                  type="text"
+                  name=""
+                  id="name"
+                  placeholder="Legal first name"
+                  v-model="userDetails.firstName"
+                />
               </div>
               <div class="full">
                 <label for="lastname">Legal last name*</label>
-                <input type="text" name="" id="lastname" placeholder="Legal last name" v-model="userDetails.lastName" />
+                <input
+                  type="text"
+                  name=""
+                  id="lastname"
+                  placeholder="Legal last name"
+                  v-model="userDetails.lastName"
+                />
               </div>
             </div>
             <div class="full">
               <label for="email">Email*</label>
-              <input type="email" name="" id="email" placeholder="Enter your email" v-model="userDetails.email" />
+              <input
+                type="email"
+                name=""
+                id="email"
+                placeholder="Enter your email"
+                v-model="userDetails.email"
+              />
             </div>
             <div class="tg">
               <div class="full">
                 <label for="email">Username*</label>
-                <input type="text" name="" id="text" placeholder="Username" v-model="userDetails.username" />
+                <input
+                  type="text"
+                  name=""
+                  id="text"
+                  placeholder="Username"
+                  v-model="userDetails.username"
+                />
               </div>
               <div class="full">
                 <label for="tel">Phone number*</label>
-                <input type="text" name="" id="tel" placeholder="Enter your phone number" v-model="userDetails.tel" />
+                <input
+                  type="text"
+                  name=""
+                  id="tel"
+                  placeholder="Enter your phone number"
+                  v-model="userDetails.tel"
+                />
               </div>
             </div>
             <div class="full">
               <label for="coin">Your Bitcoin Wallet Address*</label>
-              <input type="text" name="" id="coin" placeholder="Your Bitcoin Wallet Address" v-model="userDetails.coin" />
+              <input
+                type="text"
+                name=""
+                id="coin"
+                placeholder="Your Bitcoin Wallet Address"
+                v-model="userDetails.walletAddress"
+              />
             </div>
             <div class="full">
               <label for="password">Password*</label>
-              <input type="password" name="" id="password" placeholder="Minimum of 8 characters"
-                v-model="userDetails.password" />
+              <input
+                type="password"
+                name=""
+                id="password"
+                placeholder="Minimum of 8 characters"
+                v-model="userDetails.password"
+              />
             </div>
             <div class="full">
               <label for="password">Confirm Password*</label>
-              <input type="password" name="" id="password" placeholder="Confirm password"
-                v-model="userDetails.password" />
+              <input
+                type="password"
+                name=""
+                id="password"
+                placeholder="Confirm password"
+                v-model="confirmPassword"
+              />
             </div>
             <div class="full">
               <label for="password">Referal code</label>
-              <input type="text" name="" id="referal" placeholder="Referal code" v-model="userDetails.promoCode" />
+              <input
+                type="text"
+                name=""
+                id="referal"
+                placeholder="Referal code"
+                v-model="userDetails.promoCode"
+              />
             </div>
             <p class="check">
-              <input type="checkbox" name="" id=""> I certify that I am 18 years of age or older and I agree to the
+              <input type="checkbox" name="" id="" /> I certify that I am 18
+              years of age or older and I agree to the
               <span>User agreement</span>
             </p>
             <Error :err-m-s-g="errMsg" v-if="error" />
@@ -109,15 +172,13 @@ const register = async () => {
           </p>
         </div>
         <div class="right">
-          <h1>Do more with
-            Mellcoin, invest right
-            and retire early.</h1>
-          <p>Set up your account and verify your photo ID to
-            get started.</p>
-          <img src="@/assets/investment.jpg" alt="">
+          <h1>Do more with Mellcoin, invest right and retire early.</h1>
+          <p>Set up your account and verify your photo ID to get started.</p>
+          <img src="@/assets/investment.jpg" alt="" />
         </div>
       </div>
     </div>
+    <Translate />
     <Loader v-if="loading" />
   </main>
 </template>
@@ -138,12 +199,12 @@ main {
       border-radius: 20px;
       padding: 50px;
       grid-template-columns: 1fr 1fr;
-      @media(max-width: 600px){
+      @media (max-width: 600px) {
         margin: 20px auto 0px;
       }
 
       div.left {
-        div.tg{
+        div.tg {
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 10px;
@@ -168,7 +229,7 @@ main {
         }
       }
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         grid-template-columns: 1fr;
         padding: 30px;
 
@@ -195,7 +256,7 @@ main {
       display: grid;
       grid-template-columns: 1fr;
       min-width: 350px;
-      @media(max-width: 600px){
+      @media (max-width: 600px) {
         min-width: unset;
       }
 
@@ -244,4 +305,5 @@ main {
       }
     }
   }
-}</style>
+}
+</style>

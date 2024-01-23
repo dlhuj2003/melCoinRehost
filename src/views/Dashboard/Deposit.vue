@@ -8,15 +8,15 @@
       </h3>
       <div class="all">
         <div class="item" v-for="(coin, index) in coins" :key="index">
-          <h2>{{ coin.long_name }}</h2>
+          <h2>{{ coin.name }}</h2>
           <div class="content">
-            <img :src="coin.image" :alt="coin.name" />
-            <button class="primary" @click="deposit(coin.wallet, coin.name)">
+            <img :src="coin.iconUrl" :alt="coin.name" />
+            <button class="primary" @click="deposit(coin.address, coin.name)">
               Deposit
             </button>
           </div>
         </div>
-       
+
         <WalletDetails
           :coinDetails="coinDetails"
           v-if="showDetails"
@@ -25,109 +25,42 @@
       </div>
       <Footer />
     </div>
+    <Loader v-if="loading" />
   </main>
 </template>
 
 <script setup>
 import { ref } from "vue";
-import Overview from "@/components/Overview.vue";
 import WalletDetails from "@/components/WalletDetails.vue";
-import Footer from "@/components/Footer2.vue"
+import Footer from "@/components/Footer2.vue";
 import Nav from "@/components/Nav.vue";
-
-const eth = ref(false);
-const btc = ref(false);
-const usdt = ref(false);
-const bnb = ref(false);
+import { melAPI, getToken } from "@/axios/api";
+import Loader from "@/components/Loader.vue";
 const showDetails = ref(false);
+const loading = ref(true);
 const coinDetails = ref({});
 
-const ethWallet = ref("0x9A779320430C332FD12cD52f1CfC624790EbA6bF");
-const btcWallet = ref("bc1qaj66jpzrxjpeluqte8nz4dh2qgr7nmsyx3ysh0");
-const usdtWallet = ref("TQ9SqU9JkzgzYCN6n3d5AiScsREkPp468J");
-const bnbWallet = ref("bnb1yv0ntvuzmw655yhvadyyzma9v9y33fy86dszpd");
-const trxWallet = ref("TQ9SqU9JkzgzYCN6n3d5AiScsREkPp468J");
-const xrpWallet = ref("r3z92RfWyWkRY1jxeQSMmH43hNi3USTs1g");
-const solWallet = ref("2yJZnCsYaNSkWWKJrzKscnsYdnagcStyYETSDqqSHqhE");
-const ltcWallet = ref("LgaA7peMKLVX2kLaRaoCMPFwutkKNKWGs3");
-const algoWallet = ref(
-  "PWPXMLEFV7GQBNOH3LRTK7MBUX4AKMXULFNGQWNG27BJXD2KV4QOTOMFVY"
-);
-const usdcWallet = ref("0x9A779320430C332FD12cD52f1CfC624790EbA6bF");
-const arbWallet = ref("0x9A779320430C332FD12cD52f1CfC624790EbA6bF");
+const coins = ref([]);
 
-const coins = ref([
-  {
-    name: "BTC",
-    wallet: "bc1qaj66jpzrxjpeluqte8nz4dh2qgr7nmsyx3ysh0",
-    image: "https://nowpayments.io/images/coins/btc.svg",
-    long_name: "BITCOIN",
-  },
-  {
-    name: "ETH",
-    wallet: "0x9A779320430C332FD12cD52f1CfC624790EbA6bF",
-    image: "https://nowpayments.io/images/coins/eth.svg",
-    long_name: "ETHERUM",
-  },
-  {
-    name: "USDTTRC20",
-    wallet: "TQ9SqU9JkzgzYCN6n3d5AiScsREkPp468J",
-    image: "https://nowpayments.io/images/coins/usdt.svg",
-    long_name: "TETHER",
-  },
-  {
-    name: "BNBBSC",
-    wallet: "bnb1yv0ntvuzmw655yhvadyyzma9v9y33fy86dszpd",
-    image: "https://nowpayments.io/images/coins/bnb.svg",
-    long_name: "BINANCE COIN",
-  },
-  {
-    name: "TRX",
-    wallet: "TQ9SqU9JkzgzYCN6n3d5AiScsREkPp468J",
-    image: "https://nowpayments.io/images/coins/trx.svg",
-    long_name: "TRON",
-  },
-  {
-    name: "XRP",
-    wallet: "r3z92RfWyWkRY1jxeQSMmH43hNi3USTs1g",
-    image: "https://nowpayments.io/images/coins/xrp.svg",
-    long_name: "XRP",
-  },
-  {
-    name: "SOL",
-    wallet: "2yJZnCsYaNSkWWKJrzKscnsYdnagcStyYETSDqqSHqhE",
-    image: "https://nowpayments.io/images/coins/sol.svg",
-    long_name: "SOLANA",
-  },
-  {
-    name: "LTC",
-    wallet: "LgaA7peMKLVX2kLaRaoCMPFwutkKNKWGs3",
-    image: "https://nowpayments.io/images/coins/ltc.svg",
-    long_name: "LITECOIN",
-  },
-  {
-    name: "ALGO",
-    wallet: "PWPXMLEFV7GQBNOH3LRTK7MBUX4AKMXULFNGQWNG27BJXD2KV4QOTOMFVY",
-    image: "https://nowpayments.io/images/coins/algo.svg",
-    long_name: "ALGORAND",
-  },
-  {
-    name: "USDC",
-    wallet: "0x9A779320430C332FD12cD52f1CfC624790EbA6bF",
-    image: "https://nowpayments.io/images/coins/usdc.svg",
-    long_name: "USD COIN",
-  },
-  {
-    name: "ARB",
-    wallet: "0x9A779320430C332FD12cD52f1CfC624790EbA6bF",
-    image: "https://nowpayments.io/images/coins/arb.svg",
-    long_name: "ARBITRUM",
-  },
-]);
+const getCoins = async () => {
+  try {
+    const { data } = await melAPI.get("/get_all_asset", {
+      headers: {
+        Authorization: getToken("user"),
+      },
+    });
+    coins.value = data;
+  } catch (e) {
+    console.log(e);
+  } finally {
+    loading.value = false;
+  }
+};
+
+getCoins();
 
 const deposit = (address, coin, qrcode = "@/assets/home/qrcode.png") => {
   coinDetails.value = { address, coin, qrcode };
-  console.log(coinDetails.value);
   showDetails.value = true;
 };
 </script>
@@ -157,7 +90,7 @@ main {
     margin: 0px 0px 30px;
     font-size: 16px;
     background-color: #ff8000;
-    padding: 10px 30px ;
+    padding: 10px 30px;
   }
 
   div.all {
@@ -181,7 +114,7 @@ main {
       height: 250px;
       max-width: 250px;
       color: #ff8000;
-      border: 1px solid #FF8000;
+      border: 1px solid #ff8000;
 
       div.address {
         position: fixed;
@@ -247,7 +180,7 @@ main {
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background-color: #FF8000;
+        background-color: #ff8000;
         text-transform: capitalize;
       }
 
