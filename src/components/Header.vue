@@ -17,7 +17,7 @@
         </li>
         <li class="sup">
           <p>Support</p>
-          <ul class="support">
+          <ul id="support">
             <li>
               <router-link to="learn">Help center</router-link>
             </li>
@@ -74,11 +74,14 @@
             </li>
             <li class="sup">
           <p>Support</p>
-          <ul class="support">
+          <ul id="support">
             <li>
               <router-link to="learn">Help center</router-link>
             </li>
             <li>Contact us</li>
+            <li>
+              <router-link to="/login">ID verification</router-link>
+            </li>
             <li class="p">
               <p class="pay">Payment methods</p>
               <div class="x">
@@ -91,9 +94,6 @@
                   <li>USDT</li>
                 </ol>
               </div>
-            </li>
-            <li>
-              <router-link to="/login">ID verification</router-link>
             </li>
           </ul>
         </li>
@@ -134,93 +134,6 @@ const globe = ref(false);
 </script>
 
 <style scoped lang="scss">
-div.mobe {
-  display: none;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-p.logo {
-  @media (max-width: 600px) {
-    margin-left: 20px;
-  }
-}
-
-div.lan {
-  position: relative;
-
-  @media (max-width: 600px) {
-    display: none;
-  }
-
-  ul.lang {
-    position: absolute;
-    display: grid;
-    grid-template-columns: 1fr;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    top: 40px;
-
-    li {
-      padding: 0px 10px;
-      cursor: pointer;
-    }
-  }
-}
-
-@media (max-width: 991px) {
-  .desktop {
-    display: none !important;
-  }
-
-  div.mobe {
-    display: block;
-  }
-
-  div.toggle {
-    display: block !important;
-  }
-}
-
-div.toggle {
-  display: none;
-}
-
-i {
-  color: #000;
-  font-size: 36px;
-  position: absolute;
-  right: 30px;
-  top: 10px;
-  z-index: 998;
-  cursor: pointer;
-
-  &:hover {
-    color: #ff4500;
-  }
-}
-
-div.mobile {
-  display: block;
-  position: absolute;
-  top: 0;
-  padding: 20px;
-  background-color: #fff;
-  width: 100%;
-
-  ul {
-    display: grid !important;
-    gap: 20px !important;
-    margin-bottom: 20px;
-  }
-
-  div.lan {
-    display: block;
-  }
-}
 
 main {
   background: #f7f4f4 !important;
@@ -233,8 +146,7 @@ main {
   @media (max-width: 600px) {
     padding: 0px 0px;
   }
-}
-
+  
 div.main {
   background: none;
   position: relative;
@@ -294,15 +206,108 @@ div.main {
     }
   }
 }
+}
+div.mobe {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+p.logo {
+  @media (max-width: 600px) {
+    margin-left: 20px;
+  }
+}
+
+div.lan {
+  position: relative;
+
+  @media (max-width: 600px) {
+    display: none;
+  }
+
+  ul.lang {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    top: 40px;
+
+    li {
+      padding: 0px 10px;
+      cursor: pointer;
+    }
+  }
+}
+
+
+div.toggle {
+  display: none;
+}
+
+i {
+  color: #000;
+  font-size: 36px;
+  position: absolute;
+  right: 30px;
+  top: 10px;
+  z-index: 998;
+  cursor: pointer;
+
+  &:hover {
+    color: #ff4500;
+  }
+}
+
+div.mobile {
+  display: block;
+  position: absolute;
+  top: 0;
+  padding: 20px;
+  background-color: #fff;
+  width: 100%;
+
+  ul {
+    display: grid !important;
+    gap: 20px !important;
+    margin-bottom: 20px;
+  }
+  ul#support{
+    display: none;
+  }
+
+  div.lan {
+    display: block;
+  }
+}
+
+@media (max-width: 991px) {
+  .desktop {
+    display: none !important;
+  }
+
+  div.mobe {
+    display: block;
+  }
+
+  div.toggle {
+    display: block !important;
+  }
+}
+
 
 li.sup {
   position: relative;
   cursor: pointer;
-  &:hover ul.support{
+  &:hover ul#support{
     display: grid;
   }
 
-  ul.support {
+  ul#support {
     display: none;
     position: absolute;
     background-color: #fff;
@@ -353,5 +358,66 @@ li.sup {
       }
     }
   }
+}
+@media(max-width: 600px){
+  li.sup {
+  position: relative;
+  cursor: pointer;
+  &:hover ul#support{
+    display: grid !important;
+  }
+
+  ul#support {
+    display: none !important;
+    position: absolute;
+    background-color: #fff;
+    padding: 20px;
+    top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #0002;
+    gap: 20px;
+    min-width: 180px;
+    &:hover{
+      display: grid !important;
+    }
+
+    li.p {
+      position: relative;
+
+      div.x {
+        display: none;
+        padding: 20px 0px 0px;
+        transition: 1s;
+        &:hover{ 
+          display: block;
+        }
+        p.payment {
+          line-height: 1.5 !important;
+        }
+        ol.alpha li{
+          margin: 0px 20px;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    p.pay {
+      cursor: pointer;
+      position: relative;
+      z-index: 5;
+
+      &:hover~div.x {
+
+        display: block;
+        transition: 1s;
+
+      }
+
+      ol {
+        padding: 0px 20px;
+      }
+    }
+  }
+}
 }
 </style>
