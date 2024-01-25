@@ -7,7 +7,7 @@ import { ref } from 'vue'
         <div class="container">
             <div>
                 <router-link to="/">
-                    <img src="@/assets/logo.png" width="150" alt="">
+                    <p class="logo">mell<span>C</span>oin</p>
                 </router-link>
                 <p class="tag">...the Future of Cryptocurrency</p>
             </div>

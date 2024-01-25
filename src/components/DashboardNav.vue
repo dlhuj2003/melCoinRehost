@@ -3,7 +3,7 @@
     <nav class="body-menu">
       <div class="logo">
         <router-link to="/">
-          <img src="@/assets/logo.png" alt="" />
+          <p class="logo">mell<span>C</span>oin</p>
         </router-link>
       </div>
       <div class="font-inter routerLinks">
@@ -36,7 +36,7 @@
     <nav class="body-menu" id="mob">
       <div class="logo">
         <router-link to="/">
-          <img src="@/assets/logo.png" alt="" />
+          <p class="logo">mell<span>C</span>oin</p>
         </router-link>
       </div>
       <div class="font-inter routerLinks">

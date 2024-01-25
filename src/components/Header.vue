@@ -15,8 +15,30 @@
         <li>
           <router-link to="/learn">Learn</router-link>
         </li>
-        <li>
-          <router-link to="/about">Support</router-link>
+        <li class="sup">
+          <p>Support</p>
+          <ul class="support">
+            <li>
+              <router-link to="learn">Help center</router-link>
+            </li>
+            <li>Contact us</li>
+            <li>
+              <router-link to="/login">ID verification</router-link>
+            </li>
+            <li class="p">
+              <p class="pay">Payment methods</p>
+              <div class="x">
+                <p class="payment">
+                  We recieve payment with 3 major cryptocurrencies
+                </p>
+                <ol class="alpha">
+                  <li>Bitcoin</li>
+                  <li>Etherum</li>
+                  <li>USDT</li>
+                </ol>
+              </div>
+            </li>
+          </ul>
         </li>
         <li>
           <router-link to="/ira">IRA</router-link>
@@ -29,12 +51,9 @@
         </li>
       </ul>
       <div class="buttons desktop">
-        <router-link to="/login"
-          ><button class="secondary">Sign in</button></router-link
-        >
+        <router-link to="/login"><button class="secondary">Sign in</button></router-link>
         <router-link to="/signup">
-          <button class="primary">Get started</button></router-link
-        >
+          <button class="primary">Get started</button></router-link>
       </div>
       <div class="mobe">
         <div class="mobile" v-if="mobileMenu">
@@ -53,9 +72,31 @@
             <li>
               <router-link to="/learn">Learn</router-link>
             </li>
+            <li class="sup">
+          <p>Support</p>
+          <ul class="support">
             <li>
-              <router-link to="/about">Support</router-link>
+              <router-link to="learn">Help center</router-link>
             </li>
+            <li>Contact us</li>
+            <li class="p">
+              <p class="pay">Payment methods</p>
+              <div class="x">
+                <p class="payment">
+                  We recieve payment with 3 major cryptocurrencies
+                </p>
+                <ol class="alpha">
+                  <li>Bitcoin</li>
+                  <li>Etherum</li>
+                  <li>USDT</li>
+                </ol>
+              </div>
+            </li>
+            <li>
+              <router-link to="/login">ID verification</router-link>
+            </li>
+          </ul>
+        </li>
             <li>
               <router-link to="/ira">IRA</router-link>
             </li>
@@ -68,12 +109,9 @@
           </ul>
 
           <div class="buttons">
-            <router-link to="/login"
-              ><button class="secondary">Sign in</button></router-link
-            >
+            <router-link to="/login"><button class="secondary">Sign in</button></router-link>
             <router-link to="/signup">
-              <button class="primary">Get started</button></router-link
-            >
+              <button class="primary">Get started</button></router-link>
           </div>
         </div>
         <div v-else></div>
@@ -109,11 +147,14 @@ p.logo {
     margin-left: 20px;
   }
 }
+
 div.lan {
   position: relative;
+
   @media (max-width: 600px) {
     display: none;
   }
+
   ul.lang {
     position: absolute;
     display: grid;
@@ -122,6 +163,7 @@ div.lan {
     background-color: #fff;
     border-radius: 5px;
     top: 40px;
+
     li {
       padding: 0px 10px;
       cursor: pointer;
@@ -174,6 +216,7 @@ div.mobile {
     gap: 20px !important;
     margin-bottom: 20px;
   }
+
   div.lan {
     display: block;
   }
@@ -248,6 +291,66 @@ div.main {
       border: none;
       background-color: #e0dfdf;
       color: #000;
+    }
+  }
+}
+
+li.sup {
+  position: relative;
+  cursor: pointer;
+  &:hover ul.support{
+    display: grid;
+  }
+
+  ul.support {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 20px;
+    top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px #0002;
+    gap: 20px;
+    min-width: 180px;
+    &:hover{
+      display: grid;
+    }
+
+    li.p {
+      position: relative;
+
+      div.x {
+        display: none;
+        padding: 20px 0px 0px;
+        transition: 1s;
+        &:hover{ 
+          display: block;
+        }
+        p.payment {
+          line-height: 1.5 !important;
+        }
+        ol.alpha li{
+          margin: 0px 20px;
+          line-height: 1.5;
+        }
+      }
+    }
+
+    p.pay {
+      cursor: pointer;
+      position: relative;
+      z-index: 5;
+
+      &:hover~div.x {
+
+        display: block;
+        transition: 1s;
+
+      }
+
+      ol {
+        padding: 0px 20px;
+      }
     }
   }
 }
