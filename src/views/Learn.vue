@@ -20,7 +20,7 @@ import Footer from "@/components/Footer.vue";
           <router-link to="/signup"> <button class="primary">Download</button></router-link>
         </div>
         <div class="w50">
-          <video width="100%" autoplay="true" src="" controls>
+          <video width="100%" autoplay="true" src="https://melasset.vercel.app/video2.mp4" controls>
           </video>
         </div>
       </div>
