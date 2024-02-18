@@ -11,28 +11,31 @@ import { useRouter } from "vue-router";
         </h3>
             <div class="plans">
                 <div class="item">
-                    <h2>Basic plan</h2>
-                    <p class="cost">$150 - $100,000</p>
-                    <p class="percentage">1% Profit</p>
-                    <p class="duration">24/7 Customer care</p>
+                    <h2>1% <br>Basic plan</h2>
+                    <p class="cost">Min. investment: $150</p>
+                    <p class="percentage">Max. investment: $100,000</p>
+                    <p class="duration">Contract Expires in: 48 Hours</p>
                     <p class="duration">4% Referral Bonus</p>
-                    <router-link to="/login"><button>Invest</button></router-link>
+                    <p class="duration">24/7 Customer Care</p>
+                    <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
                 <div class="item">
-                    <h2>Standard plan</h2>
-                    <p class="cost">$120,000 - $450,000</p>
-                    <p class="percentage">1.5% Profit</p>
-                    <p class="duration">24/7 Customer care</p>
+                    <h2>1.5%<br>Standard plan</h2>
+                    <p class="cost">Min. investment: $120,000</p>
+                    <p class="percentage">Max. investment: $450,000</p>
+                    <p class="duration">Contract Expires in: 48 Hours</p>
                     <p class="duration">4% Referral Bonus</p>
-                    <router-link to="/login"><button>Invest</button></router-link>
+                    <p class="duration">24/7 Customer Care</p>
+                    <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
                 <div class="item">
-                    <h2>Premium plan</h2>
-                    <p class="cost">$500,000 - Unlimited</p>
-                    <p class="percentage">2% Profit</p>
-                    <p class="duration">24/7 Customer care</p>
+                    <h2>2%<br>Premium plan</h2>
+                    <p class="cost">Min. investment: $500,000</p>
+                    <p class="percentage">Max. investment: Unlimited</p>
+                    <p class="duration">Contract Expires in: 48 Hours</p>
                     <p class="duration">4% Referral Bonus</p>
-                    <router-link to="/login"><button>Invest</button></router-link>
+                    <p class="duration">24/7 Customer Care</p>
+                    <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
             </div>
         </div>
@@ -50,6 +53,7 @@ div.main {
     margin: 0px 0px 30px;
     text-transform: uppercase;
     font-size: 14px;
+    text-align: center;
   }
     div.plans {
         display: flex;
@@ -60,12 +64,12 @@ div.main {
         justify-content: center;
 
         div.item {
-            background-color: #fff;
+            background: linear-gradient(#de744d, white);
             min-width: 200px;
             width: 50%;
             max-width: 250px;
             text-align: center;
-            box-shadow: 0px 1px 20px #0003;
+            box-shadow: 2px 2px 5px #000c;
             border-radius: 10px;
             padding: 0px 0px 20px;
 
@@ -77,10 +81,11 @@ div.main {
             h2 {
                 padding: 20px 10px;
                 font-size: 16px;
-                background-color: #d6704b;
+                // background-color: #d6704b;
                 color: #fff;
                 border-radius: 10px 10px 0px 0px;
                 margin-bottom: 20px;
+                text-transform: uppercase;
             }
 
             p {
@@ -91,11 +96,17 @@ div.main {
 
             button {
                 height: 40px;
-                padding: 0px 30px;
+                padding: 0px 40px;
+                border-radius: 20px;
                 background-color: #d6704b;
                 border: none;
                 color: #fff;
                 margin: 10px 0px;
+                transition: 0.3s;
+                cursor: pointer;
+                &:hover{
+                    padding: 0px 50px;
+                }
             }
         }
     }

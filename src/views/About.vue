@@ -174,7 +174,7 @@ import Footer from '@/components/Footer.vue';
             </div>
         </section>
         <section class="found">
-            <p class="logo">mell<span>C</span>oin</p>
+            <p class="logo">mell<span>C</span>oin<i class="bi bi-r-circle"></i></p>
             <p class="txt">
                 Mellcoin is a trusted name in
                 investing. Founded since 1982,
@@ -264,7 +264,7 @@ section.one {
         max-width: 1366px;
         margin: auto;
         align-items: center;
-        padding: 80px 0px;
+        padding: 30px 0px;
 
         @media(max-width: 991px) {
             display: flex;
@@ -384,6 +384,10 @@ section.one.custody {
 
 
         div.w50 {
+            i.bi-chevron-down{
+                font-size: 20px;
+                font-weight: 600;
+            }
 
             video {
                 width: 100%;
@@ -412,13 +416,13 @@ section.one.custody {
 
             /* Track */
             ::-webkit-scrollbar-track {
-                box-shadow: inset 0 0 5px grey;
+                box-shadow: inset 0 0 5px #0000;
                 border-radius: 10px;
             }
 
             /* Handle */
             ::-webkit-scrollbar-thumb {
-                background: rgb(151, 151, 151);
+                background: #fff0;
                 border-radius: 30px;
             }
         }

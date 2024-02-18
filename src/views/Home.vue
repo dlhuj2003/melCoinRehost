@@ -5,6 +5,7 @@ import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Shield from '@/components/Shield.vue';
 import { Chart } from "vue-tradingview-widgets";
+import Marquee from "@/components/Marquee.vue";
 </script>
 
 <template>
@@ -33,6 +34,7 @@ import { Chart } from "vue-tradingview-widgets";
         </div>
       </div>
     </section>
+    <Marquee />
     <div class="pad">
       <section class="explore">
         <img src="@/assets/crypto2.jpg" alt="">
@@ -40,7 +42,7 @@ import { Chart } from "vue-tradingview-widgets";
           <h1>Explore our investment plans</h1>
           <p>With different investment plans, our system is modelled to accomodate everyone no matter how much you have to
             invest.</p>
-          <a href="/plans">Explore <i class="bi bi-arrow-right" style="font-weight: bold !important;"></i></a>
+          <a href="/plans">Explore Plan <i class="bi bi-arrow-right" style="font-weight: bold !important;"></i></a>
         </div>
       </section>
     </div>
@@ -85,7 +87,7 @@ import { Chart } from "vue-tradingview-widgets";
             </div>
             <div class="item">
               <div class="icon">
-                <i class="bi bi-piggy-bank-fill"></i>
+                <i class="bi bi-currency-dollar"></i>
               </div>
               <div class="txt">
                 <h2>Low costs</h2>
@@ -140,37 +142,37 @@ import { Chart } from "vue-tradingview-widgets";
         <p>Here are few reasons why you should choose Mellcoin</p>
         <div class="grid">
           <div class="item">
-            <i class="bi bi-person-fill"></i>
+            <i class="bi bi-bank"></i>
             <p class="big">Secure Storage</p>
             <p>We store vast majority of the digital
               assets in secure offline storage.</p>
             <p class="red">
               <router-link to="/learn">
                 Learn how Mellcoin keeps your funds save
-              and secure 
+                and secure
               </router-link>
             </p>
           </div>
           <div class="item">
-            <i class="bi bi-bank2"></i>
+            <i class="bi bi-file-lock"></i>
             <p class="big">Protected assets</p>
             <p>Our risk management measures are
               designed to protect your assets</p>
             <p class="red">
               <router-link to="/learn">
                 Learn about how your assets are protected
-              </router-link> 
+              </router-link>
             </p>
           </div>
           <div class="item">
-            <i class="bi bi-cash-coin"></i>
+            <i class="bi bi-currency-bitcoin"></i>
             <p class="big">Indutry best practices</p>
             <p>Mellcoin supports a variety of the most
               popular digital currencies.</p>
             <p class="red">
               <router-link to="/security">
                 Learn how we implement industry best practices
-              for account security
+                for account security
               </router-link>
             </p>
           </div>
@@ -199,15 +201,15 @@ import { Chart } from "vue-tradingview-widgets";
       <div class="grid">
         <div class="item">
           <i class="bi bi-person-fill"></i>
-          <p>Sign up</p>
+          <p class="up">Sign up</p>
         </div>
         <div class="item">
           <i class="bi bi-bank2"></i>
-          <p>Invest</p>
+          <p class="up">Invest</p>
         </div>
         <div class="item">
           <i class="bi bi-cash-coin"></i>
-          <p>Watch your profit grow</p>
+          <p class="up">Watch your profit grow</p>
         </div>
       </div>
     </section>
@@ -221,7 +223,10 @@ import { Chart } from "vue-tradingview-widgets";
 <style scoped lang="scss">
 main {
   background-color: #eaf6fc;
-  .bi::before, [class^="bi-"]::before, [class*=" bi-"]::before {
+
+  .bi::before,
+  [class^="bi-"]::before,
+  [class*=" bi-"]::before {
     font-weight: 800 !important;
   }
 }
@@ -383,10 +388,10 @@ section.one {
 }
 
 div.pad {
-  padding: 30px;
+  padding: 30px 0px;
 
   @media(max-width: 600px) {
-    padding: 20px;
+    padding: 20px 0px;
   }
 }
 
@@ -395,10 +400,10 @@ section.explore {
   gap: 20px;
   background-color: #000;
   color: #fff;
-  max-width: 1300px;
+  // max-width: 1300px;
   margin: auto;
-  border-radius: 10px;
-  padding: 40px;
+  // border-radius: 10px;
+  padding: 20px;
 
   @media(max-width: 600px) {
     flex-direction: column;
@@ -442,7 +447,8 @@ section.explore {
     }
 
     p {
-      font-size: 28px;
+      font-size: 20px;
+      max-width: 570px;
       margin-bottom: 20px;
 
       @media(max-width: 991px) {
@@ -464,12 +470,14 @@ section.explore {
       color: #000;
       font-size: 20px;
       font-weight: 600;
-        transition: 0.3s;
-      &:hover{
+      transition: 0.3s;
+
+      &:hover {
         padding: 10px 30px;
         transition: 0.3s;
       }
-      i{
+
+      i {
         font-weight: bolder !important;
       }
 
@@ -626,7 +634,8 @@ section.ira {
       color: #fff;
       border-radius: 10px;
       transition: 0.3s;
-      &:hover{
+
+      &:hover {
         padding: 10px 30px;
         transition: 0.3s;
       }
@@ -780,12 +789,14 @@ section.start {
 
   h1 {
     text-align: center;
+    font-size: 45px;
+    font-weight: 500;
   }
 
   p {
     text-align: center;
     font-size: 18px;
-    margin: 20px 0px 0px;
+    padding: 20px 0px 0px;
   }
 
   div.grid {
@@ -803,12 +814,17 @@ section.start {
       display: grid;
       gap: 10px;
 
-      p {
-        text-transform: uppercase;
+      p.big {
+        font-size: 20px;
       }
-      p.red{
-        text-transform: unset;
+
+      p {
         font-size: 16px;
+      }
+
+      p.up {
+
+        text-transform: uppercase;
       }
 
       i {
@@ -844,5 +860,4 @@ div.trust {
       color: #d6704b !important;
     }
   }
-}
-</style>
+}</style>

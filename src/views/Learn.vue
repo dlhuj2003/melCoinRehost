@@ -17,7 +17,7 @@ import Footer from "@/components/Footer.vue";
             There are many different types of crypto wallets, but the most
             secured and recommended one is Self-custody wallet
           </p>
-          <router-link to="/signup"> <button class="primary">Download</button></router-link>
+          <a href="https://www.coinbase.com/wallet/downloads" target="_blank"> <button class="primary">Download</button></a>
         </div>
         <div class="w50">
           <video width="100%" autoplay="true" src="https://melasset.vercel.app/video2.mp4" controls>
@@ -203,7 +203,7 @@ section.one.send {
     }
 
     li {
-      font-size: 24px;
+      font-size: 20px;
       color: #d6704b;
       margin: 0px 0px 10px;
       @media(max-width: 600px){
@@ -241,7 +241,7 @@ section.one.send {
 
       li {
         margin: 0px 0px 20px;
-        font-size: 24px;
+        font-size: 20px;
         @media(max-width: 600px){
           font-size: 18px;
         }
@@ -263,7 +263,7 @@ section.how{
   div.container{
     max-width: 800px;
     p{
-      font-size: 24px;
+      font-size: 20px;
       line-height: 1.5;
       margin: 0px 0px 10px;
       @media(max-width: 600px){
@@ -361,17 +361,17 @@ section.one {
 
     p {
       color: #333;
-      font-size: 24px;
+      font-size: 20px;
       max-width: 550px;
 
       @media (max-width: 991px) {
-        font-size: 20px;
+        font-size: 18px;
         margin: auto;
       }
     }
 
     p.small {
-      font-size: 16px;
+      font-size: 20px;
       line-height: 1.5;
     }
 
@@ -430,7 +430,7 @@ section.two div.container {
 
   p {
     color: #333;
-    font-size: 18px;
+    font-size: 20px;
   }
 
   button {
