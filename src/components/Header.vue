@@ -177,6 +177,12 @@ div.main {
         color: cadetblue;
       }
     }
+    div.x li{
+      &:hover{
+        color: #000;
+        cursor: text;
+      }
+    }
   }
 
   div.buttons {
