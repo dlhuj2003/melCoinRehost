@@ -6,6 +6,15 @@ import Loader from "@/components/Loader.vue";
 import Error from "@/components/Error.vue";
 import Header from "@/components/Header.vue";
 import Translate from "@/components/Translate.vue";
+const toggleEye = ref(true);
+function show() {
+  document.getElementById('confirmPassword').type = 'text';
+  document.getElementById('password').type = 'text';
+};
+function noshow() {
+  document.getElementById('confirmPassword').type = 'password';
+  document.getElementById('password').type = 'password';
+};
 const loading = ref(false);
 const error = ref(false);
 const errMsg = ref("");
@@ -137,16 +146,25 @@ const register = async () => {
                 placeholder="Minimum of 8 characters"
                 v-model="userDetails.password"
               />
+              
+              <div class="eye">
+                <i class="bi bi-eye" v-if="toggleEye" @click="noshow(), toggleEye=false"></i>
+                <i class="bi bi-eye-slash" v-else @click="show(), toggleEye=true"></i>
+              </div>
             </div>
             <div class="full">
-              <label for="password">Confirm Password*</label>
+              <label for="confirmPassword">Confirm Password*</label>
               <input
                 type="password"
                 name=""
-                id="password"
+                id="confirmPassword"
                 placeholder="Confirm password"
                 v-model="confirmPassword"
               />
+              <div class="eye">
+                <i class="bi bi-eye" v-if="toggleEye" @click="noshow(), toggleEye=false"></i>
+                <i class="bi bi-eye-slash" v-else @click="show(), toggleEye=true"></i>
+              </div>
             </div>
             <div class="full">
               <label for="password">Referal code</label>
@@ -265,6 +283,12 @@ main {
         flex-direction: column;
         gap: 10px;
         margin-bottom: 20px;
+        position: relative;
+        div.eye{
+          position: absolute;
+          right: 20px;
+          bottom: 10px;
+        }
 
         label {
           font-size: 16px;
