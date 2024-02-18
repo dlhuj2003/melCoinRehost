@@ -232,7 +232,7 @@ section.bubbles {
 section.one {
     height: fit-content;
     padding: 0px 50px;
-    background-color: #ff4500;
+    background-color: #ff662e;
     color: #fff;
 
 
@@ -550,7 +550,7 @@ section.found {
 
         span {
             font-size: 40px;
-            color: #ff4500;
+            color: #ff662e;
         }
     }
 }</style>

@@ -51,6 +51,9 @@
         </li>
       </ul>
       <div class="buttons desktop">
+  <div class="gtranslate_wrapper">
+    
+  </div>
         <router-link to="/login"><button class="secondary">Sign in</button></router-link>
         <router-link to="/signup">
           <button class="primary">Get started</button></router-link>
@@ -109,6 +112,7 @@
           </ul>
 
           <div class="buttons">
+            <div class="gtranslate_wrapper"></div>
             <router-link to="/login"><button class="secondary">Sign in</button></router-link>
             <router-link to="/signup">
               <button class="primary">Get started</button></router-link>
@@ -169,6 +173,9 @@ div.main {
     li {
       color: #000;
       font-weight: 700;
+      &:hover{
+        color: cadetblue;
+      }
     }
   }
 
@@ -176,6 +183,8 @@ div.main {
     display: flex;
     gap: 10px;
     align-items: center;
+    position: relative;
+    padding-left: 150px;
 
     i {
       position: relative;
@@ -192,10 +201,15 @@ div.main {
       color: #fff;
       font-weight: 700;
       cursor: pointer;
+        transition: 0.5s;
+      &:hover{
+        transform: scale(1.1);
+        transition: 0.5s;
+      }
     }
 
     button.primary {
-      background: #ff4500;
+      background: #ff662e;
       border: none;
     }
 
@@ -259,7 +273,7 @@ i {
   cursor: pointer;
 
   &:hover {
-    color: #ff4500;
+    color: #ff662e;
   }
 }
 

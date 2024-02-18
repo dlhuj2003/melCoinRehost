@@ -124,7 +124,7 @@ main {
       button {
         height: 44px;
         width: 100%;
-        background: #ff4500;
+        background: #ff662e;
         border: none;
         color: #fff;
         border-radius: 5px;
@@ -139,7 +139,7 @@ main {
       margin-top: 0px;
 
       a {
-        color: #ff4500;
+        color: #ff662e;
       }
     }
   }
