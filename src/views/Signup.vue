@@ -247,7 +247,7 @@ main {
         margin: 0px 0px 10px;
 
         span {
-          color: #ff662e;
+          color: #d6704b;
         }
       }
     }
@@ -285,7 +285,7 @@ main {
       button {
         height: 44px;
         width: 100%;
-        background-color: #ff662e;
+        background-color: #d6704b;
         border: none;
         color: #fff;
         border-radius: 22px;
@@ -301,7 +301,7 @@ main {
       margin-top: 10px;
 
       a {
-        color: #ff662e;
+        color: #d6704b;
       }
     }
   }

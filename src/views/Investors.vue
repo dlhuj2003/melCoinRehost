@@ -202,7 +202,7 @@ section.one {
                 padding: 0px 20px;
                 border-radius: 22px;
                 border: none;
-                background-color: #ff662e;
+                background-color: #d6704b;
                 color: #fff;
             }
         }
@@ -265,7 +265,7 @@ section.two {
 
         button.primary {
             border: none;
-            background-color: #ff662e;
+            background-color: #d6704b;
             color: #fff;
         }
     }
@@ -366,7 +366,7 @@ section.four {
             }
 
             a {
-                color: #ff662e;
+                color: #d6704b;
             }
         }
 
@@ -426,7 +426,7 @@ section.five {
             }
 
             button {
-                background-color: #ff662e;
+                background-color: #d6704b;
                 height: 44px;
                 border-radius: 22px;
                 border: none;
@@ -472,7 +472,7 @@ section.six {
             h2 {
                 padding: 15px;
                 max-width: 220px;
-                border-left: 4px solid #ff662e;
+                border-left: 4px solid #d6704b;
             }
 
             h3 {
@@ -503,7 +503,7 @@ section.six {
 
                     h2 {
                         border-left: none;
-                        border-bottom: 3px solid #ff662e;
+                        border-bottom: 3px solid #d6704b;
                         width: fit-content;
                     }
                     h3 {
@@ -514,7 +514,7 @@ section.six {
             }
 
             button {
-                background-color: #ff662e;
+                background-color: #d6704b;
                 height: 44px;
                 border-radius: 22px;
                 border: none;
@@ -579,7 +579,7 @@ section.seven {
             h2 {
                 padding: 15px;
                 max-width: 220px;
-                border-left: 4px solid #ff662e;
+                border-left: 4px solid #d6704b;
             }
 
             h3 {
@@ -609,7 +609,7 @@ section.seven {
 
                     h2 {
                         border-left: none;
-                        border-bottom: 3px solid #ff662e;
+                        border-bottom: 3px solid #d6704b;
                         width: fit-content;
                     }
                     h3{
@@ -619,7 +619,7 @@ section.seven {
             }
 
             button {
-                background-color: #ff662e;
+                background-color: #d6704b;
                 height: 44px;
                 border-radius: 22px;
                 border: none;

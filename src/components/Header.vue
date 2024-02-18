@@ -209,7 +209,7 @@ div.main {
     }
 
     button.primary {
-      background: #ff662e;
+      background: #d6704b;
       border: none;
     }
 
@@ -273,7 +273,7 @@ i {
   cursor: pointer;
 
   &:hover {
-    color: #ff662e;
+    color: #d6704b;
   }
 }
 

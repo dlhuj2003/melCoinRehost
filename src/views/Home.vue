@@ -259,7 +259,7 @@ section.one {
       text-align: center;
 
       h2 {
-        background-color: #ff662e;
+        background-color: #d6704b;
         width: 100%;
         padding: 15px 100px;
         font-size: 40px;
@@ -309,7 +309,7 @@ section.one {
           padding: 0px 20px;
           display: flex;
           align-items: center;
-          background-color: #ff662e;
+          background-color: #d6704b;
           color: #fff;
           font-size: 16px;
           border-radius: 3px;
@@ -373,7 +373,7 @@ section.one {
     button {
       height: 44px;
       border: none;
-      background: #ff662e;
+      background: #d6704b;
       color: #fff;
       padding: 0px 30px;
       border-radius: 22px;
@@ -455,7 +455,7 @@ section.explore {
     }
 
     a {
-      background-color: #ff662e;
+      background-color: #d6704b;
       padding: 10px 20px;
       border-radius: 5px;
       display: flex;
@@ -489,7 +489,7 @@ div.chart {
     color: #333;
 
     span {
-      color: #ff662e;
+      color: #d6704b;
     }
 
     @media(max-width: 600px) {
@@ -561,7 +561,7 @@ section.two div.container {
 }
 
 section.count {
-  background: #ff662e;
+  background: #d6704b;
   color: #fff;
   padding: 80px 20px 100px;
 
@@ -621,7 +621,7 @@ section.ira {
 
     a {
       padding: 10px 20px;
-      background-color: #ff662e;
+      background-color: #d6704b;
       border: none;
       color: #fff;
       border-radius: 10px;
@@ -728,7 +728,7 @@ div.bgpad {
                 padding: 10px;
                 font-size: 22px;
                 border-radius: 50%;
-                color: #ff662e;
+                color: #d6704b;
                 box-shadow: 2px 2px 2px cadetblue;
               }
             }
@@ -813,7 +813,7 @@ section.start {
 
       i {
         font-size: 36px;
-        color: #ff662e;
+        color: #d6704b;
       }
     }
   }
@@ -841,7 +841,7 @@ div.trust {
 
     p.red {
       font-size: 14px;
-      color: #ff662e !important;
+      color: #d6704b !important;
     }
   }
 }

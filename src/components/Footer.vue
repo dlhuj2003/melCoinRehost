@@ -146,7 +146,7 @@ main {
                 font-size: 20px;
                 font-weight: 600;
                 text-decoration: underline;
-                text-decoration-color: #ff662e;
+                text-decoration-color: #d6704b;
             }
 
             a {
@@ -162,7 +162,7 @@ main {
 
                 i {
                     font-size: 20px;
-                    color: #ff662e;
+                    color: #d6704b;
                 }
             }
         }
@@ -175,7 +175,7 @@ main {
         font-size: 28px;
         margin-top: 50px;
         span{
-            color: #ff662e;
+            color: #d6704b;
         }
     }
 }</style>

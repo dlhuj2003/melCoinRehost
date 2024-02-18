@@ -45,7 +45,7 @@ div.main {
 
   h3 {
     color: #ffffff;
-    background-color: #ff662e;
+    background-color: #d6704b;
     padding: 20px 30px;
     margin: 0px 0px 30px;
     text-transform: uppercase;
@@ -77,7 +77,7 @@ div.main {
             h2 {
                 padding: 20px 10px;
                 font-size: 16px;
-                background-color: #ff662e;
+                background-color: #d6704b;
                 color: #fff;
                 border-radius: 10px 10px 0px 0px;
                 margin-bottom: 20px;
@@ -92,7 +92,7 @@ div.main {
             button {
                 height: 40px;
                 padding: 0px 30px;
-                background-color: #ff662e;
+                background-color: #d6704b;
                 border: none;
                 color: #fff;
                 margin: 10px 0px;

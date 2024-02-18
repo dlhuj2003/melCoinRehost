@@ -204,7 +204,7 @@ section.one.send {
 
     li {
       font-size: 24px;
-      color: #ff662e;
+      color: #d6704b;
       margin: 0px 0px 10px;
       @media(max-width: 600px){
           font-size: 18px;
@@ -378,7 +378,7 @@ section.one {
     button {
       height: 44px;
       border: none;
-      background: #ff662e;
+      background: #d6704b;
       color: #fff;
       padding: 0px 30px;
       border-radius: 22px;
