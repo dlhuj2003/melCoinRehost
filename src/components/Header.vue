@@ -25,7 +25,7 @@
             <li>
               <router-link to="/login">ID verification</router-link>
             </li>
-            <li class="p">
+            <!-- <li class="p">
               <p class="pay">Payment methods</p>
               <div class="x">
                 <p class="payment">
@@ -37,7 +37,7 @@
                   <li>USDT</li>
                 </ol>
               </div>
-            </li>
+            </li> -->
           </ul>
         </li>
         <li>
@@ -85,7 +85,7 @@
             <li>
               <router-link to="/login">ID verification</router-link>
             </li>
-            <li class="p">
+            <!-- <li class="p">
               <p class="pay">Payment methods</p>
               <div class="x">
                 <p class="payment">
@@ -97,7 +97,7 @@
                   <li>USDT</li>
                 </ol>
               </div>
-            </li>
+            </li> -->
           </ul>
         </li>
             <li>

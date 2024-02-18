@@ -7,8 +7,7 @@ import Footer from '@/components/Footer.vue'
 <template>
     <Header />
     <div id="page">
-        <div class="layout-main-wrapper layout-container clearfix" id="main-wrapper"
-            style="position: relative; top: 30px">
+        <div class="layout-main-wrapper layout-container clearfix" id="main-wrapper" style="position: relative; top: 30px">
             <div class="layout-main clearfix" id="main">
                 <main class="column main-content" id="content">
                     <section class="section" aria-label="main section of menu">
@@ -22,7 +21,7 @@ import Footer from '@/components/Footer.vue'
                                                 <article data-history-node-id="1183" role="presentation" about="/node/1183"
                                                     class="node node--type-alert-box node--view-mode-full clearfix">
                                                     <div class="container-max-width hidden-sm hidden-xs mB-section"
-                                                        style="background-color:#EAEAEA;border-left: #006778 6px solid;">
+                                                        style="background-color:#EAEAEA;border-left: #d6704b 6px solid;">
                                                         <div class="p-all-20">
                                                             <div class="common-Font-Color">
                                                                 <table>
@@ -42,7 +41,7 @@ import Footer from '@/components/Footer.vue'
                                                         </div>
                                                     </div>
                                                     <div class="container-max-width hidden-md hidden-lg mB-section"
-                                                        style="background-color:#EAEAEA;border-top: #006778 6px solid;">
+                                                        style="background-color:#EAEAEA;border-top: #d6704b 6px solid;">
                                                         <div class="p-all-20">
                                                             <div class="common-Font-Color">
                                                                 <table>
@@ -66,8 +65,7 @@ import Footer from '@/components/Footer.vue'
                                             <div>
                                                 <div>
                                                     <div class="hidden-xs hidden-sm background-height full-background-image-home mB-section"
-                                                        role="presentation"
-                                                        id="cbanner">
+                                                        role="presentation" id="cbanner">
                                                         <div class="container-max-width">
                                                             <div class="transparent-background">
                                                                 <div>
@@ -81,9 +79,8 @@ import Footer from '@/components/Footer.vue'
                                                                     <div class="custom-cta flex home-banner-cta">
                                                                         <div class="container-link "><a
                                                                                 class="link-center blue-link account-open"
-                                                                                aria-label="/open-an-account/consent"
                                                                                 target=""
-                                                                                href="javascript:void(0)"><span>Open an
+                                                                                href="/signup"><span>Open an
                                                                                     account</span>
                                                                                 <div class="new_arrow lg"><span
                                                                                         class="arrow_line"><span></span></span>
@@ -99,8 +96,8 @@ import Footer from '@/components/Footer.vue'
                                                     <div class="full-background-image-home-mobile ">
                                                         <div
                                                             class="field field--name-field-banner-image-mobile field--type-image field--label-hidden field--item">
-                                                            <img src="/src/assets/cbannermobile.jpg" width="720" height="448"
-                                                                alt="Amplify your charitable impact"
+                                                            <img src="/src/assets/cbannermobile.jpg" width="720"
+                                                                height="448" alt="Amplify your charitable impact"
                                                                 title="Amplify your charitable impact" loading="lazy"
                                                                 typeof="foaf:Image" class="img-responsive">
                                                         </div>
@@ -135,7 +132,8 @@ import Footer from '@/components/Footer.vue'
                                                         <div class="image-text-layout main-">
                                                             <div class="col-md-6 ul-margin mB-section hidden-xs image-left">
                                                                 <img class="image-content-img-text-layout center-block w-100peripad"
-                                                                    src="@/assets/charityimage1.png" alt="IMGPlace" style="max-width: 450px;">
+                                                                    src="@/assets/charityimage1.png" alt="IMGPlace"
+                                                                    style="max-width: 450px;">
                                                             </div>
                                                             <div
                                                                 class="col-md-6 ul-margin mB-section hidden-md hidden-lg hidden-sm image-left">
@@ -283,21 +281,9 @@ import Footer from '@/components/Footer.vue'
                                                                                     the <em>right </em>tools for impactful,
                                                                                     sustainable giving.&nbsp;</p>
                                                                             </div>
-                                                                            <div class="read-more-link"><span
-                                                                                    class="field-content"><a
-                                                                                        href="resources.html"
-                                                                                        aria-label="Explore our resources"
-                                                                                        target=""><span>Explore our
-                                                                                            resources</span>
-                                                                                        <div class="new_custom_arrow lg">
-                                                                                            <span class="arrow_custom_line"
-                                                                                                style="background: #006778;"><span
-                                                                                                    style="border: solid #006778;"></span></span>
-                                                                                        </div>
-                                                                                    </a></span></div>
                                                                         </div>
                                                                         <div class="para-t-border"
-                                                                            style="border-top: 5px solid #00AFA8"></div>
+                                                                            style="border-top: 5px solid #d6704b"></div>
                                                                     </div>
                                                                     <div class="tab-cards card-count-3">
                                                                         <div class="para-text"><img
@@ -315,21 +301,9 @@ import Footer from '@/components/Footer.vue'
                                                                                     difference in the world get the vital
                                                                                     support they need.&nbsp;</p>
                                                                             </div>
-                                                                            <div class="read-more-link"><span
-                                                                                    class="field-content"><a
-                                                                                        href="giving-with-vc/fees-and-minimums.html"
-                                                                                        aria-label="See our DAF fees"
-                                                                                        target=""><span>See our DAF
-                                                                                            fees</span>
-                                                                                        <div class="new_custom_arrow lg">
-                                                                                            <span class="arrow_custom_line"
-                                                                                                style="background: #006778;"><span
-                                                                                                    style="border: solid #006778;"></span></span>
-                                                                                        </div>
-                                                                                    </a></span></div>
                                                                         </div>
                                                                         <div class="para-t-border"
-                                                                            style="border-top: 5px solid #00AFA8"></div>
+                                                                            style="border-top: 5px solid #d6704b"></div>
                                                                     </div>
                                                                     <div class="tab-cards card-count-3">
                                                                         <div class="para-text"><img
@@ -345,21 +319,9 @@ import Footer from '@/components/Footer.vue'
                                                                                     philanthropic legacy.&nbsp;</p>
                                                                                 <p>&nbsp;</p>
                                                                             </div>
-                                                                            <div class="read-more-link"><span
-                                                                                    class="field-content"><a
-                                                                                        href="https://go.Mellcoincharitable.org/get-our-updates"
-                                                                                        aria-label="Get our updates"
-                                                                                        target=""><span>Get our
-                                                                                            updates</span>
-                                                                                        <div class="new_custom_arrow lg">
-                                                                                            <span class="arrow_custom_line"
-                                                                                                style="background: #006778;"><span
-                                                                                                    style="border: solid #006778;"></span></span>
-                                                                                        </div>
-                                                                                    </a></span></div>
                                                                         </div>
                                                                         <div class="para-t-border"
-                                                                            style="border-top: 5px solid #00AFA8"></div>
+                                                                            style="border-top: 5px solid #d6704b"></div>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -387,16 +349,6 @@ import Footer from '@/components/Footer.vue'
                                                                             your charitable journey.&nbsp;</p>
                                                                     </div>
                                                                 </div>
-                                                                <div class="primaryCta flex pB-50"><a
-                                                                        class="flex-center link-center"
-                                                                        href="donor-advised-fund-benefits.html"
-                                                                        aria-label="/donor-advised-fund-benefits"
-                                                                        target=""><span>Benefits of Donor-Advised Funds
-                                                                        </span>
-                                                                        <div class="new_arrow lg"><span
-                                                                                class="arrow_line"><span></span></span>
-                                                                        </div>
-                                                                    </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -441,15 +393,6 @@ import Footer from '@/components/Footer.vue'
                                                                             <p>&nbsp;</p>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="container-link mB-section justify-left"><a
-                                                                            class="read-more-link"
-                                                                            aria-label="/nonprofit-organizations"
-                                                                            href="nonprofit-organizations.html"
-                                                                            target=""><span>Learn More</span>
-                                                                            <div class="new_arrow lg"><span
-                                                                                    class="arrow_line"><span></span></span>
-                                                                            </div>
-                                                                        </a></div>
                                                                 </div>
                                                                 <div class="w-50Per mR-20"><video src="@/assets/count.mp4"
                                                                         alt="video component" class="w-100per"
@@ -484,15 +427,6 @@ import Footer from '@/components/Footer.vue'
                                                                             <p>&nbsp;</p>
                                                                         </div>
                                                                     </div>
-                                                                    <div class="container-link mB-section justify-left"><a
-                                                                            class="read-more-link"
-                                                                            aria-label="/nonprofit-organizations"
-                                                                            href="nonprofit-organizations.html"
-                                                                            target=""><span>Learn More</span>
-                                                                            <div class="new_arrow lg"><span
-                                                                                    class="arrow_line"><span></span></span>
-                                                                            </div>
-                                                                        </a></div>
                                                                 </div>
                                                                 <div class="w-50Per mR-20"><video src="@/assets/count.mp4"
                                                                         alt="video component" class="w-100per"
@@ -504,237 +438,21 @@ import Footer from '@/components/Footer.vue'
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="views-element-container">
-                                                <div class="form-group">
-                                                    <div
-                                                        class="view view-blogs-list view-id-blogs_list view-display-id-block_1 js-view-dom-id-3d842b87c981491ad4efaa1723b22341b1e79055fb6ee36690af1f20761f303f container-max-width">
-                                                        <div class="">
-                                                            <div class="blog-list-header">
-                                                                <div class="view-header">
-                                                                    <h2>Don’t miss out on our updates</h2>
-                                                                </div>
-                                                                <div class="blogs-show-more-button"><span>
-                                                                        <div class="more-link form-group"><a
-                                                                                href="blog.html">VIEW ALL POSTS</a></div>
-                                                                    </span>
-                                                                    <div class="new_custom_arrow lg"><span
-                                                                            class="arrow_custom_line"
-                                                                            style="background: #006778;"><span
-                                                                                style="border: solid #006778;"></span></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="view-content">
-                                                                <div class="views-view-grid horizontal cols-3 clearfix">
-                                                                    <div>
-                                                                        <div class="col-md-4 hm-blog-row"
-                                                                            style="width: 33.333333333333%;">
-                                                                            <div
-                                                                                class="views-field views-field-field-blogs-image">
-                                                                                <div class="field-content"><a
-                                                                                        href="blog/plan-your-charitable-giving-2024.html"
-                                                                                        hreflang="en"><img
-                                                                                            src="@/assets/cimage2.png"
-                                                                                            width="371" height="156"
-                                                                                            alt="Mellcoin Charitable leaf icon"
-                                                                                            title="Leaf image"
-                                                                                            loading="lazy"
-                                                                                            typeof="foaf:Image"
-                                                                                            class="img-responsive"></a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="views-field views-field-title"><span
-                                                                                    class="field-content">
-                                                                                    <div class="blog-home">Blog</div>
-                                                                                    <h4><a href="blog/plan-your-charitable-giving-2024.html"
-                                                                                            hreflang="en">Take your
-                                                                                            charitable giving to the next
-                                                                                            level in 2024. Here's how.</a>
-                                                                                    </h4>
-                                                                                </span></div>
-                                                                        </div>
-                                                                        <div class="col-md-4 hm-blog-row"
-                                                                            style="width: 33.333333333333%;">
-                                                                            <div
-                                                                                class="views-field views-field-field-blogs-image">
-                                                                                <div class="field-content"><a
-                                                                                        href="blog/6-questions-when-planning-your-giving.html"
-                                                                                        hreflang="en"><img
-                                                                                            src="@/assets/cimage2.png"
-                                                                                            width="371" height="156"
-                                                                                            alt="Mellcoin Charitable leaf icon"
-                                                                                            title="Leaf image"
-                                                                                            loading="lazy"
-                                                                                            typeof="foaf:Image"
-                                                                                            class="img-responsive"></a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="views-field views-field-title"><span
-                                                                                    class="field-content">
-                                                                                    <div class="blog-home">Blog</div>
-                                                                                    <h4><a href="blog/6-questions-when-planning-your-giving.html"
-                                                                                            hreflang="en">The nonprofit
-                                                                                            perspective: 6 questions to ask
-                                                                                            yourself when planning your
-                                                                                            giving</a></h4>
-                                                                                </span></div>
-                                                                        </div>
-                                                                        <div class="col-md-4 hm-blog-row"
-                                                                            style="width: 33.333333333333%;">
-                                                                            <div
-                                                                                class="views-field views-field-field-blogs-image">
-                                                                                <div class="field-content"><a
-                                                                                        href="giving-down-dafs-strong.html"
-                                                                                        hreflang="en"><img
-                                                                                            src="@/assets/cimage2.png"
-                                                                                            width="371" height="156"
-                                                                                            alt="Mellcoin Charitable leaf icon"
-                                                                                            title="Leaf image"
-                                                                                            loading="lazy"
-                                                                                            typeof="foaf:Image"
-                                                                                            class="img-responsive"></a>
-                                                                                </div>
-                                                                            </div>
-                                                                            <div class="views-field views-field-title"><span
-                                                                                    class="field-content">
-                                                                                    <div class="blog-home">Blog</div>
-                                                                                    <h4><a href="giving-down-dafs-strong.html"
-                                                                                            hreflang="en">Giving is down,
-                                                                                            but DAFs stay strong</a></h4>
-                                                                                </span></div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="views-element-container">
-                                                <div class="form-group">
-                                                    <div
-                                                        class="view view-news-more view-id-news_more view-display-id-block_1 js-view-dom-id-b0507bf3648f7eb2c610c79d0f4642b123fd782db7857284c93fe9965dc3f781 container-max-width news-more-layout-block-view-container">
-                                                        <div class="">
-                                                            <div class="news-block-list-header">
-                                                                <div class="view-header">
-                                                                    <h2>News and more</h2>
-                                                                </div>
-                                                                <div class="blogs-show-more-button"><span>
-                                                                        <div class="more-link form-group"><a
-                                                                                href="news.html">VIEW ALL NEWS</a></div>
-                                                                    </span>
-                                                                    <div class="new_custom_arrow lg"><span
-                                                                            class="arrow_custom_line"
-                                                                            style="background: #006778;"><span
-                                                                                style="border: solid #006778;"></span></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="view-content">
-                                                                <div id="views-bootstrap-news-more-block-1"
-                                                                    class="grid views-view-grid">
-                                                                    <div class="row">
-                                                                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                                                            <div class="views-field views-field-nothing">
-                                                                                <span class="field-content">
-                                                                                    <div class="news-more-row-data-id">
-                                                                                        <h4>Tennessee Tornadoes: Support
-                                                                                            disaster relief</h4><a
-                                                                                            href="news/tennessee-tornado-relief.html"
-                                                                                            hreflang="en"
-                                                                                            aria-label="Read More ">
-                                                                                            <div class="read-more-link">
-                                                                                                <span
-                                                                                                    class="field-content">Read
-                                                                                                    More </span>
-                                                                                                <div
-                                                                                                    class="new_custom_arrow lg">
-                                                                                                    <span
-                                                                                                        class="arrow_custom_line"><span></span></span>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                                                            <div class="views-field views-field-nothing">
-                                                                                <span class="field-content">
-                                                                                    <div class="news-more-row-data-id">
-                                                                                        <h4>New Survey: 3 in 5 Millennial
-                                                                                            and Gen Z donors plan to give
-                                                                                            more to charity in the next 12
-                                                                                            months</h4><a
-                                                                                            href="news/new-survey-3-5-millennial-and-gen-z-donors-plan-give-more-charity-next-12-months.html"
-                                                                                            hreflang="en"
-                                                                                            aria-label="Read More ">
-                                                                                            <div class="read-more-link">
-                                                                                                <span
-                                                                                                    class="field-content">Read
-                                                                                                    More </span>
-                                                                                                <div
-                                                                                                    class="new_custom_arrow lg">
-                                                                                                    <span
-                                                                                                        class="arrow_custom_line"><span></span></span>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </span>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
-                                                                            <div class="views-field views-field-nothing">
-                                                                                <span class="field-content">
-                                                                                    <div class="news-more-row-data-id">
-                                                                                        <h4>New Survey: Americans
-                                                                                            increasingly support disaster
-                                                                                            relief as major share of
-                                                                                            charitable giving, but obstacles
-                                                                                            suggest they could be even more
-                                                                                            generous</h4><a
-                                                                                            href="news/new-survey-americans-increasingly-support-disaster-relief-major-share-charitable-giving.html"
-                                                                                            hreflang="en"
-                                                                                            aria-label="Read More ">
-                                                                                            <div class="read-more-link">
-                                                                                                <span
-                                                                                                    class="field-content">Read
-                                                                                                    More </span>
-                                                                                                <div
-                                                                                                    class="new_custom_arrow lg">
-                                                                                                    <span
-                                                                                                        class="arrow_custom_line"><span></span></span>
-                                                                                                </div>
-                                                                                            </div>
-                                                                                        </a>
-                                                                                    </div>
-                                                                                </span>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div>
                                                 <article data-history-node-id="1626" role="presentation" about="/node/1626"
                                                     class="node node--type-backgroundimage-text-cta node--promoted node--view-mode-full clearfix">
                                                     <div class="node__content clearfix">
                                                         <div class="hidden-xs hidden-sm">
                                                             <div class=" bg_image_type_2" role="presentation"
-                                                                style=" background-image : url(src/assets/cfoot.png) ">
+                                                                style=" background : #444;">
                                                                 <div class="container-max-width">
                                                                     <div class="text-color-light width-768 left-align">
                                                                         <h1 class="mB-T2B">Are you ready to transform your
                                                                             giving?</h1>
                                                                         <div class="primaryCta flex pB-50 pT-30"><a
                                                                                 class="flex-center link-center account-open"
-                                                                                aria-label="/open-an-account/consent"
                                                                                 target=""
-                                                                                href="javascript:void(0)"><span>Open a
+                                                                                href="/signup"><span>Open a
                                                                                     donor-advised fund </span>
                                                                                 <div class="new_arrow lg"><span
                                                                                         class="arrow_line"><span></span></span>
@@ -781,7 +499,7 @@ import Footer from '@/components/Footer.vue'
 </template>
 
 <style scoped lang="scss">
-#cbanner{
+#cbanner {
     background-image: url(@/assets/charitybanner.jpg);
 }
 
@@ -8656,7 +8374,7 @@ input {
     line-height: 1.67;
     letter-spacing: 1.13px;
     color: #fff;
-    background-color: #006778;
+    background-color: #d6704b;
     border: 0;
     display: block;
     margin: 30px auto 10px auto;
@@ -8728,7 +8446,7 @@ input {
     display: block;
     width: 50%;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     border-radius: 0;
     font-family: HelveticaNeue;
     font-size: 18px;
@@ -8750,7 +8468,7 @@ input {
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: #006778;
+    color: #d6704b;
     margin: 0 auto;
     display: block;
     border: 0;
@@ -8845,7 +8563,7 @@ div#mobile-menu::-webkit-scrollbar {
     display: block;
     width: 150px;
     height: 40px;
-    background-color: #006778;
+    background-color: #d6704b;
     font-family: "HelveticaNeue-CondensedBold";
     font-size: 16px;
     letter-spacing: .44px;
@@ -8856,7 +8574,7 @@ div#mobile-menu::-webkit-scrollbar {
 .custom-main-menu .search-button-mobile .input-group button {
     width: 40px;
     height: 40px;
-    background-color: #006778;
+    background-color: #d6704b;
     font-family: "HelveticaNeue";
     font-size: 16px;
     letter-spacing: .44px;
@@ -9077,7 +8795,7 @@ div#mobile-menu::-webkit-scrollbar {
 
 .circle-plus .circle .horizontal {
     position: absolute;
-    background-color: #022737;
+    background-color: #d6704b;
     width: 15px;
     height: 3px;
     left: 73%;
@@ -9088,7 +8806,7 @@ div#mobile-menu::-webkit-scrollbar {
 
 .circle-plus .circle .vertical {
     position: absolute;
-    background-color: #022737;
+    background-color: #d6704b;
     width: 3px;
     height: 15px;
     left: 40%;
@@ -9129,7 +8847,7 @@ div#mobile-menu::-webkit-scrollbar {
 .hamburger {
     width: 24px;
     height: 2px;
-    background-color: #022737;
+    background-color: #d6704b;
     display: block;
     position: absolute;
     opacity: 1;
@@ -9203,7 +8921,7 @@ div#mobile-menu::-webkit-scrollbar {
     padding: 31px 20px;
     font-size: 14px;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -o-transition: color .5s linear;
@@ -9213,7 +8931,7 @@ div#mobile-menu::-webkit-scrollbar {
 .main_menu .navbar li a {
     padding: 31px 40px 27px 0;
     letter-spacing: .5px;
-    color: #022737 !important;
+    color: #d6704b !important;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -o-transition: color .5s linear;
@@ -9224,7 +8942,7 @@ div#mobile-menu::-webkit-scrollbar {
     border-top: 4px solid #fff;
     padding: 27px 20px;
     text-decoration: none;
-    color: #006778;
+    color: #d6704b;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -o-transition: color .5s linear;
@@ -9336,7 +9054,7 @@ div#mobile-menu::-webkit-scrollbar {
 }
 
 .full-top-menu {
-    background-color: #022737
+    background-color: #d6704b
 }
 
 .top-nav-box {
@@ -9365,12 +9083,12 @@ div#mobile-menu::-webkit-scrollbar {
 }
 
 .top-right-navigation:last-child {
-    background-color: #006778
+    background-color: #d6704b
 }
 
 .top-right-navigation:last-child:hover,
 .top-right-navigation:last-child:focus {
-    background-color: #005c6b
+    background-color: #d6704b
 }
 
 .top-right-navigation a span {
@@ -9387,7 +9105,7 @@ div#mobile-menu::-webkit-scrollbar {
 
 .top-right-navigation:hover,
 .top-right-navigation:focus {
-    background-color: #006778
+    background-color: #d6704b
 }
 
 .top-nav-box .header-links ul {
@@ -9422,7 +9140,7 @@ div#mobile-menu::-webkit-scrollbar {
 .old-site-link-container {
     width: 100%;
     background-color: #eaeaea;
-    border-bottom: solid 2px #006778;
+    border-bottom: solid 2px #d6704b;
     border-top: solid 1px #505050
 }
 
@@ -9447,7 +9165,7 @@ div#mobile-menu::-webkit-scrollbar {
 
 .old-site-link-container a.cm-vc-link {
     letter-spacing: 0;
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline
 }
 
@@ -9479,7 +9197,7 @@ p {
 .body-title {
     font-family: "HelveticaNeue-Bold" !important;
     font-size: 16px !important;
-    color: #022737;
+    color: #d6704b;
     line-height: 1.5 !important
 }
 
@@ -9548,7 +9266,7 @@ p {
 .breadcrumb li a:hover,
 .breadcrumb li a:active {
     text-decoration: underline;
-    color: #006778
+    color: #d6704b
 }
 
 .breadcrumb li {
@@ -9590,7 +9308,7 @@ p {
 
 p.heading1 {
     font-family: "BerkeleyStd-Book" !important;
-    color: #022737 !important;
+    color: #d6704b !important;
     font-size: 42px !important;
     line-height: 1.14 !important;
     margin: 0 !important
@@ -9598,7 +9316,7 @@ p.heading1 {
 
 h1 {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 42px;
     line-height: 1.14;
     margin: 0
@@ -9606,7 +9324,7 @@ h1 {
 
 h2 {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 36px;
     line-height: 1.16;
     letter-spacing: .5px;
@@ -9615,7 +9333,7 @@ h2 {
 
 h3 {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 30px;
     line-height: 1.2;
     margin: 0
@@ -9623,7 +9341,7 @@ h3 {
 
 h4 {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 24px;
     line-height: 1.25;
     margin: 0
@@ -9631,7 +9349,7 @@ h4 {
 
 h5 {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 20px;
     line-height: 1.25;
     margin: 0
@@ -9744,7 +9462,7 @@ h5 {
 .table-striped thead th {
     font-family: "HelveticaNeue-Bold";
     padding: 15px 30px 15px 30px;
-    color: #022737;
+    color: #d6704b;
     font-weight: normal
 }
 
@@ -9775,7 +9493,7 @@ h5 {
 @media only screen and (min-width:315px) and (max-width:768px) {
     #dpLogin p.heading1 {
         font-family: "BerkeleyStd-Book" !important;
-        color: #022737 !important;
+        color: #d6704b !important;
         font-size: 36px !important;
         line-height: 1.14 !important;
         margin: 0 !important;
@@ -9891,7 +9609,7 @@ h5 {
 .Leaf li {
     font: normal 24px 'BerkeleyStd-Book';
     line-height: 2;
-    color: #022737
+    color: #d6704b
 }
 
 .list-abc {
@@ -10207,7 +9925,7 @@ h5 {
 
 .whole-panel-body p a {
     text-decoration: underline;
-    color: #006778
+    color: #d6704b
 }
 
 .common-Font-Color {
@@ -10215,15 +9933,15 @@ h5 {
 }
 
 .heading-font-color {
-    color: #022737
+    color: #d6704b
 }
 
 .teal-Font-Color {
-    color: #006778
+    color: #d6704b
 }
 
 .teal-underline {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline !important
 }
 
@@ -10285,18 +10003,18 @@ a:active {
 .primaryCta>a.link-center {
     font-family: 'HelveticaNeue-CondensedBold';
     color: #fff;
-    background-color: #006778;
+    background-color: #d6704b;
     min-width: 200px;
     padding: 0 20px 0 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     height: 50px;
     font-size: 16px;
-    border: 1px solid #006778
+    border: 1px solid #d6704b
 }
 
 .primaryCta>a.link-center:hover {
-    background-color: #005c6b
+    background-color: #d6704b
 }
 
 .link-center:hover .arrow {
@@ -10325,7 +10043,7 @@ a:active {
 .text-color-dark,
 .text-color-dark h1,
 .text-color-dark h4 {
-    color: #022737
+    color: #d6704b
 }
 
 .text-color-dark p {
@@ -10374,12 +10092,12 @@ a:active {
     min-width: 200px;
     padding: 0 20px;
     height: 50px;
-    border: solid 1.2px #006778;
+    border: solid 1.2px #d6704b;
     background-color: #fff
 }
 
 .secondary-cta-border span.field-content>a:hover {
-    border-color: #005c6b
+    border-color: #d6704b
 }
 
 .secondary-cta-border .field-content>a:hover .teal-arrow {
@@ -10401,23 +10119,23 @@ a:active {
 
 #scnd-btn a {
     background-color: #fff;
-    color: #006778;
-    border: 1px solid #006778;
+    color: #d6704b;
+    border: 1px solid #d6704b;
     min-width: 150px
 }
 
 #scnd-btn a span {
-    color: #006778
+    color: #d6704b
 }
 
 #scnd-btn a:hover {
-    border: 1px solid #005c6b;
+    border: 1px solid #d6704b;
     filter: brightness(100%);
     -webkit-filter: brightness(100%)
 }
 
 #scnd-btn a span:hover {
-    color: #005c6b
+    color: #d6704b
 }
 
 .open-box-shadow {
@@ -10440,7 +10158,7 @@ _:-ms-fullscreen,
 
 .quicklinkUnderline p>a {
     text-decoration: underline;
-    color: #006778
+    color: #d6704b
 }
 
 .blog-details-page img {
@@ -10455,7 +10173,7 @@ _:-ms-fullscreen,
 
 p a {
     text-decoration: underline !important;
-    color: #006778
+    color: #d6704b
 }
 
 .width-768 {
@@ -10498,7 +10216,7 @@ p a {
     left: 0;
     position: relative;
     display: block;
-    background: #006778;
+    background: #d6704b;
     z-index: 1;
     transition: all .4s ease-in-out
 }
@@ -10510,7 +10228,7 @@ p a {
     left: 0;
     position: relative;
     display: block;
-    background: #006778;
+    background: #d6704b;
     z-index: 1;
     transition: all .4s ease-in-out
 }
@@ -10522,7 +10240,7 @@ p a {
     left: 0;
     position: relative;
     display: block;
-    background: #006778;
+    background: #d6704b;
     z-index: 1;
     transition: all .4s ease-in-out
 }
@@ -10544,7 +10262,7 @@ p a {
 .read-more-link>.new_arrow>.arrow_line span {
     bottom: -3px;
     right: 0;
-    border: solid #006778;
+    border: solid #d6704b;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -10558,7 +10276,7 @@ p a {
 .white-link>.new_arrow>.arrow_line span {
     bottom: -3px;
     right: 0;
-    border: solid #006778;
+    border: solid #d6704b;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -10572,7 +10290,7 @@ p a {
 .teal-arrow_line span {
     bottom: -3px;
     right: 0;
-    border: solid #006778;
+    border: solid #d6704b;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -10717,7 +10435,7 @@ p a {
         display: block;
         margin-bottom: 5px;
         font-family: 'HelveticaNeue-Bold';
-        color: #022737
+        color: #d6704b
     }
 
     #session-timeout-dialog .modal-dialog .modal-content {
@@ -10810,7 +10528,7 @@ p a {
     font-style: normal;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778;
+    color: #d6704b;
     display: inline-block;
     position: relative;
     text-transform: uppercase;
@@ -10820,13 +10538,13 @@ p a {
 }
 
 .para-cards .read-more-link span.field-content>a:hover {
-    color: #005c6b
+    color: #d6704b
 }
 
 .newsletter_subscribe #mc_embed_signup {
     opacity: .9;
     box-shadow: 0 10px 20px 0 rgba(0, 0, 0, .1);
-    background: #006778;
+    background: #d6704b;
     position: absolute;
     z-index: 1
 }
@@ -10878,7 +10596,7 @@ p a {
     font-size: 16px;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #006778 !important;
+    background-color: #d6704b !important;
     border: 0;
     outline: 0
 }
@@ -11069,7 +10787,7 @@ div#close-button:hover {
 span.numberofitems {
     background-color: white;
     border-radius: 50%;
-    color: #006778;
+    color: #d6704b;
     margin-left: 5px;
     padding: 5px 10px
 }
@@ -11270,7 +10988,7 @@ span.numberofitems {
 }
 
 #block-mainnavigation ul>li.active-trail a.sf-depth-1 {
-    border-bottom: 6px solid #006778 !important
+    border-bottom: 6px solid #d6704b !important
 }
 
 #block-mainnavigation ul>li.active-trail .sf-multicolumn li.active-trail .is-active {
@@ -11300,7 +11018,7 @@ span.numberofitems {
         box-shadow: 0 5px 10px 0 rgba(0, 0, 0, .1);
         border: solid 1px var(--white);
         font-size: 16px;
-        background-color: #006778;
+        background-color: #d6704b;
         justify-content: center;
         align-items: center;
         text-align: center;
@@ -11309,7 +11027,7 @@ span.numberofitems {
 
     #compare-button-clear {
         font-family: 'HelveticaNeue-CondensedBold';
-        color: #006778;
+        color: #d6704b;
         z-index: 100;
         position: fixed;
         right: 8px;
@@ -11439,7 +11157,7 @@ ul[data-sa-theme="minimal"] {
 }
 
 .ckeditor-style-teal-call-out-text {
-    border-left: 5px solid #006778 !important;
+    border-left: 5px solid #d6704b !important;
     padding: 10px 20px !important;
     color: #505050 !important;
     margin-left: 20px !important;
@@ -11457,7 +11175,7 @@ ul[data-sa-theme="minimal"] {
     line-height: 26px !important;
     font-stretch: normal;
     letter-spacing: normal;
-    color: #006778 !important
+    color: #d6704b !important
 }
 
 @media only screen and (min-width:315px) and (max-width:768px) {
@@ -11535,7 +11253,7 @@ ul[data-sa-theme="minimal"] {
 
 .embedded-entity span.file-link a {
     text-decoration: underline !important;
-    color: #006778
+    color: #d6704b
 }
 
 .node.blog .layout__region .field--name-field-blogs-image,
@@ -11646,7 +11364,7 @@ ul[data-sa-theme="minimal"] {
 .notify-btnlink__more {
     line-height: 19px;
     letter-spacing: 0;
-    color: #006778;
+    color: #d6704b;
     position: relative;
     -webkit-transition: left .2s linear;
     transition: left .2s linear;
@@ -11656,7 +11374,7 @@ ul[data-sa-theme="minimal"] {
 }
 
 .notify-btnlink__more a {
-    color: #006778
+    color: #d6704b
 }
 
 .notify-btnlink__arrow {
@@ -11678,7 +11396,7 @@ ul[data-sa-theme="minimal"] {
     left: 0;
     position: relative;
     display: block;
-    background: #006778;
+    background: #d6704b;
     z-index: 1;
     transition: all .4s ease-in-out
 }
@@ -11686,7 +11404,7 @@ ul[data-sa-theme="minimal"] {
 .notify-arrow__line>span {
     bottom: -3px;
     right: 0;
-    border: solid #006778;
+    border: solid #d6704b;
     border-width: 0 2px 2px 0;
     display: inline-block;
     padding: 3px;
@@ -11968,7 +11686,7 @@ ul[data-sa-theme="minimal"] {
 
 .investments-print-page .quicktabs-wrapper .quicktabs-tabs li.active a {
     background-color: #fff;
-    color: #006778
+    color: #d6704b
 }
 
 .investments-print-page .quicktabs-wrapper .quicktabs-tabs li a:before {
@@ -11985,7 +11703,7 @@ ul[data-sa-theme="minimal"] {
 .investments-print-page .quicktabs-wrapper .quicktabs-tabs li.active a:before {
     width: 100%;
     height: 100%;
-    border-top-color: #006778;
+    border-top-color: #d6704b;
     transition: width .2s ease-out, height .2s ease-out .2s
 }
 
@@ -12026,8 +11744,7 @@ ul[data-sa-theme="minimal"] {
     cursor: pointer
 }
 
-.IO-Print .glyphicon-print:before {
-}
+.IO-Print .glyphicon-print:before {}
 
 .IO-Print>i {
     margin-right: 7px !important
@@ -12277,7 +11994,7 @@ ul[data-sa-theme="minimal"] {
 }
 
 .investment_title>span {
-    color: #006778 !important;
+    color: #d6704b !important;
     text-decoration: underline;
     font-family: HelveticaNeue
 }
@@ -12390,7 +12107,7 @@ body .detail-view .foot-table-desc {
 .resourcescalculator-print-page #advanceCal .investment-subcategory th {
     padding: 4px 22px !important;
     background-color: #d9d9d9 !important;
-    color: #022737 !important;
+    color: #d6704b !important;
     font-family: 'HelveticaNeue-Medium';
     font-weight: 500 !important;
     font-size: 16px
@@ -12399,7 +12116,7 @@ body .detail-view .foot-table-desc {
 .resourcescalculator-print-page .investment-table-mobile .investment-subcategory th {
     padding: 4px 22px !important;
     background-color: #d9d9d9 !important;
-    color: #022737 !important;
+    color: #d6704b !important;
     font-family: 'HelveticaNeue-Medium';
     font-weight: 500 !important;
     font-size: 16px;
@@ -12576,7 +12293,7 @@ a:active {
     line-height: 1.14;
     letter-spacing: .6px;
     text-align: center;
-    color: #022737
+    color: #d6704b
 }
 
 .component-body {
@@ -12597,7 +12314,7 @@ a:active {
     line-height: 1;
     letter-spacing: .6px;
     text-align: left;
-    color: #022737
+    color: #d6704b
 }
 
 .component-body-left {
@@ -12647,7 +12364,7 @@ a:active {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: .5px;
-    color: #022737
+    color: #d6704b
 }
 
 .custom-main-menu {
@@ -12743,7 +12460,7 @@ a:active {
     font-family: 'HelveticaNeue-CondensedBold';
     font-size: 14px;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -o-transition: color .5s linear;
@@ -12754,7 +12471,7 @@ a:active {
     border-top: 4px solid #fff;
     padding: 27px 20px;
     text-decoration: none;
-    color: #006778;
+    color: #d6704b;
     -webkit-transition: color .5s linear;
     -moz-transition: color .5s linear;
     -o-transition: color .5s linear;
@@ -12906,7 +12623,7 @@ a:active {
     line-height: 1.14;
     letter-spacing: .5px;
     text-align: center;
-    color: #022737;
+    color: #d6704b;
     padding: 80px 0 35px 0
 }
 
@@ -12991,7 +12708,7 @@ a:active {
 }
 
 .full-top-menu {
-    background-color: #022737
+    background-color: #d6704b
 }
 
 .top-nav-box {
@@ -13016,7 +12733,7 @@ a:active {
 
 .top-right-navigation:hover,
 .top-right-navigation:focus {
-    background-color: #006778
+    background-color: #d6704b
 }
 
 .top-nav-box .header-links ul {
@@ -13071,20 +12788,20 @@ a:active {
     font-family: 'BerkeleyStd-Book';
     font-size: 30px;
     letter-spacing: .6px;
-    color: #022737
+    color: #d6704b
 }
 
 .blog-home {
     font-family: "HelveticaNeue-Bold";
     font-size: 16px;
-    color: #022737;
+    color: #d6704b;
     height: 40px;
     padding-top: 10px
 }
 
 .views-field-title h4 a {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 24px;
     line-height: 1.25;
     margin: 0
@@ -13118,7 +12835,7 @@ a:active {
     font-style: normal;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778
+    color: #d6704b
 }
 
 .view-news-commentary-listing .read-more-link a {
@@ -13128,7 +12845,7 @@ a:active {
     font-style: normal;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778
+    color: #d6704b
 }
 
 .view-id-blogs_list .read-more-link {
@@ -13197,7 +12914,7 @@ a:active {
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: .9px;
-    color: #022737;
+    color: #d6704b;
     background-image: url("../../../../themes/vc_ole/images/newspaper.png");
     background-repeat: no-repeat;
     padding: 3px;
@@ -13207,7 +12924,7 @@ a:active {
 
 .news-tags div a {
     margin-left: 38px;
-    color: #022737
+    color: #d6704b
 }
 
 .nc-row-wrapper>.views-field-title {
@@ -13218,7 +12935,7 @@ a:active {
     font-stretch: normal;
     line-height: 1.25;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     padding-top: 17px
 }
 
@@ -13248,7 +12965,7 @@ a:active {
 .view .bl-more {
     font-family: 'HelveticaNeue-CondensedBold';
     color: #fff;
-    background-color: #006778;
+    background-color: #d6704b;
     display: flex;
     align-items: center;
     width: 300px;
@@ -13257,7 +12974,7 @@ a:active {
     letter-spacing: 1px;
     height: 50px;
     font-size: 18px;
-    border: 1px solid #006778;
+    border: 1px solid #d6704b;
     margin-top: auto
 }
 
@@ -13373,11 +13090,11 @@ a:active {
 }
 
 .blogs-show-more-button .more-link a {
-    color: #006778
+    color: #d6704b
 }
 
 .blogs-show-more-button .more-link a {
-    color: #005c6b
+    color: #d6704b
 }
 
 .blog-list-header {
@@ -13426,11 +13143,11 @@ a:active {
 }
 
 .news-more-layout-block-view-container .read-more-link .new_custom_arrow .arrow_custom_line {
-    background: #006778
+    background: #d6704b
 }
 
 .news-more-layout-block-view-container .read-more-link .new_custom_arrow .arrow_custom_line span {
-    border: solid #006778
+    border: solid #d6704b
 }
 
 .news-more-layout-block-view-container .news-block-list-header {
@@ -13464,7 +13181,7 @@ a:active {
 }
 
 .news-more-layout-block-view-container .views-field.views-field-nothing .read-more-link .field-content {
-    color: #006778;
+    color: #d6704b;
     text-transform: uppercase;
     font-size: 16px;
     margin-top: 10px;
@@ -13636,7 +13353,7 @@ a:active {
     }
 
     .mobile-menu .navbar li>a {
-        color: #022737;
+        color: #d6704b;
         padding: 20px 0;
         font-family: 'HelveticaNeue-CondensedBold';
         font-size: 14px;
@@ -13806,7 +13523,7 @@ a:active {
     }
 
     .mobile-menu .navbar li>a {
-        color: #022737;
+        color: #d6704b;
         padding: 20px 0;
         font-family: 'HelveticaNeue-CondensedBold';
         font-size: 14px;
@@ -13835,7 +13552,7 @@ a:active {
         line-height: 1;
         letter-spacing: .6px;
         text-align: center;
-        color: #022737
+        color: #d6704b
     }
 
     .main-menu-mobile {
@@ -13881,7 +13598,7 @@ a:active {
         line-height: 1.2;
         letter-spacing: .5px;
         text-align: center;
-        color: #022737
+        color: #d6704b
     }
 }
 
@@ -13962,7 +13679,7 @@ a:active {
         font-family: 'HelveticaNeue';
         font-size: 12px;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         padding: 0
     }
 
@@ -14022,7 +13739,7 @@ a:active {
     .body-title {
         font-family: "HelveticaNeue-Bold";
         font-size: 14px !important;
-        color: #022737;
+        color: #d6704b;
         line-height: 1.5
     }
 
@@ -14038,7 +13755,7 @@ a:active {
 
     h1 {
         font-family: "BerkeleyStd-Book";
-        color: #022737;
+        color: #d6704b;
         font-size: 36px;
         line-height: 1.16;
         margin: 0
@@ -14046,7 +13763,7 @@ a:active {
 
     h2 {
         font-family: "BerkeleyStd-Book";
-        color: #022737;
+        color: #d6704b;
         font-size: 30px;
         line-height: 1.2;
         letter-spacing: .5px;
@@ -14055,7 +13772,7 @@ a:active {
 
     h3 {
         font-family: "BerkeleyStd-Book";
-        color: #022737;
+        color: #d6704b;
         font-size: 24px;
         line-height: 1.25;
         margin: 0
@@ -14063,7 +13780,7 @@ a:active {
 
     h4 {
         font-family: "BerkeleyStd-Book";
-        color: #022737;
+        color: #d6704b;
         font-size: 20px;
         line-height: 1.25;
         margin: 0
@@ -14362,7 +14079,7 @@ a:active {
         font-family: "BerkeleyStd-Bold";
         font-size: 20px;
         text-align: center;
-        color: #022737
+        color: #d6704b
     }
 
     .body-text {
@@ -14384,7 +14101,7 @@ a:active {
     }
 
     .mobile-menu .navbar li>a {
-        color: #022737;
+        color: #d6704b;
         padding: 20px 0;
         font-family: "HelveticaNeue-CondensedBold";
         font-size: 14px;
@@ -14579,7 +14296,7 @@ a:active {
     }
 
     .mobile-menu .navbar li>a {
-        color: #022737;
+        color: #d6704b;
         padding: 20px 0;
         font-family: "HelveticaNeue-CondensedBold";
         font-size: 14px;
@@ -14674,7 +14391,7 @@ a:active {
         line-height: 1;
         letter-spacing: .6px;
         text-align: center;
-        color: #022737
+        color: #d6704b
     }
 
     .main-menu-mobile {
@@ -14727,7 +14444,7 @@ a:active {
         line-height: 1.2;
         letter-spacing: .5px;
         text-align: center;
-        color: #022737
+        color: #d6704b
     }
 
     .block-region-first-below {
@@ -14905,7 +14622,7 @@ a:active {
         font-family: "HelveticaNeue";
         font-size: 12px;
         letter-spacing: .5px;
-        color: #022737
+        color: #d6704b
     }
 
     .layout--twocol-bricks>.layout__region--first-above,
@@ -14943,7 +14660,7 @@ a:active {
 }
 
 .full-footer {
-    background-color: #022737;
+    background-color: #d6704b;
     color: #b6bdbd;
     font-size: 12px;
     line-height: normal
@@ -15010,7 +14727,7 @@ a:active {
 .menu--secondary-footer li a:focus,
 .menu--footer li a:hover,
 .menu--footer li a:focus {
-    background-color: #022737
+    background-color: #d6704b
 }
 
 .field--type-simplenews-subscription>.form-item {
@@ -15289,7 +15006,7 @@ div#footer-subscription label {
 
 
 #mce-responses a {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline
 }
 
@@ -15313,7 +15030,7 @@ div#footer-subscription label {
     font-family: HelveticaNeue-CondensedBold;
     font-size: 16px;
     letter-spacing: 1px;
-    border: 1px solid #006778
+    border: 1px solid #d6704b
 }
 
 #registerBtnUniq .new_custom_arrow {
@@ -15342,7 +15059,7 @@ div#footer-subscription label {
     line-height: normal;
     letter-spacing: 1px;
     text-align: right;
-    color: #006778
+    color: #d6704b
 }
 
 .login-container .contendiv {
@@ -15364,7 +15081,7 @@ div#footer-subscription label {
     border: 0;
     width: 215px;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     color: white;
     font-family: HelveticaNeue-CondensedBold;
     font-size: 16px;
@@ -15377,7 +15094,7 @@ div#footer-subscription label {
 }
 
 .login-container button[type=submit]:hover {
-    background-color: #005c6b;
+    background-color: #d6704b;
     transition: background-color .2s linear
 }
 
@@ -15429,7 +15146,7 @@ div#footer-subscription label {
     font-style: normal;
     font-stretch: normal;
     line-height: normal;
-    color: #022737;
+    color: #d6704b;
     letter-spacing: .6px
 }
 
@@ -15440,8 +15157,8 @@ div#footer-subscription label {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: .6px;
-    color: #006778;
-    border-bottom: 4px solid #006778;
+    color: #d6704b;
+    border-bottom: 4px solid #d6704b;
     margin-right: 10px
 }
 
@@ -15450,7 +15167,7 @@ div#footer-subscription label {
     font-size: 36px;
     line-height: 1.2;
     letter-spacing: 1.1px;
-    color: #022737;
+    color: #d6704b;
     padding-top: 0;
     margin-bottom: 40px;
     width: 100%
@@ -15483,7 +15200,7 @@ div#footer-subscription label {
     font-size: 14px;
     line-height: normal;
     letter-spacing: .5px;
-    color: #006778
+    color: #d6704b
 }
 
 .login-container .login-form div input {
@@ -15524,7 +15241,7 @@ div#footer-subscription label {
     font-size: 24px;
     line-height: 1.5;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     margin: 50px auto 0 auto
 }
 
@@ -15616,7 +15333,7 @@ div#footer-subscription label {
 }
 
 .login-register-nav a {
-    color: #022737;
+    color: #d6704b;
     text-decoration: none
 }
 
@@ -15626,7 +15343,7 @@ div#footer-subscription label {
 }
 
 .register-tab:hover a {
-    color: #006778
+    color: #d6704b
 }
 
 .login-text {
@@ -15672,7 +15389,7 @@ div#footer-subscription label {
 .session-timeout-header-logout {
     font-family: BerkeleyStd-Bold;
     font-size: 24px;
-    color: #022737;
+    color: #d6704b;
     padding-bottom: 15px;
     margin: 0
 }
@@ -15688,7 +15405,7 @@ div#footer-subscription label {
 .session-timeout-button-okay {
     width: 200px;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff;
     margin-bottom: 30px;
     font-family: HelveticaNeue-CondensedBold;
@@ -15974,7 +15691,7 @@ div#footer-subscription label {
 #resetFlowPassword h2 {
     font-family: HelveticaNeue;
     font-size: 16px;
-    color: #022737;
+    color: #d6704b;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal
@@ -15984,7 +15701,7 @@ div#footer-subscription label {
 .fuid-having-trouble,
 .footer-container p:nth-child(1) {
     font-family: BerkeleyStd-Book;
-    color: #022737;
+    color: #d6704b;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal
@@ -16087,7 +15804,7 @@ div#footer-subscription label {
     width: 300px;
     margin-top: 10px;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff;
     border-radius: 0
 }
@@ -16095,7 +15812,7 @@ div#footer-subscription label {
 .forgotpwd-reset-success-btn {
     background-color: #fff !important;
     margin-top: 50px !important;
-    border: solid 1px #006778
+    border: solid 1px #d6704b
 }
 
 .fuid-having-trouble {
@@ -16122,7 +15839,7 @@ div#footer-subscription label {
 }
 
 .fuid-footer-container p a {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline
 }
 
@@ -16148,7 +15865,7 @@ div#footer-subscription label {
 }
 
 .btn-default:active:focus {
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff
 }
 
@@ -16158,7 +15875,7 @@ div#footer-subscription label {
 .btn.btn-default .forgotpwd-reset-success-btn {
     border: 0;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     color: white;
     font-family: HelveticaNeue;
     font-size: 18px;
@@ -16179,7 +15896,7 @@ div#footer-subscription label {
     line-height: normal;
     letter-spacing: .5px;
     font-family: HelveticaNeue-CondensedBold;
-    color: #006778;
+    color: #d6704b;
     cursor: pointer;
     font-size: 14px
 }
@@ -16218,7 +15935,7 @@ div#footer-subscription label {
     font-family: HelveticaNeue-Bold;
     font-size: 14px;
     letter-spacing: .6px;
-    color: #022737
+    color: #d6704b
 }
 
 .fpwd-email-confirmation {
@@ -16235,12 +15952,12 @@ div#footer-subscription label {
 
 .fpwd-email-confirmation a {
     text-decoration: underline;
-    color: #006778;
+    color: #d6704b;
     cursor: pointer
 }
 
 .fpwd-email-confirmation span {
-    color: #022737;
+    color: #d6704b;
     font-family: HelveticaNeue-Bold;
     letter-spacing: .4px
 }
@@ -16276,7 +15993,7 @@ div#footer-subscription label {
 }
 
 .btn-reset-text {
-    color: #006778
+    color: #d6704b
 }
 
 #resetPassword .progress {
@@ -16336,7 +16053,7 @@ div#footer-subscription label {
 }
 
 #forgotPasswordFlow .forgot-password-content a {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline !important
 }
 
@@ -16575,7 +16292,7 @@ div#footer-subscription label {
 }
 
 .reset-validation-text p {
-    color: #022737;
+    color: #d6704b;
     font-family: HelveticaNeue;
     font-size: 16px;
     margin-bottom: 36px
@@ -16819,7 +16536,7 @@ div#footer-subscription label {
 #forgotUserIdConfirmationFlow h2 {
     font-family: HelveticaNeue;
     font-size: 16px;
-    color: #022737;
+    color: #d6704b;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal
@@ -16829,7 +16546,7 @@ div#footer-subscription label {
 .fuid-having-trouble,
 .footer-container p:nth-child(1) {
     font-family: BerkeleyStd-Book;
-    color: #022737;
+    color: #d6704b;
     font-weight: normal;
     font-style: normal;
     font-stretch: normal
@@ -16904,7 +16621,7 @@ div#footer-subscription label {
 .forgot-userid-container .forgot-btn {
     width: 300px;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff;
     border-radius: 0
 }
@@ -16932,7 +16649,7 @@ div#footer-subscription label {
 }
 
 .fuid-footer-container p a {
-    color: #006778;
+    color: #d6704b;
     line-height: 1.5;
     letter-spacing: .5px
 }
@@ -16954,14 +16671,14 @@ div#footer-subscription label {
 }
 
 .btn-default:active:focus {
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff
 }
 
 .btn.btn-default .forgot-btn {
     border: 0;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     color: white;
     font-family: HelveticaNeue;
     font-size: 18px;
@@ -17811,7 +17528,7 @@ div#footer-subscription label {
 }
 
 .vc-news-listing-col a {
-    color: #022737
+    color: #d6704b
 }
 
 .vc-news-listing-col .views-row .views-field-created {
@@ -17863,7 +17580,7 @@ div#footer-subscription label {
 }
 
 .news-top-stories a {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline !important
 }
 
@@ -17964,7 +17681,7 @@ div#footer-subscription label {
     font-size: 24px;
     font-weight: 500;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     line-height: 1.25;
     padding-bottom: 30px
 }
@@ -17984,7 +17701,7 @@ div#footer-subscription label {
     border: 1px solid #d4d4d4;
     border-radius: 18px;
     background-color: transparent;
-    color: #006778;
+    color: #d6704b;
     font-size: 14px;
     outline: 0;
     height: 30px;
@@ -18067,14 +17784,14 @@ tr.hideDetails {
 
 .link-bullets li a {
     text-decoration: underline;
-    color: #006778;
+    color: #d6704b;
     font-family: "HelveticaNeue";
     font-size: 16px
 }
 
 .link-bullets li::before {
     content: "\2022";
-    color: #006778;
+    color: #d6704b;
     font-weight: bold;
     display: inline-block;
     width: 5px;
@@ -18105,7 +17822,7 @@ tr.hideDetails {
 .ordered-blue-list li::before {
     margin-right: 10px;
     content: counter(item);
-    background: #006778;
+    background: #d6704b;
     border-radius: 100%;
     color: white;
     width: 20px;
@@ -18140,7 +17857,7 @@ tr.hideDetails {
         .ordered-blue-list li::before {
             margin-right: 10px;
             content: counter(item);
-            background: #006778;
+            background: #d6704b;
             border-radius: 100%;
             color: white;
             width: 20px;
@@ -18237,7 +17954,7 @@ tr.hideDetails {
 
 .ca-title {
     font-family: "HelveticaNeue-Bold";
-    color: #022737;
+    color: #d6704b;
     padding: 25px 20px;
     flex: 1 0 auto
 }
@@ -18261,7 +17978,7 @@ tr.hideDetails {
 }
 
 .custom-pdf-fee-min a {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline !important
 }
 
@@ -18447,7 +18164,7 @@ tr.hideDetails {
 
 .download-forms a {
     text-decoration: underline;
-    color: #006778
+    color: #d6704b
 }
 
 .content {
@@ -18635,7 +18352,7 @@ tr.hideDetails {
 
 .contactsubheading p {
     font-family: "BerkeleyStd-Book";
-    color: #022737;
+    color: #d6704b;
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: .5px;
@@ -18847,7 +18564,7 @@ tr.hideDetails {
 
 .contact_heading p {
     font-family: "BerkeleyStd-Book";
-    color: #022737 !important;
+    color: #d6704b !important;
     font-size: 36px;
     line-height: 1.2;
     margin: 0
@@ -18963,7 +18680,7 @@ tr.hideDetails {
 }
 
 #emailValuesWrapper .regellipsisWrapper {
-    color: #022737 !important
+    color: #d6704b !important
 }
 
 #registerStep3 .regtooltipmsg {
@@ -19043,7 +18760,7 @@ input[name="securityAnswer3"] {
     top: 40%;
     left: 47%;
     transform: translate(-50%, -50%);
-    box-shadow: 2px 2px 0 0 #006778;
+    box-shadow: 2px 2px 0 0 #d6704b;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite
 }
@@ -19073,7 +18790,7 @@ input[name="securityAnswer3"] {
     font-size: 16px;
     line-height: 1.5;
     font-family: HelveticaNeue-Bold;
-    color: #022737 !important
+    color: #d6704b !important
 }
 
 #registerStep2 .select2-container--default .select2-selection--single {
@@ -19401,7 +19118,7 @@ input[name="securityAnswer3"] {
     background-color: #f5f5f5;
     font-family: HelveticaNeue-Medium;
     font-size: 14px;
-    color: #006778;
+    color: #d6704b;
     margin-left: 10px;
     padding: 2px 2px 2px 12px;
     cursor: pointer
@@ -19411,7 +19128,7 @@ input[name="securityAnswer3"] {
     margin-right: 6px;
     width: 12px;
     height: 12px;
-    color: #006778;
+    color: #d6704b;
     margin-left: 6px
 }
 
@@ -19529,7 +19246,7 @@ input[name="securityAnswer3"] {
     display: block;
     width: 50%;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     border-radius: 0;
     font-family: HelveticaNeue;
     font-size: 18px;
@@ -19551,7 +19268,7 @@ input[name="securityAnswer3"] {
     line-height: 1.5;
     letter-spacing: normal;
     text-align: center;
-    color: #006778;
+    color: #d6704b;
     margin: 0 auto;
     display: block;
     border: 0;
@@ -19759,7 +19476,7 @@ input::-webkit-calendar-picker-indicator {
     top: 0;
     width: 18px;
     height: 18px;
-    border: 1px solid #006778;
+    border: 1px solid #d6704b;
     border-radius: 100%;
     background: #fff
 }
@@ -19769,7 +19486,7 @@ input::-webkit-calendar-picker-indicator {
     content: "";
     width: 10px;
     height: 10px;
-    background: #006778;
+    background: #d6704b;
     position: absolute;
     top: 4px;
     left: 4px;
@@ -19910,7 +19627,7 @@ input::-webkit-calendar-picker-indicator {
     font-style: normal;
     font-stretch: normal;
     line-height: 1.25;
-    color: #006778;
+    color: #d6704b;
     margin-bottom: 20px
 }
 
@@ -19922,7 +19639,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     line-height: 1.14;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     margin-bottom: 20px
 }
 
@@ -19967,7 +19684,7 @@ input::-webkit-calendar-picker-indicator {
 .stepfour-viewaccount-btn {
     width: 183px;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     font-family: HelveticaNeue-CondensedBold;
     font-size: 16px;
     font-style: normal;
@@ -20001,7 +19718,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #022737;
+    color: #d6704b;
     text-align: center;
     margin-top: 20px;
     padding-right: 50px;
@@ -20085,7 +19802,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline;
     cursor: pointer;
     margin-bottom: 20px
@@ -20113,7 +19830,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     text-align: center;
     margin-top: 20px;
     padding-left: 50px;
@@ -20197,7 +19914,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     letter-spacing: normal;
     text-align: center;
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline;
     cursor: pointer;
     margin-bottom: 20px
@@ -20225,7 +19942,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: .2px;
-    color: #022737;
+    color: #d6704b;
     margin-top: 50px;
     margin-bottom: 5px
 }
@@ -20242,7 +19959,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #022737;
+    color: #d6704b;
     text-align: center
 }
 
@@ -20348,7 +20065,7 @@ input::-webkit-calendar-picker-indicator {
     font-stretch: normal;
     line-height: 1.17;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     text-align: center;
     margin-bottom: 14px
 }
@@ -20461,7 +20178,7 @@ select.classic {
 }
 
 #mainContent a {
-    color: #006778
+    color: #d6704b
 }
 
 #mainContent p {
@@ -20520,7 +20237,7 @@ select.classic {
 .confirm-wrapper .webinfo-security::before {
     width: 18px;
     height: 18px;
-    color: #006778;
+    color: #d6704b;
     margin-right: 17px;
     display: inline-block
 }
@@ -20528,7 +20245,7 @@ select.classic {
 .confirm-wrapper .webinfo-userid::before {
     width: 18px;
     height: 18px;
-    color: #006778;
+    color: #d6704b;
     margin-right: 17px;
     display: inline-block
 }
@@ -20536,7 +20253,7 @@ select.classic {
 .confirm-wrapper .webinfo-password::before {
     width: 18px;
     height: 18px;
-    color: #006778;
+    color: #d6704b;
     margin-right: 17px;
     display: inline-block
 }
@@ -20602,7 +20319,7 @@ select.classic {
     content: url(../../../../themes/vc_ole/images/address/addresses.png);
     width: 18px;
     height: 18px;
-    color: #006778;
+    color: #d6704b;
     display: inline-block;
     margin-right: 17px
 }
@@ -20625,7 +20342,7 @@ select.classic {
     font-stretch: normal;
     line-height: 1.25;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     display: inline
 }
 
@@ -20636,7 +20353,7 @@ select.classic {
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: .5px;
-    color: #022737
+    color: #d6704b
 }
 
 .confirm-wrapper .additional-info {
@@ -20674,7 +20391,7 @@ select.classic {
     font-stretch: normal;
     line-height: 1.43;
     letter-spacing: normal;
-    color: #022737
+    color: #d6704b
 }
 
 .confirm-wrapper .web-access-info .web-inner--wrap .webinfo-security--subtexttwo {
@@ -20706,7 +20423,7 @@ select.classic {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     margin-bottom: 9px
 }
 
@@ -20727,7 +20444,7 @@ select.classic {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: .5px;
-    color: #022737
+    color: #d6704b
 }
 
 .confirm-wrapper .confirm-edit {
@@ -20742,7 +20459,7 @@ select.classic {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #006778;
+    color: #d6704b;
     margin-left: 10px;
     padding: 2px 2px 2px 12px;
     cursor: pointer
@@ -20752,28 +20469,28 @@ select.classic {
     content: '';
     width: 12px;
     height: 12px;
-    color: #006778
+    color: #d6704b
 }
 
 .confirm-wrapper .confirm-edit::after {
     margin-right: 6px;
     width: 12px;
     height: 12px;
-    color: #006778;
+    color: #d6704b;
     margin-left: 6px
 }
 
 .confirm-wrapper .confirm-primary-label {
     width: 67px;
     height: 18px;
-    border: solid 1px #006778;
+    border: solid 1px #d6704b;
     font-family: HelveticaNeue-Bold;
     font-size: 10px;
     font-style: normal;
     font-stretch: normal;
     line-height: 2.4;
     letter-spacing: normal;
-    color: #006778;
+    color: #d6704b;
     margin-left: 10px;
     padding: 2px;
     vertical-align: middle;
@@ -20803,7 +20520,7 @@ select.classic {
     content: url(../../../../themes/vc_ole/images/phone/phone.png);
     width: 18px;
     height: 18px;
-    color: #006778;
+    color: #d6704b;
     position: relative;
     top: 3px;
     margin-right: 17px
@@ -20825,7 +20542,7 @@ select.classic {
     content: url(../../../../themes/vc_ole/images/email/email.png);
     width: 18px;
     height: 18px;
-    color: #006778;
+    color: #d6704b;
     margin-right: 17px
 }
 
@@ -20859,8 +20576,8 @@ select.classic {
     width: 150px;
     height: 50px;
     background-color: #fff;
-    border: solid 1px #006778;
-    color: #006778;
+    border: solid 1px #d6704b;
+    color: #d6704b;
     font-family: HelveticaNeue-CondensedBold;
     font-size: 16px;
     font-style: normal;
@@ -20869,11 +20586,11 @@ select.classic {
 }
 
 .primaryBtn:hover {
-    border: solid 1px #005c6b
+    border: solid 1px #d6704b
 }
 
 .secondaryBtn {
-    background-color: #006778;
+    background-color: #d6704b;
     border: 0;
     color: #fff;
     text-align: center;
@@ -20885,7 +20602,7 @@ select.classic {
 }
 
 .secondaryBtn {
-    background-color: #005c6b
+    background-color: #d6704b
 }
 
 .reRegister {
@@ -20900,7 +20617,7 @@ select.classic {
     line-height: 1.88;
     letter-spacing: 1px;
     text-align: right;
-    color: #006778;
+    color: #d6704b;
     cursor: pointer
 }
 
@@ -20923,7 +20640,7 @@ select.classic {
 
 .pageTitle {
     font-family: BerkeleyStd-Book;
-    color: #022737;
+    color: #d6704b;
     font-size: 36px;
     font-weight: normal;
     font-style: normal;
@@ -20986,7 +20703,7 @@ select.classic {
 .stepCardFilled {
     width: 174px;
     height: 145px;
-    border-left: 5px solid #006778;
+    border-left: 5px solid #d6704b;
     margin-bottom: 7px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
@@ -21004,7 +20721,7 @@ select.classic {
 .stepCardSelected {
     width: 174px;
     height: 145px;
-    border-left: 5px solid #006778;
+    border-left: 5px solid #d6704b;
     margin-bottom: 7px;
     -webkit-backdrop-filter: blur(2px);
     backdrop-filter: blur(2px);
@@ -21056,7 +20773,7 @@ select.classic {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: .5px;
-    color: #006778
+    color: #d6704b
 }
 
 .stepCardFilled .stepCardHeading {
@@ -21066,7 +20783,7 @@ select.classic {
     font-stretch: normal;
     line-height: normal;
     letter-spacing: .57px;
-    color: #006778
+    color: #d6704b
 }
 
 .stepCardText {
@@ -21321,7 +21038,7 @@ select.classic {
     content: url(../../../../themes/vc_ole/images/consene-arrow.png);
     width: 12px;
     height: 9px;
-    color: #022737;
+    color: #d6704b;
     margin-right: 19px
 }
 
@@ -21396,7 +21113,7 @@ input[type="radio"] {
 }
 
 .violetText {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline;
     font-size: 16px;
     font-weight: 500;
@@ -21417,7 +21134,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked {
-    background-color: #006778
+    background-color: #d6704b
 }
 
 @media only screen and (min-width:320px) and (max-width:480px) {
@@ -21973,7 +21690,7 @@ input[type="radio"]:checked {
         width: 52%;
         height: 55px;
         margin-right: 5px;
-        border-top: 3px solid #006778;
+        border-top: 3px solid #d6704b;
         border-left: 1px solid #dcdcdc;
         -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(2px);
@@ -22022,15 +21739,15 @@ input[type="radio"]:checked {
         padding: 5px;
         position: unset;
         float: left;
-        color: #006778;
-        border-top: solid 3px #006778;
+        color: #d6704b;
+        border-top: solid 3px #d6704b;
         cursor: pointer;
         z-index: 101
     }
 
     .stepCardFilled .stepCardHeading {
         font-family: HelveticaNeue-Bold;
-        color: #006778;
+        color: #d6704b;
         font-size: 10px !important;
         font-style: normal;
         font-stretch: normal;
@@ -22045,7 +21762,7 @@ input[type="radio"]:checked {
 
     .stepCard .stepCardHeading {
         font-family: HelveticaNeue-Bold;
-        color: #006778;
+        color: #d6704b;
         font-size: 10px !important;
         font-style: normal;
         font-stretch: normal;
@@ -22056,7 +21773,7 @@ input[type="radio"]:checked {
 
     .stepCardSelected .stepCardHeading {
         font-family: HelveticaNeue-Bold;
-        color: #006778;
+        color: #d6704b;
         font-size: 10px !important;
         font-style: normal;
         font-stretch: normal;
@@ -22152,7 +21869,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        color: #022737;
+        color: #d6704b;
         text-align: center
     }
 
@@ -22228,7 +21945,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #006778;
+        color: #d6704b;
         text-decoration: underline;
         cursor: pointer
     }
@@ -22254,7 +21971,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         margin-top: 20px
     }
@@ -22331,7 +22048,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #006778;
+        color: #d6704b;
         text-decoration: underline;
         cursor: pointer;
         margin-bottom: 20px
@@ -22359,7 +22076,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        color: #022737
+        color: #d6704b
     }
 
     .wrongmodal-subheading {
@@ -22370,7 +22087,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: .2px;
-        color: #022737
+        color: #d6704b
     }
 
     .wrongmodal-hr {
@@ -22442,7 +22159,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.17;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         margin-bottom: 14px
     }
@@ -22480,7 +22197,7 @@ input[type="radio"]:checked {
         line-height: normal;
         line-height: 1.5;
         letter-spacing: .5px;
-        color: #022737 !important;
+        color: #d6704b !important;
         display: block
     }
 
@@ -22587,7 +22304,7 @@ input[type="radio"]:checked {
     .stepfour-viewaccount-btn {
         width: 276px;
         height: 50px;
-        background-color: #006778;
+        background-color: #d6704b;
         font-family: HelveticaNeue-CondensedBlack;
         font-size: 18px;
         font-weight: 900;
@@ -22666,7 +22383,7 @@ input[type="radio"]:checked {
         font-size: 36px !important;
         line-height: 1.17;
         letter-spacing: .5px;
-        color: #022737 !important
+        color: #d6704b !important
     }
 
     .alertmsg {
@@ -22682,11 +22399,11 @@ input[type="radio"]:checked {
         font-size: 14px !important;
         line-height: 1.43;
         letter-spacing: normal;
-        color: #022737 !important
+        color: #d6704b !important
     }
 
     .additional-info .confirm-bold {
-        color: #022737 !important
+        color: #d6704b !important
     }
 
     #stepThreeDelivery {
@@ -22718,7 +22435,7 @@ input[type="radio"]:checked {
         font-size: 14px;
         line-height: 1.43;
         letter-spacing: normal;
-        color: #022737
+        color: #d6704b
     }
 
     #registerStep2 .mt-50 .labels {
@@ -22749,7 +22466,7 @@ input[type="radio"]:checked {
         font-size: 20px;
         line-height: 1.5;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         font-weight: normal
     }
 
@@ -22893,7 +22610,7 @@ input[type="radio"]:checked {
         font-size: 14px;
         line-height: 1.5;
         font-family: HelveticaNeue-Bold;
-        color: #022737 !important
+        color: #d6704b !important
     }
 }
 
@@ -23252,8 +22969,8 @@ input[type="radio"]:checked {
         margin-right: 5px;
         padding: 5px;
         float: left;
-        color: #006778;
-        border-top: 3px solid #006778;
+        color: #d6704b;
+        border-top: 3px solid #d6704b;
         z-index: 101
     }
 
@@ -23274,7 +22991,7 @@ input[type="radio"]:checked {
     #mainContent .stepCardSelected {
         width: 50%;
         height: 75px;
-        border-top: 3px solid #006778;
+        border-top: 3px solid #d6704b;
         border-left: 1px solid #dcdcdc;
         margin-right: 5px;
         -webkit-backdrop-filter: blur(2px);
@@ -23326,7 +23043,7 @@ input[type="radio"]:checked {
 
     #mainContent .stepCardSelected .stepCardHeading {
         font-family: HelveticaNeue-Bold;
-        color: #006778;
+        color: #d6704b;
         font-size: 10px !important;
         font-style: normal;
         font-stretch: normal;
@@ -23438,7 +23155,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.17;
         letter-spacing: normal;
-        color: #022737;
+        color: #d6704b;
         text-align: center
     }
 
@@ -23514,7 +23231,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #006778;
+        color: #d6704b;
         text-decoration: underline;
         cursor: pointer
     }
@@ -23541,7 +23258,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         margin-top: 20px;
         padding-left: 50px;
@@ -23620,7 +23337,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #006778;
+        color: #d6704b;
         text-decoration: underline;
         cursor: pointer;
         margin-bottom: 20px
@@ -23648,7 +23365,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        color: #022737;
+        color: #d6704b;
         text-align: center
     }
 
@@ -23721,7 +23438,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.17;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         margin-bottom: 14px
     }
@@ -23784,7 +23501,7 @@ input[type="radio"]:checked {
         width: 52%;
         height: 55px;
         margin-right: 5px;
-        border-top: 3px solid #006778;
+        border-top: 3px solid #d6704b;
         border-left: 1px solid #dcdcdc;
         -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(2px);
@@ -23832,8 +23549,8 @@ input[type="radio"]:checked {
         margin-right: 3px;
         padding: 5px;
         float: left;
-        color: #006778;
-        border-top: solid 3px #006778
+        color: #d6704b;
+        border-top: solid 3px #d6704b
     }
 
     .stepCardFilled .stepCardHeading {
@@ -23864,7 +23581,7 @@ input[type="radio"]:checked {
 
     .stepCardSelected .stepCardHeading {
         font-family: HelveticaNeue-Bold;
-        color: #006778;
+        color: #d6704b;
         font-size: 10px !important;
         font-style: normal;
         font-stretch: normal;
@@ -24305,7 +24022,7 @@ input[type="radio"]:checked {
     .stepCardSelected {
         width: 174px;
         height: 145px;
-        border-left: 5px solid #006778;
+        border-left: 5px solid #d6704b;
         margin-bottom: 7px;
         -webkit-backdrop-filter: blur(2px);
         backdrop-filter: blur(2px);
@@ -24360,7 +24077,7 @@ input[type="radio"]:checked {
 
     .stepCardSelected .stepCardHeading {
         font-family: HelveticaNeue-Bold;
-        color: #006778;
+        color: #d6704b;
         font-size: 10px !important;
         font-style: normal;
         font-stretch: normal;
@@ -24432,7 +24149,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.17;
         letter-spacing: normal;
-        color: #022737;
+        color: #d6704b;
         text-align: center
     }
 
@@ -24508,7 +24225,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #006778;
+        color: #d6704b;
         text-decoration: underline;
         cursor: pointer
     }
@@ -24535,7 +24252,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         margin-top: 20px;
         padding-left: 50px;
@@ -24620,7 +24337,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         letter-spacing: normal;
         text-align: center;
-        color: #006778;
+        color: #d6704b;
         text-decoration: underline;
         cursor: pointer;
         margin-bottom: 20px
@@ -24648,7 +24365,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.5;
         letter-spacing: normal;
-        color: #022737;
+        color: #d6704b;
         text-align: center
     }
 
@@ -24660,7 +24377,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: .2px;
-        color: #022737
+        color: #d6704b
     }
 
     .wrongmodal-subheading {
@@ -24671,7 +24388,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: normal;
         letter-spacing: .2px;
-        color: #022737
+        color: #d6704b
     }
 
     .wrongmodal-hr {
@@ -24743,7 +24460,7 @@ input[type="radio"]:checked {
         font-stretch: normal;
         line-height: 1.17;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         margin-bottom: 14px
     }
@@ -25030,11 +24747,11 @@ input[type="radio"]:checked {
     font-size: 42px;
     line-height: 1.14;
     letter-spacing: .5px;
-    color: #022737
+    color: #d6704b
 }
 
 #registerStep2 .subHeading {
-    color: #022737
+    color: #d6704b
 }
 
 #mainContent p.stepfour-content--green {
@@ -25050,7 +24767,7 @@ input[type="radio"]:checked {
     font-size: 36px;
     line-height: 1.14;
     letter-spacing: .5px;
-    color: #022737
+    color: #d6704b
 }
 
 #registerStep2 #password-recommendation {
@@ -25158,7 +24875,7 @@ div#showPwd2 {
     font-family: BerkeleyStd-Book;
     font-size: 24px;
     line-height: 1.17;
-    color: #022737;
+    color: #d6704b;
     text-align: center;
     padding: 30px 0 14px;
     margin: 0
@@ -25222,7 +24939,7 @@ div#showPwd2 {
     font-family: BerkeleyStd-Book;
     font-size: 24px;
     line-height: 1.17;
-    color: #022737;
+    color: #d6704b;
     text-align: center;
     padding: 30px 0 14px;
     margin: 0;
@@ -25232,7 +24949,7 @@ div#showPwd2 {
 #secModalBtn,
 #modalBtn {
     font-family: HelveticaNeue-CondensedBold;
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff;
     font-stretch: normal;
     display: flex;
@@ -25643,7 +25360,7 @@ div#showPwd2 {
 }
 
 .tab-menu .nav-tabs li.active a {
-    color: #006778;
+    color: #d6704b;
     cursor: pointer;
     background-color: #fff;
     border-bottom: 1px solid #fff
@@ -25651,7 +25368,7 @@ div#showPwd2 {
 
 .tab-menu .nav-tabs li.active a:focus,
 .tab-menu .nav-tabs li.active a:hover {
-    color: #006778;
+    color: #d6704b;
     border: 1px solid #e1e1e1;
     border-top: 4px solid rgba(0, 103, 120, .1);
     border-bottom: 4px solid transparent;
@@ -25664,7 +25381,7 @@ div#showPwd2 {
     border-top: 4px solid rgba(0, 103, 120, .1);
     border-bottom: 4px solid transparent;
     box-sizing: border-box;
-    color: #006778;
+    color: #d6704b;
     background-color: rgba(80, 80, 80, .1)
 }
 
@@ -25699,7 +25416,7 @@ div#showPwd2 {
 
 @media only screen and (min-width:768px) and (max-width:991px) {
     #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li a {
-        color: #022737;
+        color: #d6704b;
         font-size: 12px;
         cursor: default;
         background-color: #e4e4e4;
@@ -26643,7 +26360,7 @@ _:-ms-fullscreen,
     font-stretch: normal;
     line-height: 1.17;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     margin-bottom: 15px
 }
 
@@ -26671,7 +26388,7 @@ _:-ms-fullscreen,
     font-stretch: normal;
     line-height: normal;
     letter-spacing: normal;
-    color: #006778
+    color: #d6704b
 }
 
 .opaonewrapperStepTwo .white-block .opasteptwo-btn:focus {
@@ -26784,7 +26501,7 @@ _:-ms-fullscreen,
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #022737;
+    color: #d6704b;
     margin-bottom: 20px
 }
 
@@ -26832,7 +26549,7 @@ _:-ms-fullscreen,
     border-radius: 18px;
     border: solid 1px #d4d4d4;
     background-color: #f5f5f5;
-    color: #006778;
+    color: #d6704b;
     font-family: HelveticaNeue-Medium;
     font-size: 14px;
     margin-right: 10px
@@ -26844,7 +26561,7 @@ _:-ms-fullscreen,
     height: 30px;
     border-radius: 18px;
     border: solid 1px #d4d4d4;
-    background-color: #006778
+    background-color: #d6704b
 }
 
 .opaonewrapperStepTwo .opatwo-formcontrol .classic {
@@ -26936,13 +26653,13 @@ _:-ms-fullscreen,
 #opaStepTwo .succtabtext {
     width: 240px;
     height: 55px;
-    border-top: solid 4px #006778;
+    border-top: solid 4px #d6704b;
     border-right: solid 1px #bfbfbf;
     border-left: solid 1px #bfbfbf;
     font-family: HelveticaNeue-Bold;
     font-size: 16px;
     letter-spacing: .6px;
-    color: #006778;
+    color: #d6704b;
     text-align: center;
     padding-top: 16px;
     cursor: pointer
@@ -26993,7 +26710,7 @@ _:-ms-fullscreen,
 #opaStepFour .buttonBlock #contributeLater {
     width: 200px;
     height: 50px;
-    border: solid 1px #006778;
+    border: solid 1px #d6704b;
     font-family: HelveticaNeue-CondensedBold;
     background-color: #fff;
     font-size: 16px;
@@ -27001,13 +26718,13 @@ _:-ms-fullscreen,
     font-style: normal;
     line-height: 1.88;
     letter-spacing: .5px;
-    color: #006778
+    color: #d6704b
 }
 
 #opaStepFour .buttonBlock #contributeNow {
     width: 200px;
     height: 50px;
-    background-color: #006778;
+    background-color: #d6704b;
     font-family: HelveticaNeue-CondensedBold;
     font-size: 16px;
     font-weight: normal;
@@ -27549,7 +27266,7 @@ _:-ms-fullscreen,
         height: 55px !important;
         box-sizing: border-box;
         font-size: 10px !important;
-        color: #006778;
+        color: #d6704b;
         line-height: 10px;
         background-color: #fff;
         border-color: #dcdcdc;
@@ -27558,7 +27275,7 @@ _:-ms-fullscreen,
         margin: 0 5px 10px 0 !important;
         padding: 20px 9px !important;
         float: left;
-        border-top: solid 3px #006778;
+        border-top: solid 3px #d6704b;
         box-shadow: none
     }
 
@@ -27586,7 +27303,7 @@ _:-ms-fullscreen,
         width: 66% !important;
         height: 55px !important;
         font-size: 10px;
-        border-top: 3px solid #006778 !important;
+        border-top: 3px solid #d6704b !important;
         border-color: #dcdcdc;
         border-style: solid;
         border-width: 3px 1px 1px 1px !important;
@@ -27680,7 +27397,7 @@ _:-ms-fullscreen,
         height: 55px !important;
         box-sizing: border-box;
         font-size: 10px !important;
-        color: #006778;
+        color: #d6704b;
         line-height: 10px;
         background-color: #fff;
         position: relative !important;
@@ -27690,7 +27407,7 @@ _:-ms-fullscreen,
         margin: 0 5px 10px 0 !important;
         padding: 20px 9px !important;
         float: left;
-        border-top: solid 3px #006778;
+        border-top: solid 3px #d6704b;
         box-shadow: none
     }
 
@@ -27717,7 +27434,7 @@ _:-ms-fullscreen,
         width: 66% !important;
         height: 55px !important;
         font-size: 10px;
-        border-top: 3px solid #006778 !important;
+        border-top: 3px solid #d6704b !important;
         border-color: #dcdcdc;
         border-style: solid;
         border-width: 3px 1px 1px 1px !important;
@@ -27799,7 +27516,7 @@ _:-ms-fullscreen,
         font-size: 14px;
         font-family: HelveticaNeue-Bold;
         letter-spacing: .5px;
-        color: #006778
+        color: #d6704b
     }
 
     .opaonewrapper .errorMsg {
@@ -27981,7 +27698,7 @@ _:-ms-fullscreen,
         height: 55px !important;
         box-sizing: border-box;
         font-size: 10px !important;
-        color: #006778;
+        color: #d6704b;
         line-height: 10px;
         background-color: #fff;
         border-color: #dcdcdc;
@@ -27990,7 +27707,7 @@ _:-ms-fullscreen,
         margin: 0 5px 10px 0 !important;
         padding: 20px 9px !important;
         float: left;
-        border-top: solid 3px #006778;
+        border-top: solid 3px #d6704b;
         box-shadow: none
     }
 
@@ -28017,7 +27734,7 @@ _:-ms-fullscreen,
         width: 66% !important;
         height: 55px !important;
         font-size: 10px;
-        border-top: 3px solid #006778 !important;
+        border-top: 3px solid #d6704b !important;
         border-color: #dcdcdc;
         border-style: solid;
         border-width: 3px 1px 1px 1px !important;
@@ -28464,7 +28181,7 @@ _:-ms-fullscreen,
         font-family: BerkeleyStd-Book;
         font-size: 24px;
         line-height: 1.17;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         padding: 30px 0 14px;
         margin: 0
@@ -28529,7 +28246,7 @@ _:-ms-fullscreen,
         border-style: solid !important;
         border-width: 1px !important;
         border-color: #dcdcdc !important;
-        border-top: 5px solid #006778 !important;
+        border-top: 5px solid #d6704b !important;
         box-sizing: border-box !important;
         background-color: #fff !important;
         padding: 12px 10px 25px 20px !important;
@@ -28542,7 +28259,7 @@ _:-ms-fullscreen,
         border-style: solid !important;
         border-width: 1px !important;
         border-color: #dcdcdc !important;
-        border-top: 5px solid #006778 !important;
+        border-top: 5px solid #d6704b !important;
         background-color: #fff !important;
         box-sizing: border-box !important;
         box-shadow: 5px 0 10px 0 rgba(0, 0, 0, .1) !important;
@@ -28554,7 +28271,7 @@ _:-ms-fullscreen,
         font-size: 16px;
         line-height: normal;
         letter-spacing: .57px;
-        color: #006778 !important;
+        color: #d6704b !important;
         margin: 0
     }
 
@@ -28644,7 +28361,7 @@ _:-ms-fullscreen,
         border-style: solid !important;
         border-width: 1px !important;
         border-color: #dcdcdc !important;
-        border-left: 5px solid #006778 !important;
+        border-left: 5px solid #d6704b !important;
         box-sizing: border-box !important;
         background-color: #fff !important;
         padding: 18px 10px 25px 20px !important;
@@ -28657,7 +28374,7 @@ _:-ms-fullscreen,
         border-style: solid !important;
         border-width: 1px !important;
         border-color: #dcdcdc !important;
-        border-left: 5px solid #006778 !important;
+        border-left: 5px solid #d6704b !important;
         background-color: #fff !important;
         box-sizing: border-box !important;
         box-shadow: 5px 0 10px 0 rgba(0, 0, 0, .1) !important;
@@ -28669,7 +28386,7 @@ _:-ms-fullscreen,
         font-size: 16px;
         line-height: normal;
         letter-spacing: .57px;
-        color: #006778;
+        color: #d6704b;
         margin: 0 !important
     }
 
@@ -28945,7 +28662,7 @@ _:-ms-fullscreen,
         font-family: BerkeleyStd-Book;
         font-size: 24px;
         line-height: 1.17;
-        color: #022737;
+        color: #d6704b;
         text-align: center;
         padding: 30px 0 14px;
         margin: 0
@@ -29541,7 +29258,7 @@ _:-ms-fullscreen,
 }
 
 .mainContentOpa .violetText {
-    color: #006778;
+    color: #d6704b;
     text-decoration: underline;
     font-size: 16px;
     font-weight: 500;
@@ -29557,12 +29274,12 @@ _:-ms-fullscreen,
     font-size: 36px;
     line-height: 1.17;
     letter-spacing: .5px;
-    color: #022737;
+    color: #d6704b;
     margin-bottom: 15px
 }
 
 .opaonewrapper #addAdvisorBtn {
-    background-color: #006778;
+    background-color: #d6704b;
     color: #fff
 }
 
@@ -29585,7 +29302,7 @@ _:-ms-fullscreen,
     top: 40%;
     left: 47%;
     transform: translate(-50%, -50%);
-    box-shadow: 2px 2px 0 0 #006778;
+    box-shadow: 2px 2px 0 0 #d6704b;
     -webkit-animation: spin 1.5s linear infinite;
     animation: spin 1.5s linear infinite
 }
@@ -29941,7 +29658,7 @@ _:-ms-fullscreen,
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: .3px;
-    color: #022737;
+    color: #d6704b;
     margin-bottom: 20px
 }
 
@@ -29952,7 +29669,7 @@ _:-ms-fullscreen,
     font-stretch: normal;
     line-height: 1.2;
     letter-spacing: .5px;
-    color: #022737
+    color: #d6704b
 }
 
 .opaslider-wrap .slidersectiontwo .opasliderwhitebox .opasliderwhitebox-blur--text {
@@ -29962,11 +29679,11 @@ _:-ms-fullscreen,
     font-stretch: normal;
     line-height: 1.5;
     letter-spacing: normal;
-    color: #022737
+    color: #d6704b
 }
 
 .opaslider-wrap .slidersectiontwo .opasliderwhitebox .opasliderwhitebox-content ul li {
-    color: #022737;
+    color: #d6704b;
     font-size: 20px;
     font-family: BerkeleyStd-Medium
 }
@@ -30040,7 +29757,7 @@ _:-ms-fullscreen,
     letter-spacing: .44px;
     text-align: left;
     color: #fff;
-    background-color: #006778;
+    background-color: #d6704b;
     border: 0;
     position: relative;
     bottom: 200px;
@@ -30189,7 +29906,7 @@ _:-ms-fullscreen,
         font-size: 14px;
         line-height: 1.57;
         letter-spacing: normal;
-        color: #022737;
+        color: #d6704b;
         padding-bottom: 10px
     }
 
@@ -30215,7 +29932,7 @@ _:-ms-fullscreen,
         font-size: 24px;
         line-height: 1.25;
         letter-spacing: .5px;
-        color: #022737
+        color: #d6704b
     }
 
     .opaslider-wrap .slidersectiontwo .opasliderwhitebox .mobile-nocarosel-slider .opasliderwhitebox-content .flex-wrapper,
@@ -30243,7 +29960,7 @@ _:-ms-fullscreen,
         font-size: 24px;
         line-height: 1.25;
         letter-spacing: .5px;
-        color: #022737;
+        color: #d6704b;
         margin-bottom: 20px
     }
 
@@ -30257,7 +29974,7 @@ _:-ms-fullscreen,
         letter-spacing: .5px;
         text-align: left;
         color: #fff;
-        background-color: #006778;
+        background-color: #d6704b;
         border: 0;
         text-transform: uppercase;
         position: relative;
@@ -30278,7 +29995,7 @@ _:-ms-fullscreen,
         font-size: 14px;
         line-height: 2.14;
         letter-spacing: 0;
-        color: #022737
+        color: #d6704b
     }
 
     .opaslider-wrap .slidersectiontwo .opasliderwhitebox .opaslider-img-content-wrapper>ul {
@@ -30290,7 +30007,7 @@ _:-ms-fullscreen,
         font-size: 14px;
         font-weight: normal;
         letter-spacing: 1.23px;
-        color: #006778
+        color: #d6704b
     }
 
     .invest-text-new {
@@ -30391,7 +30108,7 @@ _:-ms-fullscreen,
     }
 
     .opaslider-wrap .slidersectiontwo .opasliderwhitebox #opaSliderBoxOne1 ul li {
-        color: #006778 !important
+        color: #d6704b !important
     }
 }
 
@@ -31315,13 +31032,13 @@ _:-ms-fullscreen,
     }
 
     .acc-img-component .blue-link::after {
-        background-color: #006778 !important;
-        border: 2px solid #006778 !important
+        background-color: #d6704b !important;
+        border: 2px solid #d6704b !important
     }
 
     .acc-img-component .white-link::after {
         background-color: transparent !important;
-        border: 2px solid #006778 !important
+        border: 2px solid #d6704b !important
     }
 
     .acc-img-component .panel-heading div {
@@ -31374,7 +31091,7 @@ _:-ms-fullscreen,
     }
 
     .acc-img-component .white-link>div>div>p.color-change {
-        color: #006778 !important;
+        color: #d6704b !important;
         padding-left: 17px !important;
         padding-top: 8px !important;
         cursor: pointer !important
@@ -31417,7 +31134,7 @@ _:-ms-fullscreen,
 
     .container-link a.link-center,
     .secondary-cta-border span.field-content>a {
-        border: 3px solid #006778 !important
+        border: 3px solid #d6704b !important
     }
 
     .bg_image_type_2 .account-open,
@@ -31647,13 +31364,13 @@ _:-ms-fullscreen,
     justify-content: center;
     letter-spacing: 1px;
     height: 50px;
-    border: 1px solid #006778;
+    border: 1px solid #d6704b;
 }
 
 .container-link a.read-more-link {
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778;
+    color: #d6704b;
     display: inline-block;
     position: relative;
     -webkit-transition: left .2s linear;
@@ -31662,11 +31379,11 @@ _:-ms-fullscreen,
 
 .container-link a.blue-link {
     color: #fff;
-    background-color: #006778
+    background-color: #882d0c;
 }
 
 .container-link a.white-link {
-    color: #006778;
+    color: #d6704b;
     background-color: #fff
 }
 
@@ -31679,17 +31396,17 @@ _:-ms-fullscreen,
 
 .container-link a.white-link:hover {
     transition: background-color .2s linear;
-    border: 1px solid #005c6b;
-    color: #005c6b
+    border: 1px solid #d6704b;
+    color: #d6704b
 }
 
 .container-link a.blue-link:hover {
-    background-color: #005c6b;
+    background-color: #882d0c;
     transition: background-color .2s linear
 }
 
 .container-link a.read-more-link:hover {
-    color: #005c6b
+    color: #d6704b
 }
 
 @media only screen and (max-width:768px) {
@@ -31791,7 +31508,7 @@ _:-ms-fullscreen,
     }
 
     #text-tabs {
-        background-color: #022737;
+        background-color: #d6704b;
         background-image: none
     }
 
@@ -31815,7 +31532,7 @@ _:-ms-fullscreen,
 }
 
 #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li a {
-    color: #022737;
+    color: #d6704b;
     font-size: 16px;
     cursor: pointer;
     background-color: #e4e4e4;
@@ -31829,7 +31546,7 @@ _:-ms-fullscreen,
 }
 
 #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li.active a {
-    color: #006778;
+    color: #d6704b;
     border-left: 0;
     border-right: 0;
     border-top: 0;
@@ -31838,7 +31555,7 @@ _:-ms-fullscreen,
 
 #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li.active a:focus,
 #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li.active a:hover {
-    color: #006778;
+    color: #d6704b;
     border-left: 0;
     border-right: 0;
     border-top: 0
@@ -31848,7 +31565,7 @@ _:-ms-fullscreen,
 #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li a:hover {
     border: 0;
     box-sizing: border-box;
-    color: #006778
+    color: #d6704b
 }
 
 .view-content>#views-bootstrap-tab-views-bootstrap-daf-tabs-block-1>.nav {
@@ -31903,7 +31620,7 @@ _:-ms-fullscreen,
 
 .dt-tabs-title>li>a {
     font-family: "HelveticaNeue-Bold";
-    color: #006778;
+    color: #d6704b;
     font-size: 16px;
     letter-spacing: .6px;
     background-color: rgba(242, 242, 242, .8)
@@ -32018,7 +31735,7 @@ _:-ms-fullscreen,
     font-size: 42px;
     line-height: 1.07;
     letter-spacing: .6px;
-    color: #022737;
+    color: #d6704b;
     width: 75%;
     padding: 80px 0 0 0;
     margin: 0 auto
@@ -32097,7 +31814,7 @@ _:-ms-fullscreen,
     }
 
     #views-bootstrap-tab-views-bootstrap-daf-tabs-block-1 .nav-tabs li a {
-        color: #022737;
+        color: #d6704b;
         font-size: 14px;
         cursor: default;
         background-color: #e4e4e4;
@@ -32139,7 +31856,7 @@ _:-ms-fullscreen,
 
 .tab-menu .indicator {
     margin-left: 10px;
-    border-bottom: 4px solid #006778;
+    border-bottom: 4px solid #d6704b;
     position: absolute;
     top: 46px;
     width: 0;
@@ -32619,7 +32336,7 @@ _:-ms-fullscreen,
 .cta-center>a.link-center {
     font-family: "HelveticaNeue-CondensedBold";
     color: #fff;
-    background-color: #006778;
+    background-color: #d6704b;
     display: flex;
     align-items: center;
     min-width: 200px;
@@ -32629,17 +32346,17 @@ _:-ms-fullscreen,
     text-transform: uppercase;
     height: 50px;
     font-size: 18px;
-    border: 1px solid #006778
+    border: 1px solid #d6704b
 }
 
 .cta-center>a.link-center:hover {
-    background-color: #005c6b
+    background-color: #d6704b
 }
 
 .cta-left>a.link-center {
     font-family: "HelveticaNeue-CondensedBold";
     color: #fff;
-    background-color: #006778;
+    background-color: #d6704b;
     display: flex;
     align-items: center;
     min-width: 200px;
@@ -32649,11 +32366,11 @@ _:-ms-fullscreen,
     text-transform: uppercase;
     height: 50px;
     font-size: 18px;
-    border: 1px solid #006778
+    border: 1px solid #d6704b
 }
 
 .cta-left>a.link-center:hover {
-    background-color: #005c6b
+    background-color: #d6704b
 }
 
 .cta-center {
@@ -32752,7 +32469,7 @@ _:-ms-fullscreen,
     font-style: normal;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778;
+    color: #d6704b;
     display: inline-block;
     position: relative;
     text-transform: uppercase;
@@ -32761,7 +32478,7 @@ _:-ms-fullscreen,
 }
 
 .read-more-link span>a:hover {
-    color: #005c6b
+    color: #d6704b
 }
 
 .read-more-link span>a:hover .teal-arrow {
@@ -32781,7 +32498,7 @@ _:-ms-fullscreen,
     font-style: normal;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778;
+    color: #d6704b;
     display: inline-block;
     position: relative;
     text-transform: uppercase;
@@ -32791,7 +32508,7 @@ _:-ms-fullscreen,
 }
 
 .read-more-link span.field-content>a:hover {
-    color: #005c6b
+    color: #d6704b
 }
 
 .read-more-link span.field-content>a:hover .teal-arrow {
@@ -32820,7 +32537,7 @@ _:-ms-fullscreen,
 }
 
 .nc-more:hover {
-    background-color: #005c6b;
+    background-color: #d6704b;
     transition: background-color .2s linear
 }
 
@@ -32854,7 +32571,7 @@ _:-ms-fullscreen,
 }
 
 .bl-more:hover {
-    background-color: #005c6b;
+    background-color: #d6704b;
     transition: background-color .2s linear
 }
 
@@ -32871,7 +32588,7 @@ _:-ms-fullscreen,
     font-size: 16px;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    color: #006778;
+    color: #d6704b;
     display: inline-block;
     position: relative;
     text-transform: uppercase;
@@ -32883,14 +32600,14 @@ _:-ms-fullscreen,
     padding: 0 20px 0 20px;
     height: 50px;
     justify-content: center;
-    border: solid 1.2px #006778;
+    border: solid 1.2px #d6704b;
     background-color: #fff;
     outline: 0
 }
 
 .secondary-cta-border span.field-content>a:hover {
-    color: #005c6b;
-    border: solid 1.2px #005c6b
+    color: #d6704b;
+    border: solid 1.2px #d6704b
 }
 
 .secondary-cta-border-error-lit span.field-content>a {
@@ -32898,7 +32615,7 @@ _:-ms-fullscreen,
     font-size: 16px;
     line-height: 1.67;
     letter-spacing: 1.1px;
-    background-color: #006778;
+    background-color: #d6704b;
     display: inline-block;
     position: relative;
     text-transform: uppercase;
@@ -32910,7 +32627,7 @@ _:-ms-fullscreen,
     padding: 0 20px 0 20px;
     height: 50px;
     justify-content: center;
-    border: solid 1.2px #006778;
+    border: solid 1.2px #d6704b;
     color: #fff
 }
 
@@ -32957,7 +32674,7 @@ _:-ms-fullscreen,
     .cta-left>a.link-center {
         font-family: "HelveticaNeue-CondensedBold";
         color: #fff;
-        background-color: #006778;
+        background-color: #d6704b;
         display: flex;
         align-items: center;
         min-width: 100%;
@@ -32965,12 +32682,12 @@ _:-ms-fullscreen,
         padding: 10px 20px 10px 20px;
         justify-content: center;
         letter-spacing: 1px;
-        border: 1px solid #006778
+        border: 1px solid #d6704b
     }
 
     .cta-left>a.link-center:hover {
-        background-color: #005c6b;
-        border: 1px solid #005c6b
+        background-color: #d6704b;
+        border: 1px solid #d6704b
     }
 
     .read-more-link span.field-content>a {
@@ -32982,7 +32699,7 @@ _:-ms-fullscreen,
     .cta-left>a.link-center {
         font-family: "HelveticaNeue-CondensedBold";
         color: #fff;
-        background-color: #006778;
+        background-color: #d6704b;
         display: flex;
         align-items: center;
         min-width: 100%;
@@ -32992,7 +32709,7 @@ _:-ms-fullscreen,
     }
 
     .cta-left>a.link-center:hover {
-        background-color: #005c6b;
+        background-color: #d6704b;
         text-decoration: none
     }
 
@@ -33039,7 +32756,7 @@ _:-ms-fullscreen,
     white-space: nowrap;
     font-size: 24px;
     letter-spacing: .4px;
-    color: #022737
+    color: #d6704b
 }
 
 .image-text-layout .image-right {
@@ -33201,7 +32918,7 @@ h4>p {
 .transparent-background {
     opacity: .9;
     box-shadow: 10px 0 20px 0 rgba(0, 0, 0, .2);
-    background-color: #022737;
+    background-color: #d6704b;
     height: 610px;
     width: 469px;
     margin-left: -50px;
@@ -33237,7 +32954,7 @@ h4>p {
     .transparent-background {
         opacity: 1;
         box-shadow: 10px 0 20px 0 rgba(0, 0, 0, .2);
-        background-color: #022737;
+        background-color: #d6704b;
         height: auto;
         width: auto;
         display: flex;
@@ -33246,7 +32963,7 @@ h4>p {
     }
 
     .mobile-background {
-        background-color: #022737
+        background-color: #d6704b
     }
 }
 
