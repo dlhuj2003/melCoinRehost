@@ -86,7 +86,7 @@ section {
     margin: 10px 0px;
 
     span {
-      color: #ff8000;
+      color: #c76300;
     }
   }
 
@@ -124,7 +124,7 @@ section {
 
     button {
       height: 40px;
-      background-color: #ff8000;
+      background-color: #c76300;
       border: none;
       border-radius: 4px;
       color: #fff;

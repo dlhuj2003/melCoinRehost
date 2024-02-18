@@ -44,7 +44,6 @@ import { useRouter } from "vue-router";
 
 <style scoped lang="scss">
 div.main {
-    padding: 50px;
 
   h3 {
     color: #ffffff;

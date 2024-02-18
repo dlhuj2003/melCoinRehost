@@ -128,6 +128,7 @@ main {
         border: none;
         color: #fff;
         border-radius: 5px;
+        cursor: pointer;
       }
     }
 

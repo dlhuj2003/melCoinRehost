@@ -19,9 +19,7 @@
       </div>
       <div class="end">
         <p class="username">@{{ store.userDetails.username }}</p>
-        <!-- <a href="mailto:support@etherdometech.com"
-          ><p class="logout">Contact Support</p></a
-        > -->
+        
         <p class="logout" @click="logout">Logout</p>
       </div>
     </nav>
@@ -85,7 +83,7 @@ const links = ref([
     icon: "bi bi-grid-fill",
   },
   {
-    name: "Trade",
+    name: "Invest",
     to: "/trade",
     icon: "bi bi-cash-coin",
   },
@@ -103,11 +101,6 @@ const links = ref([
     name: "Balance",
     to: "/balance",
     icon: "bi bi-piggy-bank",
-  },
-  {
-    name: "Investment",
-    to: "/investment",
-    icon: "bi bi-diagram-2-fill",
   },
   {
     name: "Transactions",
@@ -140,7 +133,7 @@ a {
 }
 
 p.username {
-  color: #ff8000;
+  color: #c76300;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1.1px;
@@ -154,7 +147,7 @@ div.end {
   left: 10px;
   height: fit-content;
   p.logout {
-    background-color: #ff8000;
+    background-color: #c76300;
     color: #fff;
     text-align: center;
     padding: 5px 20px;
@@ -181,7 +174,7 @@ div.end {
   font-size: 20px;
 
   button {
-    background-color: #ff8000;
+    background-color: #c76300;
     border: 1px solid #fff !important;
     color: #ffffff;
     padding: 10px 20px;
@@ -233,6 +226,7 @@ a.router-link-exact-active {
   background-color: #ffffff;
   border-radius: 10px;
 }
+
 
 .logo img {
   width: 80%;

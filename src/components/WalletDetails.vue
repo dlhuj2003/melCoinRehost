@@ -99,14 +99,14 @@ div.address {
     padding: 10px 8px;
     border: none;
     color: #ffffff;
-    background: #ff8000;
+    background: #c76300;
     border-radius: 8px;
     margin-right: 10px;
     cursor: pointer;
     width: 100%;
 
     &:last-of-type {
-      color: #ff8000;
+      color: #c76300;
       background: #000;
     }
   }
@@ -139,14 +139,14 @@ div.address {
       padding: 10px 8px;
       border: none;
       color: #ffffff;
-      background: #ff8000;
+      background: #c76300;
       border-radius: 8px;
       margin-right: 10px;
       cursor: pointer;
       width: 100%;
 
       &:last-of-type {
-        color: #ff8000;
+        color: #c76300;
         background: #000;
       }
     }
@@ -193,7 +193,7 @@ div.address {
     color: #222;
     letter-spacing: -1px;
     &::selection {
-      background-color: #ff8000;
+      background-color: #c76300;
     }
   }
   i.bi-files {

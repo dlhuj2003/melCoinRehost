@@ -144,7 +144,7 @@ main {
 
   h3 {
     color: #ffffff;
-    background-color: #ff8000;
+    background-color: #c76300;
     padding: 20px 10px;
     margin: 0px 0px 30px;
     text-transform: uppercase;
@@ -191,7 +191,7 @@ main {
     }
 
     button {
-      background-color: #ff8000;
+      background-color: #c76300;
       color: #ffffff;
       border: none;
       border-radius: 4px;

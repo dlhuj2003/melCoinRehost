@@ -173,7 +173,8 @@ main {
     }
     p.logo{
         font-size: 28px;
-        margin-top: 50px;
+        margin: 50px 0px 0px;
+        width: auto;
         span{
             color: #d6704b;
         }

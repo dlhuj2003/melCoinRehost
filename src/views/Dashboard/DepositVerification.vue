@@ -153,7 +153,7 @@ section.kyc {
     margin: 10px 0px;
 
     span {
-      color: #ff8000;
+      color: #c76300;
     }
   }
 
@@ -187,7 +187,7 @@ section.kyc {
     }
     div.pic.full {
       label {
-        border: 1px dashed #ff8000;
+        border: 1px dashed #c76300;
         background-color: #ffddbc;
         height: 56px;
         border-radius: 4px;
@@ -195,7 +195,7 @@ section.kyc {
         justify-content: center;
         align-items: center;
         font-size: 11px;
-        color: #ff8000;
+        color: #c76300;
         text-transform: uppercase;
         letter-spacing: 2px;
         cursor: pointer;
@@ -210,7 +210,7 @@ section.kyc {
     button {
       height: 40px;
       width: 100%;
-      background-color: #ff8000;
+      background-color: #c76300;
       border: none;
       border-radius: 4px;
       color: #fff;

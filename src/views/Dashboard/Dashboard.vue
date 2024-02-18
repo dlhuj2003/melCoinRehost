@@ -11,16 +11,7 @@
         <i class="bi bi-cloud-moon" v-else> Good Evening</i>
       </h1>
       <Marquee />
-      <div class="chart">
-        <Chart
-          :options="{
-            symbol: 'BINANCE:BTCUSDT',
-            width: '100%',
-            height: '100%',
-            autosize: true,
-          }"
-        />
-      </div>
+      
       <div class="all">
         <div class="item">
           <h2>Total Balance <i class="bi bi-piggy-bank"></i></h2>
@@ -48,13 +39,23 @@
             </p>
             <i
               class="bi bi-clipboard"
-              style="color: #ff8000"
+              style="color: #c76300"
               @click="copy(store.userDetails.referralCode)"
               v-if="!copied"
             ></i>
-            <i class="bi bi-check2" style="color: #ff8000" v-else></i>
+            <i class="bi bi-check2" style="color: #c76300" v-else></i>
           </div>
         </div>
+      </div>
+      <div class="chart">
+        <Chart
+          :options="{
+            symbol: 'BINANCE:BTCUSDT',
+            width: '100%',
+            height: '80%',
+            autosize: true,
+          }"
+        />
       </div>
       <Footer />
     </div>
@@ -101,7 +102,7 @@ main {
   p.kyc{
     padding: 20px;
     margin: 10px 30px;
-    border: 1px dashed #ff8000;
+    border: 1px dashed #c76300;
     width: fit-content;
     font-size: 14px;
     border-radius: 3px;
@@ -168,7 +169,7 @@ main {
     }
 
     div.item {
-      background-color: #ff8000;
+      background-color: #c76300;
       max-height: 120px;
       min-width: 200px;
       max-width: 450px;
@@ -189,7 +190,7 @@ main {
       }
 
       div.content {
-        border: 2px solid #ff8000;
+        border: 2px solid #c76300;
         background-color: #fff;
         display: flex;
         align-items: center;

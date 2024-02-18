@@ -130,7 +130,7 @@ a {
   width: 44px;
   font-size: 20px;
   button {
-    background-color: #ff8000;
+    background-color: #c76300;
     border: 1px solid #fff !important;
     color: #ffffff;
     padding: 10px 20px;
@@ -164,7 +164,7 @@ a.router-link-exact-active {
 .body-menu {
   width: 180px;
   height: 100vh;
-  background: #ff8000;
+  background: #c76300;
   padding: 16px 0px;
 
   @media (max-width: 710px) {

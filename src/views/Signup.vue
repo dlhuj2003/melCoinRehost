@@ -240,6 +240,9 @@ main {
 
       div.right {
         position: relative;
+        h1{
+          font-size: 40px;
+        }
 
         img {
           width: 100%;

@@ -127,7 +127,7 @@ main {
     color: #fff;
     margin: 0px 0px 30px;
     font-size: 16px;
-    background-color: #ff8000;
+    background-color: #c76300;
     padding: 20px 30px;
   }
 
@@ -151,8 +151,8 @@ main {
       background-color: #ffffff;
       height: 250px;
       max-width: 250px;
-      color: #ff8000;
-      border: 1px solid #FF8000;
+      color: #c76300;
+      border: 1px solid #c76300;
 
       @media (max-width: 430px) {
         width: 100%;
@@ -161,7 +161,7 @@ main {
 
       h2 {
         font-size: 16px;
-        background-color: #ff8000;
+        background-color: #c76300;
         color: #FFF;
         padding: 10px;
       }
@@ -184,7 +184,7 @@ main {
           width: 100%;
           border: none;
           border-radius: 5px;
-          background-color: #ff8000;
+          background-color: #c76300;
           color: #ffffff;
           cursor: pointer;
         }

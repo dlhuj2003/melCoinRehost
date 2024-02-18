@@ -81,7 +81,7 @@ div.item {
         width: 70px;
         height: 70px;
         border-radius: 50%;
-        background: linear-gradient(120deg, #FF8000 0%, #ac5804 100%);
+        background: linear-gradient(120deg, #c76300 0%, #ac5804 100%);
         display: flex;
         justify-content: center;
         align-items: center;

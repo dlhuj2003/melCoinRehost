@@ -354,7 +354,7 @@ section.one {
       }
 
       span {
-        color: #FF8000;
+        color: #c76300;
         font-size: 36px;
         text-transform: uppercase;
 
@@ -555,7 +555,7 @@ section.two div.container {
   button {
     height: 44px;
     color: #fff;
-    background: linear-gradient(120deg, #FF8000 0%, #ac5804 100%);
+    background: linear-gradient(120deg, #c76300 0%, #ac5804 100%);
     border: none;
     border-radius: 28px;
     width: fit-content;

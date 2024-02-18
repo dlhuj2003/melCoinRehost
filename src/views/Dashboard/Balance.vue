@@ -123,7 +123,7 @@ main {
         font-size: 16px;
         font-weight: 600;
         letter-spacing: 0.8px;
-        background-color: #ff8000;
+        background-color: #c76300;
         border-radius: 10px 10px 0px 0px;
         padding: 20px;
         display: flex;
