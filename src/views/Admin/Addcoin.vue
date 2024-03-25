@@ -13,7 +13,7 @@
         <input type="text" name="" v-model="coin.address" id="address" />
       </div>
       <button>Save changes</button>
-      <!-- <button>Delete account</button> -->
+      <button>Delete wallet</button>
       <router-link to="/coins">
         <button>Back</button>
       </router-link>
