@@ -37,10 +37,6 @@
         <label for="email">Phone</label>
         <input type="text" name="" v-model="user.phone" id="phone" />
       </div>
-      <div class="full">
-        <label for="password">Password</label>
-        <input type="text" name="" v-model="user.password" id="password" />
-      </div>
       <div class="radio">
         <div class="flex">
           <input type="radio" name="status" id="active" v-model="user.status">
