@@ -67,7 +67,7 @@ import { useRouter } from "vue-router";
                     <div class="social">
                         <a href="https://www.instagram.com/mellcoingroup?igsh=cGV5NXNtb2dsY2Vh&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
                         <a href="https://www.facebook.com/help/104002523024878/?helpref=uf_share" target="_blank"><i class="bi bi-facebook"></i></a>
-                        <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <!-- <a href="" target="_blank"><i class="bi bi-twitter"></i></a> -->
                         <a href="https://www.tiktok.com/@mellcoingroup?_t=8kyg9xRbA1u" target="_blank">
                             <i class="bi bi-tiktok"></i>
                         </a>
