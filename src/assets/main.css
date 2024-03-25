@@ -58,3 +58,7 @@ div.gtranslate_wrapper div.gt_switcher_wrapper {
 .gt_container--hich1m .gt_switcher .gt_selected a:after{
   display: none !important;
 }
+.gt_container--hich1m .gt_switcher .gt_option{
+  position: absolute !important;
+  top: 40px !important;
+}
