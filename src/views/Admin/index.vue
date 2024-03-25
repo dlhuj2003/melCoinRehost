@@ -33,6 +33,8 @@ const router = useRouter();
 
 .view {
   width: calc(100vw - 180px);
+  height: 100vh;
+  overflow-y: scroll;
 
   @media (max-width: 710px) {
     width: 100vw;

@@ -45,7 +45,7 @@ import Footer from '@/components/Footer.vue'
                 <div class="item">
                     <div class="img one"></div>
                     <div class="txt">
-                        <h2>Why should I set financial goals?</h2>
+                        <h2>Financial planning</h2>
                         <p>
                             How do you feel about your ability to handle today's financial needs while also saving for the
                             future? No matter what your answer is, creating financial goals can help you know what you are
@@ -58,7 +58,7 @@ import Footer from '@/components/Footer.vue'
                 <div class="item">
                     <div class="img two"></div>
                     <div class="txt">
-                        <h2>Getting ready to take your RMD</h2>
+                        <h2>Saving for retirement</h2>
                         <p>
                             As you get closer to age 73 and retirement, you've probably heard about required minimum distributions (RMDs). You may have also wondered how RMDs will affect you and your retirement savings. If you're familiar with the basics of RMDs, now is the time to start planning for them. This article provides helpful information and tips to get you started.
                         </p>
@@ -67,7 +67,7 @@ import Footer from '@/components/Footer.vue'
                 <div class="item">
                     <div class="img three"></div>
                     <div class="txt">
-                        <h2>To retire well, should you move?</h2>
+                        <h2>Living in retirement</h2>
                         <p>
                             Retiring and relocating typically unlocks $100,000 in home equity for retirement, mellcoin research finds.
                         </p>
@@ -81,7 +81,7 @@ import Footer from '@/components/Footer.vue'
                 <div class="item">
                     <div class="img one"></div>
                     <div class="txt">
-                        <h2>Why should I set financial goals?</h2>
+                        <h2>Master Your Finances</h2>
                         <p>
                             How do you feel about your ability to handle today's financial needs while also saving for the
                             future? No matter what your answer is, creating financial goals can help you know what you are

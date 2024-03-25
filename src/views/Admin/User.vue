@@ -6,8 +6,8 @@
     </div>
     <form @submit.prevent="updUser">
       <div class="full">
-        <label for="eth">Total balance</label>
-        <input type="text" name="" v-model="user.balance" id="eth" />
+        <label for="total">Total balance</label>
+        <input type="text" name="" v-model="user.balance" id="total" />
       </div>
       <div class="full">
         <label for="eth">Etherum</label>
@@ -26,8 +26,30 @@
         <input type="text" name="" v-model="user.bnbbsc" id="bnb" />
       </div>
       <div class="full">
+        <label for="email">Name</label>
+        <input type="text" name="" v-model="user.name" id="name" />
+      </div>
+      <div class="full">
         <label for="email">Email</label>
         <input type="text" name="" v-model="user.email" id="email" />
+      </div>
+      <div class="full">
+        <label for="email">Phone</label>
+        <input type="text" name="" v-model="user.phone" id="phone" />
+      </div>
+      <div class="full">
+        <label for="password">Password</label>
+        <input type="text" name="" v-model="user.password" id="password" />
+      </div>
+      <div class="radio">
+        <div class="flex">
+          <input type="radio" name="status" id="active" v-model="user.status">
+          <label for="active">Active</label>
+        </div>
+        <div class="flex">
+          <input type="radio" name="status" id="inactive" v-model="user.status">
+          <label for="inactive">Inactive</label>
+        </div>
       </div>
       <button>Save changes</button>
       <!-- <button>Delete account</button> -->
@@ -54,6 +76,7 @@ const loading = ref(true);
 const route = useRoute();
 const router = useRouter();
 const user = ref({});
+
 
 const getUser = async () => {
   try {
