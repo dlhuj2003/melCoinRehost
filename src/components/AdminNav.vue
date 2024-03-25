@@ -172,9 +172,9 @@ a.router-link-exact-active {
   }
 }
 
-.logo {
+div.logo {
   width: 90%;
-  padding: 10px;
+  padding: 0px;
   text-align: center;
   margin: 0px auto 40px;
   background-color: #000;
