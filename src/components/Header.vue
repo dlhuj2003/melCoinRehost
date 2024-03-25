@@ -20,7 +20,7 @@
             <li>
               <router-link to="learn">Help center</router-link>
             </li>
-            <li>Contact us</li>
+            <router-link to="/login"><li>Contact us</li></router-link>
             <li>
               <router-link to="/login">ID verification</router-link>
             </li>

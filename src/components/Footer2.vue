@@ -18,7 +18,7 @@ import { ref } from 'vue'
                         <a href="" target="_blank"><i class="bi bi-telegram"></i></a>
                         <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a>
                         <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
-                        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.instagram.com/mellcoingroup?igsh=cGV5NXNtb2dsY2Vh&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
             </div>

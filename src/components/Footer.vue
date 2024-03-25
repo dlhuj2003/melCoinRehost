@@ -48,27 +48,27 @@ import { useRouter } from "vue-router";
                 </div>
                 <div>
                     <p class="title">Support</p>
-                    <router-link to="/">
+                    <router-link to="/login">
                         Contact us
                     </router-link>
                     <router-link to="login">
                         ID verification
                     </router-link>
-                    <router-link to="/">
+                    <router-link to="/learn">
                         Payment method
                     </router-link>
-                    <router-link to="/">
-                        Supported countries
-                    </router-link>
+                    
+                        <p title="America, China, France, Germany, Italy, UK, Switzerland">Supported countries</p>
+                    
                 </div>
                 <div class="soc">
                     <p class="title">Follow us</p>
                     <div class="social">
-                        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="https://www.instagram.com/mellcoingroup?igsh=cGV5NXNtb2dsY2Vh&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
                         <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
                         <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
-                        <a href="" target="_blank"><i class="bi bi-threads"></i></a>
-                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://www.threads.net/@mellcoingroup" target="_blank"><i class="bi bi-threads"></i></a>
+                        <a href="http://www.linkedin.com/in/mellcoin-group-7b3465300" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <p class="logo">mell<span>C</span>oin</p>
                 </div>
