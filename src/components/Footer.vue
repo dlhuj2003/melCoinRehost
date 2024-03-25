@@ -39,9 +39,9 @@ import { useRouter } from "vue-router";
                     <a href="learn#buycrypto">
                         What is Crypto
                     </a>
-                    <a href="learn#setupwallet">
+                    <!-- <a href="learn#setupwallet">
                         What is Blockchain
-                    </a>
+                    </a> -->
                     <a href="learn#setupwallet">
                         Wallet
                     </a>
@@ -53,6 +53,7 @@ import { useRouter } from "vue-router";
                     </router-link>
                     <router-link to="login">
                         ID verification
+
                     </router-link>
                     <router-link to="/learn">
                         Payment method
@@ -65,8 +66,11 @@ import { useRouter } from "vue-router";
                     <p class="title">Follow us</p>
                     <div class="social">
                         <a href="https://www.instagram.com/mellcoingroup?igsh=cGV5NXNtb2dsY2Vh&utm_source=qr" target="_blank"><i class="bi bi-instagram"></i></a>
-                        <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="https://www.facebook.com/help/104002523024878/?helpref=uf_share" target="_blank"><i class="bi bi-facebook"></i></a>
                         <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="https://www.tiktok.com/@mellcoingroup?_t=8kyg9xRbA1u" target="_blank">
+                            <i class="bi bi-tiktok"></i>
+                        </a>
                         <a href="https://www.threads.net/@mellcoingroup" target="_blank"><i class="bi bi-threads"></i></a>
                         <a href="http://www.linkedin.com/in/mellcoin-group-7b3465300" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>

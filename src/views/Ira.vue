@@ -83,7 +83,7 @@ import Footer from '@/components/Footer.vue'
             <h1>Financial planning</h1>
             <div class="grid">
                 <div class="item">
-                    <div class="img one"></div>
+                    <div class="img one1"></div>
                     <div class="txt">
                         <h2>Savings</h2>
                         <p>
@@ -95,7 +95,7 @@ import Footer from '@/components/Footer.vue'
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img two"></div>
+                    <div class="img two1"></div>
                     <div class="txt">
                         <h2>Investment</h2>
                         <p>
@@ -108,7 +108,7 @@ import Footer from '@/components/Footer.vue'
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img three"></div>
+                    <div class="img three1"></div>
                     <div class="txt">
                         <h2>Budgeting</h2>
                         <p>
@@ -125,7 +125,7 @@ import Footer from '@/components/Footer.vue'
             <h1>Saving for retirement</h1>
             <div class="grid">
                 <div class="item">
-                    <div class="img one"></div>
+                    <div class="img one2"></div>
                     <div class="txt">
                         <h2>Why should you plan for retirement?</h2>
                         <p>
@@ -138,7 +138,7 @@ import Footer from '@/components/Footer.vue'
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img two"></div>
+                    <div class="img two2"></div>
                     <div class="txt">
                         <h2>How to plan for retirement?</h2>
                         <p>
@@ -150,7 +150,7 @@ import Footer from '@/components/Footer.vue'
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img three"></div>
+                    <div class="img three2"></div>
                     <div class="txt">
                         <h2>When should you start planning?</h2>
                         <p>
@@ -166,7 +166,7 @@ import Footer from '@/components/Footer.vue'
             <h1>Living in retirement</h1>
             <div class="grid">
                 <div class="item">
-                    <div class="img one"></div>
+                    <div class="img one3"></div>
                     <div class="txt">
                         <h2>How to create a retirement plan?</h2>
                         <p>
@@ -178,7 +178,7 @@ import Footer from '@/components/Footer.vue'
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img two"></div>
+                    <div class="img two3"></div>
                     <div class="txt">
                         <h2>Why you need a retirement plan</h2>
                         <p>
@@ -189,7 +189,7 @@ import Footer from '@/components/Footer.vue'
                     </div>
                 </div>
                 <div class="item">
-                    <div class="img three"></div>
+                    <div class="img three3"></div>
                     <div class="txt">
                         <h2>To retire well, should you move?</h2>
                         <p>
@@ -362,6 +362,41 @@ section.three {
             div.three {
                 background-image: url(@/assets/globe.svg);
             }
+
+            div.one1 {
+                background-image: url(@/assets/fin1.jpg);
+            }
+
+            div.two1 {
+                background-image: url(@/assets/fin2.jpg);
+            }
+
+            div.three1 {
+                background-image: url(@/assets/fin3.jpg);
+            }
+
+div.one2 {
+    background-image: url(@/assets/fin4.jpg);
+}
+
+div.two2 {
+    background-image: url(@/assets/fin5.jpg);
+}
+
+div.three2 {
+    background-image: url(@/assets/fin6.jpg);
+}
+div.one3 {
+    background-image: url(@/assets/fin7.jpg);
+}
+
+div.two3 {
+    background-image: url(@/assets/fin8.jpg);
+}
+
+div.three3 {
+    background-image: url(@/assets/fin9.jpg);
+}
 
             div.txt {
                 padding: 20px;
