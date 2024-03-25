@@ -144,7 +144,7 @@ div.slip {
       width: 100%;
       font-size: 13px;
       color: #ffffff;
-      background-color: #ff8000;
+      background-color: #c76300;
       border: none;
       cursor: pointer;
     }

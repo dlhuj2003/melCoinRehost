@@ -25,7 +25,7 @@
             <li>
               <router-link to="/login">ID verification</router-link>
             </li>
-            <li class="p">
+            <!-- <li class="p">
               <p class="pay">Payment methods</p>
               <div class="x">
                 <p class="payment">
@@ -37,7 +37,7 @@
                   <li>USDT</li>
                 </ol>
               </div>
-            </li>
+            </li> -->
           </ul>
         </li>
         <li>
@@ -51,9 +51,12 @@
         </li>
       </ul>
       <div class="buttons desktop">
-        <router-link to="/login"><button class="secondary">Sign in</button></router-link>
+        <router-link to="/login"
+          ><button class="secondary">Sign in</button></router-link
+        >
         <router-link to="/signup">
-          <button class="primary">Get started</button></router-link>
+          <button class="primary">Get started</button></router-link
+        >
       </div>
       <div class="mobe">
         <div class="mobile" v-if="mobileMenu">
@@ -73,16 +76,16 @@
               <router-link to="/learn">Learn</router-link>
             </li>
             <li class="sup">
-          <p>Support</p>
-          <ul id="support">
-            <li>
-              <router-link to="learn">Help center</router-link>
-            </li>
-            <li>Contact us</li>
-            <li>
-              <router-link to="/login">ID verification</router-link>
-            </li>
-            <li class="p">
+              <p>Support</p>
+              <ul id="support">
+                <li>
+                  <router-link to="learn">Help center</router-link>
+                </li>
+                <li>Contact us</li>
+                <li>
+                  <router-link to="/login">ID verification</router-link>
+                </li>
+                <!-- <li class="p">
               <p class="pay">Payment methods</p>
               <div class="x">
                 <p class="payment">
@@ -94,9 +97,9 @@
                   <li>USDT</li>
                 </ol>
               </div>
+            </li> -->
+              </ul>
             </li>
-          </ul>
-        </li>
             <li>
               <router-link to="/ira">IRA</router-link>
             </li>
@@ -109,9 +112,12 @@
           </ul>
 
           <div class="buttons">
-            <router-link to="/login"><button class="secondary">Sign in</button></router-link>
+            <router-link to="/login"
+              ><button class="secondary">Sign in</button></router-link
+            >
             <router-link to="/signup">
-              <button class="primary">Get started</button></router-link>
+              <button class="primary">Get started</button></router-link
+            >
           </div>
         </div>
         <div v-else></div>
@@ -134,7 +140,6 @@ const globe = ref(false);
 </script>
 
 <style scoped lang="scss">
-
 main {
   background: #f7f4f4 !important;
   z-index: 999 !important;
@@ -146,66 +151,82 @@ main {
   @media (max-width: 600px) {
     padding: 0px 0px;
   }
-  
-div.main {
-  background: none;
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  max-width: 1366px;
-  margin: auto;
-  height: 70px;
-  align-items: center;
 
-  img {
-    width: 150px;
-  }
-
-  ul {
-    list-style: none;
+  div.main {
+    background: none;
+    position: relative;
     display: flex;
-    gap: 30px;
-
-    li {
-      color: #000;
-      font-weight: 700;
-    }
-  }
-
-  div.buttons {
-    display: flex;
-    gap: 10px;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: auto;
+    height: 70px;
     align-items: center;
 
-    i {
+    img {
+      width: 150px;
+    }
+
+    ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+
+      li {
+        color: #000;
+        font-weight: 700;
+        &:hover {
+          color: cadetblue;
+        }
+      }
+      div.x li {
+        &:hover {
+          color: #000;
+          cursor: text;
+        }
+      }
+    }
+
+    div.buttons {
+      display: flex;
+      gap: 10px;
+      align-items: center;
       position: relative;
-      left: 0;
-      top: 0;
-      font-size: 20px;
-    }
+      padding-left: 150px;
 
-    button {
-      height: 40px;
-      border-radius: 22px;
-      font-size: 16px;
-      padding: 0px 20px;
-      color: #fff;
-      font-weight: 700;
-      cursor: pointer;
-    }
+      i {
+        position: relative;
+        left: 0;
+        top: 0;
+        font-size: 20px;
+      }
 
-    button.primary {
-      background: #ff4500;
-      border: none;
-    }
+      button {
+        height: 40px;
+        border-radius: 22px;
+        font-size: 16px;
+        padding: 0px 20px;
+        color: #fff;
+        font-weight: 700;
+        cursor: pointer;
+        transition: 0.5s;
+        &:hover {
+          transform: scale(1.1);
+          transition: 0.5s;
+        }
+      }
 
-    button.secondary {
-      border: none;
-      background-color: #e0dfdf;
-      color: #000;
+      button.primary {
+        background: #d6704b;
+        border: none;
+      }
+
+      button.secondary {
+        border: none;
+        background-color: #e0dfdf;
+        color: #000;
+      }
     }
   }
-}
 }
 div.mobe {
   display: none;
@@ -244,7 +265,6 @@ div.lan {
   }
 }
 
-
 div.toggle {
   display: none;
 }
@@ -259,7 +279,7 @@ i {
   cursor: pointer;
 
   &:hover {
-    color: #ff4500;
+    color: #d6704b;
   }
 }
 
@@ -276,7 +296,7 @@ div.mobile {
     gap: 20px !important;
     margin-bottom: 20px;
   }
-  ul#support{
+  ul#support {
     display: none;
   }
 
@@ -299,11 +319,10 @@ div.mobile {
   }
 }
 
-
 li.sup {
   position: relative;
   cursor: pointer;
-  &:hover ul#support{
+  &:hover ul#support {
     display: grid;
   }
 
@@ -317,7 +336,7 @@ li.sup {
     box-shadow: 0px 5px 20px #0002;
     gap: 20px;
     min-width: 180px;
-    &:hover{
+    &:hover {
       display: grid;
     }
 
@@ -328,13 +347,13 @@ li.sup {
         display: none;
         padding: 20px 0px 0px;
         transition: 1s;
-        &:hover{ 
+        &:hover {
           display: block;
         }
         p.payment {
           line-height: 1.5 !important;
         }
-        ol.alpha li{
+        ol.alpha li {
           margin: 0px 20px;
           line-height: 1.5;
         }
@@ -346,11 +365,9 @@ li.sup {
       position: relative;
       z-index: 5;
 
-      &:hover~div.x {
-
+      &:hover ~ div.x {
         display: block;
         transition: 1s;
-
       }
 
       ol {
@@ -359,65 +376,63 @@ li.sup {
     }
   }
 }
-@media(max-width: 600px){
+@media (max-width: 600px) {
   li.sup {
-  position: relative;
-  cursor: pointer;
-  &:hover ul#support{
-    display: grid !important;
-  }
-
-  ul#support {
-    display: none !important;
-    position: absolute;
-    background-color: #fff;
-    padding: 20px;
-    top: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 20px #0002;
-    gap: 20px;
-    min-width: 180px;
-    &:hover{
+    position: relative;
+    cursor: pointer;
+    &:hover ul#support {
       display: grid !important;
     }
 
-    li.p {
-      position: relative;
+    ul#support {
+      display: none !important;
+      position: absolute;
+      background-color: #fff;
+      padding: 20px;
+      top: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 5px 20px #0002;
+      gap: 20px;
+      min-width: 180px;
+      &:hover {
+        display: grid !important;
+      }
 
-      div.x {
-        display: none;
-        padding: 20px 0px 0px;
-        transition: 1s;
-        &:hover{ 
+      li.p {
+        position: relative;
+
+        div.x {
+          display: none;
+          padding: 20px 0px 0px;
+          transition: 1s;
+          &:hover {
+            display: block;
+          }
+          p.payment {
+            line-height: 1.5 !important;
+          }
+          ol.alpha li {
+            margin: 0px 20px;
+            line-height: 1.5;
+          }
+        }
+      }
+
+      p.pay {
+        cursor: pointer;
+        position: relative;
+        z-index: 5;
+
+        &:hover ~ div.x {
           display: block;
+          transition: 1s;
         }
-        p.payment {
-          line-height: 1.5 !important;
+
+        ol {
+          padding: 0px 20px;
         }
-        ol.alpha li{
-          margin: 0px 20px;
-          line-height: 1.5;
-        }
-      }
-    }
-
-    p.pay {
-      cursor: pointer;
-      position: relative;
-      z-index: 5;
-
-      &:hover~div.x {
-
-        display: block;
-        transition: 1s;
-
-      }
-
-      ol {
-        padding: 0px 20px;
       }
     }
   }
-}
 }
 </style>

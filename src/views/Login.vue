@@ -124,10 +124,11 @@ main {
       button {
         height: 44px;
         width: 100%;
-        background: #ff4500;
+        background: #d6704b;
         border: none;
         color: #fff;
         border-radius: 5px;
+        cursor: pointer;
       }
     }
 
@@ -139,7 +140,7 @@ main {
       margin-top: 0px;
 
       a {
-        color: #ff4500;
+        color: #d6704b;
       }
     }
   }

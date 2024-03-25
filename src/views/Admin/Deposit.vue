@@ -57,7 +57,7 @@ main {
   button {
     width: 200px;
     height: 44px;
-    background-color: #ff8000;
+    background-color: #c76300;
     color: #fff;
     border: none;
     // margin: 0px 0px 10px;

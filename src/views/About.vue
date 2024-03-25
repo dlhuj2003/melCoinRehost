@@ -34,7 +34,6 @@ import Footer from "@/components/Footer.vue";
             width="100%"
             src="https://melasset.vercel.app/video1.mp4"
             controls
-            autoplay
           ></video>
           <p class="small">
             Molly Concannon, head of product strategy, and Matthew Brancato,
@@ -165,7 +164,7 @@ import Footer from "@/components/Footer.vue";
       </div>
     </section>
     <section class="found">
-      <p class="logo">mell<span>C</span>oin</p>
+      <p class="logo">mell<span>C</span>oin<i class="bi bi-r-circle"></i></p>
       <p class="txt">
         Mellcoin is a trusted name in investing. Founded since 1982, ventured
         into crypto trading in 2013, and we've put investors first.
@@ -221,7 +220,7 @@ section.bubbles {
 section.one {
   height: fit-content;
   padding: 0px 50px;
-  background-color: #ff4500;
+  background-color: #d6704b;
   color: #fff;
 
   @media (max-width: 991px) {
@@ -235,7 +234,210 @@ section.one {
       justify-content: flex-start;
       align-items: flex-start;
 
-      div.w50 {
+      div.container.low {
+        @media (max-width: 991px) {
+          flex-direction: row;
+          gap: 10px;
+          justify-content: flex-start;
+          align-items: flex-start;
+
+          div.w50 {
+            text-align: left;
+          }
+        }
+
+        @media (max-width: 710px) {
+          flex-direction: column;
+        }
+      }
+
+      div.container {
+        position: relative;
+        display: grid;
+        grid-template-columns: 3fr 2fr;
+        max-width: 1366px;
+        margin: auto;
+        align-items: center;
+        padding: 30px 0px;
+
+        @media (max-width: 991px) {
+          display: flex;
+          flex-direction: column-reverse;
+          padding: 30px 0px 50px;
+        }
+
+        div.w50 {
+          position: relative;
+          height: 100%;
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: left !important;
+
+          h1 {
+            font-size: 42px;
+            line-height: 1.5;
+          }
+
+          h2 {
+            color: #fff;
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 1.5;
+            margin-top: 20px;
+          }
+
+          @media (max-width: 991px) {
+            text-align: center;
+          }
+        }
+
+        div.w50.img {
+          background-image: url(@/assets/custody.jpg);
+          height: 350px;
+          background-size: cover;
+          margin-right: 20px !important;
+          width: auto;
+
+          @media (max-width: 991px) {
+            margin-right: 0px;
+            width: 100%;
+          }
+
+          @media (max-width: 600px) {
+            height: 250px;
+          }
+        }
+
+        h2 {
+          color: #111;
+          font-size: 32px;
+          max-width: 550px;
+          z-index: 2;
+          position: relative;
+
+          @media (max-width: 991px) {
+            font-size: 24px;
+            margin: auto;
+          }
+
+          span {
+            color: #c76300;
+            font-size: 36px;
+            text-transform: uppercase;
+
+            @media (max-width: 600px) {
+              font-size: 28px;
+            }
+          }
+        }
+
+        p {
+          color: #333;
+          font-size: 24px;
+          max-width: 550px;
+
+          @media (max-width: 991px) {
+            font-size: 20px;
+            margin: auto;
+          }
+        }
+
+        p.small {
+          font-size: 16px;
+          line-height: 1.5;
+        }
+
+        button {
+          height: 44px;
+          border: none;
+          background: linear-gradient(120deg, #c76300 0%, #ac5804 100%);
+          color: #fff;
+          padding: 0px 30px;
+          border-radius: 22px;
+          margin-top: 30px;
+        }
+      }
+    }
+
+    section.one.custody {
+      div.container {
+        @media (max-width: 991px) {
+          flex-direction: column !important;
+          gap: 30px;
+
+          p,
+          li,
+          p.title {
+            text-align: left !important;
+          }
+        }
+
+        div.w50 {
+          i.bi-chevron-down {
+            font-size: 20px;
+            font-weight: 600;
+          }
+
+          video {
+            width: 100%;
+            padding: 20px;
+          }
+
+          p.title {
+            text-align: left !important;
+            color: #fff;
+            margin: 0px 0px 10px;
+          }
+
+          ul {
+            list-style: none;
+            height: 400px;
+            overflow-y: scroll;
+
+            li {
+              margin: 0px 0px 20px;
+            }
+          }
+
+          ::-webkit-scrollbar {
+            width: 10px;
+          }
+
+          /* Track */
+          ::-webkit-scrollbar-track {
+            box-shadow: inset 0 0 5px #0000;
+            border-radius: 10px;
+          }
+
+          /* Handle */
+          ::-webkit-scrollbar-thumb {
+            background: #fff0;
+            border-radius: 30px;
+          }
+        }
+
+        p.small {
+          color: #fff;
+          margin: 30px 0px 0px;
+        }
+      }
+    }
+
+    section.two div.container {
+      position: relative;
+      z-index: 888;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      text-align: center;
+      max-width: 800px;
+      margin: auto;
+      padding: 80px 50px;
+
+      @media (max-width: 991px) {
+        padding: 0px 30px;
         text-align: left;
       }
     }
@@ -345,12 +547,17 @@ section.one {
 
     button {
       height: 44px;
-      border: none;
-      background: linear-gradient(120deg, #ff8000 0%, #ac5804 100%);
       color: #fff;
+      background: linear-gradient(120deg, #c76300 0%, #ac5804 100%);
+      border: none;
+      border-radius: 28px;
+      width: fit-content;
       padding: 0px 30px;
-      border-radius: 22px;
-      margin-top: 30px;
+      margin: 0px auto 30px;
+
+      @media (max-width: 991px) {
+        margin: 0px 0px 50px;
+      }
     }
   }
 }
@@ -533,7 +740,7 @@ section.found {
 
     span {
       font-size: 40px;
-      color: #ff4500;
+      color: #d6704b;
     }
   }
 }

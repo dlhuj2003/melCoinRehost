@@ -89,7 +89,7 @@ main {
     color: #fff;
     margin: 0px 0px 30px;
     font-size: 16px;
-    background-color: #ff8000;
+    background-color: #c76300;
     padding: 10px 30px;
   }
 
@@ -113,8 +113,8 @@ main {
       background-color: #ffffff;
       height: 250px;
       max-width: 250px;
-      color: #ff8000;
-      border: 1px solid #ff8000;
+      color: #c76300;
+      border: 1px solid #c76300;
 
       div.address {
         position: fixed;
@@ -162,7 +162,7 @@ main {
           letter-spacing: -1px;
 
           &::selection {
-            background-color: #ff8000;
+            background-color: #c76300;
           }
         }
 
@@ -180,7 +180,7 @@ main {
         font-size: 16px;
         padding: 10px;
         color: #fff;
-        background-color: #ff8000;
+        background-color: #c76300;
         text-transform: capitalize;
       }
 
@@ -202,7 +202,7 @@ main {
           width: 100%;
           border: none;
           border-radius: 5px;
-          background-color: #ff8000;
+          background-color: #c76300;
           color: #ffffff;
           cursor: pointer;
         }

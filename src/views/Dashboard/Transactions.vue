@@ -130,7 +130,7 @@ main {
     color: #fff;
     margin: 0px 0px 30px;
     font-size: 16px;
-    background-color: #ff8000;
+    background-color: #c76300;
     padding: 20px 10px;
   }
 }

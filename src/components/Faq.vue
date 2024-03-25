@@ -148,7 +148,7 @@ main {
                 padding: 0px 30px;
                 margin: 20px 0px 0px;
                 border-radius: 22px;
-                background-color: #FF8000;
+                background-color: #c76300;
                 border: none;
                 color: #fff;
             }

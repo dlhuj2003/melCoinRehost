@@ -35,6 +35,9 @@ main{
     background-color: #000000 !important;
     color: #fff;
     padding: 50px 30px 10px;
+    p.logo{
+  width: auto;
+}
     div.copy{
         margin: 10px auto 0px;
         p{

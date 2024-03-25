@@ -146,7 +146,7 @@ main {
                 font-size: 20px;
                 font-weight: 600;
                 text-decoration: underline;
-                text-decoration-color: #ff4500;
+                text-decoration-color: #d6704b;
             }
 
             a {
@@ -162,7 +162,7 @@ main {
 
                 i {
                     font-size: 20px;
-                    color: #ff4500;
+                    color: #d6704b;
                 }
             }
         }
@@ -173,9 +173,10 @@ main {
     }
     p.logo{
         font-size: 28px;
-        margin-top: 50px;
+        margin: 50px 0px 0px;
+        width: auto;
         span{
-            color: #ff4500;
+            color: #d6704b;
         }
     }
 }</style>

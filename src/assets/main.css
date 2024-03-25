@@ -1,33 +1,60 @@
-*{
+* {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
   box-sizing: border-box;
   font-family: 'Times New Roman';
-  
+
 }
-.flex{
+
+.flex {
   display: flex;
 }
-.grid{
+
+.grid {
   display: grid;
 }
 
-a{
+a {
   text-decoration: none;
   color: unset;
 }
-div.home div#tradingview-chart{
+
+div.home div#tradingview-chart {
   height: 500px !important;
 }
+
 p.logo {
   font-size: 30px;
   font-weight: 600;
+  position: relative;
+  width: fit-content;
+  margin: auto;
 }
+p.logo i{
+  font-size: 10px;
+  position: absolute;
+  right: -10px;
+  top: 20px;
+}
+
 p.logo span {
   font-size: 30px;
-  color: #ff4500;
+  color: #d6704b;
 }
-ol.alpha{
+
+ol.alpha {
   list-style: lower-alpha;
+}
+
+
+div.gtranslate_wrapper div.gt_switcher_wrapper {
+  position: absolute !important;
+}
+
+.gt_container--hich1m .gt_switcher{
+  width: 110px !important;
+}
+.gt_container--hich1m .gt_switcher .gt_selected a:after{
+  display: none !important;
 }

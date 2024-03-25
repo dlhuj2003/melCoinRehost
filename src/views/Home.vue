@@ -5,6 +5,7 @@ import Header from '@/components/Header.vue';
 import Footer from '@/components/Footer.vue';
 import Shield from '@/components/Shield.vue';
 import { Chart } from "vue-tradingview-widgets";
+import Marquee from "@/components/Marquee.vue";
 </script>
 
 <template>
@@ -33,6 +34,7 @@ import { Chart } from "vue-tradingview-widgets";
         </div>
       </div>
     </section>
+    <Marquee />
     <div class="pad">
       <section class="explore">
         <img src="@/assets/crypto2.jpg" alt="">
@@ -40,7 +42,7 @@ import { Chart } from "vue-tradingview-widgets";
           <h1>Explore our investment plans</h1>
           <p>With different investment plans, our system is modelled to accomodate everyone no matter how much you have to
             invest.</p>
-          <a href="/plans">Explore <i class="bi bi-arrow-right"></i></a>
+          <a href="/plans">Explore Plan <i class="bi bi-arrow-right" style="font-weight: bold !important;"></i></a>
         </div>
       </section>
     </div>
@@ -85,7 +87,7 @@ import { Chart } from "vue-tradingview-widgets";
             </div>
             <div class="item">
               <div class="icon">
-                <i class="bi bi-piggy-bank-fill"></i>
+                <i class="bi bi-currency-dollar"></i>
               </div>
               <div class="txt">
                 <h2>Low costs</h2>
@@ -125,6 +127,9 @@ import { Chart } from "vue-tradingview-widgets";
               mission to provide the right full and legal means of earning cryptocurrency through mining. Get rewarded,
               join
               the mining network, join Mellcoin today!
+              <br><br>
+              <span style="font-size: 28px;">4% Commissions</span><br>
+              Reward for each referal
             </p>
           </div>
         </div>
@@ -137,27 +142,39 @@ import { Chart } from "vue-tradingview-widgets";
         <p>Here are few reasons why you should choose Mellcoin</p>
         <div class="grid">
           <div class="item">
-            <i class="bi bi-person-fill"></i>
+            <i class="bi bi-bank"></i>
             <p class="big">Secure Storage</p>
             <p>We store vast majority of the digital
               assets in secure offline storage.</p>
-            <p class="red">Learn how Mellcoin keeps your funds save
-              and secure </p>
+            <p class="red">
+              <router-link to="/learn">
+                Learn how Mellcoin keeps your funds save
+                and secure
+              </router-link>
+            </p>
           </div>
           <div class="item">
-            <i class="bi bi-bank2"></i>
+            <i class="bi bi-file-lock"></i>
             <p class="big">Protected assets</p>
             <p>Our risk management measures are
               designed to protect your assets</p>
-            <p class="red">Learn about how your assets are protected </p>
+            <p class="red">
+              <router-link to="/learn">
+                Learn about how your assets are protected
+              </router-link>
+            </p>
           </div>
           <div class="item">
-            <i class="bi bi-cash-coin"></i>
+            <i class="bi bi-currency-bitcoin"></i>
             <p class="big">Indutry best practices</p>
             <p>Mellcoin supports a variety of the most
               popular digital currencies.</p>
-            <p class="red">Learn how we implement industry best practices
-              for account security</p>
+            <p class="red">
+              <router-link to="/security">
+                Learn how we implement industry best practices
+                for account security
+              </router-link>
+            </p>
           </div>
         </div>
       </section>
@@ -184,15 +201,15 @@ import { Chart } from "vue-tradingview-widgets";
       <div class="grid">
         <div class="item">
           <i class="bi bi-person-fill"></i>
-          <p>Sign up</p>
+          <p class="up">Sign up</p>
         </div>
         <div class="item">
           <i class="bi bi-bank2"></i>
-          <p>Invest</p>
+          <p class="up">Invest</p>
         </div>
         <div class="item">
           <i class="bi bi-cash-coin"></i>
-          <p>Watch your profit grow</p>
+          <p class="up">Watch your profit grow</p>
         </div>
       </div>
     </section>
@@ -206,6 +223,12 @@ import { Chart } from "vue-tradingview-widgets";
 <style scoped lang="scss">
 main {
   background-color: #eaf6fc;
+
+  .bi::before,
+  [class^="bi-"]::before,
+  [class*=" bi-"]::before {
+    font-weight: 800 !important;
+  }
 }
 
 section.one {
@@ -241,7 +264,7 @@ section.one {
       text-align: center;
 
       h2 {
-        background-color: #ff4500;
+        background-color: #d6704b;
         width: 100%;
         padding: 15px 100px;
         font-size: 40px;
@@ -291,7 +314,7 @@ section.one {
           padding: 0px 20px;
           display: flex;
           align-items: center;
-          background-color: #ff4500;
+          background-color: #d6704b;
           color: #fff;
           font-size: 16px;
           border-radius: 3px;
@@ -331,7 +354,7 @@ section.one {
       }
 
       span {
-        color: #FF8000;
+        color: #c76300;
         font-size: 36px;
         text-transform: uppercase;
 
@@ -355,7 +378,7 @@ section.one {
     button {
       height: 44px;
       border: none;
-      background: #ff4500;
+      background: #d6704b;
       color: #fff;
       padding: 0px 30px;
       border-radius: 22px;
@@ -365,10 +388,10 @@ section.one {
 }
 
 div.pad {
-  padding: 30px;
+  padding: 30px 0px;
 
   @media(max-width: 600px) {
-    padding: 20px;
+    padding: 20px 0px;
   }
 }
 
@@ -377,10 +400,10 @@ section.explore {
   gap: 20px;
   background-color: #000;
   color: #fff;
-  max-width: 1300px;
+  // max-width: 1300px;
   margin: auto;
-  border-radius: 10px;
-  padding: 40px;
+  // border-radius: 10px;
+  padding: 20px;
 
   @media(max-width: 600px) {
     flex-direction: column;
@@ -424,7 +447,8 @@ section.explore {
     }
 
     p {
-      font-size: 28px;
+      font-size: 20px;
+      max-width: 570px;
       margin-bottom: 20px;
 
       @media(max-width: 991px) {
@@ -437,12 +461,25 @@ section.explore {
     }
 
     a {
-      background-color: #ff4500;
+      background-color: #d6704b;
       padding: 10px 20px;
       border-radius: 5px;
       display: flex;
       gap: 20px;
       width: fit-content;
+      color: #000;
+      font-size: 20px;
+      font-weight: 600;
+      transition: 0.3s;
+
+      &:hover {
+        padding: 10px 30px;
+        transition: 0.3s;
+      }
+
+      i {
+        font-weight: bolder !important;
+      }
 
     }
   }
@@ -460,7 +497,7 @@ div.chart {
     color: #333;
 
     span {
-      color: #FF4500;
+      color: #d6704b;
     }
 
     @media(max-width: 600px) {
@@ -472,7 +509,7 @@ div.chart {
     min-height: 400px;
 
     div {
-      height: 500px !important;
+      height: 400px !important;
     }
   }
 }
@@ -518,7 +555,7 @@ section.two div.container {
   button {
     height: 44px;
     color: #fff;
-    background: linear-gradient(120deg, #FF8000 0%, #ac5804 100%);
+    background: linear-gradient(120deg, #c76300 0%, #ac5804 100%);
     border: none;
     border-radius: 28px;
     width: fit-content;
@@ -532,7 +569,7 @@ section.two div.container {
 }
 
 section.count {
-  background: #ff4500;
+  background: #d6704b;
   color: #fff;
   padding: 80px 20px 100px;
 
@@ -592,10 +629,16 @@ section.ira {
 
     a {
       padding: 10px 20px;
-      background-color: #ff4500;
+      background-color: #d6704b;
       border: none;
       color: #fff;
       border-radius: 10px;
+      transition: 0.3s;
+
+      &:hover {
+        padding: 10px 30px;
+        transition: 0.3s;
+      }
     }
 
     p {
@@ -642,7 +685,7 @@ div.bgpad {
     h1 {
       text-align: center;
       font-size: 38px;
-      font-weight: 500;
+      font-weight: 600;
       margin: 0px 0px 10px;
       letter-spacing: 2px;
     }
@@ -694,7 +737,8 @@ div.bgpad {
                 padding: 10px;
                 font-size: 22px;
                 border-radius: 50%;
-                color: #ff4500;
+                color: #d6704b;
+                box-shadow: 2px 2px 2px cadetblue;
               }
             }
 
@@ -745,12 +789,14 @@ section.start {
 
   h1 {
     text-align: center;
+    font-size: 45px;
+    font-weight: 500;
   }
 
   p {
     text-align: center;
     font-size: 18px;
-    margin: 20px 0px 0px;
+    padding: 20px 0px 0px;
   }
 
   div.grid {
@@ -768,13 +814,22 @@ section.start {
       display: grid;
       gap: 10px;
 
+      p.big {
+        font-size: 20px;
+      }
+
       p {
+        font-size: 16px;
+      }
+
+      p.up {
+
         text-transform: uppercase;
       }
 
       i {
         font-size: 36px;
-        color: #ff4500;
+        color: #d6704b;
       }
     }
   }
@@ -802,8 +857,7 @@ div.trust {
 
     p.red {
       font-size: 14px;
-      color: #ff4500 !important;
+      color: #d6704b !important;
     }
   }
-}
-</style>
+}</style>
