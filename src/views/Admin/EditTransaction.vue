@@ -22,6 +22,7 @@
       </div>
       <!-- <button>Save changes</button> -->
       <button @click="appTrx" type="button">Approve withdrawal</button>
+      <button class="delete" type="button">Delete withdrawal</button>
       <router-link to="/withdrawalRequest">
         <button>Back</button>
       </router-link>
@@ -108,6 +109,9 @@ getTrx();
 </script>
 
 <style scoped lang="scss">
+button.delete{
+  background-color: #000;
+}
 main {
   padding: 20px;
   height: 100vh;

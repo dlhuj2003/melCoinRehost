@@ -15,10 +15,10 @@ import { ref } from 'vue'
                 <div class="soc">
                     <p class="title">Conect with us</p>
                     <div class="social">
-                        <i class="bi bi-telegram"></i>
-                        <i class="bi bi-whatsapp"></i>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-instagram"></i>
+                        <a href="" target="_blank"><i class="bi bi-telegram"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
                     </div>
                 </div>
             </div>
@@ -30,65 +30,78 @@ import { ref } from 'vue'
 </template>
 
 <style scoped lang="scss">
-main{
+main {
     position: relative;
     background-color: #000000 !important;
     color: #fff;
     padding: 50px 30px 10px;
-    p.logo{
-  width: auto;
-}
-    div.copy{
+
+    p.logo {
+        width: auto;
+    }
+
+    div.copy {
         margin: 10px auto 0px;
-        p{
+
+        p {
             font-size: 12px;
             color: #999;
             border-top: 1px solid #aaa;
             padding: 10px 0px 0px;
         }
     }
-    @media(max-width: 600px){
+
+    @media(max-width: 600px) {
         padding: 50px 20px 10px;
     }
-    div.container{
+
+    div.container {
         display: grid;
         grid-template-columns: 1fr 2fr;
         gap: 30px;
         max-width: 1441px;
         margin: auto;
-        @media(max-width: 600px){
+
+        @media(max-width: 600px) {
             grid-template-columns: 1fr;
         }
     }
-    p.tag{
+
+    p.tag {
         font-style: italic;
         font-size: 12px;
         letter-spacing: 1.5px;
     }
-    div.grid{
+
+    div.grid {
         display: grid;
-        div{
+
+        div {
             display: grid;
-            p.title{
+
+            p.title {
                 font-size: 20px;
                 font-weight: 600;
             }
-            a{
+
+            a {
                 font-size: 14px;
                 line-height: 2;
                 color: #aaa !important;
             }
-            div.social{
+
+            div.social {
                 display: flex;
                 gap: 10px;
-                i{
+
+                i {
                     font-size: 20px;
                 }
             }
         }
     }
-    div.soc{
+
+    div.soc {
         height: 100%;
     }
-}
-</style>
+}</style>

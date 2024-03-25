@@ -64,11 +64,11 @@ import { useRouter } from "vue-router";
                 <div class="soc">
                     <p class="title">Follow us</p>
                     <div class="social">
-                        <i class="bi bi-instagram"></i>
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-twitter"></i>
-                        <i class="bi bi-threads"></i>
-                        <i class="bi bi-linkedin"></i>
+                        <a href="" target="_blank"><i class="bi bi-instagram"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-facebook"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-twitter"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-threads"></i></a>
+                        <a href="" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>
                     <p class="logo">mell<span>C</span>oin</p>
                 </div>

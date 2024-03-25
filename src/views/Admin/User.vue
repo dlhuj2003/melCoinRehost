@@ -26,6 +26,10 @@
         <input type="text" name="" v-model="user.bnbbsc" id="bnb" />
       </div>
       <div class="full">
+        <label for="promo">Promo</label>
+        <input type="text" name="" v-model="user.promo" id="promo" />
+      </div>
+      <div class="full">
         <label for="email">Name</label>
         <input type="text" name="" v-model="user.name" id="name" />
       </div>

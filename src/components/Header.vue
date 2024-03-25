@@ -2,7 +2,6 @@
   <main>
     <div class="main">
       <router-link to="/" style="display: flex; align-items: center">
-        <!-- <img src="@/assets/logo.png" alt=""> -->
         <p class="logo">mell<span>C</span>oin</p>
       </router-link>
       <ul class="desktop">
