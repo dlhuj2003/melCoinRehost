@@ -32,6 +32,12 @@
           </div>
         </div>
         <div class="item">
+          <h2>Promo Bonus <i class="bi bi-coin"></i></h2>
+          <div class="content">
+            <p class="amount">$ {{ store.userDetails.promo }}</p>
+          </div>
+        </div>
+        <div class="item">
           <h2>Referral Code <i class="bi bi-link"></i></h2>
           <div class="content">
             <p class="amount" id="referal">

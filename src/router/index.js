@@ -172,7 +172,7 @@ const router = createRouter({
       path: "/admin",
       component: AdminLayout,
       meta: {
-        admin: true,
+        admin: false,
       },
       children: [
         {

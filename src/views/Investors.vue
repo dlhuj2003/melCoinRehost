@@ -28,7 +28,9 @@ const stock = ref(false);
       <div class="left">
         <h1>Find the right path to your future</h1>
         <p>Get there on your own terms</p>
-        <button>Plan with Mellcoin</button>
+        <router-link to="/signup">
+          <button>Plan with Mellcoin</button>
+        </router-link>
       </div>
       <div class="right"></div>
     </div>
@@ -43,8 +45,12 @@ const stock = ref(false);
         </p>
       </div>
       <div class="right">
-        <button class="primary">Log in</button>
-        <button class="secondary">Open an account</button>
+        <router-link to="/login">
+          <button class="primary">Log in</button>
+        </router-link>
+        <router-link to="/signup">
+          <button class="secondary">Open an account</button>
+        </router-link>
         <a href="">Sign up for online account access</a>
       </div>
     </div>

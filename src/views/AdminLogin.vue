@@ -1,12 +1,14 @@
 <template>
   <main>
     <section>
-      <img
+      <!-- <img
         src="@/assets/logo.png"
         width="200"
         style="margin: 0px auto"
         alt=""
-      />
+      /> -->
+
+      <p class="logo">mell<span>c</span>oin</p>
       <p>Welcome back! Admin</p>
       <div class="form" @submit.prevent="login">
         <form>
@@ -66,6 +68,14 @@ const login = async () => {
 </script>
 
 <style scoped lang="scss">
+p.logo{
+  font-size: 36px;
+  text-align: center;
+  margin: 0px auto;
+  span{
+    font-size: 72px;
+  }
+}
 section {
   max-width: 1320px;
   margin: 0px auto;

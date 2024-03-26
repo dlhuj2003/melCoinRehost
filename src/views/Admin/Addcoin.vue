@@ -13,7 +13,7 @@
         <input type="text" name="" v-model="coin.address" id="address" />
       </div>
       <button>Save changes</button>
-      <!-- <button>Delete account</button> -->
+      <button class="delete">Delete wallet</button>
       <router-link to="/coins">
         <button>Back</button>
       </router-link>
@@ -70,6 +70,9 @@ const addCoin = async () => {
 </script>
 
 <style scoped lang="scss">
+button.delete{
+  background-color: #000;
+}
 main {
   padding: 20px;
   height: 100vh;

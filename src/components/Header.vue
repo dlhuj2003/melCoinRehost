@@ -2,7 +2,6 @@
   <main>
     <div class="main">
       <router-link to="/" style="display: flex; align-items: center">
-        <!-- <img src="@/assets/logo.png" alt=""> -->
         <p class="logo">mell<span>C</span>oin</p>
       </router-link>
       <ul class="desktop">
@@ -21,7 +20,7 @@
             <li>
               <router-link to="learn">Help center</router-link>
             </li>
-            <li>Contact us</li>
+            <router-link to="/login"><li>Contact us</li></router-link>
             <li>
               <router-link to="/login">ID verification</router-link>
             </li>
