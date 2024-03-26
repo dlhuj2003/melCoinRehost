@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-    <Footer />
+      <Footer />
     </div>
     <WithdrawModal
       v-if="Withdraw"
@@ -162,7 +162,7 @@ main {
       h2 {
         font-size: 16px;
         background-color: #c76300;
-        color: #FFF;
+        color: #fff;
         padding: 10px;
       }
 

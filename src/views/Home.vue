@@ -1,9 +1,9 @@
 <script setup>
-import { ref } from 'vue';
+import { ref } from "vue";
 import { useRouter } from "vue-router";
-import Header from '@/components/Header.vue';
-import Footer from '@/components/Footer.vue';
-import Shield from '@/components/Shield.vue';
+import Header from "@/components/Header.vue";
+import Footer from "@/components/Footer.vue";
+import Shield from "@/components/Shield.vue";
 import { Chart } from "vue-tradingview-widgets";
 import Marquee from "@/components/Marquee.vue";
 </script>
@@ -16,64 +16,92 @@ import Marquee from "@/components/Marquee.vue";
         <div class="w50">
           <h2>PROMO</h2>
           <p>$1,500,000 for grab</p>
-          <br>
-          <p>Be among the 15 new investors that will stand a chance to win $100,000 each this festive season with 3 simple
-            steps.</p>
+          <br />
+          <p>
+            Be among the 15 new investors that will stand a chance to win
+            $100,000 each this festive season with 3 simple steps.
+          </p>
           <ul>
             <li>Create an account</li>
             <li>Make an initial minimum deposit of $500</li>
             <li>Refer up to 3 new investors with your referral link</li>
           </ul>
           <div class="float">
-            <input type="email" name="" id="" placeholder="Email address">
+            <input type="email" name="" id="" placeholder="Email address" />
             <a href="/signup">Get started</a>
           </div>
         </div>
         <div class="w50">
-          <img src="@/assets/bitcoin3.png" alt="">
+          <img src="@/assets/bitcoin3.png" alt="" />
         </div>
       </div>
     </section>
     <Marquee />
     <div class="pad">
       <section class="explore">
-        <img src="@/assets/crypto2.jpg" alt="">
+        <img src="@/assets/crypto2.jpg" alt="" />
         <div>
           <h1>Explore our investment plans</h1>
-          <p>With different investment plans, our system is modelled to accomodate everyone no matter how much you have to
-            invest.</p>
-          <a href="/plans">Explore Plan <i class="bi bi-arrow-right" style="font-weight: bold !important;"></i></a>
+          <p>
+            With different investment plans, our system is modelled to
+            accomodate everyone no matter how much you have to invest.
+          </p>
+          <a href="/plans"
+            >Explore Plan
+            <i
+              class="bi bi-arrow-right"
+              style="font-weight: bold !important"
+            ></i
+          ></a>
         </div>
       </section>
     </div>
     <section class="ira">
       <div class="w50">
         <h1>Retire early with our Mellcoin IRA better plan</h1>
-        <p>Discover how specific IRA better plan works for investors using an employer's retirement plan.</p>
+        <p>
+          Discover how specific IRA better plan works for investors using an
+          employer's retirement plan.
+        </p>
         <a href="/learn">Learn more</a>
       </div>
       <div class="w50">
         <ul>
-          <li><i class="bi bi-check-circle-fill"></i> Enroll in your IRA retirement plan</li>
-          <li><i class="bi bi-check-circle-fill"></i> Child support & College plan</li>
-          <li><i class="bi bi-check-circle-fill"></i> Non profit organization plan</li>
-          <li><i class="bi bi-check-circle-fill"></i> Professional financial advisors</li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i> Enroll in your IRA
+            retirement plan
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i> Child support & College plan
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i> Non profit organization plan
+          </li>
+          <li>
+            <i class="bi bi-check-circle-fill"></i> Professional financial
+            advisors
+          </li>
         </ul>
       </div>
     </section>
     <div class="chart home">
       <h3>Get <span>Up-To-Date</span> market values</h3>
-      <Chart :options="{
-        symbol: 'BINANCE:BTCUSDT',
-        width: '100%',
-        height: '400px',
-        autosize: true,
-      }" />
+      <Chart
+        :options="{
+          symbol: 'BINANCE:BTCUSDT',
+          width: '100%',
+          height: '400px',
+          autosize: true,
+        }"
+      />
     </div>
     <div class="bgpad">
       <section class="portfolio">
         <h1>Create your retirement portfolio today</h1>
-        <p>Mellcoin has a variety of features that make it the best place for your investment journey</p>
+        <p>
+          Mellcoin has a variety of features that make it the best place for
+          your investment journey
+        </p>
         <div class="container">
           <div class="w50">
             <div class="item">
@@ -82,7 +110,10 @@ import Marquee from "@/components/Marquee.vue";
               </div>
               <div class="txt">
                 <h2>Manage your portfolio</h2>
-                <p>Invest in cryptocurrency slowly over time by scheduling buys daily, weekly, or monthly</p>
+                <p>
+                  Invest in cryptocurrency slowly over time by scheduling buys
+                  daily, weekly, or monthly
+                </p>
               </div>
             </div>
             <div class="item">
@@ -91,9 +122,11 @@ import Marquee from "@/components/Marquee.vue";
               </div>
               <div class="txt">
                 <h2>Low costs</h2>
-                <p>Because our investors are our owners, it enables us to
+                <p>
+                  Because our investors are our owners, it enables us to
                   consistently pass along economies of scale and lower the cost
-                  of investing,so you keep more of your returns</p>
+                  of investing,so you keep more of your returns
+                </p>
               </div>
             </div>
             <div class="item">
@@ -102,8 +135,10 @@ import Marquee from "@/components/Marquee.vue";
               </div>
               <div class="txt">
                 <h2>Aligned interests</h2>
-                <p>Because our investors are our owners, our interest are
-                  uniquely aligned, allowing us to focus on you and your goals</p>
+                <p>
+                  Because our investors are our owners, our interest are
+                  uniquely aligned, allowing us to focus on you and your goals
+                </p>
               </div>
             </div>
             <div class="item">
@@ -112,23 +147,26 @@ import Marquee from "@/components/Marquee.vue";
               </div>
               <div class="txt">
                 <h2>Mobile apps</h2>
-                <p>Stay on top of the markets with the
-                  Mellcoin app for Andriod or IOS</p>
+                <p>
+                  Stay on top of the markets with the Mellcoin app for Andriod
+                  or IOS
+                </p>
               </div>
             </div>
           </div>
           <div class="w50 right">
             <h1>WE ARE ON A GLOBAL SCALE</h1>
             <p>
-              This company is standard cryptocurrency mining company where investors can earn Bitcoin through the legal
-              and
-              assured means of profiting the Blockchain Technology. Over years, we have been chosen by many all around the
-              globe and have been recommended by many regulatory bodies for our quality mining pool and we are on the
-              mission to provide the right full and legal means of earning cryptocurrency through mining. Get rewarded,
-              join
-              the mining network, join Mellcoin today!
-              <br><br>
-              <span style="font-size: 28px;">4% Commissions</span><br>
+              This company is standard cryptocurrency mining company where
+              investors can earn Bitcoin through the legal and assured means of
+              profiting the Blockchain Technology. Over years, we have been
+              chosen by many all around the globe and have been recommended by
+              many regulatory bodies for our quality mining pool and we are on
+              the mission to provide the right full and legal means of earning
+              cryptocurrency through mining. Get rewarded, join the mining
+              network, join Mellcoin today!
+              <br /><br />
+              <span style="font-size: 28px">4% Commissions</span><br />
               Reward for each referal
             </p>
           </div>
@@ -136,7 +174,6 @@ import Marquee from "@/components/Marquee.vue";
       </section>
     </div>
     <div class="trust">
-
       <section class="start">
         <h1>The most trusted cryptocurrency platform</h1>
         <p>Here are few reasons why you should choose Mellcoin</p>
@@ -144,20 +181,22 @@ import Marquee from "@/components/Marquee.vue";
           <div class="item">
             <i class="bi bi-bank"></i>
             <p class="big">Secure Storage</p>
-            <p>We store vast majority of the digital
-              assets in secure offline storage.</p>
+            <p>
+              We store vast majority of the digital assets in secure offline
+              storage.
+            </p>
             <p class="red">
               <router-link to="/learn">
-                Learn how Mellcoin keeps your funds save
-                and secure
+                Learn how Mellcoin keeps your funds save and secure
               </router-link>
             </p>
           </div>
           <div class="item">
             <i class="bi bi-file-lock"></i>
             <p class="big">Protected assets</p>
-            <p>Our risk management measures are
-              designed to protect your assets</p>
+            <p>
+              Our risk management measures are designed to protect your assets
+            </p>
             <p class="red">
               <router-link to="/learn">
                 Learn about how your assets are protected
@@ -167,12 +206,14 @@ import Marquee from "@/components/Marquee.vue";
           <div class="item">
             <i class="bi bi-currency-bitcoin"></i>
             <p class="big">Indutry best practices</p>
-            <p>Mellcoin supports a variety of the most
-              popular digital currencies.</p>
+            <p>
+              Mellcoin supports a variety of the most popular digital
+              currencies.
+            </p>
             <p class="red">
               <router-link to="/security">
-                Learn how we implement industry best practices
-                for account security
+                Learn how we implement industry best practices for account
+                security
               </router-link>
             </p>
           </div>
@@ -235,7 +276,7 @@ section.one {
   height: fit-content;
   padding: 0px 50px;
 
-  @media(max-width: 991px) {
+  @media (max-width: 991px) {
     padding: 0px 30px;
   }
 
@@ -248,7 +289,7 @@ section.one {
     align-items: center;
     padding: 80px 0px;
 
-    @media(max-width: 991px) {
+    @media (max-width: 991px) {
       display: flex;
       flex-direction: column-reverse;
       padding: 30px 0px 50px;
@@ -273,7 +314,7 @@ section.one {
         text-align: center;
         margin: 0px auto 10px;
 
-        @media(max-width: 600px) {
+        @media (max-width: 600px) {
           padding: 15px 60px;
         }
       }
@@ -319,13 +360,13 @@ section.one {
           font-size: 16px;
           border-radius: 3px;
 
-          @media(max-width: 600px) {
+          @media (max-width: 600px) {
             padding: 0px 10px;
           }
         }
       }
 
-      @media(max-width: 991px) {
+      @media (max-width: 991px) {
         text-align: center;
       }
 
@@ -334,7 +375,7 @@ section.one {
         max-width: 300px;
         margin: auto;
 
-        @media(max-width: 600px) {
+        @media (max-width: 600px) {
           min-width: unset !important;
           margin-bottom: 20px;
         }
@@ -348,7 +389,7 @@ section.one {
       z-index: 2;
       position: relative;
 
-      @media(max-width: 991px) {
+      @media (max-width: 991px) {
         font-size: 24px;
         margin: auto;
       }
@@ -358,7 +399,7 @@ section.one {
         font-size: 36px;
         text-transform: uppercase;
 
-        @media(max-width: 600px) {
+        @media (max-width: 600px) {
           font-size: 28px;
         }
       }
@@ -369,7 +410,7 @@ section.one {
       font-size: 24px;
       max-width: 550px;
 
-      @media(max-width: 991px) {
+      @media (max-width: 991px) {
         font-size: 20px;
         margin: auto;
       }
@@ -390,7 +431,7 @@ section.one {
 div.pad {
   padding: 30px 0px;
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     padding: 20px 0px;
   }
 }
@@ -405,7 +446,7 @@ section.explore {
   // border-radius: 10px;
   padding: 20px;
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     flex-direction: column;
     padding: 20px;
   }
@@ -416,13 +457,13 @@ section.explore {
     border-radius: 10px;
     height: auto;
 
-    @media(max-width: 991px) {
+    @media (max-width: 991px) {
       width: fit-content;
       height: fit-content;
       min-width: 100px;
     }
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       width: 100%;
       min-width: none;
       text-align: center;
@@ -436,11 +477,11 @@ section.explore {
       margin: 0px 0px 20px;
       font-weight: 500;
 
-      @media(max-width: 991px) {
+      @media (max-width: 991px) {
         font-size: 36px;
       }
 
-      @media(max-width: 777px) {
+      @media (max-width: 777px) {
         font-size: 28px;
         margin: 0px 0px 10px;
       }
@@ -451,11 +492,11 @@ section.explore {
       max-width: 570px;
       margin-bottom: 20px;
 
-      @media(max-width: 991px) {
+      @media (max-width: 991px) {
         font-size: 24px;
       }
 
-      @media(max-width: 777px) {
+      @media (max-width: 777px) {
         font-size: 20px;
       }
     }
@@ -480,7 +521,6 @@ section.explore {
       i {
         font-weight: bolder !important;
       }
-
     }
   }
 }
@@ -500,7 +540,7 @@ div.chart {
       color: #d6704b;
     }
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       font-size: 24px;
     }
   }
@@ -525,7 +565,7 @@ section.two div.container {
   margin: auto;
   padding: 80px 50px;
 
-  @media(max-width: 991px) {
+  @media (max-width: 991px) {
     padding: 0px 30px;
     text-align: left;
 
@@ -535,7 +575,7 @@ section.two div.container {
     }
   }
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     h1 {
       font-size: 30px !important;
     }
@@ -562,7 +602,7 @@ section.two div.container {
     padding: 0px 30px;
     margin: 0px auto 30px;
 
-    @media(max-width: 991px) {
+    @media (max-width: 991px) {
       margin: 0px 0px 50px;
     }
   }
@@ -580,7 +620,7 @@ section.count {
     margin: auto;
     max-width: 1280px;
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       grid-template-columns: 1fr;
       gap: 50px;
     }
@@ -599,7 +639,6 @@ section.count {
         font-size: 14px;
       }
     }
-
   }
 }
 
@@ -610,7 +649,7 @@ section.ira {
   max-width: 1300px;
   margin: 20px auto;
 
-  @media(max-width: 600px) {
+  @media (max-width: 600px) {
     grid-template-columns: 1fr;
   }
 
@@ -678,7 +717,7 @@ div.bgpad {
     background-color: #e5f2fae6;
     padding: 50px;
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       padding: 50px 30px;
     }
 
@@ -702,7 +741,7 @@ div.bgpad {
       gap: 10px;
       max-width: 1300px;
 
-      @media(max-width: 600px) {
+      @media (max-width: 600px) {
         grid-template-columns: 1fr;
       }
 
@@ -723,8 +762,7 @@ div.bgpad {
             padding: 10px;
             border-radius: 10px;
 
-            @media(max-width: 600px) {
-
+            @media (max-width: 600px) {
               border: 1px solid #aaa;
             }
 
@@ -733,7 +771,7 @@ div.bgpad {
               height: fit-content;
 
               i {
-                background-color: #E0F0FD;
+                background-color: #e0f0fd;
                 padding: 10px;
                 font-size: 22px;
                 border-radius: 50%;
@@ -804,7 +842,7 @@ section.start {
     grid-template-columns: 1fr 1fr 1fr;
     margin: 50px 0px 0px;
 
-    @media(max-width: 600px) {
+    @media (max-width: 600px) {
       grid-template-columns: 1fr;
     }
 
@@ -823,7 +861,6 @@ section.start {
       }
 
       p.up {
-
         text-transform: uppercase;
       }
 
@@ -860,4 +897,5 @@ div.trust {
       color: #d6704b !important;
     }
   }
-}</style>
+}
+</style>

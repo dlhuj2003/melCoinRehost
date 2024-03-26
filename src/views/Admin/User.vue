@@ -27,11 +27,15 @@
       </div>
       <div class="full">
         <label for="promo">Promo</label>
-        <input type="text" name="" v-model="user.promo" id="promo" />
+        <input type="text" name="" v-model="user.referralCode" id="promo" />
       </div>
       <div class="full">
-        <label for="email">Name</label>
-        <input type="text" name="" v-model="user.name" id="name" />
+        <label for="email">First name</label>
+        <input type="text" name="" v-model="user.first_name" id="firstname" />
+      </div>
+      <div class="full">
+        <label for="email">Last name</label>
+        <input type="text" name="" v-model="user.last_name" id="name" />
       </div>
       <div class="full">
         <label for="email">Email</label>
@@ -39,15 +43,29 @@
       </div>
       <div class="full">
         <label for="email">Phone</label>
-        <input type="text" name="" v-model="user.phone" id="phone" />
+        <input type="text" name="" v-model="user.tel" id="phone" />
       </div>
       <div class="radio">
         <div class="flex">
-          <input type="radio" name="status" id="active" v-model="user.status">
+          <input
+            type="radio"
+            name="status"
+            id="active"
+            v-model="user.active"
+            value="true"
+            @change="change"
+          />
           <label for="active">Active</label>
         </div>
         <div class="flex">
-          <input type="radio" name="status" id="inactive" v-model="user.status">
+          <input
+            type="radio"
+            name="status"
+            id="inactive"
+            v-model="user.active"
+            value="false"
+            @change="change"
+          />
           <label for="inactive">Inactive</label>
         </div>
       </div>
@@ -77,6 +95,7 @@ const route = useRoute();
 const router = useRouter();
 const user = ref({});
 
+// const change = () => console.log(user.value.active);
 
 const getUser = async () => {
   try {
@@ -85,7 +104,7 @@ const getUser = async () => {
         Authorization: getToken("admin"),
       },
     });
-    // console.log(data);
+    console.log(data);
     loading.value = false;
     user.value = data;
   } catch (e) {

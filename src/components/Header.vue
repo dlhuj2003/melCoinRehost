@@ -133,7 +133,6 @@
 <script setup>
 import { ref } from "vue";
 import { RouterLink, RouterView } from "vue-router";
-import Translate from "./Translate.vue";
 const mobileMenu = ref(false);
 const globe = ref(false);
 </script>

@@ -5,7 +5,7 @@ import { useRouter } from "vue-router";
 import Loader from "@/components/Loader.vue";
 import Error from "@/components/Error.vue";
 import Header from "@/components/Header.vue";
-import Translate from "@/components/Translate.vue";
+
 const toggleEye = ref(true);
 function show() {
   document.getElementById("confirmPassword").type = "text";
@@ -81,7 +81,7 @@ const register = async () => {
                   name=""
                   id="name"
                   placeholder="Legal first name"
-                  v-model="userDetails.firstName"
+                  v-model="userDetails.first_name"
                 />
               </div>
               <div class="full">
@@ -91,7 +91,7 @@ const register = async () => {
                   name=""
                   id="lastname"
                   placeholder="Legal last name"
-                  v-model="userDetails.lastName"
+                  v-model="userDetails.last_name"
                 />
               </div>
             </div>
@@ -212,7 +212,6 @@ const register = async () => {
         </div>
       </div>
     </div>
-    <Translate />
     <Loader v-if="loading" />
   </main>
 </template>
