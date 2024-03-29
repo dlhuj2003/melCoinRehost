@@ -33,15 +33,6 @@ import { useRouter } from "vue-router";
                     <a href="learn#taxes">
                         Taxes
                     </a>
-                    <a href="learn#buybitcoin">
-                        What is Bitcoin
-                    </a>
-                    <a href="learn#buycrypto">
-                        What is Crypto
-                    </a>
-                    <!-- <a href="learn#setupwallet">
-                        What is Blockchain
-                    </a> -->
                     <a href="learn#setupwallet">
                         Wallet
                     </a>
@@ -61,6 +52,12 @@ import { useRouter } from "vue-router";
                     
                         <p title="America, China, France, Germany, Italy, UK, Switzerland">Supported countries</p>
                     
+                </div>
+                <div>
+                    <p class="title">Contact us</p>
+                    <a href="mailto://support@mellcoin.com">
+                        support@mellcoin.com
+                    </a>
                 </div>
                 <div class="soc">
                     <p class="title">Follow us</p>
