@@ -8,6 +8,7 @@ import { Chart } from "vue-tradingview-widgets";
 import Marquee from "@/components/Marquee.vue";
 </script>
 
+
 <template>
   <main>
     <Header />
