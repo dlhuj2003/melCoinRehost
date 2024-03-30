@@ -98,8 +98,7 @@ import Footer from "@/components/Footer.vue";
           </ol>
         </div>
         <div class="w50">
-          <video width="100%" autoplay="true" src="" controls>
-          </video>
+          <img src="@/assets/bitbanner.jpg" alt="">
         </div>
       </div>
     </section>
