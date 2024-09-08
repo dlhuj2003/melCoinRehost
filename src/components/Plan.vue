@@ -11,7 +11,7 @@ import { useRouter } from "vue-router";
         </h3>
             <div class="plans">
                 <div class="item">
-                    <h2>1% <br>Basic plan</h2>
+                    <h2>2.5% <br>Basic plan</h2>
                     <p class="cost">Min. investment: $150</p>
                     <p class="percentage">Max. investment: $100,000</p>
                     <p class="duration">Contract Expires in: 48 Hours</p>
@@ -20,7 +20,7 @@ import { useRouter } from "vue-router";
                     <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
                 <div class="item">
-                    <h2>1.5%<br>Standard plan</h2>
+                    <h2>3.5%<br>Standard plan</h2>
                     <p class="cost">Min. investment: $120,000</p>
                     <p class="percentage">Max. investment: $450,000</p>
                     <p class="duration">Contract Expires in: 48 Hours</p>
@@ -29,7 +29,7 @@ import { useRouter } from "vue-router";
                     <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
                 <div class="item">
-                    <h2>2%<br>Premium plan</h2>
+                    <h2>5%<br>Premium plan</h2>
                     <p class="cost">Min. investment: $500,000</p>
                     <p class="percentage">Max. investment: Unlimited</p>
                     <p class="duration">Contract Expires in: 48 Hours</p>

@@ -18,8 +18,6 @@ import Balance from "@/views/Dashboard/Balance.vue";
 import Transactions from "@/views/Dashboard/Transactions.vue";
 import Profile from "@/views/Dashboard/Profile.vue";
 import Kyc from "@/views/Dashboard/Kyc.vue";
-import Ira from "@/views/Ira.vue";
-import Charity from "@/views/Charity.vue";
 import Investors from "@/views/Investors.vue";
 
 import DepositVerification from "@/views/Dashboard/DepositVerification.vue";
@@ -69,20 +67,11 @@ const router = createRouter({
       component: Learn,
     },
     {
-      path: "/ira",
-      name: "ira",
-      component: Ira,
-    },
-    {
       path: "/investors",
       name: "investors",
       component: Investors,
     },
-    {
-      path: "/charity",
-      name: "charity",
-      component: Charity,
-    },
+ 
     {
       path: "/signup",
       name: "signup",

@@ -40,12 +40,6 @@
           </ul>
         </li>
         <li>
-          <router-link to="/ira">IRA</router-link>
-        </li>
-        <li>
-          <router-link to="/charity">Charity</router-link>
-        </li>
-        <li>
           <router-link to="/about">Company</router-link>
         </li>
       </ul>
