@@ -39,6 +39,7 @@
             </li> -->
           </ul>
         </li>
+
         <li>
           <router-link to="/about">Company</router-link>
         </li>
