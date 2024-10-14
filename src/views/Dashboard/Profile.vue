@@ -7,8 +7,8 @@
           <div class="details">
             <i class="bi bi-person-circle"></i>
             <h3>Personal Info</h3>
-            <p><strong>Name:</strong> {{ store.userDetails.name }}</p>
-            <p><strong>Gender:</strong> {{ store.userDetails.gender }}</p>
+            <p><strong>Name:</strong> {{ store.userDetails.first_name }} {{ store.userDetails.last_name }}</p>
+            <p><strong>Gender:</strong> {{ store.userDetails }}</p>
             <p><strong>Email:</strong> {{ store.userDetails.email }}</p>
             <p><strong>Phone:</strong> {{ store.userDetails.tel }}</p>
             <p><strong>Country:</strong> {{ store.userDetails.country }}</p>
