@@ -15,29 +15,29 @@ import Footer from "@/components/Footer.vue";
         agree to follow and be bound by these Terms of Use, which govern your
         use of the Site. Nothing contained in these Terms of Use is intended to
         modify or amend any other written agreement, if any, that may currently
-        be in effect between you and Mellcoin with regard to matters other than
-        your use of the Site. Mellcoin may periodically modify these Terms of
+        be in effect between you and Fuzzkon with regard to matters other than
+        your use of the Site. Fuzzkon may periodically modify these Terms of
         Use, and any such modifications will be effective immediately upon
         posting. We suggest that you periodically check these Terms of Use for
         modifications. If you do not agree to these Terms of Use, do not use
-        this Site. This Site is owned and operated by The Mellcoin Group, Inc.,
-        and all of its subsidiaries and affiliates, including Mellcoin Brokerage
-        Services and Mellcoin Marketing Corporation (collectively, "Mellcoin").
-        Mellcoin may modify, suspend, discontinue, or restrict the use and
+        this Site. This Site is owned and operated by The Fuzzkon Group, Inc.,
+        and all of its subsidiaries and affiliates, including Fuzzkon Brokerage
+        Services and Fuzzkon Marketing Corporation (collectively, "Fuzzkon").
+        Fuzzkon may modify, suspend, discontinue, or restrict the use and
         availability of any portion of this Site at any time, without notice or
-        liability. Your use of this Site may be monitored by Mellcoin and used
-        for Mellcoin's internal business purposes, without liability
+        liability. Your use of this Site may be monitored by Fuzzkon and used
+        for Fuzzkon's internal business purposes, without liability
       </p>
       <h1>Limited license and restrictions on use</h1>
       <p>
-        Mellcoin grants you a limited, revocable, nonexclusive, nontransferable
+        Fuzzkon grants you a limited, revocable, nonexclusive, nontransferable
         license to view, store, bookmark, download, and print the pages within
         this Site solely for your personal, informational, and noncommercial use
-        or as expressly authorized by Mellcoin in writing. You are responsible
+        or as expressly authorized by Fuzzkon in writing. You are responsible
         for obtaining and maintaining all equipment, services, and other
-        materials that you need to access this Site. Mellcoin reserves all
+        materials that you need to access this Site. Fuzzkon reserves all
         rights not expressly granted in these Terms of Use. Except as otherwise
-        stated in these Terms of Use or as expressly authorized by Mellcoin in
+        stated in these Terms of Use or as expressly authorized by Fuzzkon in
         writing,
       </p>
       <h1>you may not:</h1>
@@ -60,7 +60,7 @@ import Footer from "@/components/Footer.vue";
           or (iii) any systems, networks, servers, or accounts related to this
           Site, including without limitation, using devices or software that
           provide repeated automated access to this Site, other than those made
-          generally available by Mellcoin;
+          generally available by Fuzzkon;
         </li>
         <li>
           Probe, scan, or test the vulnerability of any Materials, services,
@@ -73,25 +73,25 @@ import Footer from "@/components/Footer.vue";
           accounts related to this Site;
         </li>
         <li>
-          Modify, copy, obscure, remove, or display Mellcoin's name, logo,
-          trademarks, text, notices, or images without Mellcoin's express
+          Modify, copy, obscure, remove, or display Fuzzkon's name, logo,
+          trademarks, text, notices, or images without Fuzzkon's express
           written permission. To obtain such permission, you may e-mail us at
-          intellectualproperty@Mellcoin.com; or
+          intellectualproperty@Fuzzkon.com; or
         </li>
         <li>
-          Include the term "Mellcoin," or any Mellcoin trademark or executive's
+          Include the term "Fuzzkon," or any Fuzzkon trademark or executive's
           name, or any variation of the foregoing, as a meta-tag, hidden textual
           element, or any other indicator that creates an impression of
-          affiliation, sponsorship, or endorsement by Mellcoin.
+          affiliation, sponsorship, or endorsement by Fuzzkon.
         </li>
       </ul>
       <h1>RSS and podcast feeds</h1>
       <p>
-        Mellcoin grants you a limited, revocable, nonexclusive right to view,
+        Fuzzkon grants you a limited, revocable, nonexclusive right to view,
         store, bookmark, access, download, display, create hyperlinks to and use
         the Really Simple Syndication and podcast feeds (collectively, the
-        "Feeds") offered by Mellcoin solely for your personal, informational and
-        noncommercial use or as otherwise authorized by Mellcoin in writing,
+        "Feeds") offered by Fuzzkon solely for your personal, informational and
+        noncommercial use or as otherwise authorized by Fuzzkon in writing,
         provided you comply at all times with the following conditions:
       </p>
       <ul>
@@ -101,52 +101,52 @@ import Footer from "@/components/Footer.vue";
           publish, broadcast, license, create derivative works from, transfer,
           sell or exploit in any manner whatsoever the Feeds or the reports,
           data, information, content, software, files, products, services or
-          other materials supplied by Mellcoin in connection therewith;
+          other materials supplied by Fuzzkon in connection therewith;
         </li>
         <li>
-          You may create a hyperlink to Mellcoin's Feeds, provided that (a) the
+          You may create a hyperlink to Fuzzkon's Feeds, provided that (a) the
           hyperlink is functional and resolves directly to the applicable
-          Mellcoin website page, unaltered and unframed in any way; and (b) you
-          provide attribution to the appropriate Mellcoin website in connection
+          Fuzzkon website page, unaltered and unframed in any way; and (b) you
+          provide attribution to the appropriate Fuzzkon website in connection
           with your use of the Feeds. If you provide this attribution in text,
-          the hyperlink must read either " Mellcoin.com" or "www. Mellcoin.com."
+          the hyperlink must read either " Fuzzkon.com" or "www. Fuzzkon.com."
           If you provide this attribution with a graphic, you must use the
-          graphic mellcoin has incorporated into the Feeds, without alteration.
-          Your right to use the above-referenced Mellcoin graphic is limited to
-          providing attribution to Mellcoin in connection with the Feeds. You
-          may not use any Mellcoin logo or graphic, or any other Mellcoin
-          trademark, for any other purpose without Mellcoin's express written
+          graphic Fuzzkon has incorporated into the Feeds, without alteration.
+          Your right to use the above-referenced Fuzzkon graphic is limited to
+          providing attribution to Fuzzkon in connection with the Feeds. You
+          may not use any Fuzzkon logo or graphic, or any other Fuzzkon
+          trademark, for any other purpose without Fuzzkon's express written
           permission;
         </li>
         <li>
-          Any hyperlink to Mellcoin's Feeds and the surrounding context on your
+          Any hyperlink to Fuzzkon's Feeds and the surrounding context on your
           site must not: (a) falsely represent or misrepresent any relationship
-          between Mellcoin and you or your site, products or services or any
+          between Fuzzkon and you or your site, products or services or any
           third party or their site, products and services, including
           suggestions of affiliation, endorsement or sponsorship; (b) portray
-          Mellcoin or its affiliates, or their products or services, in a false,
+          Fuzzkon or its affiliates, or their products or services, in a false,
           misleading, derogatory or otherwise offensive manner; or (c) display
-          the content of Mellcoin's Feeds in a manner that does not permit
+          the content of Fuzzkon's Feeds in a manner that does not permit
           successful linking to, redirection to or delivery of the applicable
-          Mellcoin website page; and
+          Fuzzkon website page; and
         </li>
         <li>
           You may not incorporate advertising into or targeted towards the
-          content of mellcoin's Feeds or insert any intermediate page, splash
-          page or other content or materials between any hyperlink to mellcoin's
-          Feeds and the applicable mellcoin website page.
+          content of Fuzzkon's Feeds or insert any intermediate page, splash
+          page or other content or materials between any hyperlink to Fuzzkon's
+          Feeds and the applicable Fuzzkon website page.
         </li>
       </ul>
       <p>
-        Any uses of Mellcoin's Feeds not granted herein are strictly prohibited.
-        Mellcoin retains ownership of and all other rights in and to the Feeds,
+        Any uses of Fuzzkon's Feeds not granted herein are strictly prohibited.
+        Fuzzkon retains ownership of and all other rights in and to the Feeds,
         and any reports, data, information, content, software, files, products,
         services, links, trademarks, logos or other materials used in connection
-        therewith. Mellcoin reserves the right, in its sole discretion, with or
+        therewith. Fuzzkon reserves the right, in its sole discretion, with or
         without cause, and without liability, to suspend, discontinue or modify
         any or all of its Feeds at any time and to immediately require you to
         cease accessing, displaying, or otherwise using any or all of the Feeds
-        or the content of the Feeds. Mellcoin will not be liable for any loss or
+        or the content of the Feeds. Fuzzkon will not be liable for any loss or
         damage arising from your use of or in connection with the Feeds.
       </p>
       <h1>Your account</h1>
@@ -154,13 +154,13 @@ import Footer from "@/components/Footer.vue";
         Certain parts of this Site may be protected by passwords or require a
         login. Further, for authentication purposes, certain features on this
         Site may require you to answer a designated security question. You agree
-        to provide Mellcoin with current, complete, and accurate information as
+        to provide Fuzzkon with current, complete, and accurate information as
         prompted by the applicable registration process and agree to regularly
         update this information to maintain its completeness and accuracy. You
         agree not to obtain or attempt to obtain unauthorized access to such
         parts of or features on this Site, or to any other protected Materials
         or information, through any means not intentionally made available to
-        you by Mellcoin. You are responsible for maintaining the confidentiality
+        you by Fuzzkon. You are responsible for maintaining the confidentiality
         of any account information, user names, logins, passwords, and security
         questions and answers that you use to access any page or feature on this
         Site, and for logging off of your account and any protected areas of the
@@ -170,7 +170,7 @@ import Footer from "@/components/Footer.vue";
         misconduct, or failure to use or maintain appropriate security measures.
         If you become aware of any suspicious or unauthorized conduct concerning
         your accounts, user names, logins, passwords, or security questions and
-        answers, you agree to contact Mellcoin immediately. Mellcoin will not be
+        answers, you agree to contact Fuzzkon immediately. Fuzzkon will not be
         liable for any loss or damage arising from your failure to comply with
         this paragraph. Products and services provided to you through this Site
         may involve the electronic transmission, including via any e-mail
@@ -181,7 +181,7 @@ import Footer from "@/components/Footer.vue";
       <h1>Data, information, and content</h1>
       <p>
         The Materials on this Site are for information, education, and
-        noncommercial purposes only. Although VMellcoin may provide data,
+        noncommercial purposes only. Although Fuzzkon may provide data,
         information, and content relating to investment approaches and
         opportunities to buy or sell securities and/or mutual funds, you should
         not construe any such information or other content available through
@@ -189,10 +189,10 @@ import Footer from "@/components/Footer.vue";
         responsibility of evaluating the merits and risks associated with the
         use of any Materials on this Site before making any decisions based on
         such Materials. In exchange for using such Materials, you agree not to
-        hold Mellcoin or its third-party information providers liable for any
+        hold Fuzzkon or its third-party information providers liable for any
         possible claim for damages arising from any decision you make based on
         the Materials made available to you through this Site. By providing
-        access to other websites, neither Mellcoin nor any of its affiliates is
+        access to other websites, neither Fuzzkon nor any of its affiliates is
         recommending the purchase or sale of the stock issued by any company,
         nor are they endorsing services provided by any website's sponsoring
         organization.
@@ -203,42 +203,42 @@ import Footer from "@/components/Footer.vue";
         not limited to, text, graphics, audio clips, logos, buttons, images,
         digital downloads, data compilations, software, icons, html code and xml
         code, as well as all copyright, patent, trademark, trade dress, and
-        other rights therein, are owned or licensed by Mellcoin and its
+        other rights therein, are owned or licensed by Fuzzkon and its
         third-party information providers, and are protected by United States
         and international intellectual property laws. Pursuant to Section
         512(c)(2) of the Copyright Revision Act, as enacted through the Digital
-        Millennium Copyright Act, Mellcoin designates an agent as described
+        Millennium Copyright Act, Fuzzkon designates an agent as described
         below to receive notifications of claimed copyright infringement by
-        mail: Robyn Y. Ettricks, Esquire, Associate Counsel, The Mellcoin Group,
+        mail: Robyn Y. Ettricks, Esquire, Associate Counsel, The Fuzzkon Group,
         Inc., P.O. Box 2600, V-16, Valley Forge, PA 19482-2600. The designated
         copyright agent can also be reached by telephone at (610) 669-6100, by
         fax at (610) 669-6600, and by e-mail at intellectual property
-        @Mellcoin.com. If you have any other customer service questions or would
+        @Fuzzkon.com. If you have any other customer service questions or would
         like an alternative method of reaching us, please click Contact us at
         the top of any webpage.
       </p>
       <h1>Trademarks and patents</h1>
       <p>
         All trademarks, service marks, and logos appearing on this Site are the
-        exclusive property of their respective owners. All Mellcoin graphics,
+        exclusive property of their respective owners. All Fuzzkon graphics,
         logos, page headers, and service names are trademarks, service marks, or
-        trade dress of Mellcoin. Mellcoin's trademarks, service marks and trade
+        trade dress of Fuzzkon. Fuzzkon's trademarks, service marks and trade
         dress may not be used in connection with any product or service that is
-        not Mellcoin's, in any manner that is likely to cause confusion among
+        not Fuzzkon's, in any manner that is likely to cause confusion among
         customers or investors, or in any manner that disparages or discredits
-        Mellcoin. Nothing contained on this Site should be construed as granting
+        Fuzzkon. Nothing contained on this Site should be construed as granting
         any license or right in or to any trademarks, service marks, or trade
-        dress of Mellcoin. The Mellcoin ETFs are not sponsored, endorsed, sold,
+        dress of Fuzzkon. The Fuzzkon ETFs are not sponsored, endorsed, sold,
         or promoted by Barclays. Barclays does not make any representation
-        regarding the advisability of investing in Mellcoin ETFs or the
+        regarding the advisability of investing in Fuzzkon ETFs or the
         advisability of investing in securities generally. Barclays' only
-        relationship with Mellcoin is the licensing of the Index, which is
+        relationship with Fuzzkon is the licensing of the Index, which is
         determined, composed, and calculated by Barclays without regard to
-        Mellcoin or the Mellcoin ETFs. Barclays has no obligation to take the
-        needs of Mellcoin or the owners of the Mellcoin ETFs into consideration
+        Fuzzkon or the Fuzzkon ETFs. Barclays has no obligation to take the
+        needs of Fuzzkon or the owners of the Fuzzkon ETFs into consideration
         in determining, composing, or calculating the Index. Barclays has no
         obligation or liability in connection with administration, marketing, or
-        trading of the Mellcoin ETFs. Mellcoin funds are not sponsored,
+        trading of the Fuzzkon ETFs. Fuzzkon funds are not sponsored,
         endorsed, sold, or promoted by the University of Chicago or its Center
         for Research in Security Prices, and neither the University of Chicago
         nor its Center for Research in Security Prices makes any representation
@@ -250,27 +250,27 @@ import Footer from "@/components/Footer.vue";
         complete, or timely. Neither Morningstar nor its content providers are
         responsible for any damages or losses arising from any use of this
         information. Past performance is no guarantee of future results. The
-        funds or securities referred to herein that are offered by The Mellcoin
+        funds or securities referred to herein that are offered by The Fuzzkon
         Group and track an MSCI index are not sponsored, endorsed, or promoted
         by MSCI, and MSCI bears no liability with respect to any such funds or
         securities. For such funds or securities, the prospectus or the
         Statement of Additional Information contains a more detailed description
-        of the limited relationship MSCI has with The Mellcoin Group, Inc.
+        of the limited relationship MSCI has with The Fuzzkon Group, Inc.
         Android is a trademark of Google Inc. Apple, the Apple logo, iPad,
         iPhone, and iPod touch are trademarks of Apple Inc., registered in the
         U.S. and other countries. App Store is a service mark of Apple Inc. CFA®
         and Chartered Financial Analyst® are trademarks owned by CFA Institute.
         Dividend Achievers is a trademark of The NASDAQ OMX Group, Inc.
         (collectively, with its affiliates, "NASDAQ OMX") and has been licensed
-        for use by The mellcoin Group, Inc. Mellcoin mutual funds are not
+        for use by The Fuzzkon Group, Inc. Fuzzkon mutual funds are not
         sponsored, endorsed, sold, or promoted by NASDAQ OMX,and NASDAQ OMX
-        MAKES NO WARRANTIES AND BEARS NO LIABILITY WITH RESPECT TO THE Mellcoin
+        MAKES NO WARRANTIES AND BEARS NO LIABILITY WITH RESPECT TO THE Fuzzkon
         MUTUAL FUNDS. The Dow Jones indexes (the "Indexes") are products of Dow
         Jones Indexes, licensed trademarks of CME Group Index Services LLC
         (“CME"), and have been licensed for use. "Dow Jones®" and "Dow Jones
         Indexes" are service marks of Dow Jones Trademark Holdings, LLC ("Dow
         Jones"), have been licensed to CME, and have been sublicensed for use
-        for certain purposes by The Mellcoin Group, Inc. The Mellcoin Group,
+        for certain purposes by The Fuzzkon Group, Inc. The Fuzzkon Group,
         Inc.'s funds and/or ETFs based on the Indexes are not sponsored,
         endorsed, sold, or promoted by Dow Jones, CME, or their respective
         affiliates and Dow Jones, CME, and their respective affiliates make no
@@ -282,7 +282,7 @@ import Footer from "@/components/Footer.vue";
         all advisory services. All rights in a FTSE index (the "Index") vest in
         FTSE International Limited ("FTSE"). "FTSE®" is a trademark of London
         Stock Exchange Group companies and is used by FTSE under license. The
-        mellcoin Fund(s) (the "Product") has been developed solely by Mellcoin.
+        Fuzzkon Fund(s) (the "Product") has been developed solely by Fuzzkon.
         The Index is calculated by FTSE or its agent. FTSE and its licensors are
         not connected to and do not sponsor, advise, recommend, endorse, promote
         the Product and do not accept any liability whatsoever to any person
@@ -290,19 +290,19 @@ import Footer from "@/components/Footer.vue";
         (b) investment in or operation of the product. FTSE makes no claim,
         prediction, warranty, or representation either as to the results to be
         obtained from the Product or the suitability of the Index for the
-        purpose to which it is being put by Mellcoin. Reader's Digest and the
+        purpose to which it is being put by Fuzzkon. Reader's Digest and the
         Pegasus logo are registered trademarks of The Reader's Digest
         Association, Inc. Used under license. The Russell Indexes and Russell®
         are registered trademarks of Russell Investments and have been licensed
-        for use by The Mellcoin Group, Inc. The products are not sponsored,
+        for use by The Fuzzkon Group, Inc. The products are not sponsored,
         endorsed, sold, or promoted by Russell Investments and Russell
         Investments makes no representation regarding the advisability of
         investing in the products. S&P® and S&P 500® are registered trademarks
         of Standard & Poor's Financial Services LLC ("S&P") and have been
         licensed for use by S&P Dow Jones Indices LLC and its affiliates and
-        sublicensed for certain purposes by Mellcoin. The S&P Index is a product
-        of S&P Dow Jones Indices LLC and has been licensed for use by Mellcoin.
-        The Mellcoin Fund(s) is not sponsored, endorsed, sold, or promoted by
+        sublicensed for certain purposes by Fuzzkon. The S&P Index is a product
+        of S&P Dow Jones Indices LLC and has been licensed for use by Fuzzkon.
+        The Fuzzkon Fund(s) is not sponsored, endorsed, sold, or promoted by
         S&P Dow Jones Indices LLC, Dow Jones, S&P or their respective
         affiliates, and none of S&P Dow Jones Indices LLC, Dow Jones, S&P nor
         their respective affiliates, and none of the S&P Dow Jones Indices LLC,
@@ -313,27 +313,27 @@ import Footer from "@/components/Footer.vue";
         Stock Exchange Group PLC. TurboTax and TurboTax Online are trademarks
         and service marks of Intuit Inc., registered in the United States and
         other countries. Upromise, the Upromise logo, and Ugift are registered
-        service marks of Upromise, Inc. Mellcoin Annuity Access is offered in
+        service marks of Upromise, Inc. Fuzzkon Annuity Access is offered in
         collaboration with Hueler Investment Services, Inc. through the Income
         Solutions platform. Income Solutions is a registered trademark of Hueler
         Investment Services, Inc. and used under license. United States Patent
         No. 7,653,560. Visa and Plus are trademarks of Visa International
         Service Association. “Wilshire 4500" and "Wilshire 5000" are trademarks
         and “Wilshire” is a service mark of Wilshire Associates Incorporated and
-        they have been licensed for use by The Mellcoin Group, Inc.
-        ("Mellcoin"). The Mellcoin funds and/or ETFs (the "Products") are not
+        they have been licensed for use by The Fuzzkon Group, Inc.
+        ("Fuzzkon"). The Fuzzkon funds and/or ETFs (the "Products") are not
         sponsored, endorsed, sold or promoted by Wilshire Associates
         Incorporated or any of its subsidiaries or affiliates, and they make no
         representation regarding the advisability of investing in the Products.
         Automated Form and Signature Capture Technology Licensed under Comfidex
-        U.S. Patent Nos. 6,189,009 and 6,725,220. Mellcoin Exchange-Traded Funds
-        ("Mellcoin ETFs®") are produced by U.S. Patent No. 6,879,964; 7,337,138;
-        7,720,749; 7,925,573; 8,090,646; and 8,417,623. Mellcoin
+        U.S. Patent Nos. 6,189,009 and 6,725,220. Fuzzkon Exchange-Traded Funds
+        ("Fuzzkon ETFs®") are produced by U.S. Patent No. 6,879,964; 7,337,138;
+        7,720,749; 7,925,573; 8,090,646; and 8,417,623. Fuzzkon
         Auto-Rebalancing methodology is protected by U.S. Patent Nos. 7,149,713
-        and 7,552,079. Mellcoin Auto-Rebalancing methodology is protected by
-        U.S. Patent Nos. 7,149,713 and 7,552,079. Mellcoin Personal QDI
+        and 7,552,079. Fuzzkon Auto-Rebalancing methodology is protected by
+        U.S. Patent Nos. 7,149,713 and 7,552,079. Fuzzkon Personal QDI
         Calculation Process are protected by U.S. Patent Application No.
-        7,953,661. Mellcoin Managed Allocation Funds are protected by U.S.
+        7,953,661. Fuzzkon Managed Allocation Funds are protected by U.S.
         Patent Nos. 8,180,695 and 8,185,464.
       </p>
       <h1>International use</h1>
@@ -353,22 +353,22 @@ import Footer from "@/components/Footer.vue";
         This Site will not be considered a solicitation for or offering of any
         investment product or service to any person in any jurisdiction where
         such solicitation or offering would be illegal. Persons residing outside
-        the United States are invited to visit mellcoin's website for Non-U.S.
+        the United States are invited to visit Fuzzkon's website for Non-U.S.
         Investors for more information about products and services available to
         them.
       </p>
       <h1>Third-party content</h1>
       <p>
         Data and other materials appearing on this Site that are provided by
-        third parties are believed by Mellcoin to be obtained from reliable
-        sources, but Mellcoin cannot guarantee and is not responsible for their
-        accuracy, timeliness, completeness, or suitability for use. Mellcoin is
+        third parties are believed by Fuzzkon to be obtained from reliable
+        sources, but Fuzzkon cannot guarantee and is not responsible for their
+        accuracy, timeliness, completeness, or suitability for use. Fuzzkon is
         not responsible for, and does not prepare, edit, or endorse, the
         content, advertising, products, or other materials on or available from
         any website owned or operated by a third party that is linked to this
-        Site via hyperlink. The fact that Mellcoin has provided a link to a
+        Site via hyperlink. The fact that Fuzzkon has provided a link to a
         third party's website does not constitute an implicit or explicit
-        endorsement, authorization, sponsorship, or affiliation by Mellcoin with
+        endorsement, authorization, sponsorship, or affiliation by Fuzzkon with
         respect to such website, its owners, providers, or services. You will
         use any such third-party content at your own risk.
       </p>
@@ -383,10 +383,10 @@ import Footer from "@/components/Footer.vue";
       <h1>Termination</h1>
       <p>
         The rights granted to you herein terminate immediately upon any
-        violation by you of these Terms of Use. Mellcoin, in its sole
+        violation by you of these Terms of Use. Fuzzkon, in its sole
         discretion, reserves the right to temporarily or permanently terminate
         your access to and use of this Site at any time and for any reason
-        whatsoever, without notice or liability. Mellcoin will not be liable to
+        whatsoever, without notice or liability. Fuzzkon will not be liable to
         you or any third party for any termination of your access to or use of
         this Site.
       </p>
@@ -394,7 +394,7 @@ import Footer from "@/components/Footer.vue";
       <p>
         YOU EXPRESSLY UNDERSTAND AND AGREE THAT: YOUR USE OF THIS SITE IS
         PROVIDED ON AN "AS IS" AND "AS AVAILABLE" BASIS. TO THE FULL EXTENT
-        PERMITTED UNDER APPLICABLE LAW, Mellcoin AND ITS AFFILIATES,
+        PERMITTED UNDER APPLICABLE LAW, Fuzzkon AND ITS AFFILIATES,
         SUBSIDIARIES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, LICENSORS, AND ANY
         THIRD-PARTY INFORMATION PROVIDERS AND VENDORS EXPRESSLY DISCLAIM ALL
         WARRANTIES, WHETHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION,
@@ -405,12 +405,12 @@ import Footer from "@/components/Footer.vue";
         THE SITE; (II) ANY MATERIALS, PRODUCTS, OR SERVICES AVAILABLE ON OR
         THROUGH THE SITE; (III) USE OF THE SITE, MATERIALS, PRODUCTS, OR
         SERVICES; AND (IV) THE RESULTS OF THE USE OF THE SITE, MATERIALS,
-        PRODUCTS, OR SERVICES. FURTHER, Mellcoin AND ITS AFFILIATES,
+        PRODUCTS, OR SERVICES. FURTHER, Fuzzkon AND ITS AFFILIATES,
         SUBSIDIARIES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, LICENSORS, AND ANY
         THIRD-PARTY INFORMATION PROVIDERS AND VENDORS EXPRESSLY DISCLAIM ALL
         WARRANTIES WITH RESPECT TO ANY DELAYS OR ERRORS IN THE TRANSMISSION OR
         DELIVERY OF ANY MATERIALS, PRODUCTS, OR SERVICES AVAILABLE THROUGH THIS
-        SITE. EXCEPT AS PROVIDED BY LAW, NEITHER Mellcoin NOR ITS THIRD-PARTY
+        SITE. EXCEPT AS PROVIDED BY LAW, NEITHER Fuzzkon NOR ITS THIRD-PARTY
         INFORMATION PROVIDERS AND VENDORS HAS ANY RESPONSIBILITY TO MAINTAIN THE
         MATERIALS, PRODUCTS, OR SERVICES OFFERED ON THE SITE OR TO SUPPLY
         CORRECTIONS, UPDATES, OR RELEASES FOR THE SAME. TO THE EXTENT ANY
@@ -424,7 +424,7 @@ import Footer from "@/components/Footer.vue";
         ANY MATERIALS DOWNLOADED OR OTHERWISE OBTAINED THROUGH THIS SITE ARE
         DONE AT YOUR OWN RISK. YOU ARE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR
         COMPUTER SYSTEM OR OTHER EQUIPMENT, OR LOSS OF DATA THAT RESULTS FROM
-        SUCH DOWNLOAD. NEITHER Mellcoin NOR ITS AFFILIATES, SUBSIDIARIES,
+        SUCH DOWNLOAD. NEITHER Fuzzkon NOR ITS AFFILIATES, SUBSIDIARIES,
         DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, LICENSORS, OR ANY THIRD-PARTY
         INFORMATION PROVIDERS AND VENDORS WILL BE LIABLE FOR ANY DIRECT,
         INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY
@@ -434,16 +434,16 @@ import Footer from "@/components/Footer.vue";
         COMMUNICATIONS LINE FAILURE, OR THE COST OF PROCURING SUBSTITUTE GOODS
         OR SERVICES, CAUSED BY THE USE OF OR INABILITY TO USE THE SITE,
         MATERIALS OR ANY PRODUCTS OR SERVICES PROVIDED HEREIN, OR ANY OTHER
-        MATTER RELATING TO THIS SITE, EVEN IF Mellcoin HAS BEEN ADVISED OF THE
+        MATTER RELATING TO THIS SITE, EVEN IF Fuzzkon HAS BEEN ADVISED OF THE
         POSSIBILITY OF SUCH DAMAGES. SOME JURSIDICTIONS DO NOT ALLOW THE
         EXCLUSION OR LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THE
         ABOVE EXCLUSIONS OR LIMITATIONS MAY NOT APPLY TO YOU. TO THE EXTENT THAT
         A JURISDICTION DOES NOT PERMIT THE EXCLUSION OR LIMITATION OF LIABILITY
-        AS SET FORTH HEREIN, THE LIABILITY OF Mellcoin AND ITS AFFILIATES,
+        AS SET FORTH HEREIN, THE LIABILITY OF Fuzzkon AND ITS AFFILIATES,
         SUBSIDIARIES, DIRECTORS, OFFICERS, EMPLOYEES, AGENTS, LICENSORS, AND ANY
         THIRD-PARTY INFORMATION PROVIDERS AND VENDORS IS LIMITED TO THE EXTENT
         PERMITTED BY LAW IN SUCH JURISDICTIONS. You agree to indemnify, defend,
-        and hold harmless Mellcoin, its subsidiaries and affiliates, and each of
+        and hold harmless Fuzzkon, its subsidiaries and affiliates, and each of
         its and their officers, directors, employees, and agents, from and
         against all claims, demands, liabilities, damages, losses, or expenses,
         including attorney's fees and costs, arising out of or related to your
@@ -456,13 +456,13 @@ import Footer from "@/components/Footer.vue";
         unenforceable, then that provision will be deemed severable from these
         Terms of Use and will not affect the validity and enforceability of the
         remaining provisions. These Terms of Use represent the entire agreement
-        between you and Mellcoin relating to the subject matter herein.
+        between you and Fuzzkon relating to the subject matter herein.
       </p>
       <h1>Applicable law and venue</h1>
       <p>
         The laws of the Commonwealth of Pennsylvania, United States of America,
         without regard to principles of conflict of laws, govern these Terms of
-        Use and any dispute that might arise between you and Mellcoin. If you
+        Use and any dispute that might arise between you and Fuzzkon. If you
         take legal action relating to these Terms of Use, you agree to file such
         action either in the Court of Common Pleas of Chester County,
         Pennsylvania, or the United States District Court for the Eastern

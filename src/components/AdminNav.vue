@@ -3,7 +3,7 @@
     <nav class="body-menu">
       <div class="logo">
         <router-link to="/">
-          <p class="logo">mell<span>C</span>oin</p>
+          <p class="logo">Fuzz<span>kon</span></p>
         </router-link>
       </div>
       <div class="font-inter routerLinks">
@@ -29,7 +29,7 @@
     <nav class="body-menu" id="mob">
       <div class="logo">
         <router-link to="/">
-          <p class="logo">mell<span>C</span>oin</p>
+          <p class="logo">Fuzz<span>kon</span></p>
         </router-link>
       </div>
       <div class="font-inter routerLinks">

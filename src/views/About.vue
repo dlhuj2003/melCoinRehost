@@ -13,11 +13,11 @@ import Footer from "@/components/Footer.vue";
         <div class="w50">
           <h3>About us</h3>
           <h1>
-            Mellcoin is mission-driven to ensure that every product and service
+            Fuzzkon is mission-driven to ensure that every product and service
             we offer can contribute to our clients' investment success.
           </h1>
           <h2>
-            Mellcoin isn't owned by shareholders. It's owned by the people who
+            Fuzzkon isn't owned by shareholders. It's owned by the people who
             invest in our funds.Our structure drives us toward our goal of
             offering the best possible advice, investments, and retirement
             services, as well as insights that clarify investing.
@@ -80,9 +80,9 @@ import Footer from "@/components/Footer.vue";
             </li>
             <li>
               Molly Concannon: It's what will make our client successful and
-              given Mellcoin structure and our alignments with clients. If our
-              clients are successful, that will make mellcoin successful. That's
-              a real differentiator when you compare mellcoin to competitors.
+              given Fuzzkon structure and our alignments with clients. If our
+              clients are successful, that will make Fuzzkon successful. That's
+              a real differentiator when you compare Fuzzkon to competitors.
             </li>
           </ul>
           <i class="bi bi-chevron-down"></i>
@@ -113,7 +113,7 @@ import Footer from "@/components/Footer.vue";
         <div class="bubble">
           <h2>Effective retirement services and tools</h2>
           <p>
-            Mellcoin helps individuals, institutions, and financial advisors
+            Fuzzkon helps individuals, institutions, and financial advisors
             meet the challenges of retirement. We help individuals with
             everything from getting started on the road to retirement to
             generating sustainable income once they get there. We offer
@@ -125,7 +125,7 @@ import Footer from "@/components/Footer.vue";
         <div class="bubble">
           <h2>Insights that clarify</h2>
           <p>
-            mellcoin shares its perspectives through both long-form research,
+            Fuzzkon shares its perspectives through both long-form research,
             which is generally intended for investment professionals, and
             short-form commentaries intended for a wide audience of investors
             and industry participants. We seek, through our communications, to
@@ -140,16 +140,16 @@ import Footer from "@/components/Footer.vue";
       <div class="container low">
         <div class="w50">
           <p>
-            Mellcoin is investor-owned, meaning the fund shareholders own the
-            funds, which in turn own Mellcoin.
+            Fuzzkon is investor-owned, meaning the fund shareholders own the
+            funds, which in turn own Fuzzkon.
           </p>
         </div>
         <div class="w50">
           <ul>
             <li>Notes:</li>
             <li>
-              Mellcoin's advice services are provided by Mellcoin Advisers, Inc.
-              (“MAI”), a registered investment advisor, or by Mellcoin National
+              Fuzzkon's advice services are provided by Fuzzkon Advisers, Inc.
+              (“MAI”), a registered investment advisor, or by Fuzzkon National
               Trust Company (“MNTC”), a federally chartered, limited-purpose
               trust company.
             </li>
@@ -164,9 +164,9 @@ import Footer from "@/components/Footer.vue";
       </div>
     </section>
     <section class="found">
-      <p class="logo">mell<span>C</span>oin<i class="bi bi-r-circle"></i></p>
+      <p class="logo">fuzz<span>kon</span><i class="bi bi-r-circle"></i></p>
       <p class="txt">
-        Mellcoin is a trusted name in investing. Founded since 1982, ventured
+        Fuzzkon is a trusted name in investing. Founded since 1982, ventured
         into crypto trading in 2013, and we've put investors first.
       </p>
     </section>

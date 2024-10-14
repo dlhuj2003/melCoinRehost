@@ -7,7 +7,7 @@ import { ref } from 'vue'
         <div class="container">
             <div>
                 <router-link to="/">
-                    <p class="logo">mell<span>C</span>oin</p>
+                    <p class="logo">Fuzz<span>kon</span></p>
                 </router-link>
                 <p class="tag">...the Future of Cryptocurrency</p>
             </div>
@@ -24,7 +24,7 @@ import { ref } from 'vue'
             </div>
         </div>
         <div class="copy">
-            <p>MellCoin &copy; 2023. All rights reserved.</p>
+            <p>Fuzzkon &copy; 2023. All rights reserved.</p>
         </div>
     </main>
 </template>

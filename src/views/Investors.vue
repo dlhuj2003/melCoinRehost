@@ -29,7 +29,7 @@ const stock = ref(false);
         <h1>Find the right path to your future</h1>
         <p>Get there on your own terms</p>
         <router-link to="/signup">
-          <button>Plan with Mellcoin</button>
+          <button>Plan with Fuzzkon</button>
         </router-link>
       </div>
       <div class="right"></div>
@@ -61,7 +61,7 @@ const stock = ref(false);
       <div class="item">
         <div class="img"></div>
         <h3>Explore professional advice</h3>
-        <p>We offer expert help at the low cost you'd expect from mellcoin</p>
+        <p>We offer expert help at the low cost you'd expect from Fuzzkon</p>
       </div>
       <div class="item">
         <div class="img"></div>
@@ -94,7 +94,7 @@ const stock = ref(false);
       <div class="right">
         <div class="txt">
           <p>
-            Mellcoin is made up of more than 50 million investors, all with
+            fuzzkon is made up of more than 50 million investors, all with
             unique stories and individual goals.
           </p>
         </div>
@@ -117,7 +117,7 @@ const stock = ref(false);
     <div class="container">
       <div class="left">
         <h1>You're not alone</h1>
-        <p>Mellcoin investors just like you have lots of experience to share</p>
+        <p>Fuzzkon investors just like you have lots of experience to share</p>
         <div class="options">
           <h2 v-if="debt">Manage debt</h2>
           <h3
@@ -182,7 +182,7 @@ const stock = ref(false);
       </div>
     </div>
   </section>
-  <section class="seven">
+  <!-- <section class="seven">
     <div class="container">
       <div class="right">
         <img :src="image" alt="" />
@@ -250,7 +250,7 @@ const stock = ref(false);
         </p>
       </div>
     </div>
-  </section>
+  </section> -->
   <Footer />
 </template>
 

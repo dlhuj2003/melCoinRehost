@@ -8,7 +8,7 @@
         alt=""
       /> -->
 
-      <p class="logo">mell<span>c</span>oin</p>
+      <p class="logo">Fuzz<span>kon</span></p>
       <p>Welcome back! Admin</p>
       <div class="form" @submit.prevent="login">
         <form>

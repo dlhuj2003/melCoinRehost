@@ -59,7 +59,7 @@ import Marquee from "@/components/Marquee.vue";
     </div>
     <section class="ira">
       <div class="w50">
-        <h1>Retire early with our Mellcoin IRA better plan</h1>
+        <h1>Retire early with our Fuzzkon IRA better plan</h1>
         <p>
           Discover how specific IRA better plan works for investors using an
           employer's retirement plan.
@@ -100,7 +100,7 @@ import Marquee from "@/components/Marquee.vue";
       <section class="portfolio">
         <h1>Create your retirement portfolio today</h1>
         <p>
-          Mellcoin has a variety of features that make it the best place for
+          Fuzzkon has a variety of features that make it the best place for
           your investment journey
         </p>
         <div class="container">
@@ -149,7 +149,7 @@ import Marquee from "@/components/Marquee.vue";
               <div class="txt">
                 <h2>Mobile apps</h2>
                 <p>
-                  Stay on top of the markets with the Mellcoin app for Andriod
+                  Stay on top of the markets with the fuzzkon app for Andriod
                   or IOS
                 </p>
               </div>
@@ -165,9 +165,9 @@ import Marquee from "@/components/Marquee.vue";
               many regulatory bodies for our quality mining pool and we are on
               the mission to provide the right full and legal means of earning
               cryptocurrency through mining. Get rewarded, join the mining
-              network, join Mellcoin today!
+              network, join Fuzzkon today!
               <br /><br />
-              <span style="font-size: 28px">4% Commissions</span><br />
+              <span style="font-size: 28px">10% Commissions</span><br />
               Reward for each referal
             </p>
           </div>
@@ -177,7 +177,7 @@ import Marquee from "@/components/Marquee.vue";
     <div class="trust">
       <section class="start">
         <h1>The most trusted cryptocurrency platform</h1>
-        <p>Here are few reasons why you should choose Mellcoin</p>
+        <p>Here are few reasons why you should choose fuzzkon</p>
         <div class="grid">
           <div class="item">
             <i class="bi bi-bank"></i>
@@ -188,7 +188,7 @@ import Marquee from "@/components/Marquee.vue";
             </p>
             <p class="red">
               <router-link to="/learn">
-                Learn how Mellcoin keeps your funds save and secure
+                Learn how Fuzzkon keeps your funds save and secure
               </router-link>
             </p>
           </div>
@@ -208,7 +208,7 @@ import Marquee from "@/components/Marquee.vue";
             <i class="bi bi-currency-bitcoin"></i>
             <p class="big">Indutry best practices</p>
             <p>
-              Mellcoin supports a variety of the most popular digital
+              fuzzkon supports a variety of the most popular digital
               currencies.
             </p>
             <p class="red">
@@ -239,7 +239,7 @@ import Marquee from "@/components/Marquee.vue";
     </section>
     <section class="start">
       <h1>Get started in a few minutes</h1>
-      <p>Mellcoin supports a variety of the most popular digital curriencies</p>
+      <p>Fuzzkon supports a variety of the most popular digital curriencies</p>
       <div class="grid">
         <div class="item">
           <i class="bi bi-person-fill"></i>

@@ -41,8 +41,8 @@ const login = async () => {
       <Header />
       <div class="form">
         <!-- <img src="@/assets/logo.png" width="200" alt="logo" /> -->
-        <p class="logo">mell<span>c</span>oin</p>
-        <p>Sign in to Mellcoin</p>
+        <p class="logo">fuzz<span>kon</span></p>
+        <p>Sign in to fuzzkon</p>
         <form @submit.prevent="login">
           <div class="full">
             <label for="email">Email or username</label>
@@ -61,7 +61,7 @@ const login = async () => {
         </form>
         <p class="small">
           Don't have an account?
-          <router-link to="/signup">Signup here</router-link>
+          <router-link to="/signup">Sign up here</router-link>
         </p>
       </div>
     </div>

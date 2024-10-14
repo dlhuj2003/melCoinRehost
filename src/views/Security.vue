@@ -11,7 +11,7 @@ import Footer from "@/components/Footer.vue";
       <section class="sec">
         <div class="w50 left">
           <p class="top">TRUST & SECURITY</p>
-          <h1>Security at Mellcoin</h1>
+          <h1>Security at Fuzzkon</h1>
           <p>
             Keeping your accounts secure is our priority. Partnership is the
             key.
@@ -42,14 +42,14 @@ import Footer from "@/components/Footer.vue";
         </ul>
         <p>
           We also have a redundant data center in case one data center becomes
-          unavailable, and test attack models within Mellcoin's network.<br /><br />
+          unavailable, and test attack models within Fuzzkon's network.<br /><br />
           Note: A security alert could indicate that either the date on your
           computer is incorrect or you're using an outdated version of your web
           browser.
         </p>
       </div>
       <div>
-        <h1>In addition to these safeguards, mellcoin will never:</h1>
+        <h1>In addition to these safeguards, Fuzzkon will never:</h1>
         <ul>
           <li>
             Send an unsolicited email asking you to respond with your personal
@@ -60,7 +60,7 @@ import Footer from "@/components/Footer.vue";
             Ask for your web password in an email or request your personal
             information over the phone or by U.S.mail. We may ask for personal
             information if you've contacted us to report you're having trouble
-            logging on to your Mellcoin account(s).
+            logging on to your Fuzzkon account(s).
           </li>
         </ul>
         <h1>Disclaimer</h1>

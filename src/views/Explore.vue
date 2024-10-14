@@ -11,10 +11,10 @@ import Footer from "@/components/Footer.vue";
       <div class="one">
         <div class="w50">
           <h1>
-            At Mellcoin you're more than just an investor, you're an owner.
+            At Fuzzkon you're more than just an investor, you're an owner.
           </h1>
           <p>
-            Mellcoin isn't owned by public shareholders. It's owned by the
+            Fuzzkon isn't owned by public shareholders. It's owned by the
             people who invest in our funds.*<br />
             Our owners have access to personalized financial advice,
             high-quality investments, retirement tools, and relevant market

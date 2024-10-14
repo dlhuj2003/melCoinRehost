@@ -206,7 +206,7 @@ const register = async () => {
           </p>
         </div>
         <div class="right">
-          <h1>Do more with Mellcoin, invest right and retire early.</h1>
+          <h1>Do more with fuzzkon, invest right and retire early.</h1>
           <p>Set up your account and verify your photo ID to get started.</p>
           <img src="@/assets/investment.jpg" alt="" />
         </div>

@@ -2,7 +2,8 @@
   <main>
     <div class="main">
       <router-link to="/" style="display: flex; align-items: center">
-        <p class="logo">mell<span>C</span>oin</p>
+        
+        <p class="logo">Fuzz<span>kon</span></p>
       </router-link>
       <ul class="desktop">
         <li>
@@ -56,7 +57,7 @@
         <div class="mobile" v-if="mobileMenu">
           <router-link to="/">
             <p class="logo" style="margin-bottom: 20px">
-              mell<span>C</span>oin
+              <p class="logo">Fuzz<span>kon</span></p>
             </p>
           </router-link>
           <ul>

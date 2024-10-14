@@ -8,7 +8,7 @@ import { useRouter } from "vue-router";
         <div class="container">
             <div class="grid">
                 <div>
-                    <p class="title">company</p>
+                    <p class="title">Company</p>
                     <router-link to="/about">
                         About us
                     </router-link>
@@ -55,8 +55,8 @@ import { useRouter } from "vue-router";
                 </div>
                 <div>
                     <p class="title">Contact us</p>
-                    <a href="mailto://support@mellcoin.com">
-                        support@mellcoin.com
+                    <a href="mailto://support@fuzzkon.com">
+                        support@fuzzkon.com
                     </a>
                 </div>
                 <div class="soc">
@@ -71,12 +71,12 @@ import { useRouter } from "vue-router";
                         <a href="https://www.threads.net/@mellcoingroup" target="_blank"><i class="bi bi-threads"></i></a>
                         <a href="http://www.linkedin.com/in/mellcoin-group-7b3465300" target="_blank"><i class="bi bi-linkedin"></i></a>
                     </div>
-                    <p class="logo">mell<span>C</span>oin</p>
+                    <p class="logo">Fuzz<span>kon</span></p>
                 </div>
             </div>
         </div>
         <div class="copy">
-            <p>MellCoin &copy; 2024. All rights reserved.</p>
+            <p>fuzzkon &copy; 2024. All rights reserved.</p>
         </div>
     </main>
 </template>
