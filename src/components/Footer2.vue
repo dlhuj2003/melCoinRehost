@@ -24,7 +24,7 @@ import { ref } from 'vue'
             </div>
         </div>
         <div class="copy">
-            <p>Fuzzkon &copy; 2023. All rights reserved.</p>
+            <p>fuzzkon &copy; 2024. All rights reserved.</p>
         </div>
     </main>
 </template>

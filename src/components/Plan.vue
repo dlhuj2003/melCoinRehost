@@ -15,7 +15,7 @@ import { useRouter } from "vue-router";
                     <p class="cost">Min. investment: $150</p>
                     <p class="percentage">Max. investment: $100,000</p>
                     <p class="duration">Contract Expires in: 48 Hours</p>
-                    <p class="duration">4% Referral Bonus</p>
+                    <p class="duration">10% Referral Bonus</p>
                     <p class="duration">24/7 Customer Care</p>
                     <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
@@ -24,7 +24,7 @@ import { useRouter } from "vue-router";
                     <p class="cost">Min. investment: $120,000</p>
                     <p class="percentage">Max. investment: $450,000</p>
                     <p class="duration">Contract Expires in: 48 Hours</p>
-                    <p class="duration">4% Referral Bonus</p>
+                    <p class="duration">10% Referral Bonus</p>
                     <p class="duration">24/7 Customer Care</p>
                     <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
@@ -33,7 +33,7 @@ import { useRouter } from "vue-router";
                     <p class="cost">Min. investment: $500,000</p>
                     <p class="percentage">Max. investment: Unlimited</p>
                     <p class="duration">Contract Expires in: 48 Hours</p>
-                    <p class="duration">4% Referral Bonus</p>
+                    <p class="duration">10% Referral Bonus</p>
                     <p class="duration">24/7 Customer Care</p>
                     <router-link to="/login"><button>Get Started</button></router-link>
                 </div>
